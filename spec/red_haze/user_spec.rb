@@ -26,7 +26,7 @@ describe RedHaze::User do
     its(:city)              { should be_a String }
     its(:description)       { should be_a String }
     its(:website)           { should be_a String }
-    its(:online)            { should be_a TrueClass }
+    its(:online)            { should be_boolean }
     its(:track_count)       { should be_an Integer }
     its(:playlist_count)    { should be_an Integer }
     its(:followers_count)   { should be_an Integer }

@@ -15,8 +15,7 @@ module RedHaze
     end
 
     def sync
-      response = Request.execute(:get, url)
-      hash_to_attributes response
+      hash_to_attributes Request.execute(:get, url)
       self
     end
 
@@ -32,14 +31,15 @@ module RedHaze
       self.class.users_from_response Request.execute(:get, url + '/followers')
     end
 
-    def url
-      "/users/#{id}"
-    end
 
     private
 
     def self.users_from_response(response)
       response.collect { |r| new(r) }
+    end
+
+    def url
+      "/users/#{id}"
     end
   end
 

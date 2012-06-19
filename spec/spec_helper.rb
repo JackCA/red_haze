@@ -15,3 +15,9 @@ end
 def setup_config
   RedHaze.configure YAML.load_file(File.join(File.dirname(__FILE__),'../config.yml'))
 end
+
+class Object
+  def boolean?
+    !!self == self
+  end
+end
