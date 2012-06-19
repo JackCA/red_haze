@@ -14,7 +14,7 @@ module RedHaze
       end
     end
 
-    def get_profile
+    def sync
       response = Request.execute(:get, url)
       hash_to_attributes response
       self

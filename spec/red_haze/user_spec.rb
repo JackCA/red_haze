@@ -11,9 +11,9 @@ describe RedHaze::User do
     its(:id) { should == 999942 }
   end
 
-  describe "#get_profile" do
+  describe "#sync" do
     subject do
-      VCR.use_cassette('user_profile') { instance.get_profile }
+      VCR.use_cassette('user_profile') { instance.sync }
     end
     it { should be_a described_class }
     its(:permalink)         { should be_a String }
