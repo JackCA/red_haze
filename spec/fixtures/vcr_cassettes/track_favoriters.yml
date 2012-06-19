@@ -1,0 +1,200 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.soundcloud.com/tracks/49518905/favoriters?client_id=617d95619347608e50397121b0b171be
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 19 Jun 2012 07:35:19 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Connection:
+      - keep-alive
+      X-Runtime:
+      - '1058'
+      Etag:
+      - ! '"6898ff45d46cb68836894dedd6aaaf52"'
+      Cache-Control:
+      - private, max-age=0, must-revalidate
+      Access-Control-Allow-Methods:
+      - GET, PUT, POST, DELETE
+      Access-Control-Allow-Headers:
+      - Accept, Authorization, Content-Type, Origin
+      Access-Control-Allow-Origin:
+      - ! '*'
+      X-Cacheable:
+      - NO:Cache-Control=max-age=0
+      Content-Length:
+      - '35443'
+      X-Varnish:
+      - '1854133682'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish
+      X-Cache:
+      - MISS
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: US-ASCII
+      string: ! '[{"id":1713296,"kind":"user","permalink":"spark-2","username":"SPARKLESS","uri":"http://api.soundcloud.com/users/1713296","permalink_url":"http://soundcloud.com/spark-2","avatar_url":"http://i1.sndcdn.com/avatars-000006485895-lxlr97-large.jpg?2f6e0dc","country":"Ukraine","full_name":"ALEX
+        KHOMENKO","city":"KIEV CITY","description":"Alexander Khomenko, known to electronic
+        music fans as Sparkless, was born on August 9, 1982, in the Northern capital
+        of Russia- Saint Petersburg. Even then, without knowing anything of the boy\u2019s
+        future, life was leaving an imprint of warm summer rain chords and melodic
+        birds\u2019 vocals on the soul of the future artist. A love of music was not
+        inherited by the boy, as it is with most music careers, but it came quietly.
+        It\u2019s hard to recall the day when it happened, but it was the first records
+        from England and Italy which fell into his hands that triggered it. Later,
+        in his more conscious years, Sparkless began himself to write and collect
+        music. Alexander parted from writing music at the end of the 90s, focusing
+        his attention as a listener. It was only by coincidence that he got into DJing,
+        while registering for a music site as a fan of ONE of the Djs, and he decided
+        to try his hand at the art of mixing songs. This process carried him away
+        and stuck, so to this day he keeps following the passion, bringing consistently
+        fresh mixes to his fans again and again. \nTo date, Sparkless is the author
+        of more than 150 music reviews in his home country, and for the last 3 years
+        Russia\u2019s top music site has ranked him in their top 100 DJs. \nAlexander
+        characterizes the music that he promotes as \u201can intellectual and emotional
+        cocktail, with a deep, philosophical meaning\u201d. Preferred styles: Deep
+        house, Nu Disco, DNB, Soulfull, Atmosphericbreaks, House. \nSparkless is a
+        real multi-DJ. \n\n\u003CP sizcache=\"37\" sizset=\"52\"\u003EMail for your
+        demo''s, questions, suggestions, or invitations. \n\u003CA href=\"mailto:Sparkless@ukr.net\"
+        rel=nofollow target=_blank\u003ESparkless@ukr.net\u003C/A\u003E\n\u003CP sizcache=\"37\"
+        sizset=\"53\"\u003EAnd you ask me - \u003CA href=\"http://www.formspring.me/alexsparkless\"
+        rel=nofollow target=_blank\u003Ehttp://www.formspring.me/alexsparkless\u003C/A\u003E","discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":true,"track_count":1,"playlist_count":1,"public_favorites_count":8638,"followers_count":996,"followings_count":685},{"id":1163300,"kind":"user","permalink":"fauxhemia","username":"fauxhemia","uri":"http://api.soundcloud.com/users/1163300","permalink_url":"http://soundcloud.com/fauxhemia","avatar_url":"http://i1.sndcdn.com/avatars-000009381570-qtloqt-large.jpg?2f6e0dc","country":"Australia","full_name":"Jae","city":"Sydney","description":"","discogs_name":null,"myspace_name":null,"website":"http://www.solar-sunset.net","website_title":"Solar
+        Sunset Blog","online":true,"track_count":2,"playlist_count":0,"public_favorites_count":510,"followers_count":139,"followings_count":526},{"id":5682915,"kind":"user","permalink":"dai-supaluxurything","username":"DAI
+        SupaLuxuryThing.","uri":"http://api.soundcloud.com/users/5682915","permalink_url":"http://soundcloud.com/dai-supaluxurything","avatar_url":"http://i1.sndcdn.com/avatars-000009008932-0mpt36-large.jpg?2f6e0dc","country":"Japan","full_name":"","city":"","description":"Monthly
+        Nu Disco/Indie Dance Mix Team \"DISCOLUV\" Producer \u0026 DJ.\n\nNu Disco/Indie
+        Dance/Crossover Label \"SupaLuxuryThing\" Owner  .","discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":true,"track_count":2,"playlist_count":0,"public_favorites_count":431,"followers_count":215,"followings_count":1423},{"id":1139074,"kind":"user","permalink":"reevesy","username":"reevesy","uri":"http://api.soundcloud.com/users/1139074","permalink_url":"http://soundcloud.com/reevesy","avatar_url":"http://i1.sndcdn.com/avatars-000001326337-vt9r2r-large.jpg?2f6e0dc","country":"Australia","full_name":"andrew
+        reeves","city":"Melbourne","description":null,"discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":true,"track_count":0,"playlist_count":0,"public_favorites_count":62,"followers_count":15,"followings_count":35},{"id":308306,"kind":"user","permalink":"djbillyo","username":"billyo","uri":"http://api.soundcloud.com/users/308306","permalink_url":"http://soundcloud.com/djbillyo","avatar_url":"http://i1.sndcdn.com/avatars-000005669785-gkn4x8-large.jpg?2f6e0dc","country":"United
+        States","full_name":"billy  o","city":"Ocean Beach, San Diego","description":"dj/sound
+        architect and audiophile....\r\n","discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":true,"track_count":12,"playlist_count":3,"public_favorites_count":216,"followers_count":490,"followings_count":823},{"id":1943398,"kind":"user","permalink":"sce_music","username":"SCE","uri":"http://api.soundcloud.com/users/1943398","permalink_url":"http://soundcloud.com/sce_music","avatar_url":"http://i1.sndcdn.com/avatars-000016899739-lji4ti-large.jpg?2f6e0dc","country":"France","full_name":"Samuel
+        Cardenas Espinosa","city":"Paris","description":"","discogs_name":null,"myspace_name":null,"website":"http://samuelcardenasespinosa.weebly.com/","website_title":"SCE
+        : music, trends\u0026fashion, photography","online":true,"track_count":16,"playlist_count":2,"public_favorites_count":330,"followers_count":65,"followings_count":350},{"id":12762456,"kind":"user","permalink":"prettysue7","username":"sue
+        kim","uri":"http://api.soundcloud.com/users/12762456","permalink_url":"http://soundcloud.com/prettysue7","avatar_url":"http://i1.sndcdn.com/avatars-000016117750-emkstz-large.jpg?2f6e0dc","country":"Italy","full_name":"Sue
+        Kim","city":"milan","description":"Hey, I love good music, especially electronic
+        and remixes.\r\n\r\n \r\n","discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":true,"track_count":0,"playlist_count":0,"public_favorites_count":253,"followers_count":13,"followings_count":37},{"id":13361143,"kind":"user","permalink":"night-vision-2","username":"NIGHT
+        VISION","uri":"http://api.soundcloud.com/users/13361143","permalink_url":"http://soundcloud.com/night-vision-2","avatar_url":"http://i1.sndcdn.com/avatars-000011577036-85gzlm-large.jpg?2f6e0dc","country":"Japan","full_name":"","city":"Tokyo","description":"Contact:\r\nmail.night.vision@gmail.com","discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":true,"track_count":6,"playlist_count":0,"public_favorites_count":54,"followers_count":43,"followings_count":63},{"id":839590,"kind":"user","permalink":"muztek","username":"MUZTEK","uri":"http://api.soundcloud.com/users/839590","permalink_url":"http://soundcloud.com/muztek","avatar_url":"http://i1.sndcdn.com/avatars-000013753678-v0d3vw-large.jpg?2f6e0dc","country":"Lithuania","full_name":"Marius
+        Mugenis","city":"Kaunas","description":"\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\nI''m
+        Marius (18) from Lithuania.\n\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\nPrefer
+        quality. \nLove collecting stuff. \nLove oldskool stuff. \nLove tall and skinny
+        girls. \nLove warm and sunny weather. \nLove high quality music. \nclassic
+        guy. \n\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\nFeel
+        free to message me:)\n\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\nMy
+        mix archive on\n\u003Ca href=\"http://mixcloud.com/MUZTEK\" rel=\"nofollow\"
+        target=\"_blank\"\u003Ehttp://mixcloud.com/MUZTEK\u003C/a\u003E\n\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\nFind
+        me on\n \u003Ca href=\"http://facebook.com/MUZTEK\" rel=\"nofollow\" target=\"_blank\"\u003Ehttp://facebook.com/MUZTEK\u003C/a\u003E\n\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\nFollow
+        me on\n\u003Ca href=\"http://MUGENIS.tumblr.com\" rel=\"nofollow\" target=\"_blank\"\u003Ehttp://MUGENIS.tumblr.com\u003C/a\u003E/\n\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550","discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":true,"track_count":1,"playlist_count":0,"public_favorites_count":1291,"followers_count":531,"followings_count":1953},{"id":4205051,"kind":"user","permalink":"lifecrushedblog","username":"lifecrushedblog-brian","uri":"http://api.soundcloud.com/users/4205051","permalink_url":"http://soundcloud.com/lifecrushedblog","avatar_url":"http://i1.sndcdn.com/avatars-000015260389-szbt44-large.jpg?2f6e0dc","country":"United
+        States","full_name":"http://lifecrushed.com","city":"Seattle","description":"A
+        Music Blog Focused In/Around The Post-Dubstep And Future Garage Genres.\n\nFavored
+        2:\n\u003Ca href=\"http://lifecrushed.tumblr.com/post/7791416404/life-crushed-presents-favored-2-compilation\"
+        rel=\"nofollow\" target=\"_blank\"\u003Ehttp://lifecrushed.tumblr.com/post/7791416404/life-crushed-presents-favored-2-compilation\u003C/a\u003E\n\nImage
+        by hanakokomo: http://www.flickr.com/people/52079187@N02","discogs_name":null,"myspace_name":null,"website":"http://lifecrushed.com","website_title":"Life
+        Crushed","online":true,"track_count":5,"playlist_count":0,"public_favorites_count":708,"followers_count":1647,"followings_count":1685},{"id":8629493,"kind":"user","permalink":"glebbarbazanov","username":"Barbazanov","uri":"http://api.soundcloud.com/users/8629493","permalink_url":"http://soundcloud.com/glebbarbazanov","avatar_url":"http://i1.sndcdn.com/avatars-000009189190-a7v18b-large.jpg?2f6e0dc","country":null,"full_name":"","city":"","description":null,"discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":true,"track_count":0,"playlist_count":0,"public_favorites_count":40,"followers_count":92,"followings_count":613},{"id":77466,"kind":"user","permalink":"100pm","username":"100PM
+        / Cats In Caps","uri":"http://api.soundcloud.com/users/77466","permalink_url":"http://soundcloud.com/100pm","avatar_url":"http://i1.sndcdn.com/avatars-000015227282-xdbzds-large.jpg?2f6e0dc","country":"Russia","full_name":"Anton
+        Smirnov","city":"Saint-Petersburg","description":"http://www.100pm.all.dj/\r\nhttp://www.mixcloud.com/dj100pm/\r\nhttp://feelmyrave.blogspot.com/","discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":true,"track_count":3,"playlist_count":0,"public_favorites_count":424,"followers_count":172,"followings_count":462},{"id":2995916,"kind":"user","permalink":"ponyclub","username":"pony
+        club","uri":"http://api.soundcloud.com/users/2995916","permalink_url":"http://soundcloud.com/ponyclub","avatar_url":"http://i1.sndcdn.com/avatars-000009046059-8aqecc-large.jpg?2f6e0dc","country":null,"full_name":"","city":"","description":null,"discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":false,"track_count":5,"playlist_count":0,"public_favorites_count":1191,"followers_count":62,"followings_count":329},{"id":3085496,"kind":"user","permalink":"lolissia","username":"Lolissia","uri":"http://api.soundcloud.com/users/3085496","permalink_url":"http://soundcloud.com/lolissia","avatar_url":"http://i1.sndcdn.com/avatars-000016898842-byhbvv-large.jpg?2f6e0dc","country":"Australia","full_name":"Lolissia","city":"","description":"I
+        am Australian and cannot go a day without music \u2013 completely addicted
+        to SoundCloud and discovering new music every chance I get. Write, sing and
+        dance. No recordings to upload currently but would like to do more. I adore
+        music festivals, different languages, different cultures, good food \u0026
+        wine. Long walks on the beach optional - only if there is accompanying music.","discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":false,"track_count":0,"playlist_count":0,"public_favorites_count":426,"followers_count":53,"followings_count":467},{"id":393790,"kind":"user","permalink":"chris-goza","username":"Chris
+        Goza","uri":"http://api.soundcloud.com/users/393790","permalink_url":"http://soundcloud.com/chris-goza","avatar_url":"http://i1.sndcdn.com/avatars-000013729323-10b7c7-large.jpg?2f6e0dc","country":"Canada","full_name":"","city":"Edmonton","description":"","discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":false,"track_count":1,"playlist_count":0,"public_favorites_count":218,"followers_count":135,"followings_count":156},{"id":2704352,"kind":"user","permalink":"fun_skier","username":"fun_skier","uri":"http://api.soundcloud.com/users/2704352","permalink_url":"http://soundcloud.com/fun_skier","avatar_url":"http://i1.sndcdn.com/avatars-000002644675-gcx10w-large.jpg?2f6e0dc","country":"Ukraine","full_name":"Tanya
+        Siyanko","city":"Kiev","description":null,"discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":false,"track_count":2,"playlist_count":0,"public_favorites_count":203,"followers_count":5,"followings_count":49},{"id":2745148,"kind":"user","permalink":"stuartlongmuir","username":"StuartLongmuir","uri":"http://api.soundcloud.com/users/2745148","permalink_url":"http://soundcloud.com/stuartlongmuir","avatar_url":"http://i1.sndcdn.com/avatars-000006960745-li1eg2-large.jpg?2f6e0dc","country":"Britain
+        (UK)","full_name":"Stuart Longmuir","city":"London","description":null,"discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":false,"track_count":1,"playlist_count":0,"public_favorites_count":104,"followers_count":13,"followings_count":152},{"id":895723,"kind":"user","permalink":"umuakat","username":"UMU","uri":"http://api.soundcloud.com/users/895723","permalink_url":"http://soundcloud.com/umuakat","avatar_url":"http://i1.sndcdn.com/avatars-000011976025-j2lhmk-large.jpg?2f6e0dc","country":"Japan","full_name":"Takaumu
+        Sekine","city":"TOKYO","description":"","discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":false,"track_count":2,"playlist_count":0,"public_favorites_count":135,"followers_count":125,"followings_count":135},{"id":433566,"kind":"user","permalink":"beatlinks","username":"beatlinks","uri":"http://api.soundcloud.com/users/433566","permalink_url":"http://soundcloud.com/beatlinks","avatar_url":"http://i1.sndcdn.com/avatars-000003503383-jzrezp-large.jpg?2f6e0dc","country":"Finland","full_name":"Beatlinks.org","city":"Electronic
+        Music Resources","description":"CONCEPT\n_________\nArchiving the quality
+        electronic music heritage.\n\n\nGET IN TOUCH\n_________\n+ info@beatlinks.org\n-
+        idontlikefreepromotion@beatlinks.org\n_______________________________\n\n","discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":false,"track_count":1,"playlist_count":1,"public_favorites_count":351,"followers_count":48,"followings_count":175},{"id":3133790,"kind":"user","permalink":"fun-foundation","username":"fun
+        foundation","uri":"http://api.soundcloud.com/users/3133790","permalink_url":"http://soundcloud.com/fun-foundation","avatar_url":"http://i1.sndcdn.com/avatars-000002677649-o4o187-large.jpg?2f6e0dc","country":"Russia","full_name":"max
+        lyazgin","city":"","description":"","discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":false,"track_count":10,"playlist_count":0,"public_favorites_count":139,"followers_count":106,"followings_count":303},{"id":999942,"kind":"user","permalink":"jackca","username":"JackCA","uri":"http://api.soundcloud.com/users/999942","permalink_url":"http://soundcloud.com/jackca","avatar_url":"http://i1.sndcdn.com/avatars-000002957252-ptk617-large.jpg?2f6e0dc","country":"United
+        States","full_name":"Jack Anderson","city":"San Francisco","description":"","discogs_name":null,"myspace_name":null,"website":"http://janderson.me","website_title":"","online":false,"track_count":0,"playlist_count":0,"public_favorites_count":69,"followers_count":19,"followings_count":110},{"id":669539,"kind":"user","permalink":"pcharry","username":"pcharry","uri":"http://api.soundcloud.com/users/669539","permalink_url":"http://soundcloud.com/pcharry","avatar_url":"http://i1.sndcdn.com/avatars-000000971473-wtsvnp-large.jpg?2f6e0dc","country":"Denmark","full_name":"Peter
+        C. Harry","city":"Copenhagen","description":"I''m a professional photographer
+        and editor with a huge interest in music. Tjeck out my website for more info.","discogs_name":null,"myspace_name":null,"website":"http://www.identityzoom.dk","website_title":null,"online":false,"track_count":3,"playlist_count":1,"public_favorites_count":563,"followers_count":21,"followings_count":92},{"id":33958,"kind":"user","permalink":"atmosoul","username":"atmosoul","uri":"http://api.soundcloud.com/users/33958","permalink_url":"http://soundcloud.com/atmosoul","avatar_url":"http://i1.sndcdn.com/avatars-000002040094-9fqkzh-large.jpg?2f6e0dc","country":"France","full_name":"","city":"Lille","description":"Resident
+        DJ at Kiosk Klub (Lille, FR) (http://kiosk-club.fr/clubhome.html)\r\nProducer
+        for Beat Boutik Recordings (http://kiosk-club.fr/Beatboutik/)\r\nFounding
+        member of The Gentlemen DJs (http://www.mixcloud.com/gentlemendjs)","discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":false,"track_count":9,"playlist_count":3,"public_favorites_count":25,"followers_count":200,"followings_count":274},{"id":3722021,"kind":"user","permalink":"bigbthethird","username":"Wiki
+        Kane (brandon smart)","uri":"http://api.soundcloud.com/users/3722021","permalink_url":"http://soundcloud.com/bigbthethird","avatar_url":"http://i1.sndcdn.com/avatars-000012030289-zbb3pi-large.jpg?2f6e0dc","country":"United
+        States","full_name":"Brandon Smart","city":"Connecitcut (NYC) / San Diego","description":"Music
+        is the highest form of expression in my life and creates the most amazing
+        experiences with friends that will never be forgotten. Feel the Music in Life!","discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":false,"track_count":2,"playlist_count":0,"public_favorites_count":19,"followers_count":48,"followings_count":251},{"id":1452242,"kind":"user","permalink":"charlesdiscowski","username":"Charles
+        Discowski","uri":"http://api.soundcloud.com/users/1452242","permalink_url":"http://soundcloud.com/charlesdiscowski","avatar_url":"http://i1.sndcdn.com/avatars-000007603922-6nlkuc-large.jpg?2f6e0dc","country":"US
+        minor outlying islands","full_name":"","city":"California","description":"","discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":false,"track_count":1,"playlist_count":0,"public_favorites_count":5853,"followers_count":637,"followings_count":1084},{"id":56949,"kind":"user","permalink":"tigorilla","username":"Tigorilla","uri":"http://api.soundcloud.com/users/56949","permalink_url":"http://soundcloud.com/tigorilla","avatar_url":"http://i1.sndcdn.com/avatars-000008052033-hznwgl-large.jpg?2f6e0dc","country":"United
+        States","full_name":"Tyler Miller","city":"Champaign, IL","description":"Contact:
+        tyler.edward.miller@gmail.com\n\nFB\n---\nhttp://www.facebook.com/pages/Tigorilla/344858650638\nhttp://www.facebook.com/pages/Tigorilla/344858650638\nhttp://www.facebook.com/pages/Tigorilla/344858650638\n---\nMessage
+        me for more information.","discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":false,"track_count":61,"playlist_count":4,"public_favorites_count":1336,"followers_count":1129,"followings_count":787},{"id":1360692,"kind":"user","permalink":"jun-wan","username":"JUN-WAN","uri":"http://api.soundcloud.com/users/1360692","permalink_url":"http://soundcloud.com/jun-wan","avatar_url":"http://i1.sndcdn.com/avatars-000002885766-edu6rb-large.jpg?2f6e0dc","country":"Australia","full_name":"","city":"Newcastle","description":"I
+        make music, i play music.\r\n\r\nBookings and info, contact info@bad-party.com\r\n
+        \r\n","discogs_name":null,"myspace_name":null,"website":"http://bad-party.com/","website_title":"","online":false,"track_count":2,"playlist_count":0,"public_favorites_count":61,"followers_count":49,"followings_count":126},{"id":3874291,"kind":"user","permalink":"justin-credible-1","username":"justin
+        credible","uri":"http://api.soundcloud.com/users/3874291","permalink_url":"http://soundcloud.com/justin-credible-1","avatar_url":"http://a1.sndcdn.com/images/default_avatar_large.png?2f6e0dc","country":"Germany","full_name":"","city":"Hamburg","description":null,"discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":false,"track_count":0,"playlist_count":0,"public_favorites_count":131,"followers_count":13,"followings_count":80},{"id":1577374,"kind":"user","permalink":"hulkissime","username":"Hulkissime","uri":"http://api.soundcloud.com/users/1577374","permalink_url":"http://soundcloud.com/hulkissime","avatar_url":"http://i1.sndcdn.com/avatars-000007837624-0obuuo-large.jpg?2f6e0dc","country":"France","full_name":"","city":"Paris","description":null,"discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":false,"track_count":0,"playlist_count":0,"public_favorites_count":247,"followers_count":15,"followings_count":105},{"id":11627565,"kind":"user","permalink":"aphp","username":"ap*","uri":"http://api.soundcloud.com/users/11627565","permalink_url":"http://soundcloud.com/aphp","avatar_url":"http://i1.sndcdn.com/avatars-000015752125-nzq466-large.jpg?2f6e0dc","country":"United
+        States","full_name":"","city":"Los Angeles","description":"","discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":false,"track_count":0,"playlist_count":0,"public_favorites_count":74,"followers_count":20,"followings_count":136},{"id":1918207,"kind":"user","permalink":"czuczuruczu","username":"Czuczuruczu","uri":"http://api.soundcloud.com/users/1918207","permalink_url":"http://soundcloud.com/czuczuruczu","avatar_url":"http://i1.sndcdn.com/avatars-000001880200-kdzube-large.jpg?2f6e0dc","country":"Malaysia","full_name":"Joanna","city":"Kuala
+        Lumpur","description":null,"discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":false,"track_count":0,"playlist_count":0,"public_favorites_count":248,"followers_count":34,"followings_count":123},{"id":2322492,"kind":"user","permalink":"kil0","username":"KIL0","uri":"http://api.soundcloud.com/users/2322492","permalink_url":"http://soundcloud.com/kil0","avatar_url":"http://i1.sndcdn.com/avatars-000009833218-31966o-large.jpg?2f6e0dc","country":"United
+        States","full_name":"\u039edgar Medina","city":"Mission","description":"Carbon
+        based life form of the mammalian variety whose sole purpose in life/space/time
+        is to procreate \u266b!\n","discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":false,"track_count":1,"playlist_count":1,"public_favorites_count":1842,"followers_count":40,"followings_count":255},{"id":6508078,"kind":"user","permalink":"cobyg","username":"Coby
+        G","uri":"http://api.soundcloud.com/users/6508078","permalink_url":"http://soundcloud.com/cobyg","avatar_url":"http://i1.sndcdn.com/avatars-000007601566-84fwje-large.jpg?2f6e0dc","country":"Canada","full_name":"CobyStyle
+        Olah","city":"Toronto","description":null,"discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":false,"track_count":22,"playlist_count":0,"public_favorites_count":45,"followers_count":18,"followings_count":18},{"id":9696012,"kind":"user","permalink":"dazeddays","username":"dazeddays","uri":"http://api.soundcloud.com/users/9696012","permalink_url":"http://soundcloud.com/dazeddays","avatar_url":"http://i1.sndcdn.com/avatars-000011442305-4ic5nk-large.jpg?2f6e0dc","country":"Colombia","full_name":"Daniel
+        Diaz","city":"Bogota","description":null,"discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":false,"track_count":0,"playlist_count":0,"public_favorites_count":156,"followers_count":23,"followings_count":161},{"id":131903,"kind":"user","permalink":"whiskeybarons","username":"whiskey
+        barons","uri":"http://api.soundcloud.com/users/131903","permalink_url":"http://soundcloud.com/whiskeybarons","avatar_url":"http://i1.sndcdn.com/avatars-000004537341-bfow90-large.jpg?2f6e0dc","country":"United
+        States","full_name":"whiskey barons","city":"Boston","description":"","discogs_name":null,"myspace_name":null,"website":"http://www.whiskeybarons.com","website_title":"whiskey
+        barons dot com","online":false,"track_count":29,"playlist_count":0,"public_favorites_count":22,"followers_count":1457,"followings_count":36},{"id":14624432,"kind":"user","permalink":"harley-faulkner","username":"harleyfaulkner","uri":"http://api.soundcloud.com/users/14624432","permalink_url":"http://soundcloud.com/harley-faulkner","avatar_url":"http://i1.sndcdn.com/avatars-000012838796-qj6kau-large.jpg?2f6e0dc","country":"Australia","full_name":"Harley
+        Faulkner","city":"Maclean","description":null,"discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":false,"track_count":0,"playlist_count":0,"public_favorites_count":16,"followers_count":5,"followings_count":14},{"id":10064541,"kind":"user","permalink":"de-la-bombe","username":"de
+        la bombe","uri":"http://api.soundcloud.com/users/10064541","permalink_url":"http://soundcloud.com/de-la-bombe","avatar_url":"http://i1.sndcdn.com/avatars-000008395404-0jzou4-large.jpg?2f6e0dc","country":"Australia","full_name":"Jon
+        Costello","city":"Perth","description":null,"discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":false,"track_count":0,"playlist_count":0,"public_favorites_count":82,"followers_count":14,"followings_count":84},{"id":1480292,"kind":"user","permalink":"jay-r-dee","username":"Jay-R-Dee","uri":"http://api.soundcloud.com/users/1480292","permalink_url":"http://soundcloud.com/jay-r-dee","avatar_url":"http://i1.sndcdn.com/avatars-000009705104-3r95mf-large.jpg?2f6e0dc","country":"Canada","full_name":"Justin","city":"Regina","description":null,"discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":false,"track_count":1,"playlist_count":0,"public_favorites_count":91,"followers_count":3,"followings_count":115},{"id":2871553,"kind":"user","permalink":"badasimo","username":"badasimo","uri":"http://api.soundcloud.com/users/2871553","permalink_url":"http://soundcloud.com/badasimo","avatar_url":"http://i1.sndcdn.com/avatars-000002518337-j0i5xg-large.jpg?2f6e0dc","country":"United
+        States","full_name":"George Agathos","city":"Brooklyn","description":"Spinning
+        casual around Brooklyn/NYC.  Started @ WUSB FM 90.1 on Long Island as a news
+        announcer, then an indie DJ, and then found the dark side of disco.\r\n\r\nNothing
+        has been the same since. Had the pleasure of spinning in Greece, Turkey, and
+        some of the best house parties...","discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":false,"track_count":13,"playlist_count":0,"public_favorites_count":66,"followers_count":31,"followings_count":87},{"id":541334,"kind":"user","permalink":"oliviaj","username":"oliviaj","uri":"http://api.soundcloud.com/users/541334","permalink_url":"http://soundcloud.com/oliviaj","avatar_url":"http://i1.sndcdn.com/avatars-000009493257-w2godz-large.jpg?2f6e0dc","country":null,"full_name":"","city":"","description":null,"discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":false,"track_count":0,"playlist_count":0,"public_favorites_count":13,"followers_count":6,"followings_count":52},{"id":3869304,"kind":"user","permalink":"sebasumbawa","username":"Sebasumbawa","uri":"http://api.soundcloud.com/users/3869304","permalink_url":"http://soundcloud.com/sebasumbawa","avatar_url":"http://i1.sndcdn.com/avatars-000003103545-7sqh3p-large.jpg?2f6e0dc","country":"Spain","full_name":"Sebastian
+        Lozano","city":"Pamplona","description":"","discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":false,"track_count":20,"playlist_count":0,"public_favorites_count":95,"followers_count":22,"followings_count":90},{"id":5975709,"kind":"user","permalink":"highwire","username":"Highwire","uri":"http://api.soundcloud.com/users/5975709","permalink_url":"http://soundcloud.com/highwire","avatar_url":"http://i1.sndcdn.com/avatars-000007860739-yn1f1l-large.jpg?2f6e0dc","country":"United
+        States","full_name":"","city":"US","description":null,"discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":false,"track_count":0,"playlist_count":0,"public_favorites_count":1287,"followers_count":138,"followings_count":975},{"id":386918,"kind":"user","permalink":"jesse_mathews","username":"Jesse
+        Mathews","uri":"http://api.soundcloud.com/users/386918","permalink_url":"http://soundcloud.com/jesse_mathews","avatar_url":"http://i1.sndcdn.com/avatars-000000760011-dzrz11-large.jpg?2f6e0dc","country":"United
+        States","full_name":"Jesse Mathews","city":"Orlando","description":"","discogs_name":null,"myspace_name":null,"website":"http://jessemathews.com","website_title":null,"online":false,"track_count":9,"playlist_count":0,"public_favorites_count":2725,"followers_count":1496,"followings_count":1733},{"id":8249681,"kind":"user","permalink":"anthonyzakos","username":"Anthony
+        Zakos","uri":"http://api.soundcloud.com/users/8249681","permalink_url":"http://soundcloud.com/anthonyzakos","avatar_url":"http://i1.sndcdn.com/avatars-000009136379-tlbjrh-large.jpg?2f6e0dc","country":"Australia","full_name":"Anthony
+        Zakos","city":"Sydney","description":null,"discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":false,"track_count":0,"playlist_count":0,"public_favorites_count":160,"followers_count":22,"followings_count":40},{"id":4608811,"kind":"user","permalink":"lotus-saxe","username":"lotus-blomman-saxe","uri":"http://api.soundcloud.com/users/4608811","permalink_url":"http://soundcloud.com/lotus-saxe","avatar_url":"http://i1.sndcdn.com/avatars-000008008962-dzxwrr-large.jpg?2f6e0dc","country":"Sweden","full_name":"Lotus
+        Saxe","city":"Stockholm","description":null,"discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":false,"track_count":1,"playlist_count":0,"public_favorites_count":78,"followers_count":7,"followings_count":63},{"id":592309,"kind":"user","permalink":"danimalsmusic","username":"Danimals
+        Music","uri":"http://api.soundcloud.com/users/592309","permalink_url":"http://soundcloud.com/danimalsmusic","avatar_url":"http://i1.sndcdn.com/avatars-000000977753-haudp5-large.jpg?2f6e0dc","country":"United
+        States","full_name":"","city":"San Francisco","description":null,"discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":false,"track_count":2,"playlist_count":0,"public_favorites_count":242,"followers_count":76,"followings_count":281},{"id":9262734,"kind":"user","permalink":"daiki-dasico-disco","username":"Daiki
+        Dasico Disco","uri":"http://api.soundcloud.com/users/9262734","permalink_url":"http://soundcloud.com/daiki-dasico-disco","avatar_url":"http://a1.sndcdn.com/images/default_avatar_large.png?2f6e0dc","country":"Japan","full_name":"Daiki
+        Kobayashi","city":"Tokyo","description":null,"discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":false,"track_count":0,"playlist_count":0,"public_favorites_count":327,"followers_count":48,"followings_count":355},{"id":408637,"kind":"user","permalink":"edlouis","username":"Edlouis","uri":"http://api.soundcloud.com/users/408637","permalink_url":"http://soundcloud.com/edlouis","avatar_url":"http://i1.sndcdn.com/avatars-000002330786-gqitz7-large.jpg?2f6e0dc","country":"Switzerland","full_name":"Luis-Eduardo
+        Ernst","city":"Baden","description":"Follow me on Facebook: http://www.facebook.com/pages/Edlouis/176482825745168","discogs_name":null,"myspace_name":"edlouis","website":null,"website_title":null,"online":false,"track_count":8,"playlist_count":2,"public_favorites_count":289,"followers_count":63,"followings_count":124},{"id":2727399,"kind":"user","permalink":"admirk","username":"Admir
+        Korjenic","uri":"http://api.soundcloud.com/users/2727399","permalink_url":"http://soundcloud.com/admirk","avatar_url":"http://i1.sndcdn.com/avatars-000005376015-pyf2lh-large.jpg?2f6e0dc","country":"Norway","full_name":"","city":"Bergen","description":"Booking
+        and information: \r\n\u003CA href=\"mailto:schmadmir@gmail.com\" rel=nofollow
+        target=_blank\u003Eschmadmir@gmail.com\u003C/A\u003E\r\n\r\nDates 2012:\r\n\r\n04-Aug
+        : Kvarteret, Bergen\r\n21-Jul : Kvarteret, Bergen\r\n07-Jul : Kvarteret, Bergen\r\n23-Jun
+        : The Fix, Bergen\r\n19-May : Kvarteret, Bergen\r\n28-Apr : Landmark, Bergen\r\n14-Apr
+        : Skap\u00e5bar, Haugesund\r\n24-Mar : Kvarteret, Bergen\r\n23-Mar : Landmark,
+        Bergen\r\n03-Mar : Landmark, Bergen\r\n18-Feb : Det Gr\u00f8nne Treet, Volda\r\n17-Feb
+        : Lille L\u00f8venvold, \u00c5lesund\r\n28-Jan : Kvarteret, Bergen\r\n21-Jan
+        : Landmark, Bergen\r\n07-Jan : Skap\u00e5bar, Haugesund\r\n","discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":false,"track_count":4,"playlist_count":0,"public_favorites_count":480,"followers_count":189,"followings_count":172},{"id":12153503,"kind":"user","permalink":"absynthek","username":"AbsyntheK","uri":"http://api.soundcloud.com/users/12153503","permalink_url":"http://soundcloud.com/absynthek","avatar_url":"http://i1.sndcdn.com/avatars-000015498580-072118-large.jpg?2f6e0dc","country":"Australia","full_name":"Experimentalist
+        Seele","city":"Melbourne","description":"Thanks so much for taking time out
+        to listen to my mixes.  Sincerely grateful to comments \u0026 contructive
+        criticism.  \r\n\r\nProducer in the making ;) :)  on hold until I get the
+        full ableton license\r\n\r\nTired after so many years of running around \u0026
+        enjoying other peoples work (not to mention \"busting chops\").  Finally,
+        I have begun my journey of creativeness.   :) :) :) still have a long way
+        to go, therefore not ready to depart this planet - Music is my therapy \u0026
+        drug, ....enjoying sharing my style, attempting to create something different.   \r\n\r\nI
+        hope to someday my music will be the voice for all wildlife of this planet
+        - create global awareness of those lives perishing in the path of human destruction
+        \u0026 rapid population growth of this planet - Human wants/needs are exceeding
+        this planet''s resources...\r\n\r\nI don''t believe in Genres, popularity
+        or in crowds - I sit on the outside and look in :) -  I AM FEELING FINE WITH
+        MYSELF :) :) \r\n\r\nPrivate message me for free download - I don''t mind
+        if you remix my stuff or vice versa","discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":false,"track_count":29,"playlist_count":0,"public_favorites_count":2079,"followers_count":442,"followings_count":1056}]'
+    http_version: 
+  recorded_at: Tue, 19 Jun 2012 07:35:32 GMT
+recorded_with: VCR 2.2.0

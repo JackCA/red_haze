@@ -1,5 +1,6 @@
 require 'red_haze'
 require 'vcr'
+require 'support/shared'
 
 VCR.configure do |c|
   c.cassette_library_dir = 'spec/fixtures/vcr_cassettes'

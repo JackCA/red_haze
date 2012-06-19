@@ -31,12 +31,11 @@ module RedHaze
       self.class.users_from_response Request.execute(:get, url + '/followers')
     end
 
-
-    private
-
     def self.users_from_response(response)
       response.collect { |r| new(r) }
     end
+
+    private
 
     def url
       "/users/#{id}"

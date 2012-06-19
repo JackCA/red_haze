@@ -11,6 +11,10 @@ describe RedHaze::Track do
     its(:id) { should == 49518905 }
   end
 
+  describe "#tag_list" do
+    pending
+  end
+
   describe "#sync" do
     subject do 
       VCR.use_cassette('track_sync') { instance.sync }
@@ -57,7 +61,10 @@ describe RedHaze::Track do
   end
 
   describe "#favoriters" do
-    pending
+    subject do
+      VCR.use_cassette('track_favoriters') { instance.favoriters }
+    end
+    it_should_behave_like "an array of Tracks"
   end
 
   describe "#shared_to" do

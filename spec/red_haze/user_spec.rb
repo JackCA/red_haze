@@ -43,12 +43,6 @@ describe RedHaze::User do
     pending
   end
 
-  shared_examples_for "an array of Users" do
-    specify do
-      subject.each { |u| u.should be_a described_class }
-    end
-  end
-
   describe "#followings" do
     context "with arg" do
       context "valid followings user id" do

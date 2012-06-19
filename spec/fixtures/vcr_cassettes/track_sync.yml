@@ -1,0 +1,82 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.soundcloud.com/tracks/49518905?client_id=617d95619347608e50397121b0b171be
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 19 Jun 2012 06:10:08 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Connection:
+      - keep-alive
+      X-Runtime:
+      - '17'
+      Etag:
+      - ! '"fa9edb7cb47fed8e5b0b278d96f83892"'
+      Cache-Control:
+      - private, max-age=0, must-revalidate
+      Access-Control-Allow-Methods:
+      - GET, PUT, POST, DELETE
+      Access-Control-Allow-Headers:
+      - Accept, Authorization, Content-Type, Origin
+      Access-Control-Allow-Origin:
+      - ! '*'
+      X-Cacheable:
+      - NO:Cache-Control=max-age=0
+      Content-Length:
+      - '3180'
+      X-Varnish:
+      - '1848469828'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish
+      X-Cache:
+      - MISS
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: US-ASCII
+      string: ! '{"kind":"track","id":49518905,"created_at":"2012/06/13 02:08:35 +0000","user_id":375,"duration":419816,"commentable":true,"state":"finished","original_content_size":6752157,"sharing":"public","tag_list":"","permalink":"nitetime-hey-1","description":"Beatport:
+        http://www.beatport.com/release/jive-talk/909277\r\n\r\nNitetime is the new
+        production duo from Boston, USA comprised of Kon (from Kon \u0026 Amir) and
+        Whisky Baron which was first sent to us by fellow Bostonians - Soul Clap.
+        Nitetime\u2019s debut EP Jive Talk sits between OG boom bap hip hop - with
+        its tough drums and grooved up interludes - and the 4/4 rhythms of classic
+        house and disco. It also comes packed with a little more history than meets
+        the eye\u2026\r\n\r\nWho better to describe the tracks and history than Kon
+        himself?\r\n\r\n\"All the People\" is a classic throwback to 88-92 era of
+        house, lots of 909s and what not, \"Teddys Jam \" is sort of a deeper, slower
+        late night track, dark and moody with banging drums and \"Jive Talk\" is a
+        crazy sounding synth riff, George Duke-ish block party vibe\u2026 congas and
+        stuff going on.\r\n\r\nThen the interludes in between kinda tie the tunes
+        together. I feel thats missing from EP''s and full lengths... and I''ve never
+        heard it done on dance records. De la Soul and Pete Rock would have these
+        amazing little beats, and its just bringing it back.\"\r\n\r\nOn the digital
+        EP you can pick up Soul Clap\u2019s extra laidback remix of Hey! which was
+        specially mixed by Lee Curtis of Spectral Sound / Get Physical fame. This
+        also marks Soul Clap\u2019s second remix on Future Classic - hopefully you\u2019ve
+        checked out their chunky drum remix of Mario \u0026 Vidis euro anthem \u2018Changed\u2019!\r\n\r\nThe
+        EP has only just been pressed to wax and it''s already picking up love from
+        Gilles Peterson, Jacques Renault, Eli Escobar, Soul Clap, Recloose, Frank
+        Booker, Karizma, Lefto from Belgium and Lovemonk in Madrid. Don''t let this
+        record slip through those dusty fingers of yours.","streamable":true,"downloadable":false,"genre":"House","release":"FCL71","purchase_url":"http://www.beatport.com/release/jive-talk/909277","purchase_title":null,"label_id":null,"label_name":"Future
+        Classic","isrc":null,"video_url":null,"track_type":null,"key_signature":null,"bpm":null,"title":"Nitetime
+        - Hey!","release_year":null,"release_month":null,"release_day":null,"original_format":"mp3","license":"all-rights-reserved","uri":"http://api.soundcloud.com/tracks/49518905","permalink_url":"http://soundcloud.com/futureclassic/nitetime-hey-1","artwork_url":"http://i1.sndcdn.com/artworks-000024958417-rv2cga-large.jpg?2f6e0dc","waveform_url":"http://w1.sndcdn.com/SeQZ5evJV7rs_m.png","user":{"id":375,"kind":"user","permalink":"futureclassic","username":"future
+        classic","uri":"http://api.soundcloud.com/users/375","permalink_url":"http://soundcloud.com/futureclassic","avatar_url":"http://i1.sndcdn.com/avatars-000000626874-7m6d4s-large.jpg?2f6e0dc"},"stream_url":"http://api.soundcloud.com/tracks/49518905/stream","playback_count":2255,"download_count":0,"favoritings_count":116,"comment_count":11,"attachments_uri":"http://api.soundcloud.com/tracks/49518905/attachments"}'
+    http_version: 
+  recorded_at: Tue, 19 Jun 2012 06:10:20 GMT
+recorded_with: VCR 2.2.0
