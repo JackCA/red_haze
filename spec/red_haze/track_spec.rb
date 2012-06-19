@@ -64,7 +64,7 @@ describe RedHaze::Track do
     subject do
       VCR.use_cassette('track_favoriters') { instance.favoriters }
     end
-    it_should_behave_like "an array of Tracks"
+    it_should_behave_like "an array of Users"
   end
 
   describe "#shared_to" do

@@ -16,7 +16,7 @@ module RedHaze
     end
 
     def favoriters
-      Track.users_from_response Request.execute(:get, url + '/favoriters')
+      User.users_from_response Request.execute(:get, url + '/favoriters')
     end
 
     private
