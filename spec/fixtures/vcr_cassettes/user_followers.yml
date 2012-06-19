@@ -1,0 +1,203 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.soundcloud.com/users/999942/followers?client_id=617d95619347608e50397121b0b171be
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 19 Jun 2012 05:34:37 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Connection:
+      - keep-alive
+      X-Runtime:
+      - '183'
+      Etag:
+      - ! '"8fae1c3b668893582c2edd2436bdfed8"'
+      Cache-Control:
+      - private, max-age=0, must-revalidate
+      Access-Control-Allow-Methods:
+      - GET, PUT, POST, DELETE
+      Access-Control-Allow-Headers:
+      - Accept, Authorization, Content-Type, Origin
+      Access-Control-Allow-Origin:
+      - ! '*'
+      X-Cacheable:
+      - NO:Cache-Control=max-age=0
+      Content-Length:
+      - '19906'
+      X-Varnish:
+      - '1846078429'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish
+      X-Cache:
+      - MISS
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: US-ASCII
+      string: ! '[{"id":2879548,"kind":"user","permalink":"jstnw","username":"jstreet","uri":"http://api.soundcloud.com/users/2879548","permalink_url":"http://soundcloud.com/jstnw","avatar_url":"http://i1.sndcdn.com/avatars-000006763043-urg7lt-large.jpg?2f6e0dc","country":"United
+        States","full_name":"Justin Street","city":"San Francisco","description":"I''m
+        a Business Developer on SoundCloud''s API Team. ","discogs_name":null,"myspace_name":null,"website":"http://justin.st","website_title":"the
+        personal blog of Justin W. Street","online":true,"track_count":42,"playlist_count":5,"public_favorites_count":378,"followers_count":477,"followings_count":432},{"id":1825259,"kind":"user","permalink":"sirkofficial","username":"SirK","uri":"http://api.soundcloud.com/users/1825259","permalink_url":"http://soundcloud.com/sirkofficial","avatar_url":"http://i1.sndcdn.com/avatars-000015324160-tut8uu-large.jpg?2f6e0dc","country":"Puerto
+        Rico","full_name":"Christian Robles","city":"San Juan","description":"Bookings:\r\nNorth
+        America/South America/Central America\r\nsirk.magnusson@gmail.com\r\n\r\n\r\nHailing
+        from Rio Piedras, Puerto Rico!\r\n\r\nProgressive House, Electro House es
+        mayormente lo m\u00edo. Any colabs, me avisan :)\r\n\r\nStarted Making music
+        at 17 (Mostly Reggaeton \u0026 Hip Hop) and @ the start of college, began
+        experimenting with electronica \u0026 house music. Now\u2019s been making
+        house, electro house \u0026 progressive house for 2 years running. Currently
+        #3 @ The DJ list''s Top Puertorican Djs\u2026. And he won\u2019t stop.\r\n\r\nInfluences:
+        Deadmau5, Tim Mason, Third Party, Porter Robinson, Avicii, Eric Prydz (Pryda),
+        AN21, Alesso, Axwell, Daft Punk \u0026 Many More...\r\n\r\nA la orden siempre!
+        Peace out!..","discogs_name":null,"myspace_name":"sirkofficial","website":null,"website_title":null,"online":false,"track_count":38,"playlist_count":0,"public_favorites_count":52,"followers_count":928,"followings_count":1986},{"id":10649343,"kind":"user","permalink":"l-o-o-k","username":"LOOK.","uri":"http://api.soundcloud.com/users/10649343","permalink_url":"http://soundcloud.com/l-o-o-k","avatar_url":"http://i1.sndcdn.com/avatars-000014998642-h3a6q2-large.jpg?2f6e0dc","country":"United
+        States","full_name":"Lucas \u2020odd","city":"Los \u2206ngeles","description":"Beat
+        Composition, Sampling, Remixing, Video Editing, Intro/Logo Videos.\r\n\r\nlxxk.tumblr.com\r\ntwitter.com/lucastxdd\r\nyoutube.com/lxxkproductions\r\nlxxk.bandcamp.com\r\n\r\nfor
+        work: lxxkproductions@gmail.com\r\n\r\nBLDxDMND\r\n\r\nDownload the full \"D\u25b2YZ\"
+        demo for free in HQ(320kbps)(7 Tracks):\r\nhttp://lxxk.bandcamp.com/album/d-yz\r\n\r\nNew
+        single C\u25b2$\u2020LE coming soon!","discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":false,"track_count":10,"playlist_count":0,"public_favorites_count":12,"followers_count":458,"followings_count":1165},{"id":405693,"kind":"user","permalink":"iamhoodie","username":"iamHoodie","uri":"http://api.soundcloud.com/users/405693","permalink_url":"http://soundcloud.com/iamhoodie","avatar_url":"http://i1.sndcdn.com/avatars-000012498365-ak480z-large.jpg?2f6e0dc","country":"Netherlands","full_name":"Folllow
+        me at Twitter @HoodieMusic","city":"Amsterdam","description":"Dani\u00ebl
+        Pattiata, born on 28 August 1990, also known by his artist name Hoodie, is
+        a Dutch music producer \u0026 DJ. At age 10 he discovers music on a children\u2019s
+        program on his fathers computer. Obsessed by a monkey and a drum kit he developed
+        his interest in music at a very young age. Music was not a strange thing in
+        his family. His uncle played in several bands and his cousin was a well-known
+        DJ. When Dani\u00ebl moved to Amersfoort, he and his new friends decided to
+        begin a rap group. Unfortunately nobody knew a thing about computers and making
+        music so Hoodie tried to make some himself. \r\n\r\nIn 2003 he discovers a
+        new way to make music and made dozens of hip-hop beats with FL Studio. All
+        those beats gave him exercise to give all the instruments the perfect level.\r\nWhen
+        Hoodie decided to start with something new he bought Cubase from the local
+        music store. In 2006 he was still into hip-hop, but he also want to try something
+        new. Searching for a different genre he discovers House music. Dani\u00ebl
+        was instantaneously in love and he started to make some House right away.  In
+        2008 he released his first single at Sneakerz Muzik (Spinnin Records), which
+        wasn\u2019t a success after all. \r\n\r\nHis second release \u2018Dirty Maluku
+        Style\u2019on Made2dance Records made a huge difference. Supported by DJ\u2019s
+        Gregor Salto, Dj Rockid, Schlachtofbronx, Teki Latex, Yolanda BE Cool and
+        many more, he had made his first success. In 2010 he released \u2018Break
+        Bass\u2019 which was a mix of Electro and Dutch House. It was released on
+        Foktop! (Spinnin Records) and was published on CD as well (Sneakerz Foktop!
+        Summer CD). After all the releases Hoodie had those few years, he got much
+        respect and support from DJ\u2019s and fans from all over the world. \r\n\r\nDani\u00ebl\u2019s
+        DJ career started a few months later in 2010. His first gigs were at local
+        bars and parties but after the Foktop! Summer Mix cd he was booked at his
+        first big party with Bizzey, Sandro Silva, DJ Rockid and some other DJ\u2019s.
+        After all those gigs with DJ\u2019s like: The Partysquad, Sandro Silva, Rockid,
+        Yolanda BE Cool, Marc Benjamin etc. Hoodie had a promising future full of
+        big releases and collaborations with producers and DJ\u2019s from his dreams.
+        Hoodie is now known as a wild DJ and a gifted producer and we\u2019re all
+        hyped to hear what\u2019s next in the future!","discogs_name":null,"myspace_name":null,"website":"http://www.hoodiemusic.com","website_title":"Official
+        Website of Hoodie","online":false,"track_count":25,"playlist_count":1,"public_favorites_count":59,"followers_count":999,"followings_count":1047},{"id":5753102,"kind":"user","permalink":"viezerickmusic","username":"ViezerickMusic","uri":"http://api.soundcloud.com/users/5753102","permalink_url":"http://soundcloud.com/viezerickmusic","avatar_url":"http://i1.sndcdn.com/avatars-000013565619-yop7h3-large.jpg?2f6e0dc","country":"Netherlands","full_name":"Patrick
+        van der Beek","city":"Leusden","description":"Patrick van der Beek a.k.a.
+        Viezerick is an upcoming Dutch house producer. In 2007 he started off with
+        producing a different genre, hardstyle. In 2011 he discovered he also enjoys
+        the sounds of house. This was a new challenge for him, and so begins his journey
+        to grow as a house producer. Now signed to Bunkerz.Biz, watch him become a
+        pioneer in house music!","discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":false,"track_count":16,"playlist_count":0,"public_favorites_count":1,"followers_count":1175,"followings_count":2000},{"id":40488,"kind":"user","permalink":"thehousemoguls","username":"thehousemoguls","uri":"http://api.soundcloud.com/users/40488","permalink_url":"http://soundcloud.com/thehousemoguls","avatar_url":"http://a1.sndcdn.com/images/default_avatar_large.png?2f6e0dc","country":"United
+        States","full_name":"The House Moguls","city":"Chicago","description":"The
+        House Moguls\u2014Are house music junkies, literally. United as a duo in 2006,
+        their unique style of combining classic house samples with pulsating electronic
+        melodies has led to their original productions being featured in primetime
+        T.V. shows, showcased during the Cannes Music Festival and licensed throughout
+        the world. Remixes are their other strong suit. Artists like: Daft Punk, Deadmau5,
+        Crookers, Basement Jaxx, Common, David Guetta \u0026 Mighty Dub Kats have
+        all experienced a House Mogul\u2019esque facelift\u2014appealing to a more
+        diverse audience and expanding into newer horizons.\n\nThe House Moguls continue
+        spending countless hours of their time in the studio, glued to their keyboards
+        and staring at the computer screen, because they\u2019re passionate about
+        what they do. \u201cIt\u2019s all about pushing the dance scene to the next
+        level,\u201d explains Basil. \u201cWe challenge each other everyday to bring
+        something new and innovative to whatever project we\u2019re working on\u2014but
+        don\u2019t believe for one second that we\u2019re not having fun while doing
+        it.\u201d His partner in crime couldn\u2019t agree more, \u201cWe\u2019re
+        always striving to be better than the day before,\u201d says Calderone, \u201cand
+        it\u2019s a great feeling that we can deliver music that sends chills down
+        our backs.\u201d\n\nWith their current productions already supported by world
+        renowned DJs and producers alike, The House Moguls plan to broaden their influence
+        in the upcoming future by taking their skills on the road and showcasing their
+        talents live. \u201cIt\u2019s one thing to sit in a room and listen to your
+        tracks through studio monitors,\u201d says Calderone, \u201cbut it\u2019s
+        a completely different experience when you get to bring your sound to hundreds
+        of people in the same setting. We treat each live performance as an opportunity
+        to craft our sound\u2014and the more we play, the more our sound will grow.\u201d
+        With the endless determination of bringing something fresh and appealing to
+        each project, The House Moguls look to have a very bright\u2014and very busy\u2014future
+        ahead of them. \n","discogs_name":null,"myspace_name":"thehousemoguls","website":"http://www.thehousemoguls.com","website_title":"The
+        House Moguls Official Website","online":false,"track_count":33,"playlist_count":2,"public_favorites_count":1,"followers_count":3143,"followings_count":1960},{"id":974640,"kind":"user","permalink":"mof-disco","username":"MoF
+        Disco","uri":"http://api.soundcloud.com/users/974640","permalink_url":"http://soundcloud.com/mof-disco","avatar_url":"http://i1.sndcdn.com/avatars-000008743656-2clv7b-large.jpg?2f6e0dc","country":"Germany","full_name":"","city":"Flensburg","description":"","discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":false,"track_count":12,"playlist_count":0,"public_favorites_count":34,"followers_count":714,"followings_count":2000},{"id":2176694,"kind":"user","permalink":"drumsoflondon","username":"drumsoflondon","uri":"http://api.soundcloud.com/users/2176694","permalink_url":"http://soundcloud.com/drumsoflondon","avatar_url":"http://i1.sndcdn.com/avatars-000002132772-p4q8gh-large.jpg?2f6e0dc","country":"Britain
+        (UK)","full_name":"Drums Of London","city":"London","description":"FOLLOW
+        US ON FACEBOOK HERE...\nhttp://www.facebook.com/drumsoflondon\n\n\n\n\"Drums
+        of London\" are a hot new production duo. The two producers have recently
+        joined forces to create a new project promising to bridge the gap between
+        their urban music roots and the mainstream. As solo producers the pair have
+        written music ranging from House to Hip hop and have already worked with a
+        wide range of artists and Dj''s including Roll Deep, Wiley, Plump Dj''s, Nichol
+        Wray, J2k, Ministry Of Sound, Fatman Scoop and Styles-p,... the list goes
+        on!  The boy''s first single \"Girls Girls Girls'' has been signed across
+        europe and is sure to be a summer favorite, receiving support from household
+        names such as Radio 1''s Scott Mill''s. They have also been busy servicing
+        the underground with club remixes for the likes of Conor Maynard and Professor
+        Green.","discogs_name":null,"myspace_name":"drumsoflondon","website":null,"website_title":null,"online":false,"track_count":6,"playlist_count":0,"public_favorites_count":0,"followers_count":543,"followings_count":1966},{"id":9277257,"kind":"user","permalink":"2desperate","username":"2Desperate","uri":"http://api.soundcloud.com/users/9277257","permalink_url":"http://soundcloud.com/2desperate","avatar_url":"http://i1.sndcdn.com/avatars-000009350097-0g6qjj-large.jpg?2f6e0dc","country":"Latvia","full_name":"Alexander
+        Gutarov","city":"Ventspils","description":"2Desperate is an Alternative Rock/Metal
+        style project.\r\nAlexander Gutarov - composer, rhythm / lead guitar, bass,
+        sampling.","discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":false,"track_count":11,"playlist_count":3,"public_favorites_count":7,"followers_count":1074,"followings_count":1999},{"id":6127510,"kind":"user","permalink":"tyronerubik","username":"TyroneRubik","uri":"http://api.soundcloud.com/users/6127510","permalink_url":"http://soundcloud.com/tyronerubik","avatar_url":"http://i1.sndcdn.com/avatars-000007266588-1x605a-large.jpg?2f6e0dc","country":"Spain","full_name":"Tyrone
+        Rubik","city":"Valencia","description":null,"discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":false,"track_count":2,"playlist_count":0,"public_favorites_count":67,"followers_count":405,"followings_count":1486},{"id":14388775,"kind":"user","permalink":"zabbyz","username":"zabbyz","uri":"http://api.soundcloud.com/users/14388775","permalink_url":"http://soundcloud.com/zabbyz","avatar_url":"http://i1.sndcdn.com/avatars-000012602685-3b1gye-large.jpg?2f6e0dc","country":"United
+        States","full_name":"zabby z","city":"sf","description":null,"discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":false,"track_count":6,"playlist_count":0,"public_favorites_count":37,"followers_count":12,"followings_count":25},{"id":7634942,"kind":"user","permalink":"notes-for-jane","username":"Notes
+        for Jane","uri":"http://api.soundcloud.com/users/7634942","permalink_url":"http://soundcloud.com/notes-for-jane","avatar_url":"http://i1.sndcdn.com/avatars-000016915005-xfref6-large.jpg?2f6e0dc","country":"United
+        States","full_name":"","city":"Lynchburg, Virginia","description":"I love
+        music without a singer just straight beats and pure guitar rock.","discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":false,"track_count":29,"playlist_count":0,"public_favorites_count":36,"followers_count":231,"followings_count":1678},{"id":1604066,"kind":"user","permalink":"teve-ahrens","username":"Teve
+        Ahrens","uri":"http://api.soundcloud.com/users/1604066","permalink_url":"http://soundcloud.com/teve-ahrens","avatar_url":"http://i1.sndcdn.com/avatars-000002383176-7a1oax-large.jpg?2f6e0dc","country":"Germany","full_name":"Teve
+        Ahrens","city":"Hannover","description":null,"discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":false,"track_count":15,"playlist_count":2,"public_favorites_count":43,"followers_count":252,"followings_count":1298},{"id":5673014,"kind":"user","permalink":"briggfair","username":"Brigg
+        Fair","uri":"http://api.soundcloud.com/users/5673014","permalink_url":"http://soundcloud.com/briggfair","avatar_url":"http://i1.sndcdn.com/avatars-000012317318-wq558y-large.jpg?2f6e0dc","country":"United
+        States","full_name":"","city":"Los Angeles, CA","description":"","discogs_name":null,"myspace_name":null,"website":"http://briggfair.com","website_title":"Brigg
+        Fair","online":false,"track_count":10,"playlist_count":1,"public_favorites_count":12,"followers_count":58,"followings_count":255},{"id":785007,"kind":"user","permalink":"jbillauer","username":"Jeremy
+        Billauer","uri":"http://api.soundcloud.com/users/785007","permalink_url":"http://soundcloud.com/jbillauer","avatar_url":"http://i1.sndcdn.com/avatars-000014838146-sycbcs-large.jpg?2f6e0dc","country":"United
+        States","full_name":"","city":"Fort Collins","description":null,"discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":false,"track_count":0,"playlist_count":0,"public_favorites_count":60,"followers_count":8,"followings_count":14},{"id":13148526,"kind":"user","permalink":"zac-selmon","username":"Zac
+        Selmon","uri":"http://api.soundcloud.com/users/13148526","permalink_url":"http://soundcloud.com/zac-selmon","avatar_url":"http://i1.sndcdn.com/avatars-000011370625-qiv7em-large.jpg?2f6e0dc","country":"United
+        States","full_name":"Zac Selmon","city":"San Francisco","description":null,"discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":false,"track_count":0,"playlist_count":0,"public_favorites_count":2,"followers_count":3,"followings_count":20},{"id":335438,"kind":"user","permalink":"pietromokoallegrini","username":"MOKO","uri":"http://api.soundcloud.com/users/335438","permalink_url":"http://soundcloud.com/pietromokoallegrini","avatar_url":"http://i1.sndcdn.com/avatars-000000721365-lzdpid-large.jpg?2f6e0dc","country":"Italy","full_name":"Pietro
+        Allegrini","city":"contact: djmoko@libero.it","description":"PIETRO ALLEGRINI
+        AKA MOKO: \nDj sin dall''et\u00e0 di 9 anni; appassionato di scratch, muove
+        i suoi primi passi cominciando a suonare nella discoteca della sua citt\u00e0
+        natale.\n\nDurante la sua cariera artistica suona in moltissimi locali italiani
+        di valevole importanza tra i quali possiamo brevemente citare: \nECU,\nCOTTON
+        CLUB,\nECHOES,\nDIABOLIKA,\nCOCORICO,\nPRINCE,\nPETER PAN,\nALTRO MONDO STUDIOS\nLA
+        MECCA ecc..\n\nStampa le sue prime produzioni nel 2004 su SOUNDZ RECORDS.\nTra
+        le pi\u00f9 famose spicca FLY e da li una lunga serie di produzioni.\nAttualmente
+        \u00e8 resident al RED ZONE CLUB e continua a lavorare in strudio, sensa sosta,
+        sulle nuove produzioni firmate: \nDEEP THROAT RECORDS, \nD:VISION, \nJUICY
+        MUSIC (USA)\nTIME RECORDS, \nRISE RECORDS \nMINISTRY OF SOUND (UK)\n","discogs_name":"Moko","myspace_name":"pietromokoallegrini","website":"http://www.deepthroatrec.com","website_title":null,"online":false,"track_count":18,"playlist_count":1,"public_favorites_count":30,"followers_count":449,"followings_count":1515},{"id":7674301,"kind":"user","permalink":"tension-night-1","username":"Tension
+        night...","uri":"http://api.soundcloud.com/users/7674301","permalink_url":"http://soundcloud.com/tension-night-1","avatar_url":"http://a1.sndcdn.com/images/default_avatar_large.png?2f6e0dc","country":"Czech
+        Republic","full_name":"wetrix","city":"jindruchuv hradec","description":null,"discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":false,"track_count":2,"playlist_count":0,"public_favorites_count":0,"followers_count":333,"followings_count":1981},{"id":2164565,"kind":"user","permalink":"manny-g-3","username":"Manny
+        G","uri":"http://api.soundcloud.com/users/2164565","permalink_url":"http://soundcloud.com/manny-g-3","avatar_url":"http://a1.sndcdn.com/images/default_avatar_large.png?2f6e0dc","country":"United
+        States","full_name":"MG Gonzalez","city":"Los Angeles","description":null,"discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":false,"track_count":1,"playlist_count":0,"public_favorites_count":2,"followers_count":2,"followings_count":9},{"id":352345,"kind":"user","permalink":"jose-g","username":"Jose
+        G","uri":"http://api.soundcloud.com/users/352345","permalink_url":"http://soundcloud.com/jose-g","avatar_url":"http://i1.sndcdn.com/avatars-000001879084-25xa1g-large.jpg?2f6e0dc","country":"United
+        States","full_name":"","city":"Miami","description":"Jose G - born in Lima,
+        Peru. From childhood he was always inclined to electronic music. He started
+        to dj when he was a kid influenced by succesfull djs such as Carl Cox, Marco
+        Carola, Erick Morillo, Ricardo Villalobos, Plastikman. Began his career in
+        the city of Miami, playing the best music of the moment with his unique SouthAmerican
+        flavor mixing style in many known clubs in Miami and always making the people
+        reach their limited excitement with its familiar sounds Bombas. Besides his
+        incredible ability in the mixers, he has also started his own productions
+        that will be realease soon in this year. Jose G is rapidly becoming part of
+        the next generation of DJs and producers to take the electronic music world
+        to a new level.\n\n\n\nFor Bookings: \n\nbastidasmanagement@hotmail.com\n\n(305)
+        562-0697","discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":false,"track_count":1,"playlist_count":3,"public_favorites_count":1,"followers_count":501,"followings_count":1511}]'
+    http_version: 
+  recorded_at: Tue, 19 Jun 2012 05:34:50 GMT
+recorded_with: VCR 2.2.0

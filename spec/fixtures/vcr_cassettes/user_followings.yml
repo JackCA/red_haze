@@ -1,0 +1,439 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.soundcloud.com/users/999942/followings?client_id=617d95619347608e50397121b0b171be
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 19 Jun 2012 04:25:07 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Connection:
+      - keep-alive
+      X-Runtime:
+      - '227'
+      Etag:
+      - ! '"1e7f642002ce2066da26bea0777fa25a"'
+      Cache-Control:
+      - private, max-age=0, must-revalidate
+      Access-Control-Allow-Methods:
+      - GET, PUT, POST, DELETE
+      Access-Control-Allow-Headers:
+      - Accept, Authorization, Content-Type, Origin
+      Access-Control-Allow-Origin:
+      - ! '*'
+      X-Cacheable:
+      - NO:Cache-Control=max-age=0
+      Content-Length:
+      - '53567'
+      X-Varnish:
+      - '1841200980'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish
+      X-Cache:
+      - MISS
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: US-ASCII
+      string: ! '[{"id":120252,"kind":"user","permalink":"jack-beats","username":"Jack
+        Beats","uri":"http://api.soundcloud.com/users/120252","permalink_url":"http://soundcloud.com/jack-beats","avatar_url":"http://i1.sndcdn.com/avatars-000000597346-wcazkv-large.jpg?2f6e0dc","country":"Britain
+        (UK)","full_name":"Jack Beats","city":"London","description":"JACK LOVES YOU\r\n\r\n*OUR
+        UPLOADED TRACKS ARE AVAILABLE TO PURCHASE ON ITUNES \u0026amp; BEATPORT- OUR
+        DJ MIXES ARE AVAILABLE TO DOWNLOAD FREE.","discogs_name":null,"myspace_name":"jackbeats","website":"http://www.jackbeats.co.uk","website_title":"Official
+        Website","online":true,"track_count":25,"playlist_count":3,"public_favorites_count":0,"followers_count":32386,"followings_count":0},{"id":80709,"kind":"user","permalink":"theinsound","username":"theinsound","uri":"http://api.soundcloud.com/users/80709","permalink_url":"http://soundcloud.com/theinsound","avatar_url":"http://i1.sndcdn.com/avatars-000000642324-0f79zw-large.jpg?2f6e0dc","country":"Australia","full_name":"The
+        In Sound From Way Out","city":"Sydney","description":"The In Sound From Way
+        Out is EMI Australia\u2019s official music and mp3 blog.\r\n\r\nAs far as
+        we can tell, we are the only major label with this level of openness about
+        who we are and what we do.  We hope you respond to that with openness of your
+        own. Written and curated by EMI staff, we post only the most interesting,
+        lively, original content to the blog. You can contact us directly with your
+        love/hate mail at www.theinsoundfromwayout.com/contact/\r\n\r\nWe\u2019d love
+        you to be a part of the community so if you\u2019re a fan or artist, make
+        sure drop us a comment or a link in the A\u0026R Drop Box.","discogs_name":null,"myspace_name":null,"website":"http://www.theinsoundfromwayout.com","website_title":null,"online":true,"track_count":332,"playlist_count":27,"public_favorites_count":10,"followers_count":997,"followings_count":20},{"id":50809,"kind":"user","permalink":"bart-b-more","username":"Bart
+        B More","uri":"http://api.soundcloud.com/users/50809","permalink_url":"http://soundcloud.com/bart-b-more","avatar_url":"http://i1.sndcdn.com/avatars-000007254225-pfnqbh-large.jpg?2f6e0dc","country":"Netherlands","full_name":"Bart  B
+        More","city":"Utrecht","description":"","discogs_name":null,"myspace_name":null,"website":"http://www.bartbmore.com","website_title":"Bart
+        B More official website","online":true,"track_count":33,"playlist_count":7,"public_favorites_count":2,"followers_count":27160,"followings_count":1},{"id":721057,"kind":"user","permalink":"jacquesgreene","username":"Jacques
+        Greene","uri":"http://api.soundcloud.com/users/721057","permalink_url":"http://soundcloud.com/jacquesgreene","avatar_url":"http://i1.sndcdn.com/avatars-000002649067-z3kxf0-large.jpg?2f6e0dc","country":"Canada","full_name":"Jacques
+        Greene","city":"House","description":"Dance music from Montreal, Canada\n-\neurope
+        bookings:\nPlease contact Ned at Littlebig Agency.\n\u003Ca href=\"mailto:ned@littlebig.org.uk\"
+        rel=\"nofollow\" target=\"_blank\"\u003Ened@littlebig.org.uk\u003C/a\u003E\n-\nnorth
+        american bookings:\nPlease contact Ryan at Bond Music Group.\n\u003Ca href=\"mailto:ryan@bondmusicgroup.com\"
+        rel=\"nofollow\" target=\"_blank\"\u003Eryan@bondmusicgroup.com\u003C/a\u003E\n-\nFor
+        stuff related to remixes/releases/etc, please contact Joe Coghill\n\u003Ca
+        href=\"mailto:joe@chrisandsimon.com\" rel=\"nofollow\" target=\"_blank\"\u003Ejoe@chrisandsimon.com\u003C/a\u003E\n-\nthanks
+        for listening\n\n","discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":true,"track_count":10,"playlist_count":0,"public_favorites_count":50,"followers_count":21191,"followings_count":171},{"id":876325,"kind":"user","permalink":"futurefunkradio","username":"GOLDRIVER","uri":"http://api.soundcloud.com/users/876325","permalink_url":"http://soundcloud.com/futurefunkradio","avatar_url":"http://i1.sndcdn.com/avatars-000001124254-yzf58p-large.jpg?2f6e0dc","country":"United
+        States","full_name":"Big Tunes","city":"New York","description":"","discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":true,"track_count":3,"playlist_count":1,"public_favorites_count":123,"followers_count":258,"followings_count":409},{"id":359445,"kind":"user","permalink":"arbutus-records","username":"Arbutus
+        Records","uri":"http://api.soundcloud.com/users/359445","permalink_url":"http://soundcloud.com/arbutus-records","avatar_url":"http://i1.sndcdn.com/avatars-000003178993-0p5m8a-large.jpg?2f6e0dc","country":"Canada","full_name":"","city":"Montreal","description":"An
+        independent label releasing homemade pop music in Montr\u00e9al, Canada.","discogs_name":null,"myspace_name":"arbutusrecords","website":"http://www.arbutusrecords.com","website_title":null,"online":true,"track_count":27,"playlist_count":1,"public_favorites_count":2,"followers_count":1794,"followings_count":9},{"id":54201,"kind":"user","permalink":"pinkganter","username":"Pink
+        Ganter","uri":"http://api.soundcloud.com/users/54201","permalink_url":"http://soundcloud.com/pinkganter","avatar_url":"http://i1.sndcdn.com/avatars-000013618960-4yilti-large.jpg?2f6e0dc","country":"Germany","full_name":"","city":"Mannheim","description":"","discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":true,"track_count":7,"playlist_count":1,"public_favorites_count":16,"followers_count":315,"followings_count":61},{"id":237084,"kind":"user","permalink":"meltingbot","username":"melting
+        bot","uri":"http://api.soundcloud.com/users/237084","permalink_url":"http://soundcloud.com/meltingbot","avatar_url":"http://i1.sndcdn.com/avatars-000012634589-92hooa-large.jpg?2f6e0dc","country":"Japan","full_name":"Shimpei
+        Kaiho","city":"Shibuya Tokyo","description":"International A\u0026R / buyer
+        running a label at Inpartmaint inc. Tokyo, Japan.\r\n\r\nworking as International
+        A\u0026R and Buyer with:\r\n\r\nPlanet Mu (UK)\r\nRAMP (UK)\r\nNight Slugs
+        (UK)\r\nOcean Moon (UK)\r\nRephlex (UK)\r\nGhost Box (UK)\r\nFaitiche (DE)\r\nBureau
+        B (DE)\r\n100% Silk (US)\r\nNot Not Fun (US)\r\nDiskotopia (JP)\r\nCuz Me
+        Pain (JP)\r\n\r\nfor License / Promotion / Distribution in Japan\r\n\r\nwww.meltingbot.net\r\n\r\n
+        \u25bd\u25b2\u25bd quest for the melting spot \u25bc\u25b3\u25bc\r\nLicensee
+        / Promoter / Distributor\r\nDIscography: http://www.subraw.net","discogs_name":null,"myspace_name":null,"website":"http://www.meltingbot.net","website_title":"melting
+        bot","online":true,"track_count":7,"playlist_count":133,"public_favorites_count":44,"followers_count":2256,"followings_count":51},{"id":12078,"kind":"user","permalink":"clockworkmusic","username":"ClockworkMusic","uri":"http://api.soundcloud.com/users/12078","permalink_url":"http://soundcloud.com/clockworkmusic","avatar_url":"http://i1.sndcdn.com/avatars-000010661693-nhkwb0-large.jpg?2f6e0dc","country":"United
+        States","full_name":"Henry Steinway","city":"New York","description":"North
+        American Bookings:\r\n\u003Ca href=\"mailto:Latane@windishagency.com\" rel=\"nofollow\"
+        target=\"_blank\"\u003E Latane@windishagency.com\u003C/a\u003E\r\n\r\nRest
+        Of World Bookings: \r\n\u003Ca href=\"mailto:cris@primarytalent.com\" rel=\"nofollow\"
+        target=\"_blank\"\u003E Cris@primarytalent.com\u003C/a\u003E\r\n\r\nManagement:\r\n\u003Ca
+        href=\"mailto:info@mixedmanagement.com\" rel=\"nofollow\" target=\"_blank\"\u003Einfo@mixedmanagement.com\u003C/a\u003E\r\n\r\nPromos/Misc.:\r\n\u003Ca
+        href=\"mailto:clockworkinfo@yahoo.com\" rel=\"nofollow\" target=\"_blank\"\u003Eclockworkinfo@yahoo.com\u003C/a\u003E\r\n\r\n///Out
+        Now///\r\n\r\nSquad Up EP- Clockwork [Dim Mak]\r\n\u003Ca href=\"http://www.beatport.com/release/squad-up-ep/877460\"
+        rel=\"nofollow\" target=\"_blank\"\u003Ehttp://www.beatport.com/release/squad-up-ep/877460\u003C/a\u003E\r\n\r\nBreaker
+        EP- Clockwork [Wearhouse Music]\r\n\u003Ca href=\"http://www.beatport.com/release/breaker-ep/397091\"
+        rel=\"nofollow\" target=\"_blank\"\u003Ehttp://www.beatport.com/release/breaker-ep/397091\u003C/a\u003E\r\n\r\nAYOO/Think
+        EP- Clockwork [DirtyNitrus]\r\n\u003Ca href=\"http://www.beatport.com/release/nitrus-x-gdd-presents-dirtynitrus001-clockwork-ayoo-think/374269\"
+        rel=\"nofollow\" target=\"_blank\"\u003Ehttp://www.beatport.com/release/nitrus-x-gdd-presents-dirtynitrus001-clockwork-ayoo-think/374269\u003C/a\u003E\r\n\r\nLos
+        Angeles-born, New York City-based DJ/Producer Clockwork is no stranger to
+        the world of electronic music. The young producer was one of the many 18 year
+        olds circulating the dance music blogospehere with various bootleg remixes.
+        But in 2011, armed with support and guidance from fellow young guns Felix
+        Cartal and AutoErotique, Clockwork emerged from the throng of bedroom producers.
+        His single \u201cSquad Up\u201d, an original track that was played out at
+        festivals around the world, quickly caught the attention of internationally
+        renowned DJ, and Dim Mak chief, Steve Aoki. Aoki signed Clockwork immediately,
+        making him the youngest artist ever signed to Dim Mak\u2019s prolific roster.
+        Since the signing, Clockwork has officially remixed work for artists across
+        the dance music spectrum, from Steve Aoki to Dimitri Vegas. His bootleg remix
+        of Avicii\u2019s notorious big room anthem \u201cLevels\u201d reached over
+        80,000 plays on Soundcloud, 2 million views on Youtube, and garnered international
+        radio play.\r\n\r\nClockwork\u2019s distinctive bass-heavy, big room sound
+        has helped him gain support from the likes of Tiesto, Steve Angello, Laidback
+        Luke, Steve Aoki, and everyone in between. His DJ sets are always as high
+        energy and innovative as his productions, helping earn him an upcoming international
+        tour as well as a spot on the line-up at the 2011 Hard Haunted Mansion Festival.
+        With 2011 emerged the unique, big-room sounds that define Clockwork, but it
+        truly is just the beginning. With a prolific propensity to create, a progressive
+        production style, and a genuine love for the performance, Clockwork\u2019s
+        future is looking bright.","discogs_name":null,"myspace_name":"clockworkhomie","website":null,"website_title":null,"online":true,"track_count":28,"playlist_count":3,"public_favorites_count":0,"followers_count":7375,"followings_count":0},{"id":2879548,"kind":"user","permalink":"jstnw","username":"jstreet","uri":"http://api.soundcloud.com/users/2879548","permalink_url":"http://soundcloud.com/jstnw","avatar_url":"http://i1.sndcdn.com/avatars-000006763043-urg7lt-large.jpg?2f6e0dc","country":"United
+        States","full_name":"Justin Street","city":"San Francisco","description":"I''m
+        a Business Developer on SoundCloud''s API Team. ","discogs_name":null,"myspace_name":null,"website":"http://justin.st","website_title":"the
+        personal blog of Justin W. Street","online":true,"track_count":42,"playlist_count":5,"public_favorites_count":378,"followers_count":477,"followings_count":432},{"id":4757531,"kind":"user","permalink":"prettylights","username":"Pretty
+        Lights","uri":"http://api.soundcloud.com/users/4757531","permalink_url":"http://soundcloud.com/prettylights","avatar_url":"http://i1.sndcdn.com/avatars-000003749039-ig894d-large.jpg?2f6e0dc","country":"United
+        States","full_name":"Derek Vincent Smith","city":"Denver","description":"Pretty
+        Lights is the musical vision of the ultra-versatile Colorado based producer
+        Derek Vincent Smith.\n\nAt a time when music lovers from almost all subcultures
+        and genres are finding common ground in the basic form of bangin'' beats,
+        Pretty Lights is giving the people what they want: electro organic cutting-edge
+        party rocking beats that fill venues with energy and emotion and send dance
+        floors into frenzies.","discogs_name":null,"myspace_name":"prettylights","website":"http://prettylightsmusic.com/","website_title":"Pretty
+        Lights Music","online":false,"track_count":120,"playlist_count":13,"public_favorites_count":0,"followers_count":22832,"followings_count":44},{"id":312963,"kind":"user","permalink":"flosstradamus","username":"Flosstradamus","uri":"http://api.soundcloud.com/users/312963","permalink_url":"http://soundcloud.com/flosstradamus","avatar_url":"http://i1.sndcdn.com/avatars-000016554967-lfpqof-large.jpg?2f6e0dc","country":"United
+        States","full_name":"J2K \u0026 Autobot","city":"Chicago","description":"RUN
+        THE TRAP","discogs_name":null,"myspace_name":null,"website":"http://flosstradamus.com","website_title":"flosstradamus.com","online":false,"track_count":18,"playlist_count":2,"public_favorites_count":22,"followers_count":11323,"followings_count":168},{"id":13632,"kind":"user","permalink":"discodust","username":"DISCODUST","uri":"http://api.soundcloud.com/users/13632","permalink_url":"http://soundcloud.com/discodust","avatar_url":"http://i1.sndcdn.com/avatars-000001737936-lllear-large.jpg?2f6e0dc","country":"Germany","full_name":"aleks
+        discodust","city":"FRANKFURT/MAIN","description":"","discogs_name":null,"myspace_name":null,"website":"http://discodust.blogspot.com/","website_title":null,"online":false,"track_count":28,"playlist_count":0,"public_favorites_count":6,"followers_count":6196,"followings_count":30},{"id":38691,"kind":"user","permalink":"alkalino","username":"Alkalino","uri":"http://api.soundcloud.com/users/38691","permalink_url":"http://soundcloud.com/alkalino","avatar_url":"http://i1.sndcdn.com/avatars-000013511208-15rdof-large.jpg?2f6e0dc","country":"Germany","full_name":"Munich","city":"Deep","description":"Soul,
+        Funk, Disco, House \u0026 Techno \n\nLisbon born DJ / Producer - Audaz digi
+        label. Much love vinyl / digital.\n\nPromos, Remixes and Bookings:  : adamant47@gmail.com\n\nResident
+        Advisor: \u003Ca href=\"http://www.residentadvisor.net/dj-page.aspx?id=5151\"\u003Ehttp://www.residentadvisor.net/dj-page.aspx?id=5151\u003C/a\u003E\n  \nFacebook
+        : \thttp://www.facebook.com/lino.rodrigues.polonio\n\nskype me : lino303\n\nTwitter
+        : https://twitter.com/Alkalino_74","discogs_name":"Alkalino","myspace_name":"linorodrigues","website":null,"website_title":null,"online":false,"track_count":70,"playlist_count":6,"public_favorites_count":938,"followers_count":7659,"followings_count":730},{"id":3907706,"kind":"user","permalink":"youth-lagoon","username":"Youth
+        Lagoon","uri":"http://api.soundcloud.com/users/3907706","permalink_url":"http://soundcloud.com/youth-lagoon","avatar_url":"http://i1.sndcdn.com/avatars-000003161995-t93hi6-large.jpg?2f6e0dc","country":"United
+        States","full_name":"Trevor Powers","city":"Boise","description":"label: Fat
+        Possum \n\nmanagement: matt@bantermm.com\n\nbooking:      kfrench@paradigmagency.com   /     Europe
+        : julesdelattre@theagencygroup.com\n\npress:  daniel@forcefieldpr.com","discogs_name":null,"myspace_name":null,"website":"http://www.youthlagoon.bandcamp.com","website_title":"","online":false,"track_count":1,"playlist_count":0,"public_favorites_count":0,"followers_count":34586,"followings_count":11},{"id":188783,"kind":"user","permalink":"aeroplane","username":"Aeroplane
+        (Official)","uri":"http://api.soundcloud.com/users/188783","permalink_url":"http://soundcloud.com/aeroplane","avatar_url":"http://i1.sndcdn.com/avatars-000001417692-nga1wp-large.jpg?2f6e0dc","country":"Belgium","full_name":"","city":"The
+        Sky","description":"www.aeroplanemusic.be\n\u2708 \u266b \u2665","discogs_name":"Aeroplane+(4)","myspace_name":"aeroplanemusiclove","website":"http://www.myspace.com/aeroplanemusiclove","website_title":null,"online":false,"track_count":40,"playlist_count":1,"public_favorites_count":9,"followers_count":56549,"followings_count":7},{"id":166962,"kind":"user","permalink":"inhead-kay","username":"Inhead-Kay","uri":"http://api.soundcloud.com/users/166962","permalink_url":"http://soundcloud.com/inhead-kay","avatar_url":"http://i1.sndcdn.com/avatars-000014600664-5orxkk-large.jpg?2f6e0dc","country":"Britain
+        (UK)","full_name":"Firas Kay","city":"London","description":"","discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":false,"track_count":18,"playlist_count":3,"public_favorites_count":129,"followers_count":1282,"followings_count":134},{"id":16730,"kind":"user","permalink":"diplo","username":"diplo","uri":"http://api.soundcloud.com/users/16730","permalink_url":"http://soundcloud.com/diplo","avatar_url":"http://i1.sndcdn.com/avatars-000006580018-8gxa4d-large.jpg?2f6e0dc","country":"United
+        States","full_name":"diplo","city":"Philadelphia","description":"hey I''m
+        diplo","discogs_name":null,"myspace_name":"diplo","website":"http://www.maddecent.com","website_title":"Mad
+        Decent","online":false,"track_count":81,"playlist_count":0,"public_favorites_count":1,"followers_count":158871,"followings_count":48},{"id":1358400,"kind":"user","permalink":"johnlegend","username":"johnlegend","uri":"http://api.soundcloud.com/users/1358400","permalink_url":"http://soundcloud.com/johnlegend","avatar_url":"http://i1.sndcdn.com/avatars-000009439930-pk5vb8-large.jpg?2f6e0dc","country":"United
+        States","full_name":"John Legend","city":"Brooklyn","description":null,"discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":false,"track_count":76,"playlist_count":4,"public_favorites_count":0,"followers_count":170455,"followings_count":0},{"id":102594,"kind":"user","permalink":"dominorecordco","username":"Domino
+        Record Co","uri":"http://api.soundcloud.com/users/102594","permalink_url":"http://soundcloud.com/dominorecordco","avatar_url":"http://i1.sndcdn.com/avatars-000000584933-5buci0-large.jpg?2f6e0dc","country":"Britain
+        (UK)","full_name":"Domino Recording Co","city":"London","description":null,"discogs_name":null,"myspace_name":"dominorecords","website":"http://www.dominorecordco.com","website_title":"dominorecordco.com","online":false,"track_count":62,"playlist_count":5,"public_favorites_count":9,"followers_count":109223,"followings_count":13},{"id":3900,"kind":"user","permalink":"gigamesh","username":"GIGAMESH","uri":"http://api.soundcloud.com/users/3900","permalink_url":"http://soundcloud.com/gigamesh","avatar_url":"http://i1.sndcdn.com/avatars-000014199999-wfzuhb-large.jpg?2f6e0dc","country":"United
+        States","full_name":"","city":"Minneapolis","description":"GIG\u00b7A\u00b7MESH
+        [gig-uh-mesh] \u2013n.\r\n\r\nLover of science and sound.   Multi-platinum
+        selling producer.   Several-time member of Hype Machine''s #1 position.  Producer
+        in Se\u00f1or Stereo \u0026 DiscoTech.  Disc jockey for hire.  \r\n\r\nDebut
+        self-titled EP out now!  \u003Ca href=\"http://itunes.apple.com/us/album/gigamesh-ep/id470147043\"\u003EiTunes\u003C/a\u003E,  \u003Ca
+        href=\"http://www.amazon.com/Gigamesh-EP/dp/B005SA82YS/ref=sr_1_4?ie=UTF8\u0026qid=1318978115\u0026sr=8-4\"\u003EAmazon\u003C/a\u003E,
+        \u003Ca href=\"http://www.juno.co.uk/products/gigamesh-ep/1840396-02/\"\u003EJuno\u003C/a\u003E\r\n\u003C!--
+        // MAILCHIMP SUBSCRIBE CODE \\\\ --\u003E\r\n\u003Ca href=\"http://eepurl.com/dKp0E\"\u003EMailing/Promo
+        List\u003C/a\u003E\r\n\u003C!-- \\\\ MAILCHIMP SUBSCRIBE CODE // --\u003E\r\nMANAGEMENT:
+        \r\ntravishayden [at] me [dot] com\r\n\r\nBOOKINGS:\r\nNorth America / Australia:    latane
+        [at] windishagency [dot] com\r\nUK/Europe:    alberto [at] elasticartists
+        [dot] net\r\nAsia:   priya [at] v-lla-ns [dot] com\r\n                          ","discogs_name":null,"myspace_name":null,"website":"http://www.gigameshmusic.com","website_title":"","online":false,"track_count":29,"playlist_count":1,"public_favorites_count":21,"followers_count":13547,"followings_count":227},{"id":493912,"kind":"user","permalink":"jokers-of-the-scene","username":"Jokers
+        of the Scene","uri":"http://api.soundcloud.com/users/493912","permalink_url":"http://soundcloud.com/jokers-of-the-scene","avatar_url":"http://i1.sndcdn.com/avatars-000008002700-6ipail-large.jpg?2f6e0dc","country":"Canada","full_name":"","city":"","description":"TECHNO
+        / SYNTH / NOISE\r\n\r\nEvery artist claims to defy categorization. Yet for
+        Jokers Of The Scene, it''s not a boast - it''s a lifestyle.\r\n\r\nFor the
+        past few years, Jokers Of The Scene have ranked amongst the brightest, weirdest
+        lights of Canada''s dance music renaissance. Between their Fool''s Gold originals
+        and their enviably deep remixography, the duo have passed on a \"signature
+        sound\" to craft an unpredictable approach that''s as cerebral as it is speaker-decimating.
+        \r\n\r\nWhether crafting epic, nine minute Salem remixes or raving out with
+        their own anthemic tracks like \u201cRevolting Joks\u201d and \u201cBaggy
+        Bottom Boys,\u201d Toronto duo Jokers Of The Scene have proven themselves
+        masters of electronic music in all its forms. Their latest project, the J0T5
+        EP, may prove their most expansive yet, as Linus Booth and Chris Macintyre
+        have created music perfect for home listening and strobe-lit warehouses alike.\r\n\r\nThe
+        five tracks on J0T5 pulsate through ambient synth excursions, vintage sci-fi
+        soundtracks, and experimental techno, somehow managing to connect the dots
+        along the way. Equally diverse is the accompanying J0T5 RMXD EP.  Here, the
+        duo\u2019s peers and contemporaries like Daniel Avery (aka Stopmakingme),
+        Shadow Dancer (BNR), Hrdvsion (Wagon Repair), Savile \u0026 Olin, Cosmic Kids
+        (Throne Of Blood), Gingy \u0026 Bordello (Turbo) and Babe Rainbow (Warp) each
+        take turns driving the Jokers\u2019 new material into new and unexpected directions.\r\n\r\nKeep
+        your antennae locked in to JOTS'' wavelength for whatever surprise comes next...
+        \r\n","discogs_name":"Jokers+of+the+Scene","myspace_name":null,"website":"http://www.foolsgoldrecs.com/artists/jokers-of-the-scene/","website_title":"Fool''s
+        Gold Artist Page","online":false,"track_count":45,"playlist_count":2,"public_favorites_count":324,"followers_count":6507,"followings_count":781},{"id":222324,"kind":"user","permalink":"a-trak","username":"A-Trak","uri":"http://api.soundcloud.com/users/222324","permalink_url":"http://soundcloud.com/a-trak","avatar_url":"http://i1.sndcdn.com/avatars-000005662116-ph9x6t-large.jpg?2f6e0dc","country":"United
+        States","full_name":"A-Trak","city":"New York","description":"www.djatrak.com\r\nwww.foolsgoldrecs.com","discogs_name":null,"myspace_name":"atrak","website":"http://www.djatrak.com","website_title":"Website","online":false,"track_count":34,"playlist_count":1,"public_favorites_count":0,"followers_count":131704,"followings_count":62},{"id":14801,"kind":"user","permalink":"brosafari","username":"BRO
+        SAFARI","uri":"http://api.soundcloud.com/users/14801","permalink_url":"http://soundcloud.com/brosafari","avatar_url":"http://i1.sndcdn.com/avatars-000010296974-f8kd03-large.jpg?2f6e0dc","country":"United
+        States","full_name":"BRO SAFARI","city":"TEXAS","description":"BOOKINGS: Ben@CircleTalentAgency.com
+        \n\nTOUR DATES:\nJune 8th - NYC - Webster Hall\nJune 9th - Bmore - Starscape
+        Festival\nJune 21st - DC - Uhall\nJune 22nd - ATL - Quad\nJune 23rd - Ft.
+        Lauderdale - TBA\nJuly 7th - Toronto - SLOWED \nJuly 27th - Florida - Tampa\nJuly
+        28th - TBA\nJuly 29th - San Diego - TBA\n\nBIO:\nBro Safari is the alter-ego
+        of DJ and producer, Knick. He''s already well-known and deeply established
+        in the music scene as a result of his work with leading American Drum \u0026
+        Bass group Evol Intent. Not to mention, his wildly popular output as 1/2 of
+        the genre-bending mash-up duo,  Ludachrist. \n\nWhile his production work
+        spans the entire spectrum of bass music, Bro Safari has been relentless at
+        pushing his unique take on the burgeoning Moombahton movement. As a result,
+        Bro Safari is currently ushering in a wave of listeners to the genre and he
+        is set to be an early champion of this new scene.","discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":false,"track_count":29,"playlist_count":3,"public_favorites_count":64,"followers_count":8802,"followings_count":123},{"id":94893,"kind":"user","permalink":"congorock","username":"Congorock","uri":"http://api.soundcloud.com/users/94893","permalink_url":"http://soundcloud.com/congorock","avatar_url":"http://i1.sndcdn.com/avatars-000000725391-n20o6p-large.jpg?2f6e0dc","country":"Italy","full_name":"Rocco
+        Rampino","city":"Los Angeles \u003C \u003E Lecce","description":"","discogs_name":null,"myspace_name":null,"website":"http://www.congorock.com","website_title":"","online":false,"track_count":18,"playlist_count":1,"public_favorites_count":23,"followers_count":22034,"followings_count":100},{"id":169233,"kind":"user","permalink":"djshadow","username":"djshadow","uri":"http://api.soundcloud.com/users/169233","permalink_url":"http://soundcloud.com/djshadow","avatar_url":"http://i1.sndcdn.com/avatars-000006905822-zlkb3e-large.jpg?2f6e0dc","country":"United
+        States","full_name":"DJ Shadow","city":"San Francisco","description":"","discogs_name":null,"myspace_name":"djshadow","website":"http://djshadow.com","website_title":null,"online":false,"track_count":72,"playlist_count":3,"public_favorites_count":1,"followers_count":144530,"followings_count":3},{"id":1316565,"kind":"user","permalink":"themagician","username":"TheMagician","uri":"http://api.soundcloud.com/users/1316565","permalink_url":"http://soundcloud.com/themagician","avatar_url":"http://i1.sndcdn.com/avatars-000012426181-22lleq-large.jpg?2f6e0dc","country":"Fiji","full_name":"","city":"","description":"\u2606
+        PRESS, MUSIC \u2606\r\n\r\ninfo@the-magician.be\r\n\r\n\r\n\r\n\r\n\u2606
+        BOOKINGS \u2606\r\n\r\nWorld :\r\nmartje@decked-out.co.uk\r\n\r\n\r\nUsa \u0026
+        Canada :\r\nbrad@windishagency.com\r\n\r\n\r\n\r\n\u2606 UPCOMING SHOWS \u2606\r\n\r\n20/06
+        : U Hall // Washington DC // Usa\r\n21/06 : Blockley // Philadelphia // Usa\r\n22/06
+        : The Mid // Chicago // Usa\r\n23/06 : Le Poisson Rouge // New York // Usa\r\n29/06
+        : Ushuaia Beach Hotel // Ibiza // Spain\r\n06/07 : Les Ardentes // Liege //
+        Belgium\r\n07/07 : Kitsun\u00e9 @ Club Wanderlust // Paris // France\r\n10/07
+        : Calvi On The Rocks (Peter \u0026 The Magician) // Calvi // France\r\n13/07
+        : Vrij Festival // Amsterdam // Netherlands\r\n14/07 : Sala Heineken // Madrid
+        // Spain\r\n20/07 : Sporting Club // Beirut // Lebanon\r\n23/07 : 10 Days
+        Off // Ghent // Belgium\r\n27/07 : F12 Terrassen // Stockholm // Sweden\r\n28/07
+        : Scandalism @ Xoyo // London // Uk\r\n31/07 : Together @ Amnesia // Ibiza
+        // Spain\r\n04/08 : Lokerste Feesten // Lokeren // Belgium\r\n11/08 : Blok
+        // Z\u00fcrich // Switzerland\r\n21/08 : Sea Lounge // Porto Vecchio // France\r\n24/08
+        : Feest In Het Park // Oudenaarde // Belgium\r\n25/08 : Houza Palooza // Bree
+        // Belgium\r\n01/09 : Valtifest // Amsterdam\r\n07/09 : Social Club // Paris
+        // France\r\n08/09 : Melt Festival // Berlin // Germany\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n","discogs_name":null,"myspace_name":null,"website":"http://www.the-magician.be","website_title":null,"online":false,"track_count":42,"playlist_count":2,"public_favorites_count":4,"followers_count":31287,"followings_count":24},{"id":132582,"kind":"user","permalink":"fever-ray","username":"Fever
+        Ray","uri":"http://api.soundcloud.com/users/132582","permalink_url":"http://soundcloud.com/fever-ray","avatar_url":"http://i1.sndcdn.com/avatars-000001632963-qcm3a7-large.jpg?2f6e0dc","country":"Sweden","full_name":"Fever
+        Ray","city":"Stockholm","description":"","discogs_name":null,"myspace_name":"feverray","website":"http://feverray.com","website_title":"Feverray.com","online":false,"track_count":27,"playlist_count":3,"public_favorites_count":1,"followers_count":69698,"followings_count":0},{"id":375,"kind":"user","permalink":"futureclassic","username":"future
+        classic","uri":"http://api.soundcloud.com/users/375","permalink_url":"http://soundcloud.com/futureclassic","avatar_url":"http://i1.sndcdn.com/avatars-000000626874-7m6d4s-large.jpg?2f6e0dc","country":"Australia","full_name":"Future
+        Classic","city":"Sydney","description":"Future Classic is a record label born
+        and run in Sydney, Australia. Though this northern hemisphere summer they''ll
+        also have a base in Europe!\r\n\r\nFuture Classic have released cult records
+        by artists including New Navy, Mario \u0026 Vidis, Poolside, Flight Facilities,
+        Luke Million, Softwar, Mitzi, Flume, Joakim, Cadillac and Jeremy Glenn to
+        name a few; enlisted the talents of Soul Clap, Will Saul, The Revenge, Jacques
+        Renault, John Talabot, Alex Barck and Andre Lodemann for remixes; and toured
+        artists down under including Sebastien Tellier, Mount Kimbie, Tensnake, Little
+        Dragon, Henrik Schwarz, Classixx, DJ Koze and many more. They also run a pink
+        themed club night called Adult Disco. \r\n\r\n\u2026stay tuned for new music
+        by Gung Ho, Flume, Mitzi, Tigerskin, Soul Clap, DJ T, Perseus, New Navy, Shlohmo,
+        Anna Lunoe, Nitetime, Midland, Flight Facilities, MAM, David August, Woolfy,
+        Danny Daze and loads more!","discogs_name":"futureclassic","myspace_name":null,"website":"http://www.futureclassic.com.au","website_title":"","online":false,"track_count":600,"playlist_count":65,"public_favorites_count":52,"followers_count":22524,"followings_count":428},{"id":421873,"kind":"user","permalink":"m83","username":"M83","uri":"http://api.soundcloud.com/users/421873","permalink_url":"http://soundcloud.com/m83","avatar_url":"http://i1.sndcdn.com/avatars-000004859727-nowtuo-large.jpg?2f6e0dc","country":"France","full_name":"Anthony
+        Gonzales","city":"Antibes","description":"Official SoundCloud profile of M83
+        aka Anthony Gonzalez. The new album ''Hurry Up, We''re Dreaming'' is out in
+        October, download the first track ''Midnight City'' fre at http://ilovem83.com\n","discogs_name":null,"myspace_name":null,"website":"http://ilovem83.com","website_title":"Official
+        Website - Free Download","online":false,"track_count":9,"playlist_count":1,"public_favorites_count":10,"followers_count":95426,"followings_count":5},{"id":390807,"kind":"user","permalink":"gramophonedzie","username":"Gramophonedzie","uri":"http://api.soundcloud.com/users/390807","permalink_url":"http://soundcloud.com/gramophonedzie","avatar_url":"http://i1.sndcdn.com/avatars-000006572822-65maf0-large.jpg?2f6e0dc","country":"Serbia","full_name":"Marko
+        Milicevic","city":"Belgrade","description":"Gramophonedzie\r\n\r\nMarko Milicevic
+        is Gramophonedzie :  the MTV award winning Serbian superstar who is currently
+        riding a serious wave following a remarkable breakthrough year in 2010. From
+        his hometown of Belgrade, he has forged a loyal worldwide following for his
+        distinctive productions and performances. \r\n\r\nWith his roots spanning
+        a wide musical spectrum and a deep passion for funky music, live instruments
+        and intensive vocals, production career began in 2000 when he was selected
+        to study at the Red Bull Music Academy in Ireland. He subsequently completed
+        a degree in Sound Design at Belgrade University and went onto produce soundtracks
+        for a number of commercials, films and television as well as producing for
+        several Serbian bands.\r\n\r\nGramophonedzie is best known for his smash hit
+        release \u2018Why Don\u2019t You\u2019 \u2013 a jackin\u2019 house track that
+        sampled Peggy Lee\u2019s swing standard \u2018Why Don\u2019t You Do Right\u2019.
+        Initially signed to Guesthouse before being licensed to Positiva, \u2018Why
+        Don\u2019t You\u2019 was one of the biggest club records of 2009 receiving
+        widespread club support from the likes of Erick Morillo and Steve Angello
+        to Dennis Ferrer and Louie Vega. It also received major radio support right
+        across Europe with Giles Peterson (Radio 1) naming it his track of of the
+        year. Upon being licensed to Postiva in early 2010, \u2018Why Don\u2019t You\u2019
+        went onto hit #12 in the UK Sales Chart on its first week of release and remained
+        in the Top 20 for several weeks. It also achieved major success throughout
+        Europe hitting #7 and #13 in the Belgian and Dutch Sales Charts respectively
+        . \u2018Why Don\u2019t You\u2019 has received in excess of 8,500,000 views
+        on YouTube, continues to enjoy widespread international airplay across both
+        TV and radio and remains a featured single in the i-Tunes \u2018Dance\u2019
+        Chart.\r\n\r\nIn addition to \u2018Why Don\u2019t You\u2019, Marko has built
+        an extensive discography of productions and remixes under the Gramophonedzie
+        pseudonym on labels such as Gotta Keep Faith, Yazuka, Guesthouse, Nocturnal
+        Groove, Oxyd, Shak Digital and his own Disko Zoo imprint. His latest single
+        releases \u2013 \u2018Brazilian\u2019 (Nocturnal Groove) and \u2018Outta My
+        Head\u2019 (Oxyd) \u2013 have both gained widespread club support from a range
+        of leading tastemakers, been the subject of fierce licensing interest and
+        featured extensively in the Beatport download charts. From a remix perspective,
+        Marko has given the Gramophonedzie treatment to artists such as DJ Sneak (\u2018Cant
+        Hide From My Bud\u2019), Mange Le Funk (\u2018I Still Want You\u2019), Professor
+        Green (\u2018I Need You Tonight\u2019) and Doman \u0026 Gooding (\u2018Pacific
+        State\u2019) while most recently he has remixed The Muthfankas (\u2018Gotta
+        Hold On Me\u2019) and Kraak \u0026 Smaak (\u2018Calling Up\u2019). With a
+        string of further releases lined up for 2011 and a new collaboration with
+        Joey Negro forthcoming on Z Records it looks like Gramophonedzie will be keeping
+        up the pressure.\r\n\r\nGramophonedzie has recently been voted \u2018Best
+        Adria Act\u2019 during the 2010 MTV European Music Awards and was additionally
+        nominated in the \u2018Best European Act\u2019 category alongside artists
+        such as Enrique Inglesias, Swedish House Mafia and Marina \u0026 The Diamonds.  As
+        a DJ, Marko tours internationally and has a dedicated dance floor congregation
+        across the globe. In the last 12 months he has toured extensively throughout
+        Europe as well as playing across Australia, Brazil and the U.S. and rocking
+        dance floors in destinations such as Dubai, Russia and Indonesia. With his
+        proven record, a full touring schedule and a host of new productions ready
+        to drop, 2011 looks set to be another big year for Gramophonedzie.","discogs_name":null,"myspace_name":"gramophonedzie","website":"http://gramophonedzie.com","website_title":"Gramophonedzie","online":false,"track_count":33,"playlist_count":2,"public_favorites_count":1,"followers_count":8867,"followings_count":41},{"id":31037,"kind":"user","permalink":"dondiablo","username":"Don
+        Diablo","uri":"http://api.soundcloud.com/users/31037","permalink_url":"http://soundcloud.com/dondiablo","avatar_url":"http://i1.sndcdn.com/avatars-000012894033-6wzehm-large.jpg?2f6e0dc","country":"Netherlands","full_name":"Don
+        Diablo","city":"Amsterdam","description":"I make music. I play music and I
+        might have killed a man in a past life. Oh and I like desserts. I am Don Diablo.","discogs_name":null,"myspace_name":null,"website":"http://www.dondiablo.com","website_title":"","online":false,"track_count":100,"playlist_count":5,"public_favorites_count":6,"followers_count":9658,"followings_count":17},{"id":14730,"kind":"user","permalink":"maddecent","username":"Mad
+        Decent","uri":"http://api.soundcloud.com/users/14730","permalink_url":"http://soundcloud.com/maddecent","avatar_url":"http://i1.sndcdn.com/avatars-000011540326-y85ixd-large.jpg?2f6e0dc","country":"United
+        States","full_name":"Maddecent.com","city":"Los Angeles","description":"Mad
+        Decent is the name of the Los Angeles via Philly based record label spearheaded
+        by Wesley Pentz, whose better known as Diplo, the 2x Grammy-nominated producer
+        and  one half of Major Lazer. As an influential label that\u2019s home to
+        Rusko, Dillon Francis, Crookers, Bosco Delrey (to name a few), Mad Decent
+        aims to bring new genres and cultures to light in the ever diversifying music
+        community. Aside from the music released, Mad Decent is also known for its
+        annual Block Parties, a series of free outdoor dance party/concerts in select
+        cities namely Philadelphia, New York, Chicago, and Los Angeles.","discogs_name":null,"myspace_name":"maddecent","website":"http://www.maddecent.com","website_title":"","online":false,"track_count":197,"playlist_count":28,"public_favorites_count":47,"followers_count":59515,"followings_count":37},{"id":1075939,"kind":"user","permalink":"tittsworth","username":"Tittsworth","uri":"http://api.soundcloud.com/users/1075939","permalink_url":"http://soundcloud.com/tittsworth","avatar_url":"http://i1.sndcdn.com/avatars-000001277286-0ved75-large.jpg?2f6e0dc","country":"United
+        States","full_name":"Jesse Tittsworth","city":"Washington DC","description":"TITTSWORTH.COM\n\nWhether
+        deck or dinner plate, \nTittsworth''s insatiable hunger\nquestionably devours
+        whatever is put in front of him. The Chinese-American carnivore from Washington
+        D.C. almost immediately leap-frogged from local favorite to international
+        DJ headliner,\nquickly taking part in mammoth festivals such as the annual
+        40,000 person Good Vibrations Festival (with Kanye West, Cypress Hill, The
+        Rapture) and Electron Festival in Geneva (Boy 8-Bit, Jack Beats,\nA-Trak).He
+        regularly plays alongside industry heavyweights like Moby and Benny Benassi
+        and recently headlined his own Scion national tour.\n\nAs a producer, Tittsworth
+        fields remix offers from artists and labels as varied as his appetite.Artists
+        such as disco legend Grace Jones, DNB front runner Subfocus, and Steve Aoki;
+        labels like Ministry of\nSound and Interscope Records.Kid Sister and Fatboy
+        Slim both chart his material and Radio One regularly plays his tunes. Pitbull
+        and Nina Sky both made appearances on his 2008 debut album 12 Steps (released
+        on Stretch Armstrong\u2019s Plant Music), critically acclaimed by\nBillboard,
+        DJ Mag, and URB.Currently working on album number two,\nTittsworth\u2019s
+        studio time is shared with the likes of Q-Tip and Maluca.\nMusically inclined
+        and business minded, Tittsworth established his own\nrecord label T\u0026amp;A
+        (with DJ Ayres) in 2006. Last year, Tittsworth expanded his business interests
+        even further and opened U Street Music Hall, a world-class night club with
+        an ever-present line for sold-out shows. Called the \u201cFabric of the US\u201d
+        by DJ Craze, U Hall boasts a\nsound system to rattle not just ears but eyeballs\n(http://www.youtube.com/watch?v=PYUARyQfWLA).\n\nTittsworth
+        is not only known for his talent in music and commerce, but\nalso by his amazing
+        palette for strange foods. His favorite and most\nmemorable dish is live octopus.
+        Tittsworth has harnessed the powers of\nthese mighty sea beasts for the good
+        of humanity, and consumes them\none at a time... ALIVE (http://www.youtube.com/watch?v=QyjzIFNbn20)\n\n","discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":false,"track_count":20,"playlist_count":2,"public_favorites_count":1,"followers_count":2584,"followings_count":57},{"id":141790,"kind":"user","permalink":"inthewoodsny","username":"In
+        The Woods*","uri":"http://api.soundcloud.com/users/141790","permalink_url":"http://soundcloud.com/inthewoodsny","avatar_url":"http://i1.sndcdn.com/avatars-000014263678-bszrza-large.jpg?2f6e0dc","country":"United
+        States","full_name":"","city":"New York City","description":"In The Woods:\r\n\r\nFrom
+        an idea to a painting, from a painting to a logo\u2026 In The Woods formed
+        organically over the course of a hot NY summer in 2011. We are a conduit for
+        music with no boundaries: samples, edits, originals and everything in between.
+        With no A\u0026R restrictions, we set out to promote music of like-minded
+        producers who understand the ethos that the deeper the rhythm, the better.
+        This is music based on a groove, a feeling you get when your head sways back
+        and forth like a tree in the woods. \r\n\r\n*The label is not accepting demos
+        at this time*\r\n\r\n_______________________________________\r\n\r\n\r\nEmail:
+        msquaredcreative@gmail.com","discogs_name":null,"myspace_name":null,"website":"http://inthewoodsny.com/","website_title":"In
+        The Woods","online":false,"track_count":47,"playlist_count":10,"public_favorites_count":1073,"followers_count":5031,"followings_count":336},{"id":4591808,"kind":"user","permalink":"skiztherapper","username":"SkizTheRapper","uri":"http://api.soundcloud.com/users/4591808","permalink_url":"http://soundcloud.com/skiztherapper","avatar_url":"http://i1.sndcdn.com/avatars-000005527696-lpjliv-large.jpg?2f6e0dc","country":"United
+        States","full_name":"Skizzy Mars","city":"New York","description":null,"discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":false,"track_count":10,"playlist_count":0,"public_favorites_count":0,"followers_count":1296,"followings_count":0},{"id":45715,"kind":"user","permalink":"felixcartal","username":"FELIX
+        CARTAL","uri":"http://api.soundcloud.com/users/45715","permalink_url":"http://soundcloud.com/felixcartal","avatar_url":"http://i1.sndcdn.com/avatars-000001795812-noes3t-large.jpg?2f6e0dc","country":"Canada","full_name":"Felix  Cartal","city":"Vancouver","description":"All
+        sorts of music maker.","discogs_name":null,"myspace_name":"felixcartal","website":"http://felixcartal.com/","website_title":"felixcartal.com","online":false,"track_count":69,"playlist_count":13,"public_favorites_count":1,"followers_count":25654,"followings_count":0},{"id":903649,"kind":"user","permalink":"snoopdogg","username":"Snoop
+        Dogg","uri":"http://api.soundcloud.com/users/903649","permalink_url":"http://soundcloud.com/snoopdogg","avatar_url":"http://i1.sndcdn.com/avatars-000011739251-zn8g8l-large.jpg?2f6e0dc","country":"United
+        States","full_name":"Snoop Dogg","city":"Los Angeles","description":"Snoop
+        Dogg''s Official SoundCloud\n\nSubmit Your Music To Snoop Dogg @ snoopdoggsoundcloud@gmail.com\n\nMake
+        sure to include:\nYour Name\nSong Name \u0026 Title\nEmail address\nPhone
+        Number","discogs_name":null,"myspace_name":null,"website":"http://snoopdogg.com","website_title":"SnoopDogg.com","online":false,"track_count":249,"playlist_count":7,"public_favorites_count":371,"followers_count":155570,"followings_count":110},{"id":527845,"kind":"user","permalink":"subpop","username":"subpop","uri":"http://api.soundcloud.com/users/527845","permalink_url":"http://soundcloud.com/subpop","avatar_url":"http://i1.sndcdn.com/avatars-000001573218-k3suh1-large.jpg?2f6e0dc","country":"United
+        States","full_name":"Sub Pop Records","city":"Seattle","description":"","discogs_name":null,"myspace_name":null,"website":"http://www.subpop.com","website_title":null,"online":false,"track_count":703,"playlist_count":28,"public_favorites_count":0,"followers_count":121441,"followings_count":2},{"id":1570159,"kind":"user","permalink":"lykkeli","username":"LykkeLi","uri":"http://api.soundcloud.com/users/1570159","permalink_url":"http://soundcloud.com/lykkeli","avatar_url":"http://i1.sndcdn.com/avatars-000002399644-rcj5b8-large.jpg?2f6e0dc","country":null,"full_name":"","city":"","description":"Li
+        Lykke Timotej Zachrisson (born 18 March 1986), better known by her stage name
+        Lykke Li, is a Swedish singer-songwriter. Her music often blends elements
+        of pop, indie rock and electronic; various instruments can also be found in
+        her songs, including violins, synthesizers, tambourines, trumpets, saxophones
+        and cellos.","discogs_name":null,"myspace_name":"lykkeli","website":"http://www.lykkeli.com/","website_title":"","online":false,"track_count":41,"playlist_count":8,"public_favorites_count":0,"followers_count":125694,"followings_count":0},{"id":205087,"kind":"user","permalink":"yolandabecool","username":"yolandabecool","uri":"http://api.soundcloud.com/users/205087","permalink_url":"http://soundcloud.com/yolandabecool","avatar_url":"http://i1.sndcdn.com/avatars-000000701785-8bj6db-large.jpg?2f6e0dc","country":"Australia","full_name":"Yolanda
+        Be Cool","city":"Bondi ","description":null,"discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":false,"track_count":9,"playlist_count":1,"public_favorites_count":0,"followers_count":3671,"followings_count":42},{"id":294560,"kind":"user","permalink":"midnightsavari","username":"Midnight
+        Savari","uri":"http://api.soundcloud.com/users/294560","permalink_url":"http://soundcloud.com/midnightsavari","avatar_url":"http://i1.sndcdn.com/avatars-000004706981-idumrx-large.jpg?2f6e0dc","country":"Australia","full_name":"","city":"Perth/Jakarta","description":"aye","discogs_name":"Midnight+Savari","myspace_name":"midnightsavari","website":null,"website_title":null,"online":false,"track_count":18,"playlist_count":4,"public_favorites_count":29,"followers_count":2468,"followings_count":66},{"id":349011,"kind":"user","permalink":"annie-mac-presents","username":"Annie
+        Mac Presents","uri":"http://api.soundcloud.com/users/349011","permalink_url":"http://soundcloud.com/annie-mac-presents","avatar_url":"http://i1.sndcdn.com/avatars-000012589038-a3bak5-large.jpg?2f6e0dc","country":"Britain
+        (UK)","full_name":"","city":"London","description":"","discogs_name":null,"myspace_name":"anniemac16","website":"http://www.anniemacpresents.com","website_title":"Annie
+        Mac Presents ","online":false,"track_count":78,"playlist_count":1,"public_favorites_count":0,"followers_count":19810,"followings_count":7},{"id":831847,"kind":"user","permalink":"brodinskiofficial","username":"Brodinski","uri":"http://api.soundcloud.com/users/831847","permalink_url":"http://soundcloud.com/brodinskiofficial","avatar_url":"http://i1.sndcdn.com/avatars-000011855064-93gnq4-large.jpg?2f6e0dc","country":"France","full_name":"Louis
+        Brodinski","city":"Reims x Paris x Los Angeles","description":"CREATION /
+        DEMOLITION","discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":false,"track_count":11,"playlist_count":0,"public_favorites_count":10,"followers_count":12958,"followings_count":13},{"id":563936,"kind":"user","permalink":"bloodorange","username":"Blood
+        Orange","uri":"http://api.soundcloud.com/users/563936","permalink_url":"http://soundcloud.com/bloodorange","avatar_url":"http://i1.sndcdn.com/avatars-000010590725-97xnxw-large.jpg?2f6e0dc","country":"United
+        States","full_name":"Devont\u00e9 Hynes","city":"New York","description":"","discogs_name":null,"myspace_name":"bloodorangeforever","website":null,"website_title":null,"online":false,"track_count":5,"playlist_count":0,"public_favorites_count":0,"followers_count":2599,"followings_count":5},{"id":121255,"kind":"user","permalink":"beataucue","username":"BeatauCue","uri":"http://api.soundcloud.com/users/121255","permalink_url":"http://soundcloud.com/beataucue","avatar_url":"http://i1.sndcdn.com/avatars-000006432364-szfqsb-large.jpg?2f6e0dc","country":"France","full_name":"","city":"Caen","description":"\u003Cb\u003EMANAGEMENT\u003C/b\u003E\r\nivan@hedoprod.com\r\n\r\n\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\r\n\r\n\u003Cb\u003EBOOKING\u003C/b\u003E\r\n\r\n\u003Cb\u003E\u003Ci\u003EWorlwide\u003C/b\u003E\u003C/i\u003E\r\ndavid@savoirfairecie.com\r\n\r\n\u003Cb\u003E\u003Ci\u003ENorth
+        + South America\u003C/b\u003E\u003C/i\u003E\r\nbojan@windishagency.com\r\n\r\n\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\r\n\r\n\u003Cb\u003EPROMOS\u003C/b\u003E\r\npromo@beataucue.com\r\n\r\n\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\r\n\r\n\u003Ci\u003EWe''re
+        Alexis and Mederic, together known as BeatauCue, french electronic music duo
+        from Caen, France.\u003C/i\u003E","discogs_name":null,"myspace_name":"beataucue","website":null,"website_title":null,"online":false,"track_count":70,"playlist_count":7,"public_favorites_count":0,"followers_count":13566,"followings_count":0},{"id":33059,"kind":"user","permalink":"pirupa","username":"Pirupa
+        (official profile)","uri":"http://api.soundcloud.com/users/33059","permalink_url":"http://soundcloud.com/pirupa","avatar_url":"http://i1.sndcdn.com/avatars-000013747456-tmu6pf-large.jpg?2f6e0dc","country":"Italy","full_name":"Piero
+        Pirupa","city":"","description":"What Pirupa has accomplished in 2 years is
+        astounding and this is just the tip of the iceberg, making him one of the
+        producers and DJs you have to watch. \nA talented DJ/producer from Italy,
+        Pirupa has recently separated himself from the pack of successful producers
+        by topping beatport''s charts with his last releases. Now with two of the
+        most downloaded tracks on Beatport \"Sweet Devil\" in 2009 , \"Get Funky\"
+        in 2010 and \"Party Non Stop\" in 2012, the sky''s the limit for this relentless
+        talent from the small peninsula.\nReleased on impressive (well known) dance
+        record labels in the world (Defected, Desolat, C\u00e8cille, Viva Music, Saved,
+        Noir Music, Audio Therapy, Rebirth, Cr2, Snatch! Records, Suara, Stereo and
+        Size Records to name few) Pirupa has recently remixed Sharam and the legendary
+        Jamiroquai for Universal, more than Westboy, Riva Starr, NiCe7, Luca Agnelli,
+        Pitto, Tube \u0026 Berger and Marascia among others.\nPirupa has accomplished
+        this in a short period of time, building a reputation that takes most artists
+        a lifetime to achieve. A feat like this can cause some people to sit back,
+        relax, and acknowledge their own success but this has only caused Pirupa to
+        work harder with new hot releases!\nHis success in the studio led to rank
+        at  #11 in the Top100 Most Charted Artists of 2010 on Resident Advisor and
+        has landed Pirupa gigs at some of the most prestigious clubs in the world,
+        gracing the decks of many leading venues such as:\nSpace (Ibiza), Ministry
+        Of Sound (London) Pacha (New York), Cielo (New York), D-Edge (Sao Paulo),
+        La Kasa (Medellin), Nocturnal (Miami), Electric Pickle (Miami), Footwork (Toronto),
+        Mint (Leeds), Mynt (Belfast), Culture Box (Copenaghen), Warehouse (Birmingham),
+        Armani Club (Dubai), Cocoric\u00f2, Eliptica (Cali) , The End (Bogota), Echoes,
+        Vola afc, Kindergarten, Prince, Folies de Pigalle...\n...and festivals like:\nSonar
+        (Barcelona), Kazantip (Ukraina) and Surround Festival.\nHe has played alongside
+        legends such as Pete Tong, Steve Lawler, Dj Vibe, Chus\u0026Ceballos, Paul
+        Woolford, Sander Kleinenberg, Nick Curly, Smokin Jo and many more.\nPirupa\u2019s
+        tracks are regularly supported and played by Pete Tong, Luciano, Carl Cox,
+        Richie Hawtin, Paul Van Dyk, Loco Dice, Marco Carola, Danny Tenaglia, Dubfire,
+        Nick Curly, Erick Morillo, Mathias Tanzmann, Steve Lawler, Nic Fanciulli,
+        James Zabiela, Mark Knight, Riva Starr to name a few.\n\nManagement:\nMichele
+        @ Snatch!\n\u003Ca href=\"mailto:michele@snatchrecords.com\" rel=\"nofollow\"
+        target=\"_blank\"\u003Emichele@snatchrecords.com\u003C/a\u003E\n\nBookings
+        World:\n\ninfo@pirupa.com\n\nAlex @ Stop Booking\n\u003Ca href=\"mailto:alex@stopbooking.com\"
+        rel=\"nofollow\" target=\"_blank\"\u003Ealex@stopbooking.com\u003C/a\u003E\n\nBookings
+        Italy:\nMarco @ Stop Booking\n\u003Ca href=\"mailto:info@stopbooking.com\"
+        rel=\"nofollow\" target=\"_blank\"\u003Einfo@stopbooking.com\u003C/a\u003E","discogs_name":"Pirupa","myspace_name":"pirupa","website":"http://www.pirupa.com","website_title":"","online":false,"track_count":37,"playlist_count":5,"public_favorites_count":1,"followers_count":9540,"followings_count":330},{"id":580750,"kind":"user","permalink":"thec90s-1","username":"TheC90s","uri":"http://api.soundcloud.com/users/580750","permalink_url":"http://soundcloud.com/thec90s-1","avatar_url":"http://i1.sndcdn.com/avatars-000007440708-eb3etr-large.jpg?2f6e0dc","country":"Britain
+        (UK)","full_name":"The C90s","city":"London","description":"Two buddies making
+        music.\n\nMANAGEMENT: \u003Ca href=\"mailto:theboysmgmt@gmail.com\" rel=\"nofollow\"
+        target=\"_blank\"\u003Etheboysmgmt@gmail.com\u003C/a\u003E\n\nBOOKINGS: \u003Ca
+        href=\"mailto:alberto@elasticartists.net\" rel=\"nofollow\" target=\"_blank\"\u003Ealberto@elasticartists.net\u003C/a\u003E\n\nJUNE
+        CHART:\n\nTomas Barford - Came To Party\nAgio - Share the Message\nAcos Coolkas
+        - Lunokhod\nChautauqua - Matterhorn\nBufi \u0026 Juan Soto - Monrovia\nLa
+        Royale - The Crush\nBufi \u0026 La Royale - Michael\nThomass Jackson - First
+        Party Shoes\nHeion - Jam Sam\nJoss Moog - Toi Moi\nMercury - Rio\nDionigi
+        - Supernature\nFaze Action - Freak For Your Love (New Wave Disco Dub)\nHeadman
+        - Turning (Emperor Machine Remix)\nThe Draughtsman - Geschmacklos\nLovelock
+        - Maybe Tonight (Morgan Geist Vocal Edit)\nAuxiliary The Masterfader - Mirrorball
+        (Cosmonauts Remix)","discogs_name":null,"myspace_name":null,"website":"http://www.thec90s.com","website_title":"","online":false,"track_count":24,"playlist_count":4,"public_favorites_count":1,"followers_count":6814,"followings_count":285},{"id":4382808,"kind":"user","permalink":"hamsters","username":"Hamsters","uri":"http://api.soundcloud.com/users/4382808","permalink_url":"http://soundcloud.com/hamsters","avatar_url":"http://i1.sndcdn.com/avatars-000003474571-ytshmh-large.jpg?2f6e0dc","country":"Canada","full_name":"Hannah
+        M.","city":"Toronto","description":"I write songs, mostly about Videogames.
+        \r\nAm I a cool guy yet?","discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":false,"track_count":16,"playlist_count":0,"public_favorites_count":2,"followers_count":146,"followings_count":0},{"id":891320,"kind":"user","permalink":"com-truise","username":"Com
+        Truise","uri":"http://api.soundcloud.com/users/891320","permalink_url":"http://soundcloud.com/com-truise","avatar_url":"http://i1.sndcdn.com/avatars-000009258561-2ezxe5-large.jpg?2f6e0dc","country":"United
+        States","full_name":"Com Truise","city":"Earth","description":"European Booking:\nKalle
+        Lundgren Smith @ Pitch and Smith\nkalle@pitchandsmith.com\n\nUS Booking:\nRyan
+        Craven @ The Windish Agency\nryan@windishagency.com\n\nGeneral Inquiries:\nmgmt@comtruise.com\n\nLegal
+        Inquiries:\nmatt@markmml.com\ndavidjacobs@markmml.com \n\nLo-fi / Mid-fi /
+        Sci-fi\nLush noise 32bit synthwave pop.\n\nhttp://comtruise.com\n","discogs_name":"Com+Truise","myspace_name":"iamcomtruise","website":"http://comtruise.com","website_title":"","online":false,"track_count":22,"playlist_count":2,"public_favorites_count":34,"followers_count":46453,"followings_count":467}]'
+    http_version: 
+  recorded_at: Tue, 19 Jun 2012 04:25:20 GMT
+recorded_with: VCR 2.2.0

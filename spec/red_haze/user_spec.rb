@@ -43,17 +43,38 @@ describe RedHaze::User do
     pending
   end
 
+  shared_examples_for "an array of Users" do
+    specify do
+      subject.each { |u| u.should be_a described_class }
+    end
+  end
+
   describe "#followings" do
     context "with arg" do
-      pending
+      context "valid followings user id" do
+        subject do
+          VCR.use_cassette("user_followings_valid_id") do
+            instance.followings(903649)
+          end
+        end
+        #it_should_behave_like "an array of Users"
+        pending "need authorization"
+      end
     end
+
     context "without arg" do
-      pending
+      subject do
+        VCR.use_cassette("user_followings") { instance.followings }
+      end
+      it_should_behave_like "an array of Users"
     end
   end
 
   describe "#followers" do
-    pending
+    subject do
+      VCR.use_cassette('user_followers') { instance.followers }
+    end
+    it_should_behave_like "an array of Users"
   end
 
   describe "#comments" do
