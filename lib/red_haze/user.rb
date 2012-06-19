@@ -22,20 +22,24 @@ module RedHaze
 
     def followings(user_id=nil)
       if user_id.nil?
-        response = Request.execute(:get, url + '/followings')
-        response.collect { |r| self.class.new(r) }
+        self.class.users_from_response Request.execute(:get, url + '/followings')
       else
         response = Request.execute(:get, url + "/followings/#{user_id}")
       end
     end
 
     def followers
-      response = Request.execute(:get, url + '/followers')
-      response.collect { |r| self.class.new(r) }
+      self.class.users_from_response Request.execute(:get, url + '/followers')
     end
 
     def url
       "/users/#{id}"
+    end
+
+    private
+
+    def self.users_from_response(response)
+      response.collect { |r| new(r) }
     end
   end
 
