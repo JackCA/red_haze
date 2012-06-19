@@ -1,0 +1,55 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.soundcloud.com/users/999942?client_id=617d95619347608e50397121b0b171be
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sun, 17 Jun 2012 07:03:18 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Connection:
+      - keep-alive
+      X-Runtime:
+      - '15'
+      Etag:
+      - ! '"8ab15881ddac99a2922382f4f10db5a9"'
+      Cache-Control:
+      - private, max-age=0, must-revalidate
+      Access-Control-Allow-Methods:
+      - GET, PUT, POST, DELETE
+      Access-Control-Allow-Headers:
+      - Accept, Authorization, Content-Type, Origin
+      Access-Control-Allow-Origin:
+      - ! '*'
+      X-Cacheable:
+      - NO:Cache-Control=max-age=0
+      Content-Length:
+      - '550'
+      X-Varnish:
+      - '1619189051'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish
+      X-Cache:
+      - MISS
+    body:
+      encoding: US-ASCII
+      string: ! '{"id":999942,"kind":"user","permalink":"jackca","username":"JackCA","uri":"http://api.soundcloud.com/users/999942","permalink_url":"http://soundcloud.com/jackca","avatar_url":"http://i1.sndcdn.com/avatars-000002957252-ptk617-large.jpg?c765bfd","country":"United
+        States","full_name":"Jack Anderson","city":"San Francisco","description":"","discogs_name":null,"myspace_name":null,"website":"http://janderson.me","website_title":"","online":true,"track_count":0,"playlist_count":0,"public_favorites_count":66,"followers_count":19,"followings_count":110}'
+    http_version: 
+  recorded_at: Sun, 17 Jun 2012 07:03:18 GMT
+recorded_with: VCR 2.2.0

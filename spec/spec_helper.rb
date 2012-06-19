@@ -13,5 +13,5 @@ RSpec.configure do |config|
 end
 
 def setup_config
-  RedHaze.configure YAML.load_file File.join(File.dirname(__FILE__),'../config.yml')
+  RedHaze.configure YAML.load_file(File.join(File.dirname(__FILE__),'../config.yml'))
 end
