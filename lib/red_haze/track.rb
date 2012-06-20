@@ -1,5 +1,3 @@
-require 'red_haze/helpers'
-
 module RedHaze
   class Track
     include RedHaze::Helpers

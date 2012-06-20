@@ -1,4 +1,5 @@
 require "red_haze/version"
+require 'red_haze/helpers'
 require "red_haze/client"
 require "red_haze/request"
 require "red_haze/response"

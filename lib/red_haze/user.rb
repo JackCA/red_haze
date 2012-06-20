@@ -1,5 +1,3 @@
-require 'red_haze/helpers'
-
 module RedHaze
   class User
     include RedHaze::Helpers
