@@ -11,6 +11,7 @@ module RedHaze
     attr_accessor :client
     def configure(options = {})
       @client = Client.new(options)
+      Request.setup(@client.client_id)
       self
     end
   end

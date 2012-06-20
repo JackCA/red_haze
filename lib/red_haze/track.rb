@@ -11,16 +11,16 @@ module RedHaze
     end
 
     def sync
-      hash_to_attributes Request.execute(:get, url)
+      hash_to_attributes Request.get(url)
       self
     end
 
     def favoriters
-      User.users_from_response Request.execute(:get, url + '/favoriters')
+      User.users_from_response Request.get(url + '/favoriters')
     end
 
     def comments
-      Comment.comments_from_response Request.execute(:get, url + '/comments')
+      Comment.comments_from_response Request.get(url + '/comments')
     end
 
     def self.tracks_from_response(response)

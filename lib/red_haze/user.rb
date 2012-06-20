@@ -15,28 +15,28 @@ module RedHaze
     end
 
     def sync
-      hash_to_attributes Request.execute(:get, url)
+      hash_to_attributes Request.get(url)
       self
     end
 
     def followings(user_id=nil)
       if user_id.nil?
-        self.class.users_from_response Request.execute(:get, url + '/followings')
+        self.class.users_from_response Request.get(url + '/followings')
       else
-        response = Request.execute(:get, url + "/followings/#{user_id}")
+        response = Request.get(url + "/followings/#{user_id}")
       end
     end
 
     def followers
-      self.class.users_from_response Request.execute(:get, url + '/followers')
+      self.class.users_from_response Request.get(url + '/followers')
     end
 
     def comments
-      Comment.comments_from_response Request.execute(:get, url + '/comments')
+      Comment.comments_from_response Request.get(url + '/comments')
     end
 
     def favorites
-      Track.tracks_from_response Request.execute(:get, url + '/favorites')
+      Track.tracks_from_response Request.get(url + '/favorites')
     end
 
     def self.users_from_response(response)

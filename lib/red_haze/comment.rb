@@ -11,7 +11,7 @@ module RedHaze
     end
 
     def sync
-      hash_to_attributes Request.execute(:get, url)
+      hash_to_attributes Request.get(url)
       self
     end
 
