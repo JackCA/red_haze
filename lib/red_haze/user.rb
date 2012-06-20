@@ -31,6 +31,10 @@ module RedHaze
       self.class.users_from_response Request.execute(:get, url + '/followers')
     end
 
+    def comments
+      Comment.comments_from_response Request.execute(:get, url + '/comments')
+    end
+
     def self.users_from_response(response)
       response.collect { |r| new(r) }
     end

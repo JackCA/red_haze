@@ -57,7 +57,12 @@ describe RedHaze::Track do
   end
 
   describe "#comments" do
-    pending
+    subject do 
+      VCR.use_cassette("track_comments") { instance.comments }
+    end
+
+    it_should_behave_like "an array of Comments"
+
   end
 
   describe "#favoriters" do

@@ -1,0 +1,58 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.soundcloud.com/users/999942/comments?client_id=617d95619347608e50397121b0b171be
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 20 Jun 2012 01:09:34 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Connection:
+      - keep-alive
+      X-Runtime:
+      - '11'
+      Etag:
+      - ! '"3f5a5acbf4138c8cf84ad675cb1bcec7"'
+      Cache-Control:
+      - private, max-age=0, must-revalidate
+      Access-Control-Allow-Methods:
+      - GET, PUT, POST, DELETE
+      Access-Control-Allow-Headers:
+      - Accept, Authorization, Content-Type, Origin
+      Access-Control-Allow-Origin:
+      - ! '*'
+      X-Cacheable:
+      - NO:Cache-Control=max-age=0
+      Content-Length:
+      - '920'
+      X-Varnish:
+      - '1952075176'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish
+      X-Cache:
+      - MISS
+    body:
+      encoding: US-ASCII
+      string: ! '[{"kind":"comment","id":2400985,"created_at":"2010/05/13 02:52:22
+        +0000","user_id":999942,"track_id":2689376,"timestamp":556457,"body":"tears
+        like diamondsssss","uri":"http://api.soundcloud.com/comments/2400985","user":{"id":999942,"kind":"user","permalink":"jackca","username":"JackCA","uri":"http://api.soundcloud.com/users/999942","permalink_url":"http://soundcloud.com/jackca","avatar_url":"http://i1.sndcdn.com/avatars-000002957252-ptk617-large.jpg?09581af"}},{"kind":"comment","id":2400974,"created_at":"2010/05/13
+        02:50:41 +0000","user_id":999942,"track_id":2689376,"timestamp":469789,"body":"Meow
+        meowwwwww","uri":"http://api.soundcloud.com/comments/2400974","user":{"id":999942,"kind":"user","permalink":"jackca","username":"JackCA","uri":"http://api.soundcloud.com/users/999942","permalink_url":"http://soundcloud.com/jackca","avatar_url":"http://i1.sndcdn.com/avatars-000002957252-ptk617-large.jpg?09581af"}}]'
+    http_version: 
+  recorded_at: Wed, 20 Jun 2012 01:09:35 GMT
+recorded_with: VCR 2.2.0

@@ -15,6 +15,10 @@ module RedHaze
       self
     end
 
+    def self.comments_from_response(response)
+      response.collect { |r| new(r) }
+    end
+
     private
 
     def url

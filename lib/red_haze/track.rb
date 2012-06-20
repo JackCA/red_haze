@@ -19,6 +19,10 @@ module RedHaze
       User.users_from_response Request.execute(:get, url + '/favoriters')
     end
 
+    def comments
+      Comment.comments_from_response Request.execute(:get, url + '/comments')
+    end
+
     private
 
     def url
