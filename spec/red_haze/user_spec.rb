@@ -88,10 +88,14 @@ describe RedHaze::User do
 
   describe "#favorites" do
     context "with arg" do
-      pending
+      pending "need authentication"
     end
     context "without arg" do
-      pending
+      subject do
+        VCR.use_cassette("user_favorites") { instance.favorites }
+      end
+
+      it_should_behave_like "an array of Tracks"
     end
   end
 end

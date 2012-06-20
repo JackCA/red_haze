@@ -23,6 +23,10 @@ module RedHaze
       Comment.comments_from_response Request.execute(:get, url + '/comments')
     end
 
+    def self.tracks_from_response(response)
+      response.collect { |r| new(r) }
+    end
+
     private
 
     def url

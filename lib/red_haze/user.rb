@@ -35,6 +35,10 @@ module RedHaze
       Comment.comments_from_response Request.execute(:get, url + '/comments')
     end
 
+    def favorites
+      Track.tracks_from_response Request.execute(:get, url + '/favorites')
+    end
+
     def self.users_from_response(response)
       response.collect { |r| new(r) }
     end
