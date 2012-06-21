@@ -1,6 +1,7 @@
 module RedHaze
   class Track
-    include RedHaze::Helpers
+    extend Helpers
+    include Helpers::Resource
 
     attr_reader :id
 
@@ -8,27 +9,12 @@ module RedHaze
       @id = arg
     end
 
-    def sync
-      hash_to_attributes Request.get(url)
-      self
-    end
-
     def favoriters
-      User.users_from_response Request.get(url + '/favoriters')
+      User.import_from_response Request.get(url + '/favoriters')
     end
 
     def comments
-      Comment.comments_from_response Request.get(url + '/comments')
-    end
-
-    def self.tracks_from_response(response)
-      response.collect { |r| new(r) }
-    end
-
-    private
-
-    def url
-      "/tracks/#{id}"
+      Comment.import_from_response Request.get(url + '/comments')
     end
 
   end

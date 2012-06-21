@@ -79,7 +79,10 @@ describe RedHaze::User do
   end
 
   describe "#groups" do
-    pending
+    subject do
+      VCR.use_cassette('user_groups') { instance.groups }
+    end
+    it_should_behave_like "an array of Groups"
   end
 
   describe "#web_profiles" do

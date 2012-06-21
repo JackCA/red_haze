@@ -1,0 +1,57 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.soundcloud.com/users/999942/groups?client_id=617d95619347608e50397121b0b171be
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Thu, 21 Jun 2012 04:23:16 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Connection:
+      - keep-alive
+      X-Runtime:
+      - '16'
+      Etag:
+      - ! '"b7615d0aab3929aab6d85942c189b406"'
+      Cache-Control:
+      - private, max-age=0, must-revalidate
+      Access-Control-Allow-Methods:
+      - GET, PUT, POST, DELETE
+      Access-Control-Allow-Headers:
+      - Accept, Authorization, Content-Type, Origin
+      Access-Control-Allow-Origin:
+      - ! '*'
+      X-Cacheable:
+      - NO:Cache-Control=max-age=0
+      Content-Length:
+      - '731'
+      X-Varnish:
+      - '2091162438'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish
+      X-Cache:
+      - MISS
+    body:
+      encoding: US-ASCII
+      string: ! '[{"kind":"group","id":3,"created_at":"2009/06/18 15:46:46 +0000","permalink":"made-with-ableton-live","name":"Made
+        with Ableton Live!","short_description":"tracks produced with Ableton Live!
+        music software, no DJ mixes!","description":"send your tracks, no DJ mixes
+        please!","uri":"http://api.soundcloud.com/groups/3","artwork_url":"http://i1.sndcdn.com/artworks-000000481400-f0ynk3-large.jpg?a9a4a49","permalink_url":"http://soundcloud.com/groups/made-with-ableton-live","creator":{"id":552892,"kind":"user","permalink":"ableton","username":"Ableton","uri":"http://api.soundcloud.com/users/552892","permalink_url":"http://soundcloud.com/ableton","avatar_url":"http://i1.sndcdn.com/avatars-000001173775-dm1p1l-large.jpg?a9a4a49"}}]'
+    http_version: 
+  recorded_at: Thu, 21 Jun 2012 04:23:16 GMT
+recorded_with: VCR 2.2.0

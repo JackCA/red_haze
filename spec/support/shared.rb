@@ -15,3 +15,9 @@
       subject.each { |u| u.should be_a RedHaze::Comment }
     end
   end
+
+  shared_examples_for "an array of Groups" do
+    specify do
+      subject.each { |u| u.should be_a RedHaze::Group }
+    end
+  end
