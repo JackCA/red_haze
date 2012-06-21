@@ -9,5 +9,17 @@ module RedHaze
       @id = arg
     end
 
+    def members
+      User.get_from_endpoint(url + "/members")
+    end
+
+    def moderators
+      User.get_from_endpoint(url + "/moderators")
+    end
+
+    def contributors
+      User.get_from_endpoint(url + "/contributors")
+    end
+
   end
 end

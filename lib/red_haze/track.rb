@@ -10,11 +10,11 @@ module RedHaze
     end
 
     def favoriters
-      User.import_from_response Request.get(url + '/favoriters')
+      User.get_from_endpoint(url + '/favoriters')
     end
 
     def comments
-      Comment.import_from_response Request.get(url + '/comments')
+      Comment.get_from_endpoint(url + '/comments')
     end
 
   end
