@@ -5,7 +5,7 @@ module RedHaze
         case key
           when 'created_at'
             value = DateTime.parse(value)
-          when 'user'
+          when 'user', 'creator'
             value = User.new(value)
         end
 
