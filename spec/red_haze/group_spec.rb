@@ -47,5 +47,13 @@ describe RedHaze::Group do
     it_should_behave_like "an array of Users"
   end
 
+  describe "#users" do
+    subject do
+      VCR.use_cassette("group_users") { instance.users }
+    end
+    it_should_behave_like "an array of Users"
+  end
+
+
 
 end

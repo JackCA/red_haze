@@ -10,16 +10,25 @@ module RedHaze
     end
 
     def members
-      User.get_from_endpoint(url + "/members")
+      get_from_endpoint("/members")
     end
 
     def moderators
-      User.get_from_endpoint(url + "/moderators")
+      get_from_endpoint("/moderators")
     end
 
     def contributors
-      User.get_from_endpoint(url + "/contributors")
+      get_from_endpoint("/contributors")
     end
+
+    def contributors
+      get_from_endpoint("/contributors")
+    end
+
+    def users
+      get_from_endpoint("/users")
+    end
+
 
   end
 end

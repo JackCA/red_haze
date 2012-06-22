@@ -15,26 +15,26 @@ module RedHaze
 
     def followings(user_id=nil)
       if user_id.nil?
-        self.class.get_from_endpoint(url + '/followings')
+        get_from_endpoint('/followings')
       else
-        response = Request.get(url + "/followings/#{user_id}")
+        response = get("/followings/#{user_id}")
       end
     end
 
     def followers
-      self.class.get_from_endpoint(url + '/followers')
+      get_from_endpoint('/followers')
     end
 
     def comments
-      Comment.get_from_endpoint(url + '/comments')
+      get_from_endpoint('/comments')
     end
 
     def favorites
-      Track.get_from_endpoint(url + '/favorites')
+      get_from_endpoint('/favorites')
     end
 
     def groups
-      Group.get_from_endpoint(url + '/groups')
+      get_from_endpoint('/groups')
     end
 
   end

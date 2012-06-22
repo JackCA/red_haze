@@ -6,15 +6,19 @@ module RedHaze
     attr_reader :id
 
     def initialize(arg)
-      @id = arg
+      if arg.is_a? Hash
+        hash_to_attributes arg
+      else
+        @id = arg
+      end
     end
 
     def favoriters
-      User.get_from_endpoint(url + '/favoriters')
+      get_from_endpoint('/favoriters')
     end
 
     def comments
-      Comment.get_from_endpoint(url + '/comments')
+      get_from_endpoint('/comments')
     end
 
   end
