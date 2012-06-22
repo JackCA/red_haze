@@ -1,6 +1,5 @@
 module RedHaze
   class Track
-    extend Helpers
     include Helpers::Resource
 
     attr_reader :id

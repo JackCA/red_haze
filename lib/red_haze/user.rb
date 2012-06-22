@@ -1,6 +1,5 @@
 module RedHaze
   class User
-    extend Helpers
     include Helpers::Resource
 
     attr_reader :id

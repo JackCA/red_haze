@@ -1,6 +1,5 @@
 module RedHaze
   class Group
-    extend Helpers
     include Helpers::Resource
 
     attr_reader :id
