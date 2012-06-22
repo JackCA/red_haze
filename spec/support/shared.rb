@@ -21,6 +21,6 @@
 
   shared_examples_for "an array of Groups" do
     specify do
-      subject.each { |u| u.should be_a RedHaze::Group }
+      subject.each { |u| u.should be_a RedHaze::Group; u.id.should be_an Integer }
     end
   end

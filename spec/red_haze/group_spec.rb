@@ -54,6 +54,4 @@ describe RedHaze::Group do
     it_should_behave_like "an array of Users"
   end
 
-
-
 end
