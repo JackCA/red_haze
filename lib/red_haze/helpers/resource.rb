@@ -3,6 +3,14 @@ module RedHaze
 
     module Resource
 
+      def initialize(arg)
+        case arg
+          when Fixnum then @id = arg
+          when Hash then hash_to_attributes(arg)
+          else raise
+        end
+      end
+
       def sync
         hash_to_attributes Request.get(url)
         self

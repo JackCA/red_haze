@@ -5,14 +5,6 @@ module RedHaze
 
     attr_reader :id
 
-    def initialize(arg)
-      if arg.is_a? Hash
-        hash_to_attributes arg
-      else
-        @id = arg
-      end
-    end
-
     def members
       get_from_endpoint("/members")
     end
@@ -32,7 +24,6 @@ module RedHaze
     def users
       get_from_endpoint("/users")
     end
-
 
   end
 end

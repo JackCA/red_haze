@@ -4,15 +4,7 @@ module RedHaze
     include Helpers::Resource
 
     attr_reader :id
-
-    def initialize(arg)
-      if arg.is_a? Fixnum
-        @id = arg
-      else
-        hash_to_attributes arg
-      end
-    end
-
+    
     def followings(user_id=nil)
       if user_id.nil?
         get_from_endpoint('/followings')
