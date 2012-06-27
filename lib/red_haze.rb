@@ -3,6 +3,7 @@ require 'red_haze/helpers'
 require "red_haze/client"
 require "red_haze/request"
 require "red_haze/response"
+require "red_haze/playlist"
 require "red_haze/user"
 require "red_haze/track"
 require "red_haze/comment"

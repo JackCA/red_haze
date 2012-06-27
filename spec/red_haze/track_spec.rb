@@ -4,6 +4,9 @@ describe RedHaze::Track do
   before(:all) { setup_config }
 
   let(:instance) { described_class.new(49518905) }
+  let(:synced_track) do 
+      VCR.use_cassette('track_sync') { instance.sync }
+  end
 
   describe "#initialize" do
     subject { instance }
@@ -16,9 +19,8 @@ describe RedHaze::Track do
   end
 
   describe "#sync" do
-    subject do 
-      VCR.use_cassette('track_sync') { instance.sync }
-    end
+    subject { synced_track }
+
     its(:created_at) { should be_a DateTime }
     its(:user_id) { should be_an Integer }
     its(:title) { should be_a String }
@@ -73,7 +75,11 @@ describe RedHaze::Track do
   end
 
   describe "#shared_to" do
-    pending
+    pending "Do not have any actual data for this"
+    #subject do
+    #  VCR.use_cassette('track_shared_tos') { instance.shared_to }
+    #end
+    #it_should_behave_like "an array of Tracks"
   end
 
   describe "#secret_token" do
@@ -81,6 +87,7 @@ describe RedHaze::Track do
   end
 
   describe "#owner" do
-    pending
+    subject { synced_track.owner }
+    it { should be_a RedHaze::User }
   end
 end

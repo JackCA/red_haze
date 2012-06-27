@@ -28,6 +28,10 @@ module RedHaze
       get_from_endpoint('/groups')
     end
 
+    def playlists
+      get_from_endpoint('/playlists')
+    end
+
   end
 
 end

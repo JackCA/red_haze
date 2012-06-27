@@ -40,7 +40,10 @@ describe RedHaze::User do
   end
 
   describe "#playlists" do
-    pending
+    subject do
+      VCR.use_cassette('user_playlists') { instance.playlists }
+    end
+    it_should_behave_like "an array of Playlists"
   end
 
   describe "#followings" do

@@ -40,6 +40,7 @@ module RedHaze
       end
 
       def import_from_response(response)
+        raise "The response 404ed: #{response.inspect} \n\n Request: #{response.request.inspect}" if response.code == 404
         class_name = response.first.delete('kind').capitalize
         response.collect { |r| eval(class_name).new(r) }
       end
