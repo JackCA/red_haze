@@ -2,8 +2,6 @@ module RedHaze
   class Track
     include Helpers::Resource
 
-    attr_reader :id
-
     def favoriters
       get_from_endpoint('/favoriters')
     end

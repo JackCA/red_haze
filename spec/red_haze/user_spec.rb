@@ -43,7 +43,7 @@ describe RedHaze::User do
     subject do
       VCR.use_cassette('user_playlists') { instance.playlists }
     end
-    it_should_behave_like "an array of Playlists"
+    it { should return_an_array_of RedHaze::Playlist }
   end
 
   describe "#followings" do
@@ -54,7 +54,7 @@ describe RedHaze::User do
             instance.followings(903649)
           end
         end
-        #it_should_behave_like "an array of Users"
+        #it { should be_an_array_of RedHaze::User }
         pending "need authorization"
       end
     end
@@ -63,7 +63,7 @@ describe RedHaze::User do
       subject do
         VCR.use_cassette("user_followings") { instance.followings }
       end
-      it_should_behave_like "an array of Users"
+      it { return_an_array_of return_an_array_of RedHaze::User }
     end
   end
 
@@ -71,21 +71,21 @@ describe RedHaze::User do
     subject do
       VCR.use_cassette('user_followers') { instance.followers }
     end
-    it_should_behave_like "an array of Users"
+    it { should return_an_array_of RedHaze::User }
   end
 
   describe "#comments" do
     subject do
       VCR.use_cassette('user_comments') { instance.comments }
     end
-    it_should_behave_like "an array of Comments"
+    it { should return_an_array_of RedHaze::Comment }
   end
 
   describe "#groups" do
     subject do
       VCR.use_cassette('user_groups') { instance.groups }
     end
-    it_should_behave_like "an array of Groups"
+    it { should return_an_array_of RedHaze::Group }
   end
 
   describe "#web_profiles" do
@@ -101,7 +101,7 @@ describe RedHaze::User do
         VCR.use_cassette("user_favorites") { instance.favorites }
       end
 
-      it_should_behave_like "an array of Tracks"
+      it { should return_an_array_of RedHaze::Track }
     end
   end
 end

@@ -1,8 +1,6 @@
 module RedHaze
   class User
     include Helpers::Resource
-
-    attr_reader :id
     
     def followings(user_id=nil)
       if user_id.nil?

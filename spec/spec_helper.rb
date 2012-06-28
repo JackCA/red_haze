@@ -1,6 +1,5 @@
 require 'red_haze'
 require 'vcr'
-require 'support/shared'
 
 VCR.configure do |c|
   c.cassette_library_dir = 'spec/fixtures/vcr_cassettes'
@@ -20,5 +19,12 @@ end
 class Object
   def boolean?
     !!self == self
+  end
+end
+
+RSpec::Matchers.define :return_an_array_of do |expected|
+  match do |actual|
+    actual.class == Array &&
+    actual.size == actual.select{|a| a.class == expected}.size
   end
 end

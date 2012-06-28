@@ -63,15 +63,14 @@ describe RedHaze::Track do
       VCR.use_cassette("track_comments") { instance.comments }
     end
 
-    it_should_behave_like "an array of Comments"
-
+    it { should return_an_array_of RedHaze::Comment }
   end
 
   describe "#favoriters" do
     subject do
       VCR.use_cassette('track_favoriters') { instance.favoriters }
     end
-    it_should_behave_like "an array of Users"
+    it { should return_an_array_of RedHaze::User }
   end
 
   describe "#shared_to" do
@@ -79,7 +78,7 @@ describe RedHaze::Track do
     #subject do
     #  VCR.use_cassette('track_shared_tos') { instance.shared_to }
     #end
-    #it_should_behave_like "an array of Tracks"
+    #it { should be_an_array_of RedHaze::Track }
   end
 
   describe "#secret_token" do

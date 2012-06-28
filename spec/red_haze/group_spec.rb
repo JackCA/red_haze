@@ -30,28 +30,28 @@ describe RedHaze::Group do
     subject do
       VCR.use_cassette("group_members") { instance.members }
     end
-    it_should_behave_like "an array of Users"
+    it { should return_an_array_of RedHaze::User }
   end
 
   describe "#moderators" do
     subject do
       VCR.use_cassette("group_moderators") { instance.moderators }
     end
-    it_should_behave_like "an array of Users"
+    it { should return_an_array_of RedHaze::User }
   end
 
   describe "#contributors" do
     subject do
       VCR.use_cassette("group_contributors") { instance.contributors }
     end
-    it_should_behave_like "an array of Users"
+    it { should return_an_array_of RedHaze::User }
   end
 
   describe "#users" do
     subject do
       VCR.use_cassette("group_users") { instance.users }
     end
-    it_should_behave_like "an array of Users"
+    it { should return_an_array_of RedHaze::User }
   end
 
 end

@@ -2,6 +2,7 @@ module RedHaze
   module Helpers
 
     module Resource
+      attr_reader :id
 
       def initialize(arg)
         case arg
