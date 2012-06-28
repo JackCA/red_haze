@@ -12,10 +12,15 @@ require "red_haze/group"
 module RedHaze
   class << self
     attr_accessor :client
+
     def configure(options = {})
       @client = Client.new(options)
       Request.setup(@client.client_id)
       self
+    end
+
+    def configure_from_file(path)
+      configure YAML.load_file(path)
     end
   end
 end
