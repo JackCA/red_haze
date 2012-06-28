@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://api.soundcloud.com/groups/83495/moderators?client_id=617d95619347608e50397121b0b171be
+    uri: http://api.soundcloud.com/groups/83495/moderators?access_token=<ACCESS_TOKEN>&client_id=<CLIENT_ID>
     body:
       encoding: US-ASCII
       string: ''
@@ -17,15 +17,15 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Thu, 21 Jun 2012 07:41:59 GMT
+      - Thu, 28 Jun 2012 08:52:03 GMT
       Content-Type:
       - application/json; charset=utf-8
       Connection:
       - keep-alive
       X-Runtime:
-      - '16'
+      - '14'
       Etag:
-      - ! '"769b5f2c197998b74561f5e4180d8094"'
+      - ! '"465d256dc20524ae1f5f9fb14d3f4fc4"'
       Cache-Control:
       - private, max-age=0, must-revalidate
       Access-Control-Allow-Methods:
@@ -37,9 +37,9 @@ http_interactions:
       X-Cacheable:
       - NO:Cache-Control=max-age=0
       Content-Length:
-      - '553'
+      - '552'
       X-Varnish:
-      - '2104487461'
+      - '2886399688'
       Age:
       - '0'
       Via:
@@ -48,8 +48,8 @@ http_interactions:
       - MISS
     body:
       encoding: US-ASCII
-      string: ! '[{"id":999942,"kind":"user","permalink":"jackca","username":"JackCA","uri":"http://api.soundcloud.com/users/999942","permalink_url":"http://soundcloud.com/jackca","avatar_url":"http://i1.sndcdn.com/avatars-000002957252-ptk617-large.jpg?a9a4a49","country":"United
-        States","full_name":"Jack Anderson","city":"San Francisco","description":"","discogs_name":null,"myspace_name":null,"website":"http://janderson.me","website_title":"","online":false,"track_count":1,"playlist_count":0,"public_favorites_count":70,"followers_count":18,"followings_count":110}]'
+      string: ! '[{"id":999942,"kind":"user","permalink":"jackca","username":"JackCA","uri":"http://api.soundcloud.com/users/999942","permalink_url":"http://soundcloud.com/jackca","avatar_url":"http://i1.sndcdn.com/avatars-000002957252-ptk617-large.jpg?b9fd227","country":"United
+        States","full_name":"Jack Anderson","city":"San Francisco","description":"","discogs_name":null,"myspace_name":null,"website":"http://janderson.me","website_title":"","online":true,"track_count":1,"playlist_count":1,"public_favorites_count":75,"followers_count":21,"followings_count":112}]'
     http_version: 
-  recorded_at: Thu, 21 Jun 2012 07:41:59 GMT
+  recorded_at: Thu, 28 Jun 2012 08:52:05 GMT
 recorded_with: VCR 2.2.0

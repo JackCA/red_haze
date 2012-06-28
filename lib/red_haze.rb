@@ -15,7 +15,7 @@ module RedHaze
 
     def configure(options = {})
       @client = Client.new(options)
-      Request.setup(@client.client_id)
+      Request.setup(@client.client_id, @client.access_token)
       self
     end
 

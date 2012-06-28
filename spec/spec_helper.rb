@@ -4,6 +4,10 @@ require 'vcr'
 VCR.configure do |c|
   c.cassette_library_dir = 'spec/fixtures/vcr_cassettes'
   c.hook_into :webmock
+  sensitive_configs = YAML.load_file('config.yml')
+  sensitive_configs.each do |k,v|
+    c.filter_sensitive_data("<#{k.upcase}>") { v }
+  end
 end
 
 RSpec.configure do |config|

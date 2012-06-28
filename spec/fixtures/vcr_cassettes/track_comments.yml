@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://api.soundcloud.com/tracks/49518905/comments?client_id=617d95619347608e50397121b0b171be
+    uri: http://api.soundcloud.com/tracks/49518905/comments?access_token=<ACCESS_TOKEN>&client_id=<CLIENT_ID>
     body:
       encoding: US-ASCII
       string: ''
@@ -17,7 +17,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Wed, 20 Jun 2012 01:04:23 GMT
+      - Thu, 28 Jun 2012 08:52:06 GMT
       Content-Type:
       - application/json; charset=utf-8
       Connection:
@@ -25,9 +25,9 @@ http_interactions:
       Cache-Control:
       - max-age=60,public
       X-Runtime:
-      - '24'
+      - '26'
       Etag:
-      - ! '"4c316dcc13b0d68a29cc7cd1cc161bcd"'
+      - ! '"3df2fd3f28e20fbcd7a20f1ed8bc123c"'
       Access-Control-Allow-Methods:
       - GET, PUT, POST, DELETE
       Access-Control-Allow-Headers:
@@ -39,7 +39,7 @@ http_interactions:
       Content-Length:
       - '5367'
       X-Varnish:
-      - '2779219354'
+      - '2886404038'
       Age:
       - '0'
       Via:
@@ -52,28 +52,28 @@ http_interactions:
       encoding: US-ASCII
       string: ! '[{"kind":"comment","id":62343740,"created_at":"2012/06/16 13:50:11
         +0000","user_id":607655,"track_id":49518905,"timestamp":116591,"body":"nice
-        change ... great track!","uri":"http://api.soundcloud.com/comments/62343740","user":{"id":607655,"kind":"user","permalink":"backshedman","username":"backshedman","uri":"http://api.soundcloud.com/users/607655","permalink_url":"http://soundcloud.com/backshedman","avatar_url":"http://i1.sndcdn.com/avatars-000005309460-9md504-large.jpg?09581af"}},{"kind":"comment","id":62317536,"created_at":"2012/06/16
+        change ... great track!","uri":"http://api.soundcloud.com/comments/62343740","user":{"id":607655,"kind":"user","permalink":"backshedman","username":"backshedman","uri":"http://api.soundcloud.com/users/607655","permalink_url":"http://soundcloud.com/backshedman","avatar_url":"http://i1.sndcdn.com/avatars-000005309460-9md504-large.jpg?b9fd227"}},{"kind":"comment","id":62317536,"created_at":"2012/06/16
         08:44:45 +0000","user_id":1139074,"track_id":49518905,"timestamp":367994,"body":"Great
-        track. ","uri":"http://api.soundcloud.com/comments/62317536","user":{"id":1139074,"kind":"user","permalink":"reevesy","username":"reevesy","uri":"http://api.soundcloud.com/users/1139074","permalink_url":"http://soundcloud.com/reevesy","avatar_url":"http://i1.sndcdn.com/avatars-000001326337-vt9r2r-large.jpg?09581af"}},{"kind":"comment","id":62031013,"created_at":"2012/06/14
+        track. ","uri":"http://api.soundcloud.com/comments/62317536","user":{"id":1139074,"kind":"user","permalink":"reevesy","username":"reevesy","uri":"http://api.soundcloud.com/users/1139074","permalink_url":"http://soundcloud.com/reevesy","avatar_url":"http://i1.sndcdn.com/avatars-000001326337-vt9r2r-large.jpg?b9fd227"}},{"kind":"comment","id":62031013,"created_at":"2012/06/14
         14:59:05 +0000","user_id":235288,"track_id":49518905,"timestamp":null,"body":"joyful
-        thing","uri":"http://api.soundcloud.com/comments/62031013","user":{"id":235288,"kind":"user","permalink":"antonlanski","username":"antonlanski","uri":"http://api.soundcloud.com/users/235288","permalink_url":"http://soundcloud.com/antonlanski","avatar_url":"http://i1.sndcdn.com/avatars-000009656017-olmrfn-large.jpg?09581af"}},{"kind":"comment","id":61966300,"created_at":"2012/06/14
-        03:00:44 +0000","user_id":6111478,"track_id":49518905,"timestamp":64102,"body":"DOPE!","uri":"http://api.soundcloud.com/comments/61966300","user":{"id":6111478,"kind":"user","permalink":"dapp3rd","username":"dapp3rd","uri":"http://api.soundcloud.com/users/6111478","permalink_url":"http://soundcloud.com/dapp3rd","avatar_url":"http://i1.sndcdn.com/avatars-000004895298-z0nc6c-large.jpg?09581af"}},{"kind":"comment","id":61895547,"created_at":"2012/06/13
+        thing","uri":"http://api.soundcloud.com/comments/62031013","user":{"id":235288,"kind":"user","permalink":"antonlanski","username":"antonlanski","uri":"http://api.soundcloud.com/users/235288","permalink_url":"http://soundcloud.com/antonlanski","avatar_url":"http://i1.sndcdn.com/avatars-000009656017-olmrfn-large.jpg?b9fd227"}},{"kind":"comment","id":61966300,"created_at":"2012/06/14
+        03:00:44 +0000","user_id":6111478,"track_id":49518905,"timestamp":64102,"body":"DOPE!","uri":"http://api.soundcloud.com/comments/61966300","user":{"id":6111478,"kind":"user","permalink":"dapp3rd","username":"dapp3rd","uri":"http://api.soundcloud.com/users/6111478","permalink_url":"http://soundcloud.com/dapp3rd","avatar_url":"http://i1.sndcdn.com/avatars-000004895298-z0nc6c-large.jpg?b9fd227"}},{"kind":"comment","id":61895547,"created_at":"2012/06/13
         18:26:11 +0000","user_id":11883627,"track_id":49518905,"timestamp":25469,"body":"Deep
-        kicks! Like the direction it''s going","uri":"http://api.soundcloud.com/comments/61895547","user":{"id":11883627,"kind":"user","permalink":"amasonic","username":"Amasonic","uri":"http://api.soundcloud.com/users/11883627","permalink_url":"http://soundcloud.com/amasonic","avatar_url":"http://i1.sndcdn.com/avatars-000012934062-nzji09-large.jpg?09581af"}},{"kind":"comment","id":61852817,"created_at":"2012/06/13
+        kicks! Like the direction it''s going","uri":"http://api.soundcloud.com/comments/61895547","user":{"id":11883627,"kind":"user","permalink":"amasonic","username":"Amasonic","uri":"http://api.soundcloud.com/users/11883627","permalink_url":"http://soundcloud.com/amasonic","avatar_url":"http://i1.sndcdn.com/avatars-000012934062-nzji09-large.jpg?b9fd227"}},{"kind":"comment","id":61852817,"created_at":"2012/06/13
         12:52:52 +0000","user_id":752296,"track_id":49518905,"timestamp":194673,"body":"Digging
-        this EP a lot. Nice feel about it.","uri":"http://api.soundcloud.com/comments/61852817","user":{"id":752296,"kind":"user","permalink":"mixamorphosis","username":"mixamorphosis","uri":"http://api.soundcloud.com/users/752296","permalink_url":"http://soundcloud.com/mixamorphosis","avatar_url":"http://i1.sndcdn.com/avatars-000006831061-5tfcvn-large.jpg?09581af"}},{"kind":"comment","id":61833800,"created_at":"2012/06/13
+        this EP a lot. Nice feel about it.","uri":"http://api.soundcloud.com/comments/61852817","user":{"id":752296,"kind":"user","permalink":"mixamorphosis","username":"mixamorphosis","uri":"http://api.soundcloud.com/users/752296","permalink_url":"http://soundcloud.com/mixamorphosis","avatar_url":"http://i1.sndcdn.com/avatars-000006831061-5tfcvn-large.jpg?b9fd227"}},{"kind":"comment","id":61833800,"created_at":"2012/06/13
         09:25:04 +0000","user_id":11580912,"track_id":49518905,"timestamp":92738,"body":"fuarrrk...
-        so chill","uri":"http://api.soundcloud.com/comments/61833800","user":{"id":11580912,"kind":"user","permalink":"vaiofficial","username":"V\u039bI","uri":"http://api.soundcloud.com/users/11580912","permalink_url":"http://soundcloud.com/vaiofficial","avatar_url":"http://i1.sndcdn.com/avatars-000012217692-c2lwpj-large.jpg?09581af"}},{"kind":"comment","id":61827532,"created_at":"2012/06/13
+        so chill","uri":"http://api.soundcloud.com/comments/61833800","user":{"id":11580912,"kind":"user","permalink":"vaiofficial","username":"V\u039bI","uri":"http://api.soundcloud.com/users/11580912","permalink_url":"http://soundcloud.com/vaiofficial","avatar_url":"http://i1.sndcdn.com/avatars-000012217692-c2lwpj-large.jpg?b9fd227"}},{"kind":"comment","id":61827532,"created_at":"2012/06/13
         08:14:09 +0000","user_id":1020717,"track_id":49518905,"timestamp":281540,"body":"great
-        tune..!","uri":"http://api.soundcloud.com/comments/61827532","user":{"id":1020717,"kind":"user","permalink":"beehaus","username":"Beehaus","uri":"http://api.soundcloud.com/users/1020717","permalink_url":"http://soundcloud.com/beehaus","avatar_url":"http://i1.sndcdn.com/avatars-000002359593-w7wtve-large.jpg?09581af"}},{"kind":"comment","id":61818064,"created_at":"2012/06/13
+        tune..!","uri":"http://api.soundcloud.com/comments/61827532","user":{"id":1020717,"kind":"user","permalink":"beehaus","username":"Beehaus","uri":"http://api.soundcloud.com/users/1020717","permalink_url":"http://soundcloud.com/beehaus","avatar_url":"http://i1.sndcdn.com/avatars-000017394784-5g61vd-large.jpg?b9fd227"}},{"kind":"comment","id":61818064,"created_at":"2012/06/13
         06:18:54 +0000","user_id":7056711,"track_id":49518905,"timestamp":149281,"body":"piano
-        man","uri":"http://api.soundcloud.com/comments/61818064","user":{"id":7056711,"kind":"user","permalink":"777s","username":"777S","uri":"http://api.soundcloud.com/users/7056711","permalink_url":"http://soundcloud.com/777s","avatar_url":"http://i1.sndcdn.com/avatars-000012506747-uawczp-large.jpg?09581af"}},{"kind":"comment","id":61811934,"created_at":"2012/06/13
+        man","uri":"http://api.soundcloud.com/comments/61818064","user":{"id":7056711,"kind":"user","permalink":"777s","username":"777S","uri":"http://api.soundcloud.com/users/7056711","permalink_url":"http://soundcloud.com/777s","avatar_url":"http://i1.sndcdn.com/avatars-000012506747-uawczp-large.jpg?b9fd227"}},{"kind":"comment","id":61811934,"created_at":"2012/06/13
         05:13:33 +0000","user_id":3302321,"track_id":49518905,"timestamp":null,"body":"Hey,
-        hey, hey... It''s... Nitetime!","uri":"http://api.soundcloud.com/comments/61811934","user":{"id":3302321,"kind":"user","permalink":"naomitisdell","username":"NaomiTisdell","uri":"http://api.soundcloud.com/users/3302321","permalink_url":"http://soundcloud.com/naomitisdell","avatar_url":"http://i1.sndcdn.com/avatars-000004858422-eecl2u-large.jpg?09581af"}},{"kind":"comment","id":61806618,"created_at":"2012/06/13
+        hey, hey... It''s... Nitetime!","uri":"http://api.soundcloud.com/comments/61811934","user":{"id":3302321,"kind":"user","permalink":"naomitisdell","username":"NaomiTisdell","uri":"http://api.soundcloud.com/users/3302321","permalink_url":"http://soundcloud.com/naomitisdell","avatar_url":"http://i1.sndcdn.com/avatars-000004858422-eecl2u-large.jpg?b9fd227"}},{"kind":"comment","id":61806618,"created_at":"2012/06/13
         04:31:39 +0000","user_id":1299413,"track_id":49518905,"timestamp":null,"body":"Cracker!
         Featured it on my new mix. Keep them coming. http://soundcloud.com/jamescrippsmusic/disco-shoes-warehouse-grooves
         ","uri":"http://api.soundcloud.com/comments/61806618","user":{"id":1299413,"kind":"user","permalink":"jamescrippsmusic","username":"James
-        Cripps Music","uri":"http://api.soundcloud.com/users/1299413","permalink_url":"http://soundcloud.com/jamescrippsmusic","avatar_url":"http://i1.sndcdn.com/avatars-000009170143-rlh7nw-large.jpg?09581af"}}]'
+        Cripps Music","uri":"http://api.soundcloud.com/users/1299413","permalink_url":"http://soundcloud.com/jamescrippsmusic","avatar_url":"http://i1.sndcdn.com/avatars-000009170143-rlh7nw-large.jpg?b9fd227"}}]'
     http_version: 
-  recorded_at: Wed, 20 Jun 2012 01:04:24 GMT
+  recorded_at: Thu, 28 Jun 2012 08:52:09 GMT
 recorded_with: VCR 2.2.0
