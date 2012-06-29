@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://api.soundcloud.com/users/999942/groups?access_token=<ACCESS_TOKEN>&client_id=<CLIENT_ID>
+    uri: http://api.soundcloud.com/users/2879548/groups?client_id=<CLIENT_ID>
     body:
       encoding: US-ASCII
       string: ''
@@ -17,15 +17,15 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Thu, 28 Jun 2012 08:52:11 GMT
+      - Fri, 29 Jun 2012 15:40:56 GMT
       Content-Type:
       - application/json; charset=utf-8
       Connection:
       - keep-alive
       X-Runtime:
-      - '15'
+      - '26'
       Etag:
-      - ! '"89535f3894151a028a8971ea73adf078"'
+      - ! '"d8a947d02bcceeb88b15d68609ad416f"'
       Cache-Control:
       - private, max-age=0, must-revalidate
       Access-Control-Allow-Methods:
@@ -37,9 +37,9 @@ http_interactions:
       X-Cacheable:
       - NO:Cache-Control=max-age=0
       Content-Length:
-      - '1334'
+      - '3249'
       X-Varnish:
-      - '3714164281'
+      - '3859855683'
       Age:
       - '0'
       Via:
@@ -50,12 +50,17 @@ http_interactions:
       - Accept-Encoding
     body:
       encoding: US-ASCII
-      string: ! '[{"kind":"group","id":3,"created_at":"2009/06/18 15:46:46 +0000","permalink":"made-with-ableton-live","name":"Made
-        with Ableton Live!","short_description":"tracks produced with Ableton Live!
-        music software, no DJ mixes!","description":"send your tracks, no DJ mixes
-        please!","uri":"http://api.soundcloud.com/groups/3","artwork_url":"http://i1.sndcdn.com/artworks-000000481400-f0ynk3-large.jpg?b9fd227","permalink_url":"http://soundcloud.com/groups/made-with-ableton-live","creator":{"id":552892,"kind":"user","permalink":"ableton","username":"Ableton","uri":"http://api.soundcloud.com/users/552892","permalink_url":"http://soundcloud.com/ableton","avatar_url":"http://i1.sndcdn.com/avatars-000001173775-dm1p1l-large.jpg?b9fd227"}},{"kind":"group","id":83495,"created_at":"2012/06/21
-        04:33:50 +0000","permalink":"red_haze","name":"red_haze","short_description":"red_haze
-        gem group","description":"","uri":"http://api.soundcloud.com/groups/83495","artwork_url":"http://a1.sndcdn.com/images/default_avatar_large.png?b9fd227","permalink_url":"http://soundcloud.com/groups/red_haze","creator":{"id":999942,"kind":"user","permalink":"jackca","username":"JackCA","uri":"http://api.soundcloud.com/users/999942","permalink_url":"http://soundcloud.com/jackca","avatar_url":"http://i1.sndcdn.com/avatars-000002957252-ptk617-large.jpg?b9fd227"}}]'
+      string: ! '[{"kind":"group","id":63665,"created_at":"2012/01/20 07:15:11 +0000","permalink":"storywheel","name":"Story
+        Wheel","short_description":"Tell the story behind your pictures","description":"StoryWheel
+        let''s you tell the story behind your pictures. To tell your story go to http://storywheel.cc.\r\n","uri":"http://api.soundcloud.com/groups/63665","artwork_url":"http://i1.sndcdn.com/artworks-000017237180-9uzm6k-large.jpg?96679da","permalink_url":"http://soundcloud.com/groups/storywheel","creator":{"id":3207,"kind":"user","permalink":"jwagener","username":"Johannes
+        Wagener","uri":"http://api.soundcloud.com/users/3207","permalink_url":"http://soundcloud.com/jwagener","avatar_url":"http://i1.sndcdn.com/avatars-000014428549-3at7qc-large.jpg?96679da"}},{"kind":"group","id":51341,"created_at":"2011/08/31
+        17:05:42 +0000","permalink":"imaschine","name":"iMaschine","short_description":"","description":"","uri":"http://api.soundcloud.com/groups/51341","artwork_url":"http://i1.sndcdn.com/artworks-000011208598-bd6tbg-large.jpg?96679da","permalink_url":"http://soundcloud.com/groups/imaschine","creator":{"id":6450915,"kind":"user","permalink":"imaschine","username":"imaschine","uri":"http://api.soundcloud.com/users/6450915","permalink_url":"http://soundcloud.com/imaschine","avatar_url":"http://i1.sndcdn.com/avatars-000005838621-ld5s4l-large.jpg?96679da"}},{"kind":"group","id":55517,"created_at":"2011/10/22
+        00:14:10 +0000","permalink":"damn-good-coffee","name":"Damn Good Coffee","short_description":"Damn
+        Good Coffee ","description":"http://www.youtube.com/watch?v=BP8wJYRFyJI","uri":"http://api.soundcloud.com/groups/55517","artwork_url":"http://i1.sndcdn.com/artworks-000013030698-xqtp0b-large.jpg?96679da","permalink_url":"http://soundcloud.com/groups/damn-good-coffee","creator":{"id":3207,"kind":"user","permalink":"jwagener","username":"Johannes
+        Wagener","uri":"http://api.soundcloud.com/users/3207","permalink_url":"http://soundcloud.com/jwagener","avatar_url":"http://i1.sndcdn.com/avatars-000014428549-3at7qc-large.jpg?96679da"}},{"kind":"group","id":55136,"created_at":"2011/10/17
+        22:38:52 +0000","permalink":"test-22","name":"Test","short_description":"test
+        test","description":"","uri":"http://api.soundcloud.com/groups/55136","artwork_url":"http://a1.sndcdn.com/images/default_avatar_large.png?96679da","permalink_url":"http://soundcloud.com/groups/test-22","creator":{"id":2879548,"kind":"user","permalink":"jstnw","username":"jstreet","uri":"http://api.soundcloud.com/users/2879548","permalink_url":"http://soundcloud.com/jstnw","avatar_url":"http://i1.sndcdn.com/avatars-000006763043-urg7lt-large.jpg?96679da"}},{"kind":"group","id":54522,"created_at":"2011/10/10
+        19:17:24 +0000","permalink":"jstreets-group","name":"jstreet''s group","short_description":"funk","description":"","uri":"http://api.soundcloud.com/groups/54522","artwork_url":"http://i1.sndcdn.com/artworks-000012577005-59nslh-large.jpg?96679da","permalink_url":"http://soundcloud.com/groups/jstreets-group","creator":{"id":2879548,"kind":"user","permalink":"jstnw","username":"jstreet","uri":"http://api.soundcloud.com/users/2879548","permalink_url":"http://soundcloud.com/jstnw","avatar_url":"http://i1.sndcdn.com/avatars-000006763043-urg7lt-large.jpg?96679da"}}]'
     http_version: 
-  recorded_at: Thu, 28 Jun 2012 08:52:14 GMT
+  recorded_at: Fri, 29 Jun 2012 15:40:58 GMT
 recorded_with: VCR 2.2.0

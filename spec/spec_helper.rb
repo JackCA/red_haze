@@ -16,8 +16,11 @@ RSpec.configure do |config|
   config.filter_run :focus
 end
 
-def setup_config
-  RedHaze.configure YAML.load_file(File.join(File.dirname(__FILE__),'../config.yml'))
+def setup_config(type)
+  config = YAML.load_file(File.join(File.dirname(__FILE__),'../config.yml'))
+  config.delete(:access_token) unless type == :oauth
+  RedHaze::Request.default_options[:default_params] = nil
+  RedHaze.configure(config)
 end
 
 class Object

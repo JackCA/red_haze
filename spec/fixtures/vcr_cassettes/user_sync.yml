@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://api.soundcloud.com/users/999942?access_token=<ACCESS_TOKEN>&client_id=<CLIENT_ID>
+    uri: http://api.soundcloud.com/users/2879548?client_id=<CLIENT_ID>
     body:
       encoding: US-ASCII
       string: ''
@@ -17,15 +17,15 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Thu, 28 Jun 2012 08:52:09 GMT
+      - Fri, 29 Jun 2012 15:40:50 GMT
       Content-Type:
       - application/json; charset=utf-8
       Connection:
       - keep-alive
       X-Runtime:
-      - '10'
+      - '20'
       Etag:
-      - ! '"d68c3c5a9a12a157dbab57713fd94519"'
+      - ! '"978a91aca31d51b1abda82e9b0a07791"'
       Cache-Control:
       - private, max-age=0, must-revalidate
       Access-Control-Allow-Methods:
@@ -37,9 +37,9 @@ http_interactions:
       X-Cacheable:
       - NO:Cache-Control=max-age=0
       Content-Length:
-      - '550'
+      - '639'
       X-Varnish:
-      - '2886406786'
+      - '3859846790'
       Age:
       - '0'
       Via:
@@ -48,8 +48,10 @@ http_interactions:
       - MISS
     body:
       encoding: US-ASCII
-      string: ! '{"id":999942,"kind":"user","permalink":"jackca","username":"JackCA","uri":"http://api.soundcloud.com/users/999942","permalink_url":"http://soundcloud.com/jackca","avatar_url":"http://i1.sndcdn.com/avatars-000002957252-ptk617-large.jpg?b9fd227","country":"United
-        States","full_name":"Jack Anderson","city":"San Francisco","description":"","discogs_name":null,"myspace_name":null,"website":"http://janderson.me","website_title":"","online":true,"track_count":1,"playlist_count":1,"public_favorites_count":75,"followers_count":21,"followings_count":112}'
+      string: ! '{"id":2879548,"kind":"user","permalink":"jstnw","username":"jstreet","uri":"http://api.soundcloud.com/users/2879548","permalink_url":"http://soundcloud.com/jstnw","avatar_url":"http://i1.sndcdn.com/avatars-000006763043-urg7lt-large.jpg?96679da","country":"United
+        States","full_name":"Justin Street","city":"San Francisco","description":"I''m
+        a Business Developer on SoundCloud''s API Team. ","discogs_name":null,"myspace_name":null,"website":"http://justin.st","website_title":"the
+        personal blog of Justin W. Street","online":true,"track_count":43,"playlist_count":5,"public_favorites_count":393,"followers_count":493,"followings_count":444}'
     http_version: 
-  recorded_at: Thu, 28 Jun 2012 08:52:11 GMT
+  recorded_at: Fri, 29 Jun 2012 15:40:53 GMT
 recorded_with: VCR 2.2.0

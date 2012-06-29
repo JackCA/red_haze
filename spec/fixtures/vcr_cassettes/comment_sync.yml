@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://api.soundcloud.com/comments/13685794?access_token=<ACCESS_TOKEN>&client_id=<CLIENT_ID>
+    uri: http://api.soundcloud.com/comments/13685794?client_id=<CLIENT_ID>
     body:
       encoding: US-ASCII
       string: ''
@@ -17,15 +17,15 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Thu, 28 Jun 2012 08:52:00 GMT
+      - Fri, 29 Jun 2012 15:40:41 GMT
       Content-Type:
       - application/json; charset=utf-8
       Connection:
       - keep-alive
       X-Runtime:
-      - '11'
+      - '12'
       Etag:
-      - ! '"efa370f12aa2fcc0c3e3c4170d026f17"'
+      - ! '"baabe894846de05340fac131df744573"'
       Cache-Control:
       - private, max-age=0, must-revalidate
       Access-Control-Allow-Methods:
@@ -39,7 +39,7 @@ http_interactions:
       Content-Length:
       - '470'
       X-Varnish:
-      - '3714152363'
+      - '3032042448'
       Age:
       - '0'
       Via:
@@ -50,7 +50,7 @@ http_interactions:
       encoding: US-ASCII
       string: ! '{"kind":"comment","id":13685794,"created_at":"2011/04/06 14:55:30
         +0000","user_id":1505645,"track_id":9740245,"timestamp":55593,"body":"best
-        jehst! :D","uri":"http://api.soundcloud.com/comments/13685794","user":{"id":1505645,"kind":"user","permalink":"four2wenty","username":"four2wenty","uri":"http://api.soundcloud.com/users/1505645","permalink_url":"http://soundcloud.com/four2wenty","avatar_url":"http://i1.sndcdn.com/avatars-000012916021-gojrxj-large.jpg?b9fd227"}}'
+        jehst! :D","uri":"http://api.soundcloud.com/comments/13685794","user":{"id":1505645,"kind":"user","permalink":"four2wenty","username":"four2wenty","uri":"http://api.soundcloud.com/users/1505645","permalink_url":"http://soundcloud.com/four2wenty","avatar_url":"http://i1.sndcdn.com/avatars-000012916021-gojrxj-large.jpg?96679da"}}'
     http_version: 
-  recorded_at: Thu, 28 Jun 2012 08:52:03 GMT
+  recorded_at: Fri, 29 Jun 2012 15:40:44 GMT
 recorded_with: VCR 2.2.0

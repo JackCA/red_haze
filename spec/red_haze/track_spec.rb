@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 describe RedHaze::Track do
-  before(:all) { setup_config }
+  before(:all) { setup_config(:client) }
 
   let(:instance) { described_class.new(49518905) }
   let(:synced_track) do 

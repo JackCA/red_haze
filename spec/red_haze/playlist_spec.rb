@@ -2,7 +2,7 @@ require 'spec_helper'
 require 'red_haze/playlist'
 
 describe RedHaze::Playlist do
-  before(:all) { setup_config }
+  before(:all) { setup_config(:client) }
 
   let(:instance) { described_class.new(2161228) }
 

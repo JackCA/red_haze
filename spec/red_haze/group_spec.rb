@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 describe RedHaze::Group do
-  before(:all) { setup_config }
+  before(:all) { setup_config(:client) }
 
   let(:instance) { described_class.new(83495) }
 

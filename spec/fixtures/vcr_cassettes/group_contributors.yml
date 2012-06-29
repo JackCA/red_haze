@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://api.soundcloud.com/groups/83495/contributors?access_token=<ACCESS_TOKEN>&client_id=<CLIENT_ID>
+    uri: http://api.soundcloud.com/groups/83495/contributors?client_id=<CLIENT_ID>
     body:
       encoding: US-ASCII
       string: ''
@@ -17,15 +17,15 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Thu, 28 Jun 2012 08:52:03 GMT
+      - Fri, 29 Jun 2012 15:40:43 GMT
       Content-Type:
       - application/json; charset=utf-8
       Connection:
       - keep-alive
       X-Runtime:
-      - '14'
+      - '29'
       Etag:
-      - ! '"465d256dc20524ae1f5f9fb14d3f4fc4"'
+      - ! '"3620bb319113f7fe7e4f1fc5f7fdee18"'
       Cache-Control:
       - private, max-age=0, must-revalidate
       Access-Control-Allow-Methods:
@@ -39,7 +39,7 @@ http_interactions:
       Content-Length:
       - '552'
       X-Varnish:
-      - '3714155554'
+      - '3032046030'
       Age:
       - '0'
       Via:
@@ -48,8 +48,8 @@ http_interactions:
       - MISS
     body:
       encoding: US-ASCII
-      string: ! '[{"id":999942,"kind":"user","permalink":"jackca","username":"JackCA","uri":"http://api.soundcloud.com/users/999942","permalink_url":"http://soundcloud.com/jackca","avatar_url":"http://i1.sndcdn.com/avatars-000002957252-ptk617-large.jpg?b9fd227","country":"United
+      string: ! '[{"id":999942,"kind":"user","permalink":"jackca","username":"JackCA","uri":"http://api.soundcloud.com/users/999942","permalink_url":"http://soundcloud.com/jackca","avatar_url":"http://i1.sndcdn.com/avatars-000002957252-ptk617-large.jpg?96679da","country":"United
         States","full_name":"Jack Anderson","city":"San Francisco","description":"","discogs_name":null,"myspace_name":null,"website":"http://janderson.me","website_title":"","online":true,"track_count":1,"playlist_count":1,"public_favorites_count":75,"followers_count":21,"followings_count":112}]'
     http_version: 
-  recorded_at: Thu, 28 Jun 2012 08:52:06 GMT
+  recorded_at: Fri, 29 Jun 2012 15:40:46 GMT
 recorded_with: VCR 2.2.0

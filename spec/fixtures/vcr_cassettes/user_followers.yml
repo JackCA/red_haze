@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://api.soundcloud.com/users/999942/followers?access_token=<ACCESS_TOKEN>&client_id=<CLIENT_ID>
+    uri: http://api.soundcloud.com/users/2879548/followers?client_id=<CLIENT_ID>
     body:
       encoding: US-ASCII
       string: ''
@@ -17,15 +17,15 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Thu, 28 Jun 2012 08:52:10 GMT
+      - Fri, 29 Jun 2012 15:40:54 GMT
       Content-Type:
       - application/json; charset=utf-8
       Connection:
       - keep-alive
       X-Runtime:
-      - '147'
+      - '440'
       Etag:
-      - ! '"a403fd0adb98af14d3d4d6e45ce4dc81"'
+      - ! '"8ba91c0e2b2efb36b071a7aedad9c165"'
       Cache-Control:
       - private, max-age=0, must-revalidate
       Access-Control-Allow-Methods:
@@ -37,9 +37,9 @@ http_interactions:
       X-Cacheable:
       - NO:Cache-Control=max-age=0
       Content-Length:
-      - '17879'
+      - '53059'
       X-Varnish:
-      - '2886408049'
+      - '3859851901'
       Age:
       - '0'
       Via:
@@ -50,124 +50,382 @@ http_interactions:
       - Accept-Encoding
     body:
       encoding: US-ASCII
-      string: ! '[{"id":2879548,"kind":"user","permalink":"jstnw","username":"jstreet","uri":"http://api.soundcloud.com/users/2879548","permalink_url":"http://soundcloud.com/jstnw","avatar_url":"http://i1.sndcdn.com/avatars-000006763043-urg7lt-large.jpg?b9fd227","country":"United
-        States","full_name":"Justin Street","city":"San Francisco","description":"I''m
-        a Business Developer on SoundCloud''s API Team. ","discogs_name":null,"myspace_name":null,"website":"http://justin.st","website_title":"the
-        personal blog of Justin W. Street","online":true,"track_count":43,"playlist_count":5,"public_favorites_count":391,"followers_count":492,"followings_count":442},{"id":1825259,"kind":"user","permalink":"sirkofficial","username":"SirK","uri":"http://api.soundcloud.com/users/1825259","permalink_url":"http://soundcloud.com/sirkofficial","avatar_url":"http://i1.sndcdn.com/avatars-000017692322-9vlpf9-large.jpg?b9fd227","country":"Puerto
-        Rico","full_name":"Christian Robles","city":"San Juan","description":"Bookings:\nNorth
-        America/South America/Central America\nsirk.magnusson@gmail.com\n\n\n     Christian
-        Robles, born and raised in the Metro Area in Puerto Rico, has been a sensation
-        in the last very few months in the EDM industry inside the island. Producing
-        since he was 17, SirK has developed piano playing and drum set skills to the
-        level that has been making his tracks the perfect combination of anthemic
-        an rhythmic progressive sounds, with hard-pounding percussion that make his
-        repertoire one of a kind. \n\n     Original Mixes like \"The Descendant\"
-        and \"The Extra Mile\" have been played not all over Puerto Rico, but in other
-        countries around the globe, like Spain, Australia, Italy, Turkey and many
-        more. Now at his 21 years of age, Christian is planning to study further and
-        go deep into the EDM business, and also has been performing over the radio,
-        and over the internet. SirK not only intends to make a name for himself and
-        his country, he intends to bring the joy and the beautiful sound of dance
-        music to the rest of the world, and he''s just getting started.","discogs_name":null,"myspace_name":"sirkofficial","website":null,"website_title":null,"online":false,"track_count":39,"playlist_count":0,"public_favorites_count":56,"followers_count":945,"followings_count":1988},{"id":6127510,"kind":"user","permalink":"tyronerubik","username":"TyroneRubik","uri":"http://api.soundcloud.com/users/6127510","permalink_url":"http://soundcloud.com/tyronerubik","avatar_url":"http://i1.sndcdn.com/avatars-000007266588-1x605a-large.jpg?b9fd227","country":"Spain","full_name":"Tyrone
-        Rubik","city":"Valencia","description":null,"discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":false,"track_count":2,"playlist_count":0,"public_favorites_count":78,"followers_count":403,"followings_count":1485},{"id":10470331,"kind":"user","permalink":"economics","username":"Economics","uri":"http://api.soundcloud.com/users/10470331","permalink_url":"http://soundcloud.com/economics","avatar_url":"http://i1.sndcdn.com/avatars-000008771053-ye55t4-large.jpg?b9fd227","country":"United
-        States","full_name":"Economic$ (Producer)","city":"Los Angeles","description":"Economic$
-        (Music Producer)\r\n\r\nFor Beat Inquires Contact: economicmusic@gmail.com\r\n\r\n-Beat
-        leases are $25 per beat.\r\n\r\n-Payment accepted through PayPal.\r\n\r\n-NO
-        FREE BEATS.","discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":false,"track_count":20,"playlist_count":0,"public_favorites_count":5,"followers_count":36,"followings_count":91},{"id":974640,"kind":"user","permalink":"mof-disco","username":"MoF
-        Disco","uri":"http://api.soundcloud.com/users/974640","permalink_url":"http://soundcloud.com/mof-disco","avatar_url":"http://i1.sndcdn.com/avatars-000008743656-2clv7b-large.jpg?b9fd227","country":"Germany","full_name":"","city":"Flensburg","description":"","discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":false,"track_count":12,"playlist_count":0,"public_favorites_count":35,"followers_count":710,"followings_count":1999},{"id":2176694,"kind":"user","permalink":"drumsoflondon","username":"drumsoflondon","uri":"http://api.soundcloud.com/users/2176694","permalink_url":"http://soundcloud.com/drumsoflondon","avatar_url":"http://i1.sndcdn.com/avatars-000002132772-p4q8gh-large.jpg?b9fd227","country":"Britain
-        (UK)","full_name":"Drums Of London","city":"London","description":"FOLLOW
-        US ON FACEBOOK HERE...\nhttp://www.facebook.com/drumsoflondon\n\n\n\n\"Drums
-        of London\" are a hot new production duo. The two producers have recently
-        joined forces to create a new project promising to bridge the gap between
-        their urban music roots and the mainstream. As solo producers the pair have
-        written music ranging from House to Hip hop and have already worked with a
-        wide range of artists and Dj''s including Roll Deep, Wiley, Plump Dj''s, Nichol
-        Wray, J2k, Ministry Of Sound, Fatman Scoop and Styles-p,... the list goes
-        on!  The boy''s first single \"Girls Girls Girls'' has been signed across
-        europe and is sure to be a summer favorite, receiving support from household
-        names such as Radio 1''s Scott Mill''s. They have also been busy servicing
-        the underground with club remixes for the likes of Conor Maynard and Professor
-        Green.","discogs_name":null,"myspace_name":"drumsoflondon","website":null,"website_title":null,"online":false,"track_count":6,"playlist_count":0,"public_favorites_count":0,"followers_count":553,"followings_count":1966},{"id":9277257,"kind":"user","permalink":"2desperate","username":"2Desperate","uri":"http://api.soundcloud.com/users/9277257","permalink_url":"http://soundcloud.com/2desperate","avatar_url":"http://i1.sndcdn.com/avatars-000009350097-0g6qjj-large.jpg?b9fd227","country":"Latvia","full_name":"Alexander
-        Gutarov","city":"Ventspils","description":"2Desperate is an Alternative Rock/Metal
-        style project.\r\nAlexander Gutarov - composer, rhythm / lead guitar, bass,
-        sampling.","discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":false,"track_count":11,"playlist_count":3,"public_favorites_count":7,"followers_count":1106,"followings_count":1996},{"id":7634942,"kind":"user","permalink":"notes-for-jane","username":"Notes
-        for Jane","uri":"http://api.soundcloud.com/users/7634942","permalink_url":"http://soundcloud.com/notes-for-jane","avatar_url":"http://i1.sndcdn.com/avatars-000017226573-n9t8og-large.jpg?b9fd227","country":"United
-        States","full_name":"","city":"Lynchburg, Virginia","description":"I love
-        music without a singer just straight beats and pure guitar rock.","discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":false,"track_count":28,"playlist_count":0,"public_favorites_count":35,"followers_count":239,"followings_count":1721},{"id":12279805,"kind":"user","permalink":"ryan-kaplan","username":"rmkaplan","uri":"http://api.soundcloud.com/users/12279805","permalink_url":"http://soundcloud.com/ryan-kaplan","avatar_url":"http://i1.sndcdn.com/avatars-000010501710-a0orh8-large.jpg?b9fd227","country":null,"full_name":"Ryan
-        Kaplan","city":null,"description":null,"discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":false,"track_count":0,"playlist_count":0,"public_favorites_count":2,"followers_count":6,"followings_count":34},{"id":40488,"kind":"user","permalink":"thehousemoguls","username":"thehousemoguls","uri":"http://api.soundcloud.com/users/40488","permalink_url":"http://soundcloud.com/thehousemoguls","avatar_url":"http://a1.sndcdn.com/images/default_avatar_large.png?b9fd227","country":"United
-        States","full_name":"The House Moguls","city":"Chicago","description":"The
-        House Moguls\u2014Are house music junkies, literally. United as a duo in 2006,
-        their unique style of combining classic house samples with pulsating electronic
-        melodies has led to their original productions being featured in primetime
-        T.V. shows, showcased during the Cannes Music Festival and licensed throughout
-        the world. Remixes are their other strong suit. Artists like: Daft Punk, Deadmau5,
-        Crookers, Basement Jaxx, Common, David Guetta \u0026 Mighty Dub Kats have
-        all experienced a House Mogul\u2019esque facelift\u2014appealing to a more
-        diverse audience and expanding into newer horizons.\n\nThe House Moguls continue
-        spending countless hours of their time in the studio, glued to their keyboards
-        and staring at the computer screen, because they\u2019re passionate about
-        what they do. \u201cIt\u2019s all about pushing the dance scene to the next
-        level,\u201d explains Basil. \u201cWe challenge each other everyday to bring
-        something new and innovative to whatever project we\u2019re working on\u2014but
-        don\u2019t believe for one second that we\u2019re not having fun while doing
-        it.\u201d His partner in crime couldn\u2019t agree more, \u201cWe\u2019re
-        always striving to be better than the day before,\u201d says Calderone, \u201cand
-        it\u2019s a great feeling that we can deliver music that sends chills down
-        our backs.\u201d\n\nWith their current productions already supported by world
-        renowned DJs and producers alike, The House Moguls plan to broaden their influence
-        in the upcoming future by taking their skills on the road and showcasing their
-        talents live. \u201cIt\u2019s one thing to sit in a room and listen to your
-        tracks through studio monitors,\u201d says Calderone, \u201cbut it\u2019s
-        a completely different experience when you get to bring your sound to hundreds
-        of people in the same setting. We treat each live performance as an opportunity
-        to craft our sound\u2014and the more we play, the more our sound will grow.\u201d
-        With the endless determination of bringing something fresh and appealing to
-        each project, The House Moguls look to have a very bright\u2014and very busy\u2014future
-        ahead of them. \n","discogs_name":null,"myspace_name":"thehousemoguls","website":"http://www.thehousemoguls.com","website_title":"The
-        House Moguls Official Website","online":false,"track_count":33,"playlist_count":2,"public_favorites_count":1,"followers_count":3154,"followings_count":1955},{"id":19338169,"kind":"user","permalink":"daniel-touchette","username":"Dan
-        Touchette","uri":"http://api.soundcloud.com/users/19338169","permalink_url":"http://soundcloud.com/daniel-touchette","avatar_url":"http://i1.sndcdn.com/avatars-000017633466-6ye8re-large.jpg?b9fd227","country":null,"full_name":"Dan
-        Touchette","city":"","description":null,"discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":false,"track_count":0,"playlist_count":0,"public_favorites_count":0,"followers_count":2,"followings_count":22},{"id":1604066,"kind":"user","permalink":"teve-ahrens","username":"Teve
-        Ahrens","uri":"http://api.soundcloud.com/users/1604066","permalink_url":"http://soundcloud.com/teve-ahrens","avatar_url":"http://i1.sndcdn.com/avatars-000002383176-7a1oax-large.jpg?b9fd227","country":"Germany","full_name":"Teve
-        Ahrens","city":"Hannover","description":null,"discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":false,"track_count":15,"playlist_count":2,"public_favorites_count":43,"followers_count":252,"followings_count":1297},{"id":14388775,"kind":"user","permalink":"zabbyz","username":"zabbyz","uri":"http://api.soundcloud.com/users/14388775","permalink_url":"http://soundcloud.com/zabbyz","avatar_url":"http://i1.sndcdn.com/avatars-000012602685-3b1gye-large.jpg?b9fd227","country":"United
-        States","full_name":"zabby z","city":"sf","description":null,"discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":false,"track_count":6,"playlist_count":0,"public_favorites_count":45,"followers_count":13,"followings_count":28},{"id":9438590,"kind":"user","permalink":"dominiquepruitt","username":"DominiquePruitt","uri":"http://api.soundcloud.com/users/9438590","permalink_url":"http://soundcloud.com/dominiquepruitt","avatar_url":"http://i1.sndcdn.com/avatars-000011093711-4n7b7p-large.jpg?b9fd227","country":"United
-        States","full_name":"Dominique Pruitt","city":"Los Angeles","description":"I
-        am Dominique Pruitt, a real artist inspired by life, love, and other real
-        artists. I have a vision.\r\nHear it for yourself.\r\n","discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":false,"track_count":6,"playlist_count":2,"public_favorites_count":1,"followers_count":6440,"followings_count":2000},{"id":335438,"kind":"user","permalink":"pietromokoallegrini","username":"MOKO","uri":"http://api.soundcloud.com/users/335438","permalink_url":"http://soundcloud.com/pietromokoallegrini","avatar_url":"http://i1.sndcdn.com/avatars-000000721365-lzdpid-large.jpg?b9fd227","country":"Italy","full_name":"Pietro
-        Allegrini","city":"contact: djmoko@libero.it","description":"PIETRO ALLEGRINI
-        AKA MOKO: \nDj sin dall''et\u00e0 di 9 anni; appassionato di scratch, muove
-        i suoi primi passi cominciando a suonare nella discoteca della sua citt\u00e0
-        natale.\n\nDurante la sua cariera artistica suona in moltissimi locali italiani
-        di valevole importanza tra i quali possiamo brevemente citare: \nECU,\nCOTTON
-        CLUB,\nECHOES,\nDIABOLIKA,\nCOCORICO,\nPRINCE,\nPETER PAN,\nALTRO MONDO STUDIOS\nLA
-        MECCA ecc..\n\nStampa le sue prime produzioni nel 2004 su SOUNDZ RECORDS.\nTra
-        le pi\u00f9 famose spicca FLY e da li una lunga serie di produzioni.\nAttualmente
-        \u00e8 resident al RED ZONE CLUB e continua a lavorare in strudio, sensa sosta,
-        sulle nuove produzioni firmate: \nDEEP THROAT RECORDS, \nD:VISION, \nJUICY
-        MUSIC (USA)\nTIME RECORDS, \nRISE RECORDS \nMINISTRY OF SOUND (UK)\n","discogs_name":"Moko","myspace_name":"pietromokoallegrini","website":"http://www.deepthroatrec.com","website_title":null,"online":false,"track_count":18,"playlist_count":1,"public_favorites_count":30,"followers_count":451,"followings_count":1514},{"id":5673014,"kind":"user","permalink":"briggfair","username":"Brigg
-        Fair","uri":"http://api.soundcloud.com/users/5673014","permalink_url":"http://soundcloud.com/briggfair","avatar_url":"http://i1.sndcdn.com/avatars-000012317318-wq558y-large.jpg?b9fd227","country":"United
-        States","full_name":"","city":"Los Angeles, CA","description":"","discogs_name":null,"myspace_name":null,"website":"http://briggfair.com","website_title":"Brigg
-        Fair","online":false,"track_count":10,"playlist_count":1,"public_favorites_count":12,"followers_count":58,"followings_count":255},{"id":785007,"kind":"user","permalink":"jbillauer","username":"Jeremy
-        Billauer","uri":"http://api.soundcloud.com/users/785007","permalink_url":"http://soundcloud.com/jbillauer","avatar_url":"http://i1.sndcdn.com/avatars-000014838146-sycbcs-large.jpg?b9fd227","country":"United
-        States","full_name":"","city":"Fort Collins","description":null,"discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":false,"track_count":0,"playlist_count":0,"public_favorites_count":60,"followers_count":7,"followings_count":14},{"id":13148526,"kind":"user","permalink":"zac-selmon","username":"Zac
-        Selmon","uri":"http://api.soundcloud.com/users/13148526","permalink_url":"http://soundcloud.com/zac-selmon","avatar_url":"http://i1.sndcdn.com/avatars-000011370625-qiv7em-large.jpg?b9fd227","country":"United
-        States","full_name":"Zac Selmon","city":"San Francisco","description":null,"discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":false,"track_count":0,"playlist_count":0,"public_favorites_count":2,"followers_count":4,"followings_count":20},{"id":7674301,"kind":"user","permalink":"tension-night-1","username":"Tension
-        night...","uri":"http://api.soundcloud.com/users/7674301","permalink_url":"http://soundcloud.com/tension-night-1","avatar_url":"http://a1.sndcdn.com/images/default_avatar_large.png?b9fd227","country":"Czech
-        Republic","full_name":"wetrix","city":"jindruchuv hradec","description":null,"discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":false,"track_count":2,"playlist_count":0,"public_favorites_count":0,"followers_count":331,"followings_count":1981},{"id":2164565,"kind":"user","permalink":"manny-g-3","username":"Manny
-        G","uri":"http://api.soundcloud.com/users/2164565","permalink_url":"http://soundcloud.com/manny-g-3","avatar_url":"http://a1.sndcdn.com/images/default_avatar_large.png?b9fd227","country":"United
-        States","full_name":"MG Gonzalez","city":"Los Angeles","description":null,"discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":false,"track_count":1,"playlist_count":0,"public_favorites_count":2,"followers_count":2,"followings_count":9},{"id":352345,"kind":"user","permalink":"jose-g","username":"Jose
-        G","uri":"http://api.soundcloud.com/users/352345","permalink_url":"http://soundcloud.com/jose-g","avatar_url":"http://i1.sndcdn.com/avatars-000001879084-25xa1g-large.jpg?b9fd227","country":"United
-        States","full_name":"","city":"Miami","description":"Jose G - born in Lima,
-        Peru. From childhood he was always inclined to electronic music. He started
-        to dj when he was a kid influenced by succesfull djs such as Carl Cox, Marco
-        Carola, Erick Morillo, Ricardo Villalobos, Plastikman. Began his career in
-        the city of Miami, playing the best music of the moment with his unique SouthAmerican
-        flavor mixing style in many known clubs in Miami and always making the people
-        reach their limited excitement with its familiar sounds Bombas. Besides his
-        incredible ability in the mixers, he has also started his own productions
-        that will be realease soon in this year. Jose G is rapidly becoming part of
-        the next generation of DJs and producers to take the electronic music world
-        to a new level.\n\n\n\nFor Bookings: \n\nbastidasmanagement@hotmail.com\n\n(305)
-        562-0697","discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":false,"track_count":1,"playlist_count":3,"public_favorites_count":1,"followers_count":495,"followings_count":1509}]'
+      string: ! '[{"id":7002388,"kind":"user","permalink":"smurthas","username":"smurthas","uri":"http://api.soundcloud.com/users/7002388","permalink_url":"http://soundcloud.com/smurthas","avatar_url":"http://i1.sndcdn.com/avatars-000005671285-qjpjrz-large.jpg?96679da","country":"United
+        States","full_name":"Simon","city":"San Francisco","description":null,"discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":true,"track_count":15,"playlist_count":0,"public_favorites_count":1,"followers_count":4,"followings_count":4},{"id":1722310,"kind":"user","permalink":"me-and-this-arm","username":"Me
+        \u0026 This Army","uri":"http://api.soundcloud.com/users/1722310","permalink_url":"http://soundcloud.com/me-and-this-arm","avatar_url":"http://i1.sndcdn.com/avatars-000007084825-6hyxc9-large.jpg?96679da","country":"United
+        States","full_name":"Courtney Hargrove, Nicholas Pollione, Jonathan Burrier","city":"Baltimore","description":"Check
+        out our new song, YOU, and download it for free! \r\n\r\nwww.meandthisarmy.com\r\nwww.facebook.com/meandthisarmy","discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":true,"track_count":5,"playlist_count":0,"public_favorites_count":31,"followers_count":254,"followings_count":1396},{"id":400115,"kind":"user","permalink":"antisweep","username":"Antisweep","uri":"http://api.soundcloud.com/users/400115","permalink_url":"http://soundcloud.com/antisweep","avatar_url":"http://i1.sndcdn.com/avatars-000002063162-f9k8ox-large.jpg?96679da","country":"United
+        States","full_name":"Antisweep","city":"Austin","description":"Antisweep was
+        raised in the tundra of the north, after much soul seeking and long journeys
+        he met the sound waves that led him to happiness.  Through many long hours
+        and much contemplation he decided to breed rabbits and sell them to the locals.
+        Within this his happiness grew and he brought forth his own sound waves. This
+        Page is a portal into the waves emitted by Antisweep.  ","discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":true,"track_count":26,"playlist_count":1,"public_favorites_count":111,"followers_count":548,"followings_count":1351},{"id":11176837,"kind":"user","permalink":"lucaderosa29","username":"Electric
+        Blue \u0026 J-kyNg","uri":"http://api.soundcloud.com/users/11176837","permalink_url":"http://soundcloud.com/lucaderosa29","avatar_url":"http://i1.sndcdn.com/avatars-000016450208-f31yqg-large.jpg?96679da","country":"Italy","full_name":"Luca
+        De Rosa","city":"Turin","description":null,"discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":true,"track_count":12,"playlist_count":0,"public_favorites_count":9,"followers_count":439,"followings_count":1890},{"id":11318454,"kind":"user","permalink":"hbkcj","username":"HBKCJ","uri":"http://api.soundcloud.com/users/11318454","permalink_url":"http://soundcloud.com/hbkcj","avatar_url":"http://i1.sndcdn.com/avatars-000009854206-bkh76t-large.jpg?96679da","country":"United
+        States","full_name":"CJ McGhee","city":"SAN FRANCISCO BAY AREA","description":"         ATTENTION                                                                     ATTENTION                                                    ATTENTION\r\n
+        To all HBKCJ colaboraters and followers: MAJOR technical  difficulties have
+        occured due to possible HACKING of all HBKCJ  sound clound music page causing
+        extreme TEMPORARY INTERRUPTIONS. Sound Clound department of INFRIGMENT/COPYWRITE
+        has contacted us and  now  investigating this matter. We have made over 7000
+        comments on your tracks. If you see any comments within the past week that
+        says HBKCJ on any of your tracks with a DIFFERENT PROFILE NAME on it please
+        NOTIFY ME ASAP!!!!!  We will be back in FULL FORCE SOON!. Please continue
+        to follow.Thanks for all  of your support and God Bless.\r\n\r\n                                                                                   HBKCJ/
+        CLARENCE JOHN MCGHEE\r\n                                                                                 \r\n\r\n\r\n\r\n\r\n\r\nClarence
+        John McGhee aka CJ (CESAY) and Michael McGhee aka Vivvid first cousins both
+        born and raised in Oakland California. They both have been making music since
+        the age of 10, their musical talents come from their fathers(brothers) who
+        have written many songs that has never been heard by the public. Yes old school
+        music mixed with todays high tech sounds creating an original sound of their
+        own is what these guys represent. From rap, r \u0026 b, hip hop and rock with
+        a spice of their own flavor, these guys are open and ready anytime for that
+        big day to arrive! , Mikey is an excellent gifted keyboard, pianist \r\n,
+        and organ player with the natural given talent with a voice that comes along
+        with his package that touches the soul. With his rough raspy voice, CJ has
+        the force factor, giving the hard heart felt throbing beat that makes this
+        unique contagious blend of music to the ear! The power of lyrics and song
+        writing is CJ''s gift. Once CJ and Mikey put a song together \"BEATS ON HIT\"...
+        the passion that the songs bring, these guys are aweome, they do not copy
+        other peoples songs. They say''their way or the highway\". At the tinder age
+        of 21 the sounds that are created comes from the heart and the experience
+        of their up bringing in Oakland and Richmond Ca. of which they have lost many
+        friends to the game and life on the streets. Lil Mikey continues to play gospel
+        music for bay area churches weekly and CJ is a dedicated Veterinarian Technician
+        for the City of San Francisco. There are plenty more sounds where these came
+        from so keep your ears open and keep checking in on these guys they are very
+        inspirational individuals. We really appreciate all of your support and look
+        forward to doing business with someone out there who has the faith in us that
+        we have in ourselves for a record deal. Our first CD will be coming soon.We
+        thank all of you for following our music and appreciate your comments as well.
+        So until next time god bless you all. LET''S KEEP THE MUSIC GOING-follow my
+        brother NYJIS MCGHEE on SOUND CLOUD. JUST ONE MORE NOTE WE''VE ADDED A NEW
+        ADDITION TO OUR PROFILE, MR PIANOMAN FROM NAMBIA, MR PIANOMAN HAS GREATLY
+        INPROVED OUR SKILLS BY ADDING HIS MAGIC PIANO FINGERS TO SOME OF OUR MUSIC
+        AND WILL BE COLLABORATING WITH CJ IN THE FUTURE.  \r\n\r\n","discogs_name":null,"myspace_name":"","website":"http://mystudio.net/hbkcjmcghee","website_title":"MY
+        STUDIO","online":true,"track_count":40,"playlist_count":1,"public_favorites_count":216,"followers_count":2817,"followings_count":1902},{"id":999942,"kind":"user","permalink":"jackca","username":"JackCA","uri":"http://api.soundcloud.com/users/999942","permalink_url":"http://soundcloud.com/jackca","avatar_url":"http://i1.sndcdn.com/avatars-000002957252-ptk617-large.jpg?96679da","country":"United
+        States","full_name":"Jack Anderson","city":"San Francisco","description":"","discogs_name":null,"myspace_name":null,"website":"http://janderson.me","website_title":"","online":true,"track_count":1,"playlist_count":1,"public_favorites_count":75,"followers_count":21,"followings_count":112},{"id":3614110,"kind":"user","permalink":"richwatson78","username":"rich
+        watson","uri":"http://api.soundcloud.com/users/3614110","permalink_url":"http://soundcloud.com/richwatson78","avatar_url":"http://i1.sndcdn.com/avatars-000002923025-rhiz1d-large.jpg?96679da","country":"Britain
+        (UK)","full_name":"Rich Watson","city":"London","description":" - singer\r\n
+        - songwriter\r\n - producer\r\n - played royal albert hall in 2008, supporting
+        the fratellis \u0026 performed with andy \u0026 neil from travis\r\n - worked
+        with kenney jones (small faces \u0026 the who) \u0026 mike rutherford (mike
+        \u0026 the mechanics \u0026 genesis) on the times ford focus/carparts project,  performing
+        on behalf of teenage cancer trust in liverpool, glasgow \u0026 the hospital,
+        covent garden\r\n - commissioned to write title theme for ''The New Goodbye''
+        iphone app in 2010 - available at iTunes\r\n - The Night Tripper and The Last
+        Chapter of the First Book are both featured on Current TV''s latest series
+        of What Did I Do Last Night","discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":true,"track_count":19,"playlist_count":0,"public_favorites_count":14,"followers_count":321,"followings_count":2000},{"id":14917066,"kind":"user","permalink":"lunarbear","username":"Lunar
+        Bear","uri":"http://api.soundcloud.com/users/14917066","permalink_url":"http://soundcloud.com/lunarbear","avatar_url":"http://i1.sndcdn.com/avatars-000015718463-b3dcxt-large.jpg?96679da","country":"Honduras","full_name":"Wilmer
+        Murillo","city":"","description":"Lunar Bear is the music project of designer
+        and doodler, Wilmer Murillo.\r\nhttp://wilmermurillo.com","discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":true,"track_count":2,"playlist_count":0,"public_favorites_count":55,"followers_count":33,"followings_count":75},{"id":5322401,"kind":"user","permalink":"janeshin","username":"Jane
+        Shin","uri":"http://api.soundcloud.com/users/5322401","permalink_url":"http://soundcloud.com/janeshin","avatar_url":"http://i1.sndcdn.com/avatars-000007803011-yg4zqt-large.jpg?96679da","country":"United
+        States","full_name":"Jane Shin","city":"San Francisco","description":"Hi,
+        I''m Jane on the \u003Ca href=\"http://soundcloud.com/community-team\" rel=\"nofollow\"
+        target=\"_blank\"\u003ESoundCloud Community team\u003C/a\u003E based in San
+        Francisco! I help run the \u003Ca href=\"http://bit.ly/soundcloudheroes\"\u003E
+        SoundCloud Heroes program\u003C/a\u003E. Get involved!\r\n\r\nA few things
+        I very much love: Welsh Corgis, live music and the Internet for making it
+        possible to find and share so many gems, especially on SoundCloud! :-)\r\n\r\nWant
+        to say hello? PM me, because I like hellos!\r\n\r\nIf you need help, hit up
+        \u003Ca href=\"http://help.soundcloud.com\"\u003Ehelp.soundcloud.com\u003C/a\u003E.\r\n\r\n\uc62c\ub9bc,\r\nJane","discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":true,"track_count":21,"playlist_count":3,"public_favorites_count":93,"followers_count":890,"followings_count":275},{"id":21778,"kind":"user","permalink":"seams","username":"seams","uri":"http://api.soundcloud.com/users/21778","permalink_url":"http://soundcloud.com/seams","avatar_url":"http://i1.sndcdn.com/avatars-000011926759-9mkw36-large.jpg?96679da","country":"Germany","full_name":"Jami
+        Welch","city":"Berlin","description":"My name is Jami, I make electronic music
+        under the name Seams.\r\n\r\nI work at SoundCloud as part of the Community
+        Team. Say Hello!\r\n\r\n\r\nSeams Management:\r\ncharlie@fwinki.com\r\n\r\nFor
+        live bookings contact: \r\nwill@mainstageartists.com","discogs_name":null,"myspace_name":"seams","website":"http://www.seamsmusic.com","website_title":"Website","online":true,"track_count":30,"playlist_count":7,"public_favorites_count":203,"followers_count":4068,"followings_count":347},{"id":11575605,"kind":"user","permalink":"terrence-trone-arnett","username":"TronePresto
+        (PrestoBeatS)","uri":"http://api.soundcloud.com/users/11575605","permalink_url":"http://soundcloud.com/terrence-trone-arnett","avatar_url":"http://i1.sndcdn.com/avatars-000009826216-xvsv4j-large.jpg?96679da","country":null,"full_name":"Terrence
+        Arnett","city":"Indianapolis,Indiana ","description":"Producer/Rapper/Artist
+        (READY TO COLLABORATE WITH ANY SINGER/RAPPER/ARTIST OF ANY GENRE)","discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":true,"track_count":15,"playlist_count":0,"public_favorites_count":50,"followers_count":738,"followings_count":1998},{"id":6214605,"kind":"user","permalink":"amarantemusic","username":"Amarante
+        :)","uri":"http://api.soundcloud.com/users/6214605","permalink_url":"http://soundcloud.com/amarantemusic","avatar_url":"http://i1.sndcdn.com/avatars-000008530220-2uy87m-large.jpg?96679da","country":"United
+        States","full_name":"Jysi And Josh Hewitt","city":"Fresno","description":"We
+        have just Released an Album titled \"Fingertips That Would Dare To Paint Ghosts
+        On Dirt\"\r\n\r\nIt''s Available on Band Camp Here:   http://amarante.bandcamp.com/\r\n\r\nAnd
+        iTunes Here  http://itunes.apple.com/us/album/fingertips-that-would-dare/id515148200\r\n\r\nIt
+        can also Be Purchased at our Bandcamp page..  http://amarante.bandcamp.com/\r\n\r\n\u003Ciframe
+        width=\"400\" height=\"100\" style=\"position: relative; display: block; width:
+        400px; height: 100px;\" src=\"http://bandcamp.com/EmbeddedPlayer/v=2/album=2338708111/size=venti/bgcol=FFFFFF/linkcol=4285BB/\"
+        allowtransparency=\"true\" frameborder=\"0\"\u003E\u003Ca href=\"http://amarante.bandcamp.com/album/fingertips-that-would-dare-to-paint-ghosts-on-dirt\"\u003EFingertips
+        That Would Dare To Paint Ghosts On Dirt by Amarante\u003C/a\u003E\u003C/iframe\u003E\r\n\r\n\r\n\r\nM\u00fam
+        has listened to and liked our cover of theirs\r\n\u003Ca href=\"http://i42.tinypic.com/4i1ocn.png\"
+        rel=\"nofollow\" target=\"_blank\"\u003Ehttp://i42.tinypic.com/4i1ocn.png\u003C/a\u003E\r\n\r\n\r\n\r\n
+        We just added a new set CALLED STEMS.Were gonna let you download the tracks
+        for some of our songs in hopes you will create remixes.We look forward to
+        the creativity out there!!!Right now we have the STEMS for our cover GOOD
+        MORNING FIRE EATER, Our Smiths Cover, and Our Original Song \"Rylan\".. and
+        \"SNOW STORM\" DOWNLOAD and REMIX NOW!!ALL REMIXES CAN BE UPLOADED TO OUR
+        GROUP CALLED AMARANTE STEMS ..Don''t forget to tell your fans where the sounds
+        came from! thanks\r\nJysi\r\nAmarante","discogs_name":null,"myspace_name":null,"website":"http://amarante.bandcamp.com/","website_title":"Buy
+        our Songs HERE!!!","online":true,"track_count":55,"playlist_count":4,"public_favorites_count":49,"followers_count":11996,"followings_count":1950},{"id":3173039,"kind":"user","permalink":"cutlery-1","username":"Cutlery
+        Beats","uri":"http://api.soundcloud.com/users/3173039","permalink_url":"http://soundcloud.com/cutlery-1","avatar_url":"http://i1.sndcdn.com/avatars-000011770939-kifuxi-large.jpg?96679da","country":"Japan","full_name":"Cutlery
+        Ignition","city":"Kumamoto","description":null,"discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":true,"track_count":19,"playlist_count":0,"public_favorites_count":112,"followers_count":1168,"followings_count":2000},{"id":4702860,"kind":"user","permalink":"juiceband","username":"juiceband","uri":"http://api.soundcloud.com/users/4702860","permalink_url":"http://soundcloud.com/juiceband","avatar_url":"http://i1.sndcdn.com/avatars-000004842088-uq6z5l-large.jpg?96679da","country":"Canada","full_name":"Juice","city":"Toronto
+        ","description":"Since the inception of the band in 2009, Juice has become
+        a major up-and-coming force in the Toronto music scene. Juice has headlined
+        legendary Toronto venues including the Horseshoe Tavern, the El Mocambo, the
+        Silver Dollar Room, Mitzi''s Sister, Clinton''s Tavern, and Lee\u2019s Palace.
+        Juice can also be seen playing at universities and colleges throughout Ontario,
+        having already added Waterloo, Humber, Trent, and Queens to their list. Mixing
+        the roots of Rock/Funk/Jazz/R\u0026amp;B with Pop melodies and Hip-Hop grooves,
+        Juice has an original sound that appeals to all music lovers.\nSmooth vocals,
+        a heavy-hitting rhythm section, tight horns, a fiery M.C., not to mention
+        their intense live shows, all combine to create an unforgettable experience.
+        After seeing the band perform live, the independent Toronto music critic The
+        Lonely Vagabond described Juice saying \u201cMixing hip-hop, funk, and sun-drenched
+        70''s pop, this is an energy-fueled sound that will make you hit the dance
+        floor!\u201d Juice challenges mainstream ideas about music by blurring the
+        lines between genres, focusing on energy and excitement, as well as placing
+        a high importance on connecting with their audience.\n A bright and busy future
+        lays ahead for the band, having just released their debut 6 song EP and EPK
+        entitled Nine Nineteen to rave reviews. Over the course of the next year Juice
+        will be playing and touring in Quebec and Ontario, along with writing/arranging/recording
+        their full length album which is scheduled to be released in the summer of
+        2012.Keep an eye (and an ear) out for Juice because there''s no doubt they''ll
+        be playing at an event near you!\n\n","discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":true,"track_count":7,"playlist_count":1,"public_favorites_count":0,"followers_count":822,"followings_count":1478},{"id":11726769,"kind":"user","permalink":"can-so-u-l-e-d","username":"Can.So[u]l[e]d","uri":"http://api.soundcloud.com/users/11726769","permalink_url":"http://soundcloud.com/can-so-u-l-e-d","avatar_url":"http://i1.sndcdn.com/avatars-000012439625-0xlph4-large.jpg?96679da","country":"United
+        States","full_name":"Eric // Can.So[u]l[e]d // Erock //","city":"*******LISTEN
+        TO MY TRACKS, DON''T JUST FOLLOW ME!!!!!!*******","description":"******Download
+        the \"Dirty Souled\" EP with http://soundcloud.com/dirty-porcelain the beat
+        extraordinaire******\n\n-------------------------------------------------------------\n~~~||
+        Looking for an exclusive producer ||~~~\n-------------------------------------------------------------\nhttp://soundcloud.com/freeassociation
+        (a freestyle group I am a member of).\n-------------------------------------------------------------\n\n~~**||Featured
+        Artists + Collaborators||**~~\n\n http://soundcloud.com/africanhero87\n\nhttp://soundcloud.com/dirty-porcelain\n\nhttp://soundcloud.com/senji-niban\n\nhttp://soundcloud.com/areou\n\nhttp://soundcloud.com/kocha\n\nhttp://soundcloud.com/luminaryyouth\n\nhttp://soundcloud.com/tc-massay\n\nhttp://soundcloud.com/cricketsmakemath\n\nhttp://soundcloud.com/centaur-sapien\n\nhttp://soundcloud.com/theglowofstreetlights\n\nhttp://soundcloud.com/future-lab-rats\n\nThanks
+        for the support =)","discogs_name":null,"myspace_name":"#!","website":null,"website_title":null,"online":true,"track_count":30,"playlist_count":3,"public_favorites_count":104,"followers_count":471,"followings_count":842},{"id":70505,"kind":"user","permalink":"benfawkes","username":"Ben
+        Fawkes","uri":"http://api.soundcloud.com/users/70505","permalink_url":"http://soundcloud.com/benfawkes","avatar_url":"http://i1.sndcdn.com/avatars-000010100913-1fc3ug-large.jpg?96679da","country":"Germany","full_name":"","city":"Berlin","description":"Tracks
+        taken from time with band Shake my hand, mixes or things using recording devices,
+        or just general ideas can be found here! I also really enjoy field recording
+        and making samples out of them.  Currently working for the weatherman.  Interested
+        in hearing about anyone using SoundCloud in the various ways it can be used
+        outside of the music world.  Message me if you''re one of them.\r\n\r\nAlso
+        I am testing out chatter.fm - leave me a message on (415) 599-2671, you''ll
+        have to enter this pin - 4637-9237 in order to leave a message.\r\n","discogs_name":null,"myspace_name":null,"website":"http://www.benfawkes.com","website_title":"BenFawkes.com","online":true,"track_count":212,"playlist_count":25,"public_favorites_count":1199,"followers_count":4985,"followings_count":1998},{"id":2490,"kind":"user","permalink":"david","username":"David
+        No\u00ebl","uri":"http://api.soundcloud.com/users/2490","permalink_url":"http://soundcloud.com/david","avatar_url":"http://i1.sndcdn.com/avatars-000004390655-itlofv-large.jpg?96679da","country":"Germany","full_name":"","city":"Berlin","description":"Hi,
+        my name is David. Hands up for all things tech, music, internet, remarkable
+        people \u0026amp; ideas. I love airplanes and freckles.\r\n\r\nI''m SoundCloud''s
+        Community Evangelist.\r\n","discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":true,"track_count":95,"playlist_count":4,"public_favorites_count":295,"followers_count":7993,"followings_count":716},{"id":849780,"kind":"user","permalink":"marie","username":"Marie
+        Elliott","uri":"http://api.soundcloud.com/users/849780","permalink_url":"http://soundcloud.com/marie","avatar_url":"http://i1.sndcdn.com/avatars-000008099259-tra052-large.jpg?96679da","country":"Germany","full_name":"Marie
+        Elliott","city":"Berlin","description":"Yo, I''m Marie! I''m originally from
+        Vancouver, and now, living in Berlin as a Community Manager at SoundCloud.
+        \r\n\r\nWhen Tuesday rolls around, I like to record a new German word I''ve
+        learned that week (usually one I like) and post it here. So you are welcome
+        to join me in my quest to learn the German language!\r\n\r\n\u003Cb\u003EFor
+        support requests:\u003C/b\u003E please use the contact form on the \u003Ca
+        href=\"http://soundcloud.com/help\"\u003EHelp page\u003C/a\u003E. That way,
+        we can keep better track of your case and help you more efficiently :)","discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":true,"track_count":86,"playlist_count":3,"public_favorites_count":371,"followers_count":8356,"followings_count":1528},{"id":324064,"kind":"user","permalink":"bad-panda-records","username":"Bad
+        Panda Records","uri":"http://api.soundcloud.com/users/324064","permalink_url":"http://soundcloud.com/bad-panda-records","avatar_url":"http://i1.sndcdn.com/avatars-000000733783-d1doh2-large.jpg?96679da","country":"Italy","full_name":"DIY
+        free-download CC startup label","city":"Rome / Berlin / Paris / Palo Alto
+        / Reykjav\u00edk","description":"Be our friend on  \nhttp://facebook.com/badpandarecords
+        \nhttp://twitter.com/badpandarecords \n\nand have a look at the SHOP http://badpandarecords.bigcartel.com\n\nBad
+        Panda Records is a DIY label born with a strange idea in mind: one new release
+        (singles or eps) every monday in free download under Creative Commons licenses.
+        We stimulate people to listen, download, share and remix.\n\n\u003Ca href=http://badpandarecords.bigcartel.com/product/dumbogetsmad\u003E
+        We also press beautiful physical stuff, once in a while.\u003C/a\u003E\n\n\u003Ca
+        href=http://badpandarecords.wordpress.com/take-the-mp3-and-run/\u003EPrevious
+        releases include : RocketNumberNine (UK), Ocelote Rojo (CHI), Monster Rally
+        (USA), Delicate Steve (USA), Great Lake Swimmers (CAN), Frederik Teige from
+        Efterklang (DK), Barzin (CAN), Anders Ilar (SWE), CIVIL CIVIC (AUS), Venice
+        (IT), Southern Shores (CAN), 1-Speed Bike from Godspeed You! Black Emperor
+        (CAN), A Weather (USA), Yawn (USA), Gareth Dickson (UK), worriedaboutsatan
+        (UK), golau glau (UK), Gaspar Claus (FR), Teamforest (DE), The American Dollar
+        (USA),  Fuki Kureta (TUR), Possimiste (EST), memotone (UK), Louis Aguilar
+        (FR), American Green (JP), NQ (DE), Good Weather For An Airstrike (UK), Desmond
+        \u0026 the Tutus (ZA), Symfoniorkestern (SWE), Talvihorros (UK), junior85
+        (IRL), Foxes In Fiction (CAN), BABY JAZZ (USA), All India Radio (AUS), Bomarr
+        (US), Bing \u0026 Ruth (USA), endsnotnear (JP), \u00datid\u00far (IS), Johnny
+        Hawaii (FR),  The Echelon Effect (UK), James Irwin (CAN), Ergo Phizmiz (UK),
+        Populous (IT), Kira Kira (IS), James Yates (UK), Ori (ISR), a.damned.age (DE),
+        trog''low (CAN), Lost Boy? (USA), Berlinist (ESP) and many more.\u003C/a\u003E\n\n\u003Ca
+        href=http://vimeo.com/1986998\u003EWhat Is Creative Commons?\u003C/a\u003E\n\nSUBMISSIONS:\nIf
+        you think we should check out your music and would like to be considered for
+        the Bad Panda releases, please drop us a line at badpandasubmit at gmail dot
+        com \n\n(we rarely check soundcloud messages and we get notification of your
+        shared track only when shared to a handful.. thanks for understanding!)\n
+        \n\"i love music. i always will. it saved my life, and i bet i\u2019m not
+        the only one who can say that. what is called the music business today, however,
+        is not the business of producing music. at some point it became the business
+        of selling cds in plastic cases, and that business will soon be over. but
+        that\u2019s not bad news for music, and it\u2019s certainly not bad news for
+        musicians. indeed, with all the ways to reach an audience, there have never
+        been more opportunities for artists.\" (david byrne)\n\n\"music is about creative
+        and passionate ideas. not product.\" (the free music movement)\n\n\"a free
+        culture has been our past, but it will only be our future if we change the
+        path we are on right now. a free culture is not a culture without property;
+        it is not a culture in which artists don\u2019t get paid. a culture without
+        property, or in which creators can\u2019t get paid, is anarchy, not freedom.
+        we can carry a free culture into the twenty-first century, without artists
+        losing and without the potential of digital technology being destroyed. common
+        sense must revolt. it must act to free culture. soon, if this potential is
+        ever to be realized.\" (lawrence lessig)\n\nwho inspired us: !k7, 12rec, 12tonar,
+        4ad, aerotone, alien8, anti, anticon, arts \u0026amp; crafts, asthmatic kitty,
+        astralwerks, astrolab, audio dregs, bearfunk, bella union, border, bpitch,
+        brainfeeder, circus, city slang, compost, constellation, cooperative music,
+        dc, dfa, domino, drag city, ecm, ed banger, eskimo, fargo, fatcat, feedelity,
+        full pupp, ghostly, gomma, graveyard, hivern, holiday, homesleep, hyperdub,
+        information, institubes, ipecac, italiansdoitbetter, jagjaguwar, killrockstars,
+        kitchen motors, kitsune, kompakt, konkurrent, kranky, labrador, leaf, lost
+        children, m_nus, manana, matador, merge, mindless boogie, modular, monotreme,
+        moodgadget, morr, moshimoshi, motown, mute, ninja, noble, nonesuch, obscure,
+        paw tracks, permanent vacation, planet mu, play it again sam, plop, rabid,
+        raster-noton, rephlex, resonant, rong, rough trade, rune grammofon, saddle
+        creek, secretly canadian, sincerely yours, smalltown, smekkleysa, sonar kollektiv,
+        source, stax, stones throw, sub pop, suicide squeeze, supersoul, tigersushi,
+        touch and go, tru thoughts, turbo, type, warp, wichita, xl","discogs_name":null,"myspace_name":null,"website":"http://badpandarecords.bigcartel.com/","website_title":"Bad
+        Panda Records","online":true,"track_count":91,"playlist_count":6,"public_favorites_count":26,"followers_count":129080,"followings_count":912},{"id":5413240,"kind":"user","permalink":"shazoot","username":"shazoot","uri":"http://api.soundcloud.com/users/5413240","permalink_url":"http://soundcloud.com/shazoot","avatar_url":"http://i1.sndcdn.com/avatars-000004263395-exi3x5-large.jpg?96679da","country":"Britain
+        (UK)","full_name":"Becky shazoot","city":"Abertillery south Wales valleys","description":"Hi,
+        Im Becky and this is my band shazoot. We are a five piece band from Wales
+        UK - we try to be 70,s retro funk/pop/soul  - All songs here are live home
+        recorded demos with the odd overdub - We produced them ourselfs using a tascam
+        2488 portastudio ....so thanks for calling buy and we hope you like our music
+        and have a laugh at some of the lyrics ...cheers Bex x","discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":true,"track_count":4,"playlist_count":1,"public_favorites_count":356,"followers_count":1292,"followings_count":1320},{"id":671389,"kind":"user","permalink":"djrafacarneiro2","username":"Deejay
+        Rafa Carneiro","uri":"http://api.soundcloud.com/users/671389","permalink_url":"http://soundcloud.com/djrafacarneiro2","avatar_url":"http://i1.sndcdn.com/avatars-000017613842-ux62uz-large.jpg?96679da","country":"Brazil","full_name":"Rafael  Carneiro","city":"Rio
+        de Janeiro","description":"SUPPORT FROM: EDX, Kaskade, Crazibiza, Niki Belucci,
+        Peter Gelderblom, David Puentez,  Gosha, Mobin Master, Disfunktion, MJ Cole,
+        Pat Farrell, Dave Lambert, Funkerman, Pink Fluid (Max Pagani \u0026 John Dabel),  3LAU,
+        Timo Graf, Raf Marchesini, DJ''s From Mars, Dj Jask,  Erick Decks, Altego,
+        Adrien Mezsi + more.\n\n\nFACEBOOK:\n\u003Ca href=\"http://www.facebook.com/djrafacarneiro\"
+        rel=\"nofollow\" target=\"_blank\"\u003Ehttp://www.facebook.com/djrafacarneiro\u003C/a\u003E\nTWITTER:
+        \u003Ca href=\"http://www.twitter.com/djrafacarneiro\" rel=\"nofollow\" target=\"_blank\"\u003Ehttp://www.twitter.com/djrafacarneiro\u003C/a\u003E
+        \nPROJECT:\n\u003Ca href=\"http://soundcloud.com/kaleyodisco\" rel=\"nofollow\"
+        target=\"_blank\"\u003Ekaleyodisco\u003C/a\u003E\nContact / Booking Request:
+        \u003Ca href=\"mailto:contato_rafa_carneiro@hotmail.com\" rel=\"nofollow\"
+        target=\"_blank\"\u003Econtato_rafa_carneiro@hotmail.com\u003C/a\u003E","discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":true,"track_count":67,"playlist_count":2,"public_favorites_count":95,"followers_count":3713,"followings_count":638},{"id":5299806,"kind":"user","permalink":"tape-runs-out","username":"Tape
+        Runs Out","uri":"http://api.soundcloud.com/users/5299806","permalink_url":"http://soundcloud.com/tape-runs-out","avatar_url":"http://i1.sndcdn.com/avatars-000015119081-udicv2-large.jpg?96679da","country":"Britain
+        (UK)","full_name":"Liam Goodrum-Bell","city":"Cambridge","description":"Just
+        some demos or something.\r\nThey are free to download here for now, so if
+        you like the music please feel free to donate!\r\nOr go bandcamp and buy them
+        if you like. \r\n\r\n\r\n\r\nContact at taperunsout@hotmail.com\r\n","discogs_name":null,"myspace_name":"taperunsout","website":"http://taperunsout.com","website_title":"taperunsout","online":true,"track_count":8,"playlist_count":1,"public_favorites_count":19,"followers_count":1465,"followings_count":1795},{"id":7357909,"kind":"user","permalink":"abeautifultomorrow-1","username":"abeautifultomorrow-1","uri":"http://api.soundcloud.com/users/7357909","permalink_url":"http://soundcloud.com/abeautifultomorrow-1","avatar_url":"http://i1.sndcdn.com/avatars-000006274436-9jwjuw-large.jpg?96679da","country":"United
+        States","full_name":"Marky","city":"Buffalo","description":"I grew up listening
+        to alot of 1980s music like Duran Duran Culture Club The Police Def Leppard
+        Elton John Stray Cats George Michael. I listened to Top 40 radio of 1980s
+        and was highly influenced by that! I think that comes out in my music!\r\n\r\nCatchy
+        pop songs that I try to write that the listener will like after hearing the
+        first time!\r\n\r\n 2 Free Full Length Albums (original songs) of mine for
+        download at \r\n\r\nhttp://abeautifultomorrow.bandcamp.com/album/a-beautiful-tomorrow-disc-one\r\n\r\nhttp://abeautifultomorrow.bandcamp.com/album/a-beautiful-tomorrow-disc-two","discogs_name":null,"myspace_name":"abeautifultomorrow","website":"http://www.youtube.com/abeautifultomorrow","website_title":"","online":true,"track_count":27,"playlist_count":0,"public_favorites_count":4,"followers_count":980,"followings_count":1235},{"id":5651892,"kind":"user","permalink":"blgraffix14","username":"Brak
+        Hussein Obam","uri":"http://api.soundcloud.com/users/5651892","permalink_url":"http://soundcloud.com/blgraffix14","avatar_url":"http://i1.sndcdn.com/avatars-000017741083-xg3yr7-large.jpg?96679da","country":"Korea
+        (North)","full_name":"Brak Obam","city":"Iraqistan","description":"check out
+        our website http://ldgstudios.com and contact us if you wish to collab\r\nand
+        btw:\r\ncheck out http://soundcloud.com/tannerak hes really good too!\r\nand
+        dropmist has entered a competition and needs your support so go help him out!
+        http://soundcloud.com/dropmist\r\n http://soundcloud.com/mattkholodov \u003C---
+        I''m currently working with Matt Kholodov on some amazing tracks, check out
+        his stuff, and add him because you''ll be seeing more from us.","discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":true,"track_count":28,"playlist_count":3,"public_favorites_count":351,"followers_count":1028,"followings_count":1997},{"id":3207,"kind":"user","permalink":"jwagener","username":"Johannes
+        Wagener","uri":"http://api.soundcloud.com/users/3207","permalink_url":"http://soundcloud.com/jwagener","avatar_url":"http://i1.sndcdn.com/avatars-000014428549-3at7qc-large.jpg?96679da","country":"Germany","full_name":"Johannes
+        Wagener","city":"Berlin","description":"\u003Cb\u003EHacker in Residence at
+        SoundCloud.\u003C/b\u003E\n","discogs_name":null,"myspace_name":null,"website":"http://johannes.wagener.cc","website_title":"johannes.wagener.cc","online":true,"track_count":62,"playlist_count":2,"public_favorites_count":108,"followers_count":1231,"followings_count":307},{"id":2678941,"kind":"user","permalink":"northernspyrecs","username":"Northern
+        Spy Records","uri":"http://api.soundcloud.com/users/2678941","permalink_url":"http://soundcloud.com/northernspyrecs","avatar_url":"http://i1.sndcdn.com/avatars-000002399568-tqkzmh-large.jpg?96679da","country":"United
+        States","full_name":"Northern Spy Records","city":"Brooklyn","description":"usaisamonster,
+        old time relijun, jooklo duo, colin l. orchestra, rhys chatham, bird names","discogs_name":null,"myspace_name":null,"website":"http://northern-spy.com","website_title":"","online":true,"track_count":81,"playlist_count":3,"public_favorites_count":88,"followers_count":1301,"followings_count":1797},{"id":7184269,"kind":"user","permalink":"zeign","username":"jon
+        zeign","uri":"http://api.soundcloud.com/users/7184269","permalink_url":"http://soundcloud.com/zeign","avatar_url":"http://i1.sndcdn.com/avatars-000014393252-sz2b2h-large.jpg?96679da","country":"United
+        States","full_name":"jon zeiGn","city":"cleveland","description":"lover of
+        music and life.\n\nfeatured on-\n\nLee Spacey - Timeless (2011) \nhttp://www.mixcloud.com/LeeSpacey/lee-spacey-presents-timeless-2011/\n\nGrappa
+        Frisbee Records presents: Lee Spacey - Timeless 2 (2011) https://grappafrisbee.wordpress.com/2011/11/26/\u25ca-space-is-the-place-\u25ca/\n\nFinest
+        Ego presents: Lee Spacey - Timeless 3 (2012)\n http://finestego.com/2012/04/14/finest-ego-monthly-mix-015-april-2012-lee-spacey-timeless-3/\n\n\nCop
+        the EP for free. http://zeign.bandcamp.com/album/tranquilitas-ep\n\nFeatured
+        On: Birdview Crew June EP (2012)\n http://birdview-crew.bandcamp.com/album/june-ep","discogs_name":null,"myspace_name":null,"website":"http://zeign.bandcamp.com","website_title":"","online":true,"track_count":5,"playlist_count":0,"public_favorites_count":13,"followers_count":422,"followings_count":1578},{"id":1519205,"kind":"user","permalink":"claudio_romanazzi","username":"C.
+        Romanazzi","uri":"http://api.soundcloud.com/users/1519205","permalink_url":"http://soundcloud.com/claudio_romanazzi","avatar_url":"http://i1.sndcdn.com/avatars-000017095300-f3irr6-large.jpg?96679da","country":"Sweden","full_name":"Claudio
+        Romanazzi","city":"","description":"Hello!\r\n\r\n I am  21 years old and
+        have been playing guitar in various bands since seven years back. \r\n\r\n26
+        December 2011 was the date i began making electronic music. You can find the
+        result on this page. Hope you like it!\r\n\r\nFeel free to leave some feedback.
+        And i do the same for you. Please favorite a track if you like it. \r\n\r\nIf
+        you want your profile linked in this description, hit me up with a message
+        and we work something out!\r\n\r\n* Please do not post spam! I will not reply
+        to that.\r\n\r\n* I\u00b4m open for collabs as long as it fits my genre.\r\n\r\n*
+        I\u00b4m always looking for singers, so if you are a singer and want to collab,
+        please leave me a message.\r\n\r\nFinally, thanks to all who listen and gives
+        me feedback on my tracks! It mean\u00b4s a lot!\r\n\r\n------------------\r\nFor
+        contact, collabs and whatever:\r\nClaudiio_r@hotmail.com\r\n\r\nFollow me
+        on Twitter: \r\nhttps://twitter.com/@CRomanazzi\r\n\r\nYoutube: \r\nhttp://www.youtube.com/user/cri900730/videos","discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":true,"track_count":12,"playlist_count":0,"public_favorites_count":177,"followers_count":3894,"followings_count":2000},{"id":18262432,"kind":"user","permalink":"frau-greifer","username":"FRAU
+        GREIFER","uri":"http://api.soundcloud.com/users/18262432","permalink_url":"http://soundcloud.com/frau-greifer","avatar_url":"http://i1.sndcdn.com/avatars-000016862506-piymom-large.jpg?96679da","country":null,"full_name":"","city":"","description":null,"discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":true,"track_count":12,"playlist_count":0,"public_favorites_count":11,"followers_count":283,"followings_count":1812},{"id":12321746,"kind":"user","permalink":"groovinslash","username":"GROOVIN/SLASH","uri":"http://api.soundcloud.com/users/12321746","permalink_url":"http://soundcloud.com/groovinslash","avatar_url":"http://i1.sndcdn.com/avatars-000012316744-tno8ks-large.jpg?96679da","country":"Japan","full_name":"Shingo
+        Sakai","city":"TOKYO.KOBE","description":"We''re Japanese Dance Team\"GROOVIN/SLASH\".\r\nShingo
+        Sakai, a member, takes charge of music work. \r\n23 years old. \r\n\r\nE-mail    groovinshingo@gmail.com\r\n","discogs_name":null,"myspace_name":null,"website":"http://www.groovinslash.com/wp/","website_title":"GROOVIN/SLASH
+        WEB","online":true,"track_count":11,"playlist_count":0,"public_favorites_count":22,"followers_count":295,"followings_count":910},{"id":16997893,"kind":"user","permalink":"anymals","username":"Anymals","uri":"http://api.soundcloud.com/users/16997893","permalink_url":"http://soundcloud.com/anymals","avatar_url":"http://i1.sndcdn.com/avatars-000015581188-vn4khm-large.jpg?96679da","country":"France","full_name":"","city":"Bordeaux","description":"Download
+        :\n\n-Kids Grow Better Under The Sun \nhttp://q.gs/1LmK2","discogs_name":null,"myspace_name":null,"website":"http://anymals.bandcamp.com/","website_title":"Bandcamp","online":true,"track_count":1,"playlist_count":0,"public_favorites_count":170,"followers_count":232,"followings_count":177},{"id":2262682,"kind":"user","permalink":"marcohamersma","username":"marcohamersma","uri":"http://api.soundcloud.com/users/2262682","permalink_url":"http://soundcloud.com/marcohamersma","avatar_url":"http://i1.sndcdn.com/avatars-000011233809-mjtey0-large.jpg?96679da","country":"Germany","full_name":"Marco
+        Hamersma","city":"Berlin","description":"I''m into design, music, tech and
+        other great things. I also play a bit of guitar. ","discogs_name":null,"myspace_name":null,"website":"http://marcohamersma.nl","website_title":"Personal
+        Website","online":true,"track_count":29,"playlist_count":1,"public_favorites_count":77,"followers_count":125,"followings_count":73},{"id":11717490,"kind":"user","permalink":"stringjunky","username":"stringjunky","uri":"http://api.soundcloud.com/users/11717490","permalink_url":"http://soundcloud.com/stringjunky","avatar_url":"http://i1.sndcdn.com/avatars-000009972502-m9cf7f-large.jpg?96679da","country":"Malta","full_name":"Fillip
+        Zammit","city":"Zebbug","description":"I''m a classically trained cello player
+        but consider myself a bit of a multi instrumentalist. I play a bit of guitar,
+        bass, keys and harmonica. (sometimes I sing too) Love strings.  Follow me
+        on twitter @lambzi Love to create sounds and always happy to try new things.
+        Comments on the tracks mean a lot please be honest !!!","discogs_name":null,"myspace_name":null,"website":"http://www.stringjunky.com","website_title":"Stringjunky","online":true,"track_count":1,"playlist_count":0,"public_favorites_count":4,"followers_count":552,"followings_count":1862},{"id":15541377,"kind":"user","permalink":"kwame-dollar","username":"kwame
+        dollar","uri":"http://api.soundcloud.com/users/15541377","permalink_url":"http://soundcloud.com/kwame-dollar","avatar_url":"http://i1.sndcdn.com/avatars-000013875958-6b1vnj-large.jpg?96679da","country":"United
+        States","full_name":"Kwame  Dollar","city":"Brooklyn New York","description":null,"discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":true,"track_count":12,"playlist_count":0,"public_favorites_count":27,"followers_count":429,"followings_count":2000},{"id":5201927,"kind":"user","permalink":"niaj2005","username":"juveeyung","uri":"http://api.soundcloud.com/users/5201927","permalink_url":"http://soundcloud.com/niaj2005","avatar_url":"http://i1.sndcdn.com/avatars-000015182622-xnstjr-large.jpg?96679da","country":"United
+        States","full_name":"juvee yung","city":"Memphis TEN \u266a  ","description":null,"discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":true,"track_count":30,"playlist_count":1,"public_favorites_count":4,"followers_count":914,"followings_count":2000},{"id":4409289,"kind":"user","permalink":"the-wax-dramatic","username":"The
+        Wax Dramatic","uri":"http://api.soundcloud.com/users/4409289","permalink_url":"http://soundcloud.com/the-wax-dramatic","avatar_url":"http://i1.sndcdn.com/avatars-000003493467-sq6qiq-large.jpg?96679da","country":"Britain
+        (UK)","full_name":"www.thewaxdramatic.co.uk","city":"Nottingham","description":"Nottingham-based
+        5 piece band mixing electronic music and pop genres in various measures. Currently
+        undergoing a lineup change","discogs_name":null,"myspace_name":"thewaxdramatic","website":"http://www.thewaxdramatic.co.uk/","website_title":"Our
+        Webpage","online":true,"track_count":7,"playlist_count":1,"public_favorites_count":3327,"followers_count":571,"followings_count":1976},{"id":1157069,"kind":"user","permalink":"chriscaselas","username":"chriscaselas","uri":"http://api.soundcloud.com/users/1157069","permalink_url":"http://soundcloud.com/chriscaselas","avatar_url":"http://i1.sndcdn.com/avatars-000002756249-jgocqm-large.jpg?96679da","country":"United
+        States","full_name":"Chris Caselas","city":"San Francisco","description":"","discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":true,"track_count":29,"playlist_count":0,"public_favorites_count":74,"followers_count":1058,"followings_count":223},{"id":2470827,"kind":"user","permalink":"sarah","username":"Sarah","uri":"http://api.soundcloud.com/users/2470827","permalink_url":"http://soundcloud.com/sarah","avatar_url":"http://i1.sndcdn.com/avatars-000013984687-tx1oyy-large.jpg?96679da","country":"Britain
+        (UK)","full_name":"Sarah Haswell","city":"London","description":"SoundCloud''s
+        Content Acquisition Coordinator\r\n\r\nDrop me your tracks!\r\n","discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":true,"track_count":39,"playlist_count":2,"public_favorites_count":395,"followers_count":886,"followings_count":1211},{"id":10995720,"kind":"user","permalink":"gabriel-morales-1","username":"GGAABBRRIIEELL","uri":"http://api.soundcloud.com/users/10995720","permalink_url":"http://soundcloud.com/gabriel-morales-1","avatar_url":"http://i1.sndcdn.com/avatars-000013555319-eph9zp-large.jpg?96679da","country":"Mexico","full_name":"GABRIEL","city":"ACAMBAY","description":"MY
+        STORY ABOUT MY KIND OF LIFE I chose AMIS GIVEN 17 YEARS OF AGE when I turned
+        ON GENDER FAN MAIL THE SOUND OF MY GREATEST INSPIRATION IS SYNTETIZADORES
+        AND WANT SOMETHING TO ACHIEVE THIS DEAL TO EXPRESS WHAT I FEEL THROUGH MY
+        MUSIC FAVORITE GENRES PSY MAY BE FROM THE POLE THE MINIMAL TECHNO AND .....\r\n","discogs_name":null,"myspace_name":null,"website":"http://www.beatport.com","website_title":"","online":true,"track_count":20,"playlist_count":3,"public_favorites_count":14,"followers_count":257,"followings_count":2000},{"id":1743853,"kind":"user","permalink":"welcome-back-sailors","username":"Welcome
+        Back Sailors","uri":"http://api.soundcloud.com/users/1743853","permalink_url":"http://soundcloud.com/welcome-back-sailors","avatar_url":"http://i1.sndcdn.com/avatars-000002810047-nf645k-large.jpg?96679da","country":"Italy","full_name":"","city":"","description":"Welcome
+        Back Sailors\r\n\r\n\r\nThe Sailors are back, after a gusty voyage, their
+        suitcases full of experiences and music in their ears.\r\nWelcome Back Sailors
+        are relatively young as a band but old friends in life and they maybe share
+        music and interests from even before knowing each other.\r\nTransparent and
+        The Fader noticed them after just one song on the web. From that moment a
+        continuous talking is following the band.\r\nFrom the Po Valley the blastoff
+        to reach anyone who likes warm and colourfull songs.\r\n\r\n","discogs_name":null,"myspace_name":"welcomebacksailors","website":"http://www.welcomebacksailors.com","website_title":"","online":true,"track_count":20,"playlist_count":3,"public_favorites_count":0,"followers_count":204,"followings_count":17},{"id":385381,"kind":"user","permalink":"richiejape","username":"Jape","uri":"http://api.soundcloud.com/users/385381","permalink_url":"http://soundcloud.com/richiejape","avatar_url":"http://i1.sndcdn.com/avatars-000003827123-vxw9nl-large.jpg?96679da","country":"Ireland","full_name":"Richard
+        Egan","city":"Dublin","description":"musician and producer living and working
+        in and from dublin ireland","discogs_name":null,"myspace_name":"richiejape","website":"http://www.japemusic.com","website_title":"","online":true,"track_count":43,"playlist_count":3,"public_favorites_count":4,"followers_count":1681,"followings_count":341},{"id":3439159,"kind":"user","permalink":"interlude-jones","username":"Interlude
+        Jones","uri":"http://api.soundcloud.com/users/3439159","permalink_url":"http://soundcloud.com/interlude-jones","avatar_url":"http://i1.sndcdn.com/avatars-000002829483-82ccar-large.jpg?96679da","country":"United
+        States","full_name":"","city":"Erlanger","description":"You like the Jones?  Facebook
+        your gratitude.  LIKE the Jones.\r\n\r\nhttps://www.facebook.com/interludejonesartist","discogs_name":null,"myspace_name":"interludejones","website":null,"website_title":null,"online":true,"track_count":26,"playlist_count":3,"public_favorites_count":11,"followers_count":583,"followings_count":1532},{"id":4190022,"kind":"user","permalink":"patternsinplastic","username":"Patterns
+        In Plastic","uri":"http://api.soundcloud.com/users/4190022","permalink_url":"http://soundcloud.com/patternsinplastic","avatar_url":"http://i1.sndcdn.com/avatars-000003766234-fseksl-large.jpg?96679da","country":"Britain
+        (UK)","full_name":"","city":"Newcastle Upon Tyne","description":"Patterns
+        In Plastic are Wesley Akinfolarin x Joe William Todd from Newcastle. \r\n\r\nHungry
+        Ear Interview\r\nhttp://www.thehungryear.com/?p=343","discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":true,"track_count":11,"playlist_count":2,"public_favorites_count":32,"followers_count":1170,"followings_count":2000},{"id":16037127,"kind":"user","permalink":"rellyrell-jones","username":"RellyRell
+        Jones","uri":"http://api.soundcloud.com/users/16037127","permalink_url":"http://soundcloud.com/rellyrell-jones","avatar_url":"http://i1.sndcdn.com/avatars-000014781552-piul1w-large.jpg?96679da","country":"United
+        States","full_name":"RellyRell Jones","city":"Baton Rouge La","description":"My
+        Goals are to give expiration to those who are we''ll  to go behind  the limited
+        to be a better citizen in society by give a blessing through music. spread
+        the love touch the heart and  mine to those who are seekin a better way of
+        living. with having wisdom and understanding to seek the almight god and believe
+        in yourself and keep your head up and not down. real music","discogs_name":null,"myspace_name":null,"website":"http://rellyrell.mobapp.at/","website_title":"","online":true,"track_count":11,"playlist_count":0,"public_favorites_count":6,"followers_count":636,"followings_count":1995},{"id":19200645,"kind":"user","permalink":"achillesway","username":"AchillesWay","uri":"http://api.soundcloud.com/users/19200645","permalink_url":"http://soundcloud.com/achillesway","avatar_url":"http://i1.sndcdn.com/avatars-000017491285-h81j79-large.jpg?96679da","country":"Britain
+        (UK)","full_name":"","city":"London","description":null,"discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":true,"track_count":1,"playlist_count":0,"public_favorites_count":2,"followers_count":42,"followings_count":675},{"id":6959849,"kind":"user","permalink":"abwungreenlyte","username":"abwungreenlyte","uri":"http://api.soundcloud.com/users/6959849","permalink_url":"http://soundcloud.com/abwungreenlyte","avatar_url":"http://i1.sndcdn.com/avatars-000016484373-ycup1k-large.jpg?96679da","country":"United
+        States","full_name":"Abwun GreenLyte","city":"Greater Los Angeles Area","description":"BECOME
+        AN ABWUN-GREENLYTE FAN! - FOLLOW US\r\n\r\nNeed Hip Hop Beats?  Contact us!\r\n\r\nWe
+        are Abwun-GreenLyte! We produce a variety of music including: Hip Hop, R\u0026B,
+        Dance, and Pop music.\r\n\r\nWith over 150 high quality tracks available,
+        we license music for Film/TV placement, Record Production, or any other venue
+        where music is needed. Abwun-GreenLyte has the music you need to make your
+        projects stand out and shine above the rest!\r\n\r\nContact us at abwungreenlyte@yahoo.com
+        to license music.","discogs_name":null,"myspace_name":null,"website":"http://www.abwungreenlyte.com","website_title":"Abwun-GreenLyte","online":true,"track_count":35,"playlist_count":2,"public_favorites_count":10,"followers_count":599,"followings_count":1920},{"id":15137805,"kind":"user","permalink":"rossa-murray","username":"Rossa
+        Murray","uri":"http://api.soundcloud.com/users/15137805","permalink_url":"http://soundcloud.com/rossa-murray","avatar_url":"http://i1.sndcdn.com/avatars-000013375857-8dn9cd-large.jpg?96679da","country":"Britain
+        (UK)","full_name":"Rossa  Murray","city":"Portaferry, Northern Ireland ","description":"I''m
+        17, love writing and playing my own  acoustic music, I hope you like it.","discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":true,"track_count":4,"playlist_count":0,"public_favorites_count":15,"followers_count":281,"followings_count":1513},{"id":8,"kind":"user","permalink":"alex","username":"Alex","uri":"http://api.soundcloud.com/users/8","permalink_url":"http://soundcloud.com/alex","avatar_url":"http://i1.sndcdn.com/avatars-000008228265-9j2fdh-large.jpg?96679da","country":"Germany","full_name":"Alexander
+        Ljung","city":"Berlin","description":"Hi, my name is Alex. I like Sound.","discogs_name":null,"myspace_name":null,"website":"http://alexanderljung.com","website_title":"Alexander
+        Ljung","online":true,"track_count":256,"playlist_count":18,"public_favorites_count":535,"followers_count":107014,"followings_count":1136},{"id":2315006,"kind":"user","permalink":"malevski","username":"Malevski","uri":"http://api.soundcloud.com/users/2315006","permalink_url":"http://soundcloud.com/malevski","avatar_url":"http://i1.sndcdn.com/avatars-000013277384-xllf6s-large.jpg?96679da","country":"Macedonia","full_name":"Aleksandar
+        Malevski","city":"Skopje","description":"Born 1967.\r\nStarted playing records
+        1987.\r\nStarted DJ Culture 1990.\r\nStarted Techno scene 1993.\r\nIn Macedonia
+        that is...","discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":true,"track_count":2,"playlist_count":0,"public_favorites_count":2,"followers_count":276,"followings_count":1514},{"id":3386827,"kind":"user","permalink":"beaztmusic","username":".BEAZT.","uri":"http://api.soundcloud.com/users/3386827","permalink_url":"http://soundcloud.com/beaztmusic","avatar_url":"http://i1.sndcdn.com/avatars-000005403032-7q7y45-large.jpg?96679da","country":"United
+        States","full_name":"THE","city":"BEAZT","description":"FOR BOOKING - Contact@CenterStageClassic.com\n\nFOR
+        LABEL CONSIDERATION SEND TUNES DIRTYRECORDZ @GMAILCOM\nNate Gregory, Co founder
+        and CEO of DIRTY Recordz professionally known as \u201c BEAZT\u201d, started
+        creating and producing electronic music in the winter of 2010. His grimy sounds
+        and sharp tones have a Dubstep and Drum and Bass persuasion, while also incorporating
+        touching melodies with ripping basslines. His music can be described as heavy,
+        fun and entertaining; music that keeps your attention and makes you want more
+        BEAZT. Though this producer is new to Dubstep, he has been involved with electronic
+        music for over ten years, DJing Drum and Bass at some of the hottest spots
+        on the east coast with some of the biggest names in the industry. It is safe
+        to say that this producer knows his music.\n2011 looks like an exciting time
+        for BEAZT with music releasing on Heavy Artillery, Abducted, Mutated Sounds,
+        and Twisted Monkey Records. GINDHOUSE, a chaotically filthy collaboration
+        between BEAZT and PLAGUE, has been catching the attention of many tuned headphones.
+        GRINDHOUSE is known for Dubstep influenced by heavy and chopped up double
+        bass metal that is high in energy and headbanger ready.\nOne half of \"GRINDHOUSE\"
+        from Trenton\nBEAZT \u0026amp; The PLAGUE\nJust want to say THANK YOU! To
+        all my followers and all the people who stop by and leave comments. We have
+        been working real hard lately and really appreciate all the love, support
+        and quality input.\n-BEAZT\nFor Remixes, Interviews or if your a record label
+        and are interested in working together please contact me\n\u003Ca href=\"mailto:Beaztmusic@gmail.com\"
+        rel=\"nofollow\" target=\"_blank\"\u003EBeaztmusic@gmail.com\u003C/a\u003E\nAIM
+        - BEAZTmusic\nLABELS\nDIRTY RECORDZ\nHeavy Artillery Recordings\n\nTwisted
+        Monkey Records\nMutated Sounds","discogs_name":null,"myspace_name":null,"website":"http://www.dirtyrecordz.com","website_title":"","online":true,"track_count":35,"playlist_count":9,"public_favorites_count":253,"followers_count":2291,"followings_count":1970}]'
     http_version: 
-  recorded_at: Thu, 28 Jun 2012 08:52:13 GMT
+  recorded_at: Fri, 29 Jun 2012 15:40:57 GMT
 recorded_with: VCR 2.2.0

@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://api.soundcloud.com/playlists/2161228?access_token=<ACCESS_TOKEN>&client_id=<CLIENT_ID>
+    uri: http://api.soundcloud.com/playlists/2161228?client_id=<CLIENT_ID>
     body:
       encoding: US-ASCII
       string: ''
@@ -17,15 +17,15 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Thu, 28 Jun 2012 08:52:04 GMT
+      - Fri, 29 Jun 2012 15:40:45 GMT
       Content-Type:
       - application/json; charset=utf-8
       Connection:
       - keep-alive
       X-Runtime:
-      - '29'
+      - '30'
       Etag:
-      - ! '"bcece3bf6acd2401fc5de5cd0ac274cb"'
+      - ! '"99fd750624a5c8d9bfd350712bd79571"'
       Cache-Control:
       - private, max-age=0, must-revalidate
       Access-Control-Allow-Methods:
@@ -39,7 +39,7 @@ http_interactions:
       Content-Length:
       - '2314'
       X-Varnish:
-      - '2886401987'
+      - '3859839464'
       Age:
       - '0'
       Via:
@@ -52,9 +52,9 @@ http_interactions:
       encoding: US-ASCII
       string: ! '{"kind":"playlist","id":2161228,"created_at":"2012/06/27 07:42:35
         +0000","user_id":999942,"duration":5095,"sharing":"public","tag_list":"","permalink":"red_haze-playlist","description":"","streamable":true,"downloadable":true,"genre":"","release":"","purchase_url":null,"purchase_title":null,"label_id":null,"label_name":"","type":"","playlist_type":"","ean":"","title":"red_haze
-        playlist","release_year":null,"release_month":null,"release_day":null,"license":"cc-by","uri":"http://api.soundcloud.com/playlists/2161228","permalink_url":"http://soundcloud.com/jackca/sets/red_haze-playlist","artwork_url":null,"embeddable_by":"all","user":{"id":999942,"kind":"user","permalink":"jackca","username":"JackCA","uri":"http://api.soundcloud.com/users/999942","permalink_url":"http://soundcloud.com/jackca","avatar_url":"http://i1.sndcdn.com/avatars-000002957252-ptk617-large.jpg?b9fd227"},"tracks":[{"kind":"track","id":50375143,"created_at":"2012/06/21
+        playlist","release_year":null,"release_month":null,"release_day":null,"license":"cc-by","uri":"http://api.soundcloud.com/playlists/2161228","permalink_url":"http://soundcloud.com/jackca/sets/red_haze-playlist","artwork_url":null,"embeddable_by":"all","user":{"id":999942,"kind":"user","permalink":"jackca","username":"JackCA","uri":"http://api.soundcloud.com/users/999942","permalink_url":"http://soundcloud.com/jackca","avatar_url":"http://i1.sndcdn.com/avatars-000002957252-ptk617-large.jpg?96679da"},"tracks":[{"kind":"track","id":50375143,"created_at":"2012/06/21
         04:35:26 +0000","user_id":999942,"duration":5095,"commentable":true,"state":"finished","original_content_size":442414,"sharing":"public","tag_list":"soundcloud:source=web-record","permalink":"audio-recording-on-68","description":"","streamable":true,"downloadable":true,"genre":"","release":"","purchase_url":null,"purchase_title":null,"label_id":null,"label_name":"","isrc":"","video_url":null,"track_type":"recording","key_signature":"","bpm":null,"title":"Audio
-        Recording on Wednesday night","release_year":null,"release_month":null,"release_day":null,"original_format":"wav","license":"all-rights-reserved","uri":"http://api.soundcloud.com/tracks/50375143","embeddable_by":"all","user":{"id":999942,"kind":"user","permalink":"jackca","username":"JackCA","uri":"http://api.soundcloud.com/users/999942","permalink_url":"http://soundcloud.com/jackca","avatar_url":"http://i1.sndcdn.com/avatars-000002957252-ptk617-large.jpg?b9fd227"},"permalink_url":"http://soundcloud.com/jackca/audio-recording-on-68","artwork_url":null,"waveform_url":"http://w1.sndcdn.com/JdH8BwvP2UHs_m.png","stream_url":"http://api.soundcloud.com/tracks/50375143/stream","download_url":"http://api.soundcloud.com/tracks/50375143/download","playback_count":3,"download_count":0,"favoritings_count":0,"comment_count":0,"attachments_uri":"http://api.soundcloud.com/tracks/50375143/attachments"}]}'
+        Recording on Wednesday night","release_year":null,"release_month":null,"release_day":null,"original_format":"wav","license":"all-rights-reserved","uri":"http://api.soundcloud.com/tracks/50375143","embeddable_by":"all","user":{"id":999942,"kind":"user","permalink":"jackca","username":"JackCA","uri":"http://api.soundcloud.com/users/999942","permalink_url":"http://soundcloud.com/jackca","avatar_url":"http://i1.sndcdn.com/avatars-000002957252-ptk617-large.jpg?96679da"},"permalink_url":"http://soundcloud.com/jackca/audio-recording-on-68","artwork_url":null,"waveform_url":"http://w1.sndcdn.com/JdH8BwvP2UHs_m.png","stream_url":"http://api.soundcloud.com/tracks/50375143/stream","download_url":"http://api.soundcloud.com/tracks/50375143/download","playback_count":3,"download_count":0,"favoritings_count":0,"comment_count":0,"attachments_uri":"http://api.soundcloud.com/tracks/50375143/attachments"}]}'
     http_version: 
-  recorded_at: Thu, 28 Jun 2012 08:52:07 GMT
+  recorded_at: Fri, 29 Jun 2012 15:40:48 GMT
 recorded_with: VCR 2.2.0

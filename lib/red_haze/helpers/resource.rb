@@ -37,7 +37,8 @@ module RedHaze
       end
 
       def url
-        "/#{self.class.name.downcase.split('::')[-1]}s/#{id}"
+        class_name = self.class.name.downcase.split('::')[-1]
+        class_name == 'me' ? '/me' : "/#{class_name}s/#{id}"
       end
 
       def import_from_response(response)

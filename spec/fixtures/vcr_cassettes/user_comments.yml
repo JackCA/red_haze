@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://api.soundcloud.com/users/999942/comments?access_token=<ACCESS_TOKEN>&client_id=<CLIENT_ID>
+    uri: http://api.soundcloud.com/users/2879548/comments?client_id=<CLIENT_ID>
     body:
       encoding: US-ASCII
       string: ''
@@ -17,15 +17,15 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Thu, 28 Jun 2012 08:52:11 GMT
+      - Fri, 29 Jun 2012 15:40:55 GMT
       Content-Type:
       - application/json; charset=utf-8
       Connection:
       - keep-alive
       X-Runtime:
-      - '14'
+      - '36'
       Etag:
-      - ! '"309b89edb9e275d6e22eb04b24af323a"'
+      - ! '"d66f18630a7654c4129a8b3f677dc22d"'
       Cache-Control:
       - private, max-age=0, must-revalidate
       Access-Control-Allow-Methods:
@@ -37,22 +37,53 @@ http_interactions:
       X-Cacheable:
       - NO:Cache-Control=max-age=0
       Content-Length:
-      - '920'
+      - '8236'
       X-Varnish:
-      - '2886409092'
+      - '3859854640'
       Age:
       - '0'
       Via:
       - 1.1 varnish
       X-Cache:
       - MISS
+      Vary:
+      - Accept-Encoding
     body:
       encoding: US-ASCII
-      string: ! '[{"kind":"comment","id":2400985,"created_at":"2010/05/13 02:52:22
-        +0000","user_id":999942,"track_id":2689376,"timestamp":556457,"body":"tears
-        like diamondsssss","uri":"http://api.soundcloud.com/comments/2400985","user":{"id":999942,"kind":"user","permalink":"jackca","username":"JackCA","uri":"http://api.soundcloud.com/users/999942","permalink_url":"http://soundcloud.com/jackca","avatar_url":"http://i1.sndcdn.com/avatars-000002957252-ptk617-large.jpg?b9fd227"}},{"kind":"comment","id":2400974,"created_at":"2010/05/13
-        02:50:41 +0000","user_id":999942,"track_id":2689376,"timestamp":469789,"body":"Meow
-        meowwwwww","uri":"http://api.soundcloud.com/comments/2400974","user":{"id":999942,"kind":"user","permalink":"jackca","username":"JackCA","uri":"http://api.soundcloud.com/users/999942","permalink_url":"http://soundcloud.com/jackca","avatar_url":"http://i1.sndcdn.com/avatars-000002957252-ptk617-large.jpg?b9fd227"}}]'
+      string: ! '[{"kind":"comment","id":63890039,"created_at":"2012/06/26 18:54:58
+        +0000","user_id":2879548,"track_id":49057252,"timestamp":1787,"body":"There''s
+        no beating that album cover.","uri":"http://api.soundcloud.com/comments/63890039","user":{"id":2879548,"kind":"user","permalink":"jstnw","username":"jstreet","uri":"http://api.soundcloud.com/users/2879548","permalink_url":"http://soundcloud.com/jstnw","avatar_url":"http://i1.sndcdn.com/avatars-000006763043-urg7lt-large.jpg?96679da"}},{"kind":"comment","id":61933736,"created_at":"2012/06/13
+        23:07:04 +0000","user_id":2879548,"track_id":49099740,"timestamp":1092,"body":"It
+        sounds almost as good as it looks","uri":"http://api.soundcloud.com/comments/61933736","user":{"id":2879548,"kind":"user","permalink":"jstnw","username":"jstreet","uri":"http://api.soundcloud.com/users/2879548","permalink_url":"http://soundcloud.com/jstnw","avatar_url":"http://i1.sndcdn.com/avatars-000006763043-urg7lt-large.jpg?96679da"}},{"kind":"comment","id":59395836,"created_at":"2012/05/29
+        02:22:16 +0000","user_id":2879548,"track_id":47895934,"timestamp":13579,"body":"Love
+        that I can see the wave coming via the sound wave.","uri":"http://api.soundcloud.com/comments/59395836","user":{"id":2879548,"kind":"user","permalink":"jstnw","username":"jstreet","uri":"http://api.soundcloud.com/users/2879548","permalink_url":"http://soundcloud.com/jstnw","avatar_url":"http://i1.sndcdn.com/avatars-000006763043-urg7lt-large.jpg?96679da"}},{"kind":"comment","id":57223522,"created_at":"2012/05/15
+        00:03:56 +0000","user_id":2879548,"track_id":46399329,"timestamp":24574,"body":"Which
+        Prez!?","uri":"http://api.soundcloud.com/comments/57223522","user":{"id":2879548,"kind":"user","permalink":"jstnw","username":"jstreet","uri":"http://api.soundcloud.com/users/2879548","permalink_url":"http://soundcloud.com/jstnw","avatar_url":"http://i1.sndcdn.com/avatars-000006763043-urg7lt-large.jpg?96679da"}},{"kind":"comment","id":55577350,"created_at":"2012/05/04
+        19:24:06 +0000","user_id":2879548,"track_id":45314112,"timestamp":10485,"body":"@dave-haynes:
+        Thanks man, worked hard on it :P","uri":"http://api.soundcloud.com/comments/55577350","user":{"id":2879548,"kind":"user","permalink":"jstnw","username":"jstreet","uri":"http://api.soundcloud.com/users/2879548","permalink_url":"http://soundcloud.com/jstnw","avatar_url":"http://i1.sndcdn.com/avatars-000006763043-urg7lt-large.jpg?96679da"}},{"kind":"comment","id":53864638,"created_at":"2012/04/23
+        21:55:01 +0000","user_id":2879548,"track_id":44013855,"timestamp":68093,"body":"that
+        thing, whatever it is, makes some great sounds","uri":"http://api.soundcloud.com/comments/53864638","user":{"id":2879548,"kind":"user","permalink":"jstnw","username":"jstreet","uri":"http://api.soundcloud.com/users/2879548","permalink_url":"http://soundcloud.com/jstnw","avatar_url":"http://i1.sndcdn.com/avatars-000006763043-urg7lt-large.jpg?96679da"}},{"kind":"comment","id":39923621,"created_at":"2012/01/26
+        23:33:26 +0000","user_id":2879548,"track_id":34647188,"timestamp":7705,"body":"The
+        popping sound you hear is from the mud in the mangroves. ","uri":"http://api.soundcloud.com/comments/39923621","user":{"id":2879548,"kind":"user","permalink":"jstnw","username":"jstreet","uri":"http://api.soundcloud.com/users/2879548","permalink_url":"http://soundcloud.com/jstnw","avatar_url":"http://i1.sndcdn.com/avatars-000006763043-urg7lt-large.jpg?96679da"}},{"kind":"comment","id":39479596,"created_at":"2012/01/23
+        22:58:53 +0000","user_id":2879548,"track_id":25252553,"timestamp":10466,"body":"@portlandgroove:
+        go for it!","uri":"http://api.soundcloud.com/comments/39479596","user":{"id":2879548,"kind":"user","permalink":"jstnw","username":"jstreet","uri":"http://api.soundcloud.com/users/2879548","permalink_url":"http://soundcloud.com/jstnw","avatar_url":"http://i1.sndcdn.com/avatars-000006763043-urg7lt-large.jpg?96679da"}},{"kind":"comment","id":37762929,"created_at":"2012/01/10
+        23:35:36 +0000","user_id":2879548,"track_id":31021709,"timestamp":342741,"body":"True:
+        http://bit.ly/bSROo7","uri":"http://api.soundcloud.com/comments/37762929","user":{"id":2879548,"kind":"user","permalink":"jstnw","username":"jstreet","uri":"http://api.soundcloud.com/users/2879548","permalink_url":"http://soundcloud.com/jstnw","avatar_url":"http://i1.sndcdn.com/avatars-000006763043-urg7lt-large.jpg?96679da"}},{"kind":"comment","id":37260247,"created_at":"2012/01/06
+        22:54:35 +0000","user_id":2879548,"track_id":32625189,"timestamp":86960,"body":"ah
+        it got so much louder after this when they were trying to round the corner!","uri":"http://api.soundcloud.com/comments/37260247","user":{"id":2879548,"kind":"user","permalink":"jstnw","username":"jstreet","uri":"http://api.soundcloud.com/users/2879548","permalink_url":"http://soundcloud.com/jstnw","avatar_url":"http://i1.sndcdn.com/avatars-000006763043-urg7lt-large.jpg?96679da"}},{"kind":"comment","id":35821857,"created_at":"2011/12/23
+        19:20:49 +0000","user_id":2879548,"track_id":31366840,"timestamp":101631,"body":"This
+        guy? http://soundcloud.com/boomcat","uri":"http://api.soundcloud.com/comments/35821857","user":{"id":2879548,"kind":"user","permalink":"jstnw","username":"jstreet","uri":"http://api.soundcloud.com/users/2879548","permalink_url":"http://soundcloud.com/jstnw","avatar_url":"http://i1.sndcdn.com/avatars-000006763043-urg7lt-large.jpg?96679da"}},{"kind":"comment","id":35821345,"created_at":"2011/12/23
+        19:14:54 +0000","user_id":2879548,"track_id":31368991,"timestamp":78000,"body":"Great
+        Track!","uri":"http://api.soundcloud.com/comments/35821345","user":{"id":2879548,"kind":"user","permalink":"jstnw","username":"jstreet","uri":"http://api.soundcloud.com/users/2879548","permalink_url":"http://soundcloud.com/jstnw","avatar_url":"http://i1.sndcdn.com/avatars-000006763043-urg7lt-large.jpg?96679da"}},{"kind":"comment","id":35360669,"created_at":"2011/12/19
+        18:09:12 +0000","user_id":2879548,"track_id":30889718,"timestamp":60194,"body":"nice
+        field recording","uri":"http://api.soundcloud.com/comments/35360669","user":{"id":2879548,"kind":"user","permalink":"jstnw","username":"jstreet","uri":"http://api.soundcloud.com/users/2879548","permalink_url":"http://soundcloud.com/jstnw","avatar_url":"http://i1.sndcdn.com/avatars-000006763043-urg7lt-large.jpg?96679da"}},{"kind":"comment","id":31808139,"created_at":"2011/11/16
+        00:21:38 +0000","user_id":2879548,"track_id":28115501,"timestamp":null,"body":"Some
+        context: http://justin.st/post/12676461549","uri":"http://api.soundcloud.com/comments/31808139","user":{"id":2879548,"kind":"user","permalink":"jstnw","username":"jstreet","uri":"http://api.soundcloud.com/users/2879548","permalink_url":"http://soundcloud.com/jstnw","avatar_url":"http://i1.sndcdn.com/avatars-000006763043-urg7lt-large.jpg?96679da"}},{"kind":"comment","id":29275149,"created_at":"2011/10/20
+        18:29:59 +0000","user_id":2879548,"track_id":25963183,"timestamp":148213,"body":"the
+        quality on this is pretty damn good","uri":"http://api.soundcloud.com/comments/29275149","user":{"id":2879548,"kind":"user","permalink":"jstnw","username":"jstreet","uri":"http://api.soundcloud.com/users/2879548","permalink_url":"http://soundcloud.com/jstnw","avatar_url":"http://i1.sndcdn.com/avatars-000006763043-urg7lt-large.jpg?96679da"}},{"kind":"comment","id":28434649,"created_at":"2011/10/11
+        20:21:21 +0000","user_id":2879548,"track_id":25311776,"timestamp":41610,"body":"ours
+        are better dude: http://soundcloud.com/jstreet-1/bird-party-at-soundcloud-inc","uri":"http://api.soundcloud.com/comments/28434649","user":{"id":2879548,"kind":"user","permalink":"jstnw","username":"jstreet","uri":"http://api.soundcloud.com/users/2879548","permalink_url":"http://soundcloud.com/jstnw","avatar_url":"http://i1.sndcdn.com/avatars-000006763043-urg7lt-large.jpg?96679da"}},{"kind":"comment","id":27269060,"created_at":"2011/09/28
+        00:33:39 +0000","user_id":2879548,"track_id":24300248,"timestamp":1591,"body":"first","uri":"http://api.soundcloud.com/comments/27269060","user":{"id":2879548,"kind":"user","permalink":"jstnw","username":"jstreet","uri":"http://api.soundcloud.com/users/2879548","permalink_url":"http://soundcloud.com/jstnw","avatar_url":"http://i1.sndcdn.com/avatars-000006763043-urg7lt-large.jpg?96679da"}}]'
     http_version: 
-  recorded_at: Thu, 28 Jun 2012 08:52:13 GMT
+  recorded_at: Fri, 29 Jun 2012 15:40:58 GMT
 recorded_with: VCR 2.2.0

@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://api.soundcloud.com/groups/83495?access_token=<ACCESS_TOKEN>&client_id=<CLIENT_ID>
+    uri: http://api.soundcloud.com/groups/83495?client_id=<CLIENT_ID>
     body:
       encoding: US-ASCII
       string: ''
@@ -17,15 +17,15 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Thu, 28 Jun 2012 08:52:01 GMT
+      - Fri, 29 Jun 2012 15:40:42 GMT
       Content-Type:
       - application/json; charset=utf-8
       Connection:
       - keep-alive
       X-Runtime:
-      - '117'
+      - '34'
       Etag:
-      - ! '"3f10d0c1dc6ac1a1f8f266b346ee5c50"'
+      - ! '"e98e3275c3804e26e1f3599cfa27fc97"'
       Cache-Control:
       - private, max-age=0, must-revalidate
       Access-Control-Allow-Methods:
@@ -39,7 +39,7 @@ http_interactions:
       Content-Length:
       - '602'
       X-Varnish:
-      - '2886398472'
+      - '3032043544'
       Age:
       - '0'
       Via:
@@ -49,7 +49,7 @@ http_interactions:
     body:
       encoding: US-ASCII
       string: ! '{"kind":"group","id":83495,"created_at":"2012/06/21 04:33:50 +0000","permalink":"red_haze","name":"red_haze","short_description":"red_haze
-        gem group","description":"","uri":"http://api.soundcloud.com/groups/83495","artwork_url":"http://a1.sndcdn.com/images/default_avatar_large.png?b9fd227","permalink_url":"http://soundcloud.com/groups/red_haze","creator":{"id":999942,"kind":"user","permalink":"jackca","username":"JackCA","uri":"http://api.soundcloud.com/users/999942","permalink_url":"http://soundcloud.com/jackca","avatar_url":"http://i1.sndcdn.com/avatars-000002957252-ptk617-large.jpg?b9fd227"}}'
+        gem group","description":"","uri":"http://api.soundcloud.com/groups/83495","artwork_url":"http://a1.sndcdn.com/images/default_avatar_large.png?96679da","permalink_url":"http://soundcloud.com/groups/red_haze","creator":{"id":999942,"kind":"user","permalink":"jackca","username":"JackCA","uri":"http://api.soundcloud.com/users/999942","permalink_url":"http://soundcloud.com/jackca","avatar_url":"http://i1.sndcdn.com/avatars-000002957252-ptk617-large.jpg?96679da"}}'
     http_version: 
-  recorded_at: Thu, 28 Jun 2012 08:52:03 GMT
+  recorded_at: Fri, 29 Jun 2012 15:40:45 GMT
 recorded_with: VCR 2.2.0

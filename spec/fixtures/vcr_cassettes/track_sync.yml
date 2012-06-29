@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://api.soundcloud.com/tracks/49518905?access_token=<ACCESS_TOKEN>&client_id=<CLIENT_ID>
+    uri: http://api.soundcloud.com/tracks/49518905?client_id=<CLIENT_ID>
     body:
       encoding: US-ASCII
       string: ''
@@ -17,15 +17,15 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Thu, 28 Jun 2012 08:52:05 GMT
+      - Fri, 29 Jun 2012 15:40:46 GMT
       Content-Type:
       - application/json; charset=utf-8
       Connection:
       - keep-alive
       X-Runtime:
-      - '21'
+      - '19'
       Etag:
-      - ! '"693175609617fb548a094081ef243f60"'
+      - ! '"2399c846cfe57e0d0756a1fca4728ea6"'
       Cache-Control:
       - private, max-age=0, must-revalidate
       Access-Control-Allow-Methods:
@@ -39,7 +39,7 @@ http_interactions:
       Content-Length:
       - '3202'
       X-Varnish:
-      - '3714157436'
+      - '3859840459'
       Age:
       - '0'
       Via:
@@ -76,7 +76,7 @@ http_interactions:
         record slip through those dusty fingers of yours.","streamable":true,"downloadable":false,"genre":"House","release":"FCL71","purchase_url":"http://www.beatport.com/release/jive-talk/909277","purchase_title":null,"label_id":null,"label_name":"Future
         Classic","isrc":null,"video_url":null,"track_type":null,"key_signature":null,"bpm":null,"title":"Nitetime
         - Hey!","release_year":null,"release_month":null,"release_day":null,"original_format":"mp3","license":"all-rights-reserved","uri":"http://api.soundcloud.com/tracks/49518905","embeddable_by":"all","user":{"id":375,"kind":"user","permalink":"futureclassic","username":"future
-        classic","uri":"http://api.soundcloud.com/users/375","permalink_url":"http://soundcloud.com/futureclassic","avatar_url":"http://i1.sndcdn.com/avatars-000000626874-7m6d4s-large.jpg?b9fd227"},"permalink_url":"http://soundcloud.com/futureclassic/nitetime-hey-1","artwork_url":"http://i1.sndcdn.com/artworks-000024958417-rv2cga-large.jpg?b9fd227","waveform_url":"http://w1.sndcdn.com/SeQZ5evJV7rs_m.png","stream_url":"http://api.soundcloud.com/tracks/49518905/stream","playback_count":3067,"download_count":0,"favoritings_count":133,"comment_count":11,"attachments_uri":"http://api.soundcloud.com/tracks/49518905/attachments"}'
+        classic","uri":"http://api.soundcloud.com/users/375","permalink_url":"http://soundcloud.com/futureclassic","avatar_url":"http://i1.sndcdn.com/avatars-000000626874-7m6d4s-large.jpg?96679da"},"permalink_url":"http://soundcloud.com/futureclassic/nitetime-hey-1","artwork_url":"http://i1.sndcdn.com/artworks-000024958417-rv2cga-large.jpg?96679da","waveform_url":"http://w1.sndcdn.com/SeQZ5evJV7rs_m.png","stream_url":"http://api.soundcloud.com/tracks/49518905/stream","playback_count":3151,"download_count":0,"favoritings_count":133,"comment_count":11,"attachments_uri":"http://api.soundcloud.com/tracks/49518905/attachments"}'
     http_version: 
-  recorded_at: Thu, 28 Jun 2012 08:52:07 GMT
+  recorded_at: Fri, 29 Jun 2012 15:40:48 GMT
 recorded_with: VCR 2.2.0

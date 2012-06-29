@@ -1,14 +1,14 @@
 require 'spec_helper'
 
 describe RedHaze::User do
-  before(:all) { setup_config }
+  before(:all) { setup_config(:client) }
 
-  let(:instance) { described_class.new(999942) }
+  let(:instance) { described_class.new(2879548) }
 
   describe "#initialize" do
     subject { instance }
     specify { should be_a described_class }
-    its(:id) { should == 999942 }
+    its(:id) { should be_an Integer }
   end
 
   describe "#sync" do
@@ -32,11 +32,11 @@ describe RedHaze::User do
     its(:followers_count)   { should be_an Integer }
     its(:followings_count)  { should be_an Integer }
     its(:public_favorites_count)  { should be_an Integer }
+    its(:website_title)   { should be_a String }
 
     # no real data for these
     its(:discogs_name)    { should be_nil }
     its(:myspace_name)    { should be_nil }
-    its(:website_title)   { should be_empty }
   end
 
   describe "#playlists" do
