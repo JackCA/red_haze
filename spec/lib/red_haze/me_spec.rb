@@ -21,6 +21,7 @@ describe RedHaze::Me do
       it "fails otherwise" do
         expect { instance.follow! }.to raise_error ArgumentError
       end
+      pending "implementation"
     end
 
     describe "#activities" do
@@ -36,7 +37,21 @@ describe RedHaze::Me do
         its(:items) { subject.size.should == 10 }
       end
 
-      pending "filters: affiliated, exclusive, own, and all(default)"
+      context "with underscored filter" do
+        subject { instance.activities(filter: :tracks_affiliated) }
+        specify do
+          instance.should_receive(:get_from_endpoint).with("/activities/tracks/affiliated",anything)
+          subject
+        end
+      end
+
+      context "with bad filter" do
+        subject { instance.activities(filter: :bad) }
+        specify do
+          instance.stub(:get_from_endpoint)
+          expect { subject }.to raise_error /bad activities filter/i
+        end
+      end
     end
   end
 

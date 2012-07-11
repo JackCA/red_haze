@@ -5,7 +5,7 @@ describe RedHaze::Collection do
   let(:raw_hash) do
     setup_config(:oauth)
     VCR.use_cassette('me_activities') do
-      RedHaze::Request.get('/me/activities')
+      RedHaze::Request.get('/me/activities/all')
     end
   end
 
