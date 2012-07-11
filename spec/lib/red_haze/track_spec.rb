@@ -49,13 +49,13 @@ describe RedHaze::Track do
     its(:original_content_size) { should be_an Integer }
 
     #no test data
-    its(:label_id) { should be_nil }
-    its(:release_day) { should be_nil }
-    its(:release_month) { should be_nil }
-    its(:release_year) { should be_nil }
-    its(:track_type) { should be_nil }
-    its(:bpm) { should be_nil }
-    its(:isrc) { should be_nil  }
+    #its(:label_id) { should be_nil }
+    #its(:release_day) { should be_nil }
+    #its(:release_month) { should be_nil }
+    #its(:release_year) { should be_nil }
+    #its(:track_type) { should be_nil }
+    #its(:bpm) { should be_nil }
+    #its(:isrc) { should be_nil  }
   end
 
   describe "#comments" do
@@ -88,5 +88,9 @@ describe RedHaze::Track do
   describe "#owner" do
     subject { synced_track.owner }
     it { should be_a RedHaze::User }
+  end
+
+  describe "#comment" do
+    pending
   end
 end

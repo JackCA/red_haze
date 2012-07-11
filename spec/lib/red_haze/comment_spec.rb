@@ -1,4 +1,4 @@
-require 'spec_helper'
+require_relative '../../spec_helper'
 
 describe RedHaze::Comment do
   before(:all) { setup_config(:client) }

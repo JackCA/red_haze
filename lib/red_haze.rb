@@ -8,6 +8,8 @@ require "red_haze/user"
 require "red_haze/track"
 require "red_haze/comment"
 require "red_haze/group"
+require "red_haze/activity"
+require "red_haze/collection"
 
 module RedHaze
   class << self
