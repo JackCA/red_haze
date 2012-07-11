@@ -1,0 +1,127 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.soundcloud.com/me/activities?limit=10&oauth_token=<ACCESS_TOKEN>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 11 Jul 2012 05:20:59 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Connection:
+      - keep-alive
+      X-Runtime:
+      - '203'
+      Etag:
+      - ! '"818ad0a93e3c418c0aeef8251c7b71f3"'
+      Cache-Control:
+      - private, max-age=0, must-revalidate
+      Access-Control-Allow-Methods:
+      - GET, PUT, POST, DELETE
+      Access-Control-Allow-Headers:
+      - Accept, Authorization, Content-Type, Origin
+      Access-Control-Allow-Origin:
+      - ! '*'
+      X-Cacheable:
+      - NO:Cache-Control=max-age=0
+      Content-Length:
+      - '15042'
+      X-Varnish:
+      - '60804350'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish
+      X-Cache:
+      - MISS
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: US-ASCII
+      string: ! '{"collection":[{"type":"favoriting","created_at":"2012/07/11 00:06:55
+        +0000","origin":{"track":{"id":42806432,"permalink":"moodymann-hold-it-down","title":"Moodymann
+        - Hold It Down","user_id":138179,"kind":"track","uri":"https://api.soundcloud.com/tracks/42806432","user_uri":"https://api.soundcloud.com/users/138179","permalink_url":"http://soundcloud.com/scionav/moodymann-hold-it-down","stream_url":"https://api.soundcloud.com/tracks/42806432/stream","artwork_url":"https://i1.sndcdn.com/artworks-000021479540-el8let-large.jpg?34f5d10"},"user":{"id":166962,"kind":"user","permalink":"inhead-kay","username":"Inhead-Kay","uri":"https://api.soundcloud.com/users/166962","permalink_url":"http://soundcloud.com/inhead-kay","avatar_url":"https://i1.sndcdn.com/avatars-000014600664-5orxkk-large.jpg?34f5d10"}},"tags":"affiliated"},{"type":"favoriting","created_at":"2012/07/10
+        22:29:38 +0000","origin":{"track":{"id":29251051,"permalink":"flying-lotus-mister-murky","title":"Flying
+        Lotus - mister murky socks \u00a0 ///// \u00a0LOS ANGELES ALT take mix2","user_id":196380,"kind":"track","uri":"https://api.soundcloud.com/tracks/29251051","user_uri":"https://api.soundcloud.com/users/196380","permalink_url":"http://soundcloud.com/flyinglotus/flying-lotus-mister-murky","stream_url":"https://api.soundcloud.com/tracks/29251051/stream"},"user":{"id":38691,"kind":"user","permalink":"alkalino","username":"Alkalino","uri":"https://api.soundcloud.com/users/38691","permalink_url":"http://soundcloud.com/alkalino","avatar_url":"https://i1.sndcdn.com/avatars-000017581300-0m35qz-large.jpg?34f5d10"}},"tags":"affiliated"},{"type":"favoriting","created_at":"2012/07/10
+        20:45:56 +0000","origin":{"track":{"id":51139585,"permalink":"dmarc-cantu-a-new-world","title":"D''Marc
+        Cantu - A New World (Previews) - MOS-LP1","user_id":333431,"kind":"track","uri":"https://api.soundcloud.com/tracks/51139585","user_uri":"https://api.soundcloud.com/users/333431","permalink_url":"http://soundcloud.com/mosrecordings/dmarc-cantu-a-new-world","stream_url":"https://api.soundcloud.com/tracks/51139585/stream","artwork_url":"https://i1.sndcdn.com/artworks-000025785169-4nm1mo-large.jpg?34f5d10"},"user":{"id":493912,"kind":"user","permalink":"jokers-of-the-scene","username":"Jokers
+        of the Scene","uri":"https://api.soundcloud.com/users/493912","permalink_url":"http://soundcloud.com/jokers-of-the-scene","avatar_url":"https://i1.sndcdn.com/avatars-000008002700-6ipail-large.jpg?34f5d10"}},"tags":"affiliated"},{"type":"track","created_at":"2012/07/10
+        20:00:58 +0000","origin":{"kind":"track","id":52412866,"created_at":"2012/07/10
+        20:00:58 +0000","user_id":359445,"duration":205086,"commentable":true,"state":"finished","original_content_size":8710540,"sharing":"public","tag_list":"\"kool
+        music 3\" \"kool music 5\" \"jasper baydala\" \"arbutus records\" \"hold my
+        body down\" \"moviestar records\"","permalink":"kool-music-3-another-rip-by","description":"Another
+        Rip By Snakeman by Kool Music 3 off the album Hold My Body Down","streamable":true,"downloadable":true,"genre":"smooth
+        jazz","release":"","purchase_url":null,"purchase_title":null,"label_id":null,"label_name":"","isrc":"","video_url":null,"track_type":"original","key_signature":"","bpm":null,"title":"Kool
+        Music 3 - Another Rip By Snakeman","release_year":null,"release_month":null,"release_day":null,"original_format":"mp3","license":"all-rights-reserved","uri":"https://api.soundcloud.com/tracks/52412866","embeddable_by":"all","user":{"id":359445,"kind":"user","permalink":"arbutus-records","username":"Arbutus
+        Records","uri":"https://api.soundcloud.com/users/359445","permalink_url":"http://soundcloud.com/arbutus-records","avatar_url":"https://i1.sndcdn.com/avatars-000003178993-0p5m8a-large.jpg?34f5d10"},"user_playback_count":1,"user_favorite":false,"permalink_url":"http://soundcloud.com/arbutus-records/kool-music-3-another-rip-by","artwork_url":"https://i1.sndcdn.com/artworks-000026443841-1o93fa-large.jpg?34f5d10","waveform_url":"https://w1.sndcdn.com/P5KBcxassI53_m.png","stream_url":"https://api.soundcloud.com/tracks/52412866/stream","download_url":"https://api.soundcloud.com/tracks/52412866/download","playback_count":41,"download_count":5,"favoritings_count":1,"comment_count":0,"attachments_uri":"https://api.soundcloud.com/tracks/52412866/attachments","sharing_note":{"text":"","created_at":"2012/07/10
+        20:00:58 +0000"}},"tags":"affiliated"},{"type":"track","created_at":"2012/07/10
+        18:54:49 +0000","origin":{"kind":"track","id":52405583,"created_at":"2012/07/10
+        18:54:49 +0000","user_id":11839,"duration":268170,"commentable":true,"state":"finished","original_content_size":10711440,"sharing":"public","tag_list":"steve
+        aoki rob roy ooh mustard pimp remix dim mak records wonderland remixed","permalink":"steve-aoki-feat-rob-roy-ooh","description":"Out
+        now on Dim Mak Recs","streamable":true,"downloadable":false,"genre":"","release":"","purchase_url":"http://www.beatport.com/release/wonderland-remixed/932836","purchase_title":null,"label_id":null,"label_name":"Dim
+        Mak Records","isrc":"","video_url":null,"track_type":"","key_signature":"","bpm":null,"title":"Steve
+        Aoki feat. Rob Roy - Ooh (Mustard Pimp Remix)","release_year":2012,"release_month":7,"release_day":10,"original_format":"mp3","license":"all-rights-reserved","uri":"https://api.soundcloud.com/tracks/52405583","embeddable_by":"all","user":{"id":11839,"kind":"user","permalink":"mustard-pimp","username":"mustard
+        pimp","uri":"https://api.soundcloud.com/users/11839","permalink_url":"http://soundcloud.com/mustard-pimp","avatar_url":"https://i1.sndcdn.com/avatars-000005858804-pn6yr1-large.jpg?34f5d10"},"user_playback_count":1,"user_favorite":false,"permalink_url":"http://soundcloud.com/mustard-pimp/steve-aoki-feat-rob-roy-ooh","artwork_url":"https://i1.sndcdn.com/artworks-000026439900-c11fds-large.jpg?34f5d10","waveform_url":"https://w1.sndcdn.com/0rzavVphm1Iv_m.png","stream_url":"https://api.soundcloud.com/tracks/52405583/stream","playback_count":2632,"download_count":0,"favoritings_count":105,"comment_count":39,"attachments_uri":"https://api.soundcloud.com/tracks/52405583/attachments","sharing_note":{"text":"","created_at":"2012/07/10
+        18:54:49 +0000"}},"tags":"affiliated"},{"type":"track","created_at":"2012/07/10
+        18:45:10 +0000","origin":{"kind":"track","id":50422229,"created_at":"2012/06/21
+        16:38:48 +0000","user_id":1520490,"duration":182926,"commentable":true,"state":"finished","original_content_size":8182740,"sharing":"public","tag_list":"","permalink":"warm-easy","description":"DFA2347\r\n\r\nThe
+        2 Bears\r\nWarm \u0026 Easy single\r\nw/ remixes by Leo Zero \u0026 Jack Fell
+        Down\r\n\r\n","streamable":true,"downloadable":false,"genre":"","release":"","purchase_url":null,"purchase_title":null,"label_id":null,"label_name":"","isrc":"","video_url":null,"track_type":"","key_signature":"","bpm":null,"title":"Warm
+        \u0026 Easy","release_year":null,"release_month":null,"release_day":null,"original_format":"mp3","license":"all-rights-reserved","uri":"https://api.soundcloud.com/tracks/50422229","embeddable_by":"all","user":{"id":1520490,"kind":"user","permalink":"dfa-records","username":"DFA
+        Records","uri":"https://api.soundcloud.com/users/1520490","permalink_url":"http://soundcloud.com/dfa-records","avatar_url":"https://i1.sndcdn.com/avatars-000002067008-el39h6-large.jpg?34f5d10"},"user_playback_count":1,"user_favorite":false,"permalink_url":"http://soundcloud.com/dfa-records/warm-easy","artwork_url":"https://i1.sndcdn.com/artworks-000025418567-5w4z6h-large.jpg?34f5d10","waveform_url":"https://w1.sndcdn.com/Jn21Inktmnf9_m.png","stream_url":"https://api.soundcloud.com/tracks/50422229/stream","playback_count":1173,"download_count":1,"favoritings_count":96,"comment_count":14,"attachments_uri":"https://api.soundcloud.com/tracks/50422229/attachments","sharing_note":{"text":"","created_at":"2012/07/10
+        18:45:10 +0000"}},"tags":"affiliated"},{"type":"favoriting","created_at":"2012/07/10
+        18:43:46 +0000","origin":{"track":{"id":30650703,"permalink":"must-die-x-sazon-booya-bombo","title":"MUST
+        DIE x Sazon Booya - Bombo Tiempo (OUT NOW!)","user_id":7871599,"kind":"track","uri":"https://api.soundcloud.com/tracks/30650703","user_uri":"https://api.soundcloud.com/users/7871599","permalink_url":"http://soundcloud.com/mustdiemusic/must-die-x-sazon-booya-bombo","stream_url":"https://api.soundcloud.com/tracks/30650703/stream","artwork_url":"https://i1.sndcdn.com/artworks-000015377072-stzgey-large.jpg?34f5d10"},"user":{"id":14801,"kind":"user","permalink":"brosafari","username":"BRO
+        SAFARI","uri":"https://api.soundcloud.com/users/14801","permalink_url":"http://soundcloud.com/brosafari","avatar_url":"https://i1.sndcdn.com/avatars-000010296974-f8kd03-large.jpg?34f5d10"}},"tags":"affiliated"},{"type":"track","created_at":"2012/07/10
+        18:34:07 +0000","origin":{"kind":"track","id":52403273,"created_at":"2012/07/10
+        18:34:07 +0000","user_id":45715,"duration":237987,"commentable":true,"state":"finished","original_content_size":9569322,"sharing":"public","tag_list":"felix
+        cartal hunt sebastien grainger jesse keeler jfk different faces dim mak records
+        steve aoki","permalink":"felix-cartal-h-u-n-t-jfk-remix","description":"Pretty
+        excited to have made this happen. \r\nMy track HUNT that features Sebastien
+        Grainger on vocals gets the remix treatment from the other half of DFA1979,
+        Jesse Keeler. Let me know what you think!!\r\n\r\nOUT NOW on DIM MAK RECORDS:\r\nDownload
+        from iTunes: http://bit.ly/Ld1Lo8\r\nDownload from Beatport: http://s.beatport.com/Ou5cUl\r\nListen
+        on Spotify: http://spoti.fi/Ld2jdP\r\n\r\nListen to the original: http://soundcloud.com/felixcartal/hunt-feat-sebastien-grainger\r\n\r\nLike
+        me on Facebook: \r\nhttp://www.facebook.com/felixcartal \r\nhttp://www.facebook.com/felixcartal
+        ","streamable":true,"downloadable":false,"genre":"Thrash Metal","release":"","purchase_url":"http://bit.ly/Ld1Lo8","purchase_title":null,"label_id":null,"label_name":"","isrc":"","video_url":"http://www.youtube.com/watch?list=PL32E66666DA673E85\u0026feature=player_embedded\u0026v=DsARUxn-vtY","track_type":"remix","key_signature":"","bpm":null,"title":"Felix
+        Cartal - H.U.N.T. feat. Sebastien Grainger (JFK Remix)","release_year":null,"release_month":null,"release_day":null,"original_format":"mp3","license":"all-rights-reserved","uri":"https://api.soundcloud.com/tracks/52403273","embeddable_by":"all","user":{"id":45715,"kind":"user","permalink":"felixcartal","username":"FELIX
+        CARTAL","uri":"https://api.soundcloud.com/users/45715","permalink_url":"http://soundcloud.com/felixcartal","avatar_url":"https://i1.sndcdn.com/avatars-000001795812-noes3t-large.jpg?34f5d10"},"user_playback_count":1,"user_favorite":false,"permalink_url":"http://soundcloud.com/felixcartal/felix-cartal-h-u-n-t-jfk-remix","artwork_url":"https://i1.sndcdn.com/artworks-000026438679-2ierf3-large.jpg?34f5d10","waveform_url":"https://w1.sndcdn.com/j1a7v2z8dLSM_m.png","stream_url":"https://api.soundcloud.com/tracks/52403273/stream","playback_count":3556,"download_count":0,"favoritings_count":71,"comment_count":20,"attachments_uri":"https://api.soundcloud.com/tracks/52403273/attachments","sharing_note":{"text":"Check
+        out the JFK remix of my track H.U.N.T. feat. Sebastien Grainger!","created_at":"2012/07/10
+        18:34:07 +0000"}},"tags":"affiliated"},{"type":"track","created_at":"2012/07/10
+        18:17:27 +0000","origin":{"kind":"track","id":52321069,"created_at":"2012/07/09
+        23:55:11 +0000","user_id":222324,"duration":3615496,"commentable":true,"state":"finished","original_content_size":144564815,"sharing":"public","tag_list":"Dance
+        scratch dj mix fools gold radio podcast sirius xm dance disco techno hip hop
+        bass house moombahton","permalink":"fools-gold-radio-july-2012","description":"Tracklist:\r\n\r\nA-Trak
+        \u0026 Zinc - Stingray (A-trak Intro Edit)\r\nBreakbot - One Out of Two (Get
+        A Room Remix)\r\nLuke Walker - This Moment\r\nMurphy Jax feat. Mike Dunn -
+        Let''s Get To It\r\nLarry Tee feat. Charlie Le Mindu - Charlie\r\nWhiteNoize
+        - Pimp On\r\nDigitalism \u0026 Tommy Trash - Falling\r\nGesaffelstein - Depravity\r\nTWR72
+        - Summer\r\nJustice - New Lands (A-Trak Remix)\r\nFlosstradamus - Lana''s
+        Theme\r\nA-Trak \u0026 Dillon Francis - Money Makin'' (Oliver Twizt Trap Mix)\r\nRL
+        Grime -  Trap On Acid\r\nETC!ETC! \u0026 Brillz - Bueller \r\nDillon Francis
+        - Masta Blasta\r\nGTA - Booty Bounce\r\nLazer Sword - Pleasure Zone\r\nBig
+        Black Delta - I Fucking Love You\r\nNTEIBINT - Jackpot\r\nDuke Dumont - Underground
+        Persistance\r\nSebastien Drums \u0026 Rob Adans - Resonorg\r\nClockwork -
+        BBBS\r\nDrums Of Death - Let No Shadow Fall Upon You\r\nXXXChange - U My Fantasy\r\nWax
+        Motif - Ctrl-66\r\nTube \u0026 Berger - Soulgood","streamable":true,"downloadable":true,"genre":"Fool''s
+        Gold","release":"","purchase_url":null,"purchase_title":null,"label_id":null,"label_name":"","isrc":"","video_url":null,"track_type":"podcast","key_signature":"","bpm":null,"title":"Fool''s
+        Gold Radio - July 2012 Mix","release_year":null,"release_month":null,"release_day":null,"original_format":"mp3","license":"all-rights-reserved","uri":"https://api.soundcloud.com/tracks/52321069","embeddable_by":"all","user":{"id":222324,"kind":"user","permalink":"a-trak","username":"A-Trak","uri":"https://api.soundcloud.com/users/222324","permalink_url":"http://soundcloud.com/a-trak","avatar_url":"https://i1.sndcdn.com/avatars-000005662116-ph9x6t-large.jpg?34f5d10"},"user_playback_count":1,"user_favorite":false,"permalink_url":"http://soundcloud.com/a-trak/fools-gold-radio-july-2012","artwork_url":null,"waveform_url":"https://w1.sndcdn.com/7eXGuHobcK9d_m.png","stream_url":"https://api.soundcloud.com/tracks/52321069/stream","download_url":"https://api.soundcloud.com/tracks/52321069/download","playback_count":5203,"download_count":1012,"favoritings_count":293,"comment_count":62,"attachments_uri":"https://api.soundcloud.com/tracks/52321069/attachments","sharing_note":{"text":"","created_at":"2012/07/10
+        18:17:27 +0000"}},"tags":"affiliated"},{"type":"favoriting","created_at":"2012/07/10
+        17:33:15 +0000","origin":{"track":{"id":52336152,"permalink":"what-they-sent-back","title":"What
+        They Sent Back","user_id":4606,"kind":"track","uri":"https://api.soundcloud.com/tracks/52336152","user_uri":"https://api.soundcloud.com/users/4606","permalink_url":"http://soundcloud.com/hrdvsion/what-they-sent-back","stream_url":"https://api.soundcloud.com/tracks/52336152/stream","artwork_url":"https://i1.sndcdn.com/artworks-000026404317-zfcrc3-large.jpg?34f5d10"},"user":{"id":493912,"kind":"user","permalink":"jokers-of-the-scene","username":"Jokers
+        of the Scene","uri":"https://api.soundcloud.com/users/493912","permalink_url":"http://soundcloud.com/jokers-of-the-scene","avatar_url":"https://i1.sndcdn.com/avatars-000008002700-6ipail-large.jpg?34f5d10"}},"tags":"affiliated"}],"next_href":"https://api.soundcloud.com/me/activities?cursor=9f575a00-ca97-11e1-87de-13c4a722a9de\u0026limit=10","future_href":"https://api.soundcloud.com/me/activities?limit=10\u0026uuid%5Bto%5D=52ea3980-caec-11e1-924e-6511283b508f"}'
+    http_version: 
+  recorded_at: Wed, 11 Jul 2012 05:21:17 GMT
+recorded_with: VCR 2.2.2

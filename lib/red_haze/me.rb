@@ -13,8 +13,8 @@ module RedHaze
       raise ArgumentError unless [RedHaze::Me, Fixnum].include?(arg.class)
     end
 
-    def activities
-      get_from_endpoint('/activities')
+    def activities(args = {})
+      get_from_endpoint('/activities', args)
     end
 
   end

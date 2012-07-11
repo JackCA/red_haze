@@ -21,8 +21,8 @@ module RedHaze
         self
       end
 
-      def get_from_endpoint(endpoint)
-        self.class.import_from_response Request.get(url + endpoint)
+      def get_from_endpoint(endpoint, params={})
+        self.class.import_from_response Request.get(url + endpoint, query: params)
       end
 
       def url

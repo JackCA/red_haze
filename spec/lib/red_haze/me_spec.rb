@@ -27,8 +27,14 @@ describe RedHaze::Me do
       subject do
         VCR.use_cassette("me_activities") { instance.activities }
       end
-
       it { should be_a RedHaze::Collection }
+
+      context "with limit" do
+        subject do
+          VCR.use_cassette("me_activities_limit") { instance.activities(limit: 10) }
+        end
+        its(:items) { subject.size.should == 10 }
+      end
 
     end
   end
