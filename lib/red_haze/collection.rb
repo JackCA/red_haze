@@ -8,5 +8,9 @@ module RedHaze
       @future_href = arg['future_href']
     end
 
+    def next
+      self.class.new Request.get(@next_href)
+    end
+
   end
 end

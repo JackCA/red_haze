@@ -36,6 +36,7 @@ describe RedHaze::Me do
         its(:items) { subject.size.should == 10 }
       end
 
+      pending "filters: affiliated, exclusive, own, and all(default)"
     end
   end
 

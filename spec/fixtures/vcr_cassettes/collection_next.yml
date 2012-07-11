@@ -1,0 +1,408 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.soundcloud.com/me/activities?cursor=fd997580-c2fe-11e1-835a-8e09bb6ff6e1&oauth_token=<ACCESS_TOKEN>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 11 Jul 2012 05:35:14 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Connection:
+      - keep-alive
+      X-Runtime:
+      - '676'
+      Etag:
+      - ! '"d3a8000814d38ef26331ca6bf51d83dd"'
+      Cache-Control:
+      - private, max-age=0, must-revalidate
+      Access-Control-Allow-Methods:
+      - GET, PUT, POST, DELETE
+      Access-Control-Allow-Headers:
+      - Accept, Authorization, Content-Type, Origin
+      Access-Control-Allow-Origin:
+      - ! '*'
+      X-Cacheable:
+      - NO:Cache-Control=max-age=0
+      Content-Length:
+      - '72581'
+      X-Varnish:
+      - '61771870'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish
+      X-Cache:
+      - MISS
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: US-ASCII
+      string: ! '{"collection":[{"type":"favoriting","created_at":"2012/06/30 22:00:23
+        +0000","origin":{"track":{"id":41370601,"permalink":"dedy-dread-high-grade-show","title":"DEDY
+        DREAD HIGH GRADE SHOW 27_02_12","user_id":262825,"kind":"track","uri":"https://api.soundcloud.com/tracks/41370601","user_uri":"https://api.soundcloud.com/users/262825","permalink_url":"http://soundcloud.com/dedydread/dedy-dread-high-grade-show","stream_url":"https://api.soundcloud.com/tracks/41370601/stream","artwork_url":"https://i1.sndcdn.com/artworks-000020765738-bqviuw-large.jpg?34f5d10"},"user":{"id":293501,"kind":"user","permalink":"soundsofthe70sblogspot","username":"soundsofthe70s.blogspot","uri":"https://api.soundcloud.com/users/293501","permalink_url":"http://soundcloud.com/soundsofthe70sblogspot","avatar_url":"https://i1.sndcdn.com/avatars-000000684917-2plb9u-large.jpg?34f5d10"}},"tags":"affiliated"},{"type":"track","created_at":"2012/06/30
+        14:24:01 +0000","origin":{"kind":"track","id":51354399,"created_at":"2012/06/30
+        14:24:01 +0000","user_id":38691,"duration":167481,"commentable":true,"state":"finished","original_content_size":6695813,"sharing":"public","tag_list":"","permalink":"alkalino-then-say-it-out-now","description":"","streamable":true,"downloadable":false,"genre":"","release":"","purchase_url":"http://www.beatport.com/release/echo-deluxe-ibiza-sampler-2012/928012","purchase_title":null,"label_id":null,"label_name":"","isrc":"","video_url":null,"track_type":"","key_signature":"","bpm":null,"title":"Alkalino
+        - Then Say It (out now on Beatport)","release_year":null,"release_month":null,"release_day":null,"original_format":"mp3","license":"all-rights-reserved","uri":"https://api.soundcloud.com/tracks/51354399","embeddable_by":"all","user":{"id":38691,"kind":"user","permalink":"alkalino","username":"Alkalino","uri":"https://api.soundcloud.com/users/38691","permalink_url":"http://soundcloud.com/alkalino","avatar_url":"https://i1.sndcdn.com/avatars-000017581300-0m35qz-large.jpg?34f5d10"},"user_playback_count":1,"user_favorite":false,"permalink_url":"http://soundcloud.com/alkalino/alkalino-then-say-it-out-now","artwork_url":"https://i1.sndcdn.com/artworks-000025897122-igme41-large.jpg?34f5d10","waveform_url":"https://w1.sndcdn.com/EXTQiDUWkfoR_m.png","stream_url":"https://api.soundcloud.com/tracks/51354399/stream","playback_count":462,"download_count":0,"favoritings_count":21,"comment_count":8,"attachments_uri":"https://api.soundcloud.com/tracks/51354399/attachments","sharing_note":{"text":"","created_at":"2012/06/30
+        14:24:01 +0000"}},"tags":"affiliated"},{"type":"favoriting","created_at":"2012/06/30
+        13:49:04 +0000","origin":{"track":{"id":51344409,"permalink":"slow-club-two-cousins-leo-zero","title":"Slow
+        Club ''Two Cousins'' (Leo Zero Remix)","user_id":12360,"kind":"track","uri":"https://api.soundcloud.com/tracks/51344409","user_uri":"https://api.soundcloud.com/users/12360","permalink_url":"http://soundcloud.com/leo-zero/slow-club-two-cousins-leo-zero","stream_url":"https://api.soundcloud.com/tracks/51344409/stream","artwork_url":"https://i1.sndcdn.com/artworks-000026259148-f6rzdy-large.jpg?34f5d10"},"user":{"id":293501,"kind":"user","permalink":"soundsofthe70sblogspot","username":"soundsofthe70s.blogspot","uri":"https://api.soundcloud.com/users/293501","permalink_url":"http://soundcloud.com/soundsofthe70sblogspot","avatar_url":"https://i1.sndcdn.com/avatars-000000684917-2plb9u-large.jpg?34f5d10"}},"tags":"affiliated"},{"type":"favoriting","created_at":"2012/06/30
+        04:58:42 +0000","origin":{"track":{"id":14897577,"permalink":"dedy-dread-dj-rebel-feat-delhi","title":"DEDY
+        DREAD \u0026 DJ REBEL Feat. DELHI SULTANATE - \"Criss \u0026 Shine\"","user_id":262825,"kind":"track","uri":"https://api.soundcloud.com/tracks/14897577","user_uri":"https://api.soundcloud.com/users/262825","permalink_url":"http://soundcloud.com/dedydread/dedy-dread-dj-rebel-feat-delhi","stream_url":"https://api.soundcloud.com/tracks/14897577/stream","artwork_url":"https://i1.sndcdn.com/artworks-000010132265-vf2rd1-large.jpg?34f5d10"},"user":{"id":293501,"kind":"user","permalink":"soundsofthe70sblogspot","username":"soundsofthe70s.blogspot","uri":"https://api.soundcloud.com/users/293501","permalink_url":"http://soundcloud.com/soundsofthe70sblogspot","avatar_url":"https://i1.sndcdn.com/avatars-000000684917-2plb9u-large.jpg?34f5d10"}},"tags":"affiliated"},{"type":"favoriting","created_at":"2012/06/30
+        04:36:52 +0000","origin":{"track":{"id":8935758,"permalink":"dedy-dread-dj-rebel-psychedelic-cloud","title":"DEDY
+        DREAD - Psychedelic cloud","user_id":262825,"kind":"track","uri":"https://api.soundcloud.com/tracks/8935758","user_uri":"https://api.soundcloud.com/users/262825","permalink_url":"http://soundcloud.com/dedydread/dedy-dread-dj-rebel-psychedelic-cloud","stream_url":"https://api.soundcloud.com/tracks/8935758/stream","artwork_url":"https://i1.sndcdn.com/artworks-000015403467-vl8hk5-large.jpg?34f5d10"},"user":{"id":293501,"kind":"user","permalink":"soundsofthe70sblogspot","username":"soundsofthe70s.blogspot","uri":"https://api.soundcloud.com/users/293501","permalink_url":"http://soundcloud.com/soundsofthe70sblogspot","avatar_url":"https://i1.sndcdn.com/avatars-000000684917-2plb9u-large.jpg?34f5d10"}},"tags":"affiliated"},{"type":"favoriting","created_at":"2012/06/30
+        04:34:17 +0000","origin":{"track":{"id":31177147,"permalink":"go-miller","title":"Go
+        Miller","user_id":262825,"kind":"track","uri":"https://api.soundcloud.com/tracks/31177147","user_uri":"https://api.soundcloud.com/users/262825","permalink_url":"http://soundcloud.com/dedydread/go-miller","stream_url":"https://api.soundcloud.com/tracks/31177147/stream","artwork_url":"https://i1.sndcdn.com/artworks-000015645879-ppw0ru-large.jpg?34f5d10"},"user":{"id":293501,"kind":"user","permalink":"soundsofthe70sblogspot","username":"soundsofthe70s.blogspot","uri":"https://api.soundcloud.com/users/293501","permalink_url":"http://soundcloud.com/soundsofthe70sblogspot","avatar_url":"https://i1.sndcdn.com/avatars-000000684917-2plb9u-large.jpg?34f5d10"}},"tags":"affiliated"},{"type":"favoriting","created_at":"2012/06/30
+        04:06:14 +0000","origin":{"track":{"id":51129166,"permalink":"sylvie-vartan-disco-queen-adn","title":"Sylvie
+        Vartan - Disco Queen (ADN Ext Edit)","user_id":3589321,"kind":"track","uri":"https://api.soundcloud.com/tracks/51129166","user_uri":"https://api.soundcloud.com/users/3589321","permalink_url":"http://soundcloud.com/adigitalneedle/sylvie-vartan-disco-queen-adn","stream_url":"https://api.soundcloud.com/tracks/51129166/stream","artwork_url":"https://i1.sndcdn.com/artworks-000025779375-rez4wx-large.jpg?34f5d10"},"user":{"id":293501,"kind":"user","permalink":"soundsofthe70sblogspot","username":"soundsofthe70s.blogspot","uri":"https://api.soundcloud.com/users/293501","permalink_url":"http://soundcloud.com/soundsofthe70sblogspot","avatar_url":"https://i1.sndcdn.com/avatars-000000684917-2plb9u-large.jpg?34f5d10"}},"tags":"affiliated"},{"type":"favoriting","created_at":"2012/06/29
+        21:43:12 +0000","origin":{"track":{"id":48807674,"permalink":"alton-mcclain-destiny-it-must","title":"Alton
+        McClain \u0026 Destiny - It Must Be Love (scratchandsniff re-rub)","user_id":33613,"kind":"track","uri":"https://api.soundcloud.com/tracks/48807674","user_uri":"https://api.soundcloud.com/users/33613","permalink_url":"http://soundcloud.com/scratchandsniff/alton-mcclain-destiny-it-must","stream_url":"https://api.soundcloud.com/tracks/48807674/stream","artwork_url":"https://i1.sndcdn.com/artworks-000024592783-lj2t0t-large.jpg?34f5d10"},"user":{"id":293501,"kind":"user","permalink":"soundsofthe70sblogspot","username":"soundsofthe70s.blogspot","uri":"https://api.soundcloud.com/users/293501","permalink_url":"http://soundcloud.com/soundsofthe70sblogspot","avatar_url":"https://i1.sndcdn.com/avatars-000000684917-2plb9u-large.jpg?34f5d10"}},"tags":"affiliated"},{"type":"favoriting","created_at":"2012/06/29
+        21:27:39 +0000","origin":{"track":{"id":51287925,"permalink":"square-biz","title":"TEENA
+        MARIE - SQUARE BIZ (TONY JOHNS EDIT)","user_id":323906,"kind":"track","uri":"https://api.soundcloud.com/tracks/51287925","user_uri":"https://api.soundcloud.com/users/323906","permalink_url":"http://soundcloud.com/johnsy72/square-biz","stream_url":"https://api.soundcloud.com/tracks/51287925/stream","artwork_url":"https://i1.sndcdn.com/artworks-000025864825-yzzouz-large.jpg?34f5d10"},"user":{"id":293501,"kind":"user","permalink":"soundsofthe70sblogspot","username":"soundsofthe70s.blogspot","uri":"https://api.soundcloud.com/users/293501","permalink_url":"http://soundcloud.com/soundsofthe70sblogspot","avatar_url":"https://i1.sndcdn.com/avatars-000000684917-2plb9u-large.jpg?34f5d10"}},"tags":"affiliated"},{"type":"track","created_at":"2012/06/29
+        21:22:39 +0000","origin":{"kind":"track","id":51293734,"created_at":"2012/06/29
+        21:22:39 +0000","user_id":293501,"duration":212639,"commentable":true,"state":"finished","original_content_size":8504856,"sharing":"public","tag_list":"","permalink":"bobby-valentin-yo-1968","description":"the
+        Rick Ross Hustlin edit by Prince of Ballard made me feel like listening and
+        dreaming of hearing a sample of this huge track.. \r\n\r\nI cant wait for
+        a sample of this monster hook, so far NEVER used in hip-hop, as crazy as it
+        sounds!!!\r\n\r\ncome guys pay your tribute to BOBBY VALENTIN!!! SAMPLE HIM
+        for christ sake!","streamable":true,"downloadable":true,"genre":"killer boogaloo
+        hooks for sampling","release":"","purchase_url":null,"purchase_title":null,"label_id":null,"label_name":"","isrc":"","video_url":null,"track_type":"original","key_signature":"","bpm":null,"title":"Bobby
+        Valentin - Yo (1968) SOUNDSOFTHE70S.BLOGSPOT","release_year":null,"release_month":null,"release_day":null,"original_format":"mp3","license":"all-rights-reserved","uri":"https://api.soundcloud.com/tracks/51293734","embeddable_by":"all","user":{"id":293501,"kind":"user","permalink":"soundsofthe70sblogspot","username":"soundsofthe70s.blogspot","uri":"https://api.soundcloud.com/users/293501","permalink_url":"http://soundcloud.com/soundsofthe70sblogspot","avatar_url":"https://i1.sndcdn.com/avatars-000000684917-2plb9u-large.jpg?34f5d10"},"user_playback_count":1,"user_favorite":false,"permalink_url":"http://soundcloud.com/soundsofthe70sblogspot/bobby-valentin-yo-1968","artwork_url":"https://i1.sndcdn.com/artworks-000025866180-zagknw-large.jpg?34f5d10","waveform_url":"https://w1.sndcdn.com/ihH5yN7Kf1kk_m.png","stream_url":"https://api.soundcloud.com/tracks/51293734/stream","download_url":"https://api.soundcloud.com/tracks/51293734/download","playback_count":535,"download_count":140,"favoritings_count":22,"comment_count":5,"attachments_uri":"https://api.soundcloud.com/tracks/51293734/attachments","sharing_note":{"text":"","created_at":"2012/06/29
+        21:22:39 +0000"}},"tags":"affiliated"},{"type":"favoriting","created_at":"2012/06/29
+        20:32:53 +0000","origin":{"track":{"id":42999130,"permalink":"breakbot-programme","title":"BREAKBOT
+        \"Programme\" (b-side of forthcoming single)","user_id":3721694,"kind":"track","uri":"https://api.soundcloud.com/tracks/42999130","user_uri":"https://api.soundcloud.com/users/3721694","permalink_url":"http://soundcloud.com/edbangerrecords/breakbot-programme","stream_url":"https://api.soundcloud.com/tracks/42999130/stream","artwork_url":"https://i1.sndcdn.com/artworks-000021583200-kf83px-large.jpg?34f5d10"},"user":{"id":293501,"kind":"user","permalink":"soundsofthe70sblogspot","username":"soundsofthe70s.blogspot","uri":"https://api.soundcloud.com/users/293501","permalink_url":"http://soundcloud.com/soundsofthe70sblogspot","avatar_url":"https://i1.sndcdn.com/avatars-000000684917-2plb9u-large.jpg?34f5d10"}},"tags":"affiliated"},{"type":"favoriting","created_at":"2012/06/29
+        20:17:00 +0000","origin":{"track":{"id":18139245,"permalink":"breakbot-lazy-sunday-selecta","title":"Breakbot
+        - Lazy Sunday Selecta","user_id":3721694,"kind":"track","uri":"https://api.soundcloud.com/tracks/18139245","user_uri":"https://api.soundcloud.com/users/3721694","permalink_url":"http://soundcloud.com/edbangerrecords/breakbot-lazy-sunday-selecta","stream_url":"https://api.soundcloud.com/tracks/18139245/stream","artwork_url":"https://i1.sndcdn.com/artworks-000008779986-ayd1r3-large.jpg?34f5d10"},"user":{"id":293501,"kind":"user","permalink":"soundsofthe70sblogspot","username":"soundsofthe70s.blogspot","uri":"https://api.soundcloud.com/users/293501","permalink_url":"http://soundcloud.com/soundsofthe70sblogspot","avatar_url":"https://i1.sndcdn.com/avatars-000000684917-2plb9u-large.jpg?34f5d10"}},"tags":"affiliated"},{"type":"favoriting","created_at":"2012/06/29
+        19:24:52 +0000","origin":{"track":{"id":50936399,"permalink":"ernie-k-doe-here-come-the","title":"Ernie
+        K-Doe - Here Come The Girls! (DJ Yamin Remix)","user_id":311330,"kind":"track","uri":"https://api.soundcloud.com/tracks/50936399","user_uri":"https://api.soundcloud.com/users/311330","permalink_url":"http://soundcloud.com/dj-yamin-1/ernie-k-doe-here-come-the","stream_url":"https://api.soundcloud.com/tracks/50936399/stream","artwork_url":"https://i1.sndcdn.com/artworks-000025679979-279nlj-large.jpg?34f5d10"},"user":{"id":293501,"kind":"user","permalink":"soundsofthe70sblogspot","username":"soundsofthe70s.blogspot","uri":"https://api.soundcloud.com/users/293501","permalink_url":"http://soundcloud.com/soundsofthe70sblogspot","avatar_url":"https://i1.sndcdn.com/avatars-000000684917-2plb9u-large.jpg?34f5d10"}},"tags":"affiliated"},{"type":"track","created_at":"2012/06/29
+        18:15:13 +0000","origin":{"kind":"track","id":51276959,"created_at":"2012/06/29
+        18:15:13 +0000","user_id":45715,"duration":3591036,"commentable":true,"state":"finished","original_content_size":72930684,"sharing":"public","tag_list":"\"felix
+        catal\" weekend workout podcast tiesto club life r radio episode018","permalink":"weekend-workout-episode-018","description":"The
+        Weekend Workout is now a part of Tiesto''s Club Life Radio on SiriusXM! \r\nTune
+        in to Club Life Radio channel 340 at 3PM PST / 6PM EST to hear the Weekend
+        Workout!\r\n\r\nSubscribe on iTunes here: http://itunes.apple.com/us/podcast/felix-cartals-weekend-workout/id486514435
+        \r\nFor more info: http://www.felixcartal.com/podcast/\r\n\r\nTracklist: \r\n01.
+        Gregori Klosman - Minibar\r\n02. Bingo Players - Don''t Blame The Party (Mode)
+        (Qulinez Remix) \r\n03. Hardwell - Three Triangles\r\n04. Afrojack \u0026
+        Shermanology - Cant Stop Me (R3hab \u0026 Dyro Remix)\r\n05. Justice - Newlands
+        (A-trak Remix)\r\n06. Felix Cartal - Life Is A Sinewave\r\n07. Hey Today -
+        83\r\n08. Mightyfools - Vega (Modek''s Hyper Mix)\r\n09. Orjan Nilsen - Atchoo!\r\n10.
+        Starkillers feat Natalie Peris - Shut It Down\r\n11. Hard Rock Sofa \u0026
+        Squire - Just Can''t Stay Away\r\n12. Madeon - Finale\r\n\r\nTwitter: http://www.twitter.com/felixcartal
+        \r\nFacebook: http://www.facebook.com/felixcartal","streamable":true,"downloadable":true,"genre":"DYNAMITE
+        WORKOUT","release":"","purchase_url":null,"purchase_title":null,"label_id":null,"label_name":"","isrc":"","video_url":null,"track_type":"podcast","key_signature":"","bpm":null,"title":"Weekend
+        Workout: Episode 018","release_year":null,"release_month":null,"release_day":null,"original_format":"mp3","license":"all-rights-reserved","uri":"https://api.soundcloud.com/tracks/51276959","embeddable_by":"all","user":{"id":45715,"kind":"user","permalink":"felixcartal","username":"FELIX
+        CARTAL","uri":"https://api.soundcloud.com/users/45715","permalink_url":"http://soundcloud.com/felixcartal","avatar_url":"https://i1.sndcdn.com/avatars-000001795812-noes3t-large.jpg?34f5d10"},"user_playback_count":1,"user_favorite":false,"permalink_url":"http://soundcloud.com/felixcartal/weekend-workout-episode-018","artwork_url":"https://i1.sndcdn.com/artworks-000025857319-5qcgws-large.jpg?34f5d10","waveform_url":"https://w1.sndcdn.com/a19LBse1oVFc_m.png","stream_url":"https://api.soundcloud.com/tracks/51276959/stream","download_url":"https://api.soundcloud.com/tracks/51276959/download","playback_count":3866,"download_count":455,"favoritings_count":117,"comment_count":26,"attachments_uri":"https://api.soundcloud.com/tracks/51276959/attachments","sharing_note":{"text":"","created_at":"2012/06/29
+        18:15:13 +0000"}},"tags":"affiliated"},{"type":"favoriting","created_at":"2012/06/29
+        17:52:51 +0000","origin":{"track":{"id":34289809,"permalink":"roman-ruins-mighty-love","title":"Roman
+        Ruins - Mighty Love","user_id":1447197,"kind":"track","uri":"https://api.soundcloud.com/tracks/34289809","user_uri":"https://api.soundcloud.com/users/1447197","permalink_url":"http://soundcloud.com/goldrobotrecords/roman-ruins-mighty-love","stream_url":"https://api.soundcloud.com/tracks/34289809/stream","artwork_url":"https://i1.sndcdn.com/artworks-000017215076-vnq5zl-large.jpg?34f5d10"},"user":{"id":2879548,"kind":"user","permalink":"jstnw","username":"jstreet","uri":"https://api.soundcloud.com/users/2879548","permalink_url":"http://soundcloud.com/jstnw","avatar_url":"https://i1.sndcdn.com/avatars-000006763043-urg7lt-large.jpg?34f5d10"}},"tags":"affiliated"},{"type":"favoriting","created_at":"2012/06/29
+        16:04:49 +0000","origin":{"track":{"id":51154066,"permalink":"darwin-beatless-in-space","title":"DARWIN
+        (Beatless in space)","user_id":27329,"kind":"track","uri":"https://api.soundcloud.com/tracks/51154066","user_uri":"https://api.soundcloud.com/users/27329","permalink_url":"http://soundcloud.com/throneofblood/darwin-beatless-in-space","stream_url":"https://api.soundcloud.com/tracks/51154066/stream","artwork_url":"https://i1.sndcdn.com/artworks-000025792820-1lliac-large.jpg?34f5d10"},"user":{"id":493912,"kind":"user","permalink":"jokers-of-the-scene","username":"Jokers
+        of the Scene","uri":"https://api.soundcloud.com/users/493912","permalink_url":"http://soundcloud.com/jokers-of-the-scene","avatar_url":"https://i1.sndcdn.com/avatars-000008002700-6ipail-large.jpg?34f5d10"}},"tags":"affiliated"},{"type":"track","created_at":"2012/06/29
+        15:41:52 +0000","origin":{"kind":"track","id":51263138,"created_at":"2012/06/29
+        15:41:52 +0000","user_id":903649,"duration":174067,"commentable":true,"state":"finished","original_content_size":6962072,"sharing":"public","tag_list":"hot
+        new polish s tar b bossladyent","permalink":"lost-n-translation-iza-feat","description":"new
+        heat from poland  to the lbc","streamable":true,"downloadable":true,"genre":"iza
+        feat snoop","release":"","purchase_url":null,"purchase_title":null,"label_id":null,"label_name":"","isrc":"","video_url":null,"track_type":"","key_signature":"","bpm":null,"title":"LOST
+        N TRANSLATION   iza feat snoop","release_year":null,"release_month":null,"release_day":null,"original_format":"mp3","license":"all-rights-reserved","uri":"https://api.soundcloud.com/tracks/51263138","embeddable_by":"all","user":{"id":903649,"kind":"user","permalink":"snoopdogg","username":"Snoop
+        Dogg","uri":"https://api.soundcloud.com/users/903649","permalink_url":"http://soundcloud.com/snoopdogg","avatar_url":"https://i1.sndcdn.com/avatars-000011739251-zn8g8l-large.jpg?34f5d10"},"user_playback_count":1,"user_favorite":false,"permalink_url":"http://soundcloud.com/snoopdogg/lost-n-translation-iza-feat","artwork_url":null,"waveform_url":"https://w1.sndcdn.com/6Ym8UzAsIabV_m.png","stream_url":"https://api.soundcloud.com/tracks/51263138/stream","download_url":"https://api.soundcloud.com/tracks/51263138/download","playback_count":8787,"download_count":284,"favoritings_count":324,"comment_count":119,"attachments_uri":"https://api.soundcloud.com/tracks/51263138/attachments","sharing_note":{"text":"hot
+        new artist from poland  iza  feat snoop  lost in translation","created_at":"2012/06/29
+        15:41:52 +0000"}},"tags":"affiliated"},{"type":"track","created_at":"2012/06/29
+        15:18:15 +0000","origin":{"kind":"track","id":51261203,"created_at":"2012/06/29
+        15:18:15 +0000","user_id":4757531,"duration":3601489,"commentable":true,"state":"finished","original_content_size":144004730,"sharing":"public","tag_list":"","permalink":"pretty-lights-the-hot-sh-t-32","description":"The
+        HOT Sh*t airs at 8PM EST/6PM MST every Thursday with rebroadcasts Wednesday
+        nights at 4PM EST/2PM MST on SiriusXM''s Electric Area.","streamable":true,"downloadable":false,"genre":"","release":"","purchase_url":null,"purchase_title":null,"label_id":null,"label_name":"","isrc":"","video_url":null,"track_type":"","key_signature":"","bpm":null,"title":"Pretty
+        Lights - The Hot Sh*t, Episode 32 - Jun.14.2012","release_year":null,"release_month":null,"release_day":null,"original_format":"mp3","license":"all-rights-reserved","uri":"https://api.soundcloud.com/tracks/51261203","embeddable_by":"all","user":{"id":4757531,"kind":"user","permalink":"prettylights","username":"Pretty
+        Lights","uri":"https://api.soundcloud.com/users/4757531","permalink_url":"http://soundcloud.com/prettylights","avatar_url":"https://i1.sndcdn.com/avatars-000003749039-ig894d-large.jpg?34f5d10"},"user_playback_count":1,"user_favorite":false,"permalink_url":"http://soundcloud.com/prettylights/pretty-lights-the-hot-sh-t-32","artwork_url":null,"waveform_url":"https://w1.sndcdn.com/AbArkVjc0sDn_m.png","stream_url":"https://api.soundcloud.com/tracks/51261203/stream","playback_count":7342,"download_count":0,"favoritings_count":266,"comment_count":49,"attachments_uri":"https://api.soundcloud.com/tracks/51261203/attachments","sharing_note":{"text":"","created_at":"2012/06/29
+        15:18:15 +0000"}},"tags":"affiliated"},{"type":"favoriting","created_at":"2012/06/29
+        11:52:14 +0000","origin":{"track":{"id":50198877,"permalink":"hypnagogia-junebug-lullabies","title":"Mark
+        Slee - Hypnagogia: Junebug Lullabies [June 2012]","user_id":589001,"kind":"track","uri":"https://api.soundcloud.com/tracks/50198877","user_uri":"https://api.soundcloud.com/users/589001","permalink_url":"http://soundcloud.com/mcslee/hypnagogia-junebug-lullabies","stream_url":"https://api.soundcloud.com/tracks/50198877/stream","artwork_url":"https://i1.sndcdn.com/artworks-000025304980-mb0m0y-large.jpg?34f5d10"},"user":{"id":1250731,"kind":"user","permalink":"asblackstock","username":"blackstock","uri":"https://api.soundcloud.com/users/1250731","permalink_url":"http://soundcloud.com/asblackstock","avatar_url":"https://i1.sndcdn.com/avatars-000007955490-n4iagw-large.jpg?34f5d10"}},"tags":"affiliated"},{"type":"playlist","created_at":"2012/06/29
+        08:44:32 +0000","origin":{"kind":"playlist","id":2111316,"created_at":"2012/06/14
+        11:42:02 +0000","user_id":153671,"duration":923465,"sharing":"public","tag_list":"","permalink":"boy-8-bit-we-move-by-night-ep","description":"''We
+        Move By Night'' EP, out June 24th on Blood Music.\r\n\r\nSupport from Crookers,
+        Annie Mac, Zinc, Justin Martin, Drums of Death, Mumdance, Martello, Rob Da
+        Bank an more.\r\n\r\n","streamable":null,"downloadable":false,"genre":"","release":"","purchase_url":"http://www.beatport.com/release/we-move-by-night-ep/921826","purchase_title":"Buy
+        on Beatport","label_id":null,"label_name":"","type":"","playlist_type":"","ean":"","title":"Boy
+        8-Bit - We Move By Night EP","release_year":null,"release_month":null,"release_day":null,"license":"all-rights-reserved","uri":"https://api.soundcloud.com/playlists/2111316","permalink_url":"http://soundcloud.com/boy8bit/sets/boy-8-bit-we-move-by-night-ep","artwork_url":"https://i1.sndcdn.com/artworks-000025030827-6kec62-large.jpg?34f5d10","embeddable_by":"none","user":{"id":153671,"kind":"user","permalink":"boy8bit","username":"Boy
+        8-Bit","uri":"https://api.soundcloud.com/users/153671","permalink_url":"http://soundcloud.com/boy8bit","avatar_url":"https://i1.sndcdn.com/avatars-000000966869-ynzgmy-large.jpg?34f5d10"},"tracks_uri":"https://api.soundcloud.com/playlists/2111316/tracks","sharing_note":{"text":"","created_at":"2012/06/29
+        08:44:32 +0000"}},"tags":"affiliated"},{"type":"track","created_at":"2012/06/29
+        07:41:40 +0000","origin":{"kind":"track","id":51234267,"created_at":"2012/06/29
+        07:41:40 +0000","user_id":3039,"duration":796410,"commentable":true,"state":"finished","original_content_size":31846317,"sharing":"public","tag_list":"","permalink":"mrtn-feat-lovisa-negga-slow","description":"Here''s
+        a dope remix ep to a dope original song. ''Slow'' has been on wide rotation
+        with djs ever since the original was releases on MRTN''s ''Slow What Turn''
+        ep earlier this year. We even had a remix competition in association with
+        Stoney Roads for ''Slow'' and winners of thet competition are now featured
+        on this remix ep. As you may know, we enjoy all kinds on good music so remixers
+        go from 80''s styled mixes to house to dubstep and even a rap version....
+        not bad at all.\r\n\r\n\"Take one of Sweden\u00b4s biggest DJs, put him in
+        a studio together with Robyn\u00b4s (yes, that blond girl) drummer and you
+        get the producer duo: MRTN. DJ Mrtn (Sthlm Beat) and the drummer Pomp (Povel
+        Olofsson) have worked together since spring of 2010. Now the fresh MRTN remixes
+        are released on Top Billin. Featuring the vocals of lovely Lovisa Negga, this
+        stunning remix pack is a keeper. \u2018Slow\u2019 is also already on wide
+        rotation even on Swedish national radio and beat even SHM in the listening
+        polls.\"\r\n\r\nhttp://soundcloud.com/mrtnofficial\r\n\r\nGet this release
+        now exclusively at the Top Billin digital store for 4.99\u20ac only:\r\n\r\nhttp://topbillinmusic.bandcamp.com/album/slow-remixes\r\n\r\nTracklisting:\r\n\r\nSlow
+        (Jason Kid Remix)\r\nSlow (Monitor 66 Remix)\r\nSlow (Loop Remix)\r\nSlow
+        (So Fancy Remix)\r\nSlow (LJB feat. Pitz Remix)\r\nSlow (Farkas Remix)","streamable":true,"downloadable":false,"genre":"House","release":"TBMP3099","purchase_url":"http://topbillinmusic.bandcamp.com/album/slow-remixes","purchase_title":"Buy
+        this release","label_id":null,"label_name":"TOP BILLIN","isrc":"","video_url":"https://vimeo.com/36002021","track_type":"remix","key_signature":"","bpm":null,"title":"MRTN
+        FEAT. LOVISA NEGGA - SLOW (REMIXES) [PREVIEW]","release_year":null,"release_month":null,"release_day":null,"original_format":"mp3","license":"all-rights-reserved","uri":"https://api.soundcloud.com/tracks/51234267","embeddable_by":"all","user":{"id":3039,"kind":"user","permalink":"top-billin","username":"TOPBILLIN","uri":"https://api.soundcloud.com/users/3039","permalink_url":"http://soundcloud.com/top-billin","avatar_url":"https://i1.sndcdn.com/avatars-000000023940-3rl4sy-large.jpg?34f5d10"},"user_playback_count":1,"user_favorite":false,"permalink_url":"http://soundcloud.com/top-billin/mrtn-feat-lovisa-negga-slow","artwork_url":"https://i1.sndcdn.com/artworks-000025835360-wmdqht-large.jpg?34f5d10","waveform_url":"https://w1.sndcdn.com/GFI7hVl9oEF1_m.png","stream_url":"https://api.soundcloud.com/tracks/51234267/stream","playback_count":730,"download_count":0,"favoritings_count":20,"comment_count":10,"attachments_uri":"https://api.soundcloud.com/tracks/51234267/attachments","sharing_note":{"text":"","created_at":"2012/06/29
+        07:41:40 +0000"}},"tags":"affiliated"},{"type":"favoriting","created_at":"2012/06/29
+        06:54:05 +0000","origin":{"track":{"id":50938890,"permalink":"vin-sol-5kinandbone5-good-good","title":"Vin
+        Sol \u0026 5kinAndBone5 - Good Good","user_id":45343,"kind":"track","uri":"https://api.soundcloud.com/tracks/50938890","user_uri":"https://api.soundcloud.com/users/45343","permalink_url":"http://soundcloud.com/5kinandbone5/vin-sol-5kinandbone5-good-good","stream_url":"https://api.soundcloud.com/tracks/50938890/stream","artwork_url":"https://i1.sndcdn.com/artworks-000025816222-lg17xi-large.jpg?34f5d10"},"user":{"id":3039,"kind":"user","permalink":"top-billin","username":"TOPBILLIN","uri":"https://api.soundcloud.com/users/3039","permalink_url":"http://soundcloud.com/top-billin","avatar_url":"https://i1.sndcdn.com/avatars-000000023940-3rl4sy-large.jpg?34f5d10"}},"tags":"affiliated"},{"type":"favoriting","created_at":"2012/06/29
+        05:41:54 +0000","origin":{"track":{"id":51215867,"permalink":"why-wonder","title":"Why
+        Wonder","user_id":13825,"kind":"track","uri":"https://api.soundcloud.com/tracks/51215867","user_uri":"https://api.soundcloud.com/users/13825","permalink_url":"http://soundcloud.com/jesse-bru/why-wonder","stream_url":"https://api.soundcloud.com/tracks/51215867/stream"},"user":{"id":141790,"kind":"user","permalink":"inthewoodsny","username":"In
+        The Woods*","uri":"https://api.soundcloud.com/users/141790","permalink_url":"http://soundcloud.com/inthewoodsny","avatar_url":"https://i1.sndcdn.com/avatars-000014263678-bszrza-large.jpg?34f5d10"}},"tags":"affiliated"},{"type":"favoriting","created_at":"2012/06/28
+        20:23:34 +0000","origin":{"track":{"id":51168440,"permalink":"remain-feat-matt-walsh-insame","title":"Remain
+        feat. Matt Walsh: Insame","user_id":48023,"kind":"track","uri":"https://api.soundcloud.com/tracks/51168440","user_uri":"https://api.soundcloud.com/users/48023","permalink_url":"http://soundcloud.com/remain/remain-feat-matt-walsh-insame","stream_url":"https://api.soundcloud.com/tracks/51168440/stream","artwork_url":"https://i1.sndcdn.com/artworks-000025800132-gq5lmc-large.jpg?34f5d10"},"user":{"id":493912,"kind":"user","permalink":"jokers-of-the-scene","username":"Jokers
+        of the Scene","uri":"https://api.soundcloud.com/users/493912","permalink_url":"http://soundcloud.com/jokers-of-the-scene","avatar_url":"https://i1.sndcdn.com/avatars-000008002700-6ipail-large.jpg?34f5d10"}},"tags":"affiliated"},{"type":"favoriting","created_at":"2012/06/28
+        19:10:03 +0000","origin":{"track":{"id":51141741,"permalink":"aliveuk","title":"Dub
+        Pistols - Alive (Urban Knights Remix)","user_id":586484,"kind":"track","uri":"https://api.soundcloud.com/tracks/51141741","user_uri":"https://api.soundcloud.com/users/586484","permalink_url":"http://soundcloud.com/urbanknights/aliveuk","stream_url":"https://api.soundcloud.com/tracks/51141741/stream","artwork_url":"https://i1.sndcdn.com/artworks-000025786472-kjo3r9-large.jpg?34f5d10"},"user":{"id":3039,"kind":"user","permalink":"top-billin","username":"TOPBILLIN","uri":"https://api.soundcloud.com/users/3039","permalink_url":"http://soundcloud.com/top-billin","avatar_url":"https://i1.sndcdn.com/avatars-000000023940-3rl4sy-large.jpg?34f5d10"}},"tags":"affiliated"},{"type":"favoriting","created_at":"2012/06/28
+        18:53:48 +0000","origin":{"track":{"id":51100105,"permalink":"a1-klic-lokiboi-slow-down","title":"A1
+        - Klic \u0026 Lokiboi - Slow Down","user_id":624027,"kind":"track","uri":"https://api.soundcloud.com/tracks/51100105","user_uri":"https://api.soundcloud.com/users/624027","permalink_url":"http://soundcloud.com/kolourrecordings/a1-klic-lokiboi-slow-down","stream_url":"https://api.soundcloud.com/tracks/51100105/stream","artwork_url":"https://i1.sndcdn.com/artworks-000025764624-fc08tw-large.jpg?34f5d10"},"user":{"id":141790,"kind":"user","permalink":"inthewoodsny","username":"In
+        The Woods*","uri":"https://api.soundcloud.com/users/141790","permalink_url":"http://soundcloud.com/inthewoodsny","avatar_url":"https://i1.sndcdn.com/avatars-000014263678-bszrza-large.jpg?34f5d10"}},"tags":"affiliated"},{"type":"favoriting","created_at":"2012/06/28
+        18:53:44 +0000","origin":{"track":{"id":51100951,"permalink":"a2-klic-lokiboi-slow-down","title":"A2
+        - Klic \u0026 Lokiboi - Slow Down *Frank Booker remix","user_id":624027,"kind":"track","uri":"https://api.soundcloud.com/tracks/51100951","user_uri":"https://api.soundcloud.com/users/624027","permalink_url":"http://soundcloud.com/kolourrecordings/a2-klic-lokiboi-slow-down","stream_url":"https://api.soundcloud.com/tracks/51100951/stream","artwork_url":"https://i1.sndcdn.com/artworks-000025765132-hv1ug7-large.jpg?34f5d10"},"user":{"id":141790,"kind":"user","permalink":"inthewoodsny","username":"In
+        The Woods*","uri":"https://api.soundcloud.com/users/141790","permalink_url":"http://soundcloud.com/inthewoodsny","avatar_url":"https://i1.sndcdn.com/avatars-000014263678-bszrza-large.jpg?34f5d10"}},"tags":"affiliated"},{"type":"favoriting","created_at":"2012/06/28
+        18:53:42 +0000","origin":{"track":{"id":51100952,"permalink":"b1-klic-lokiboi-slow-down","title":"B1
+        - Klic \u0026 Lokiboi - Slow Down *Ethyl remix","user_id":624027,"kind":"track","uri":"https://api.soundcloud.com/tracks/51100952","user_uri":"https://api.soundcloud.com/users/624027","permalink_url":"http://soundcloud.com/kolourrecordings/b1-klic-lokiboi-slow-down","stream_url":"https://api.soundcloud.com/tracks/51100952/stream","artwork_url":"https://i1.sndcdn.com/artworks-000025765132-hv1ug7-large.jpg?34f5d10"},"user":{"id":141790,"kind":"user","permalink":"inthewoodsny","username":"In
+        The Woods*","uri":"https://api.soundcloud.com/users/141790","permalink_url":"http://soundcloud.com/inthewoodsny","avatar_url":"https://i1.sndcdn.com/avatars-000014263678-bszrza-large.jpg?34f5d10"}},"tags":"affiliated"},{"type":"favoriting","created_at":"2012/06/28
+        18:53:21 +0000","origin":{"track":{"id":51100953,"permalink":"b2-lokiboi-soul-twist","title":"B2
+        - Lokiboi - Soul Twist","user_id":624027,"kind":"track","uri":"https://api.soundcloud.com/tracks/51100953","user_uri":"https://api.soundcloud.com/users/624027","permalink_url":"http://soundcloud.com/kolourrecordings/b2-lokiboi-soul-twist","stream_url":"https://api.soundcloud.com/tracks/51100953/stream","artwork_url":"https://i1.sndcdn.com/artworks-000025765132-hv1ug7-large.jpg?34f5d10"},"user":{"id":141790,"kind":"user","permalink":"inthewoodsny","username":"In
+        The Woods*","uri":"https://api.soundcloud.com/users/141790","permalink_url":"http://soundcloud.com/inthewoodsny","avatar_url":"https://i1.sndcdn.com/avatars-000014263678-bszrza-large.jpg?34f5d10"}},"tags":"affiliated"},{"type":"favoriting","created_at":"2012/06/28
+        18:49:45 +0000","origin":{"track":{"id":51075672,"permalink":"sunshine","title":"Sunshine","user_id":2158218,"kind":"track","uri":"https://api.soundcloud.com/tracks/51075672","user_uri":"https://api.soundcloud.com/users/2158218","permalink_url":"http://soundcloud.com/littledragon/sunshine","stream_url":"https://api.soundcloud.com/tracks/51075672/stream","artwork_url":"https://i1.sndcdn.com/artworks-000025751876-ijpfmq-large.jpg?34f5d10"},"user":{"id":141790,"kind":"user","permalink":"inthewoodsny","username":"In
+        The Woods*","uri":"https://api.soundcloud.com/users/141790","permalink_url":"http://soundcloud.com/inthewoodsny","avatar_url":"https://i1.sndcdn.com/avatars-000014263678-bszrza-large.jpg?34f5d10"}},"tags":"affiliated"},{"type":"favoriting","created_at":"2012/06/28
+        18:48:01 +0000","origin":{"track":{"id":51139115,"permalink":"finnebassen-bleedin-out","title":"Finnebassen
+        - Bleedin out","user_id":2280745,"kind":"track","uri":"https://api.soundcloud.com/tracks/51139115","user_uri":"https://api.soundcloud.com/users/2280745","permalink_url":"http://soundcloud.com/thehouseofdisco/finnebassen-bleedin-out","stream_url":"https://api.soundcloud.com/tracks/51139115/stream","artwork_url":"https://i1.sndcdn.com/artworks-000025784787-4qdxqw-large.jpg?34f5d10"},"user":{"id":141790,"kind":"user","permalink":"inthewoodsny","username":"In
+        The Woods*","uri":"https://api.soundcloud.com/users/141790","permalink_url":"http://soundcloud.com/inthewoodsny","avatar_url":"https://i1.sndcdn.com/avatars-000014263678-bszrza-large.jpg?34f5d10"}},"tags":"affiliated"},{"type":"playlist","created_at":"2012/06/28
+        16:45:13 +0000","origin":{"kind":"playlist","id":2164075,"created_at":"2012/06/27
+        22:03:56 +0000","user_id":14730,"duration":540207,"sharing":"public","tag_list":"Moombahton
+        tropical bubblin shaun D mad Decent Jeffree''s","permalink":"shaun-d-its-about-to-go-down","description":"Shaun
+        D has been on the bubblin and dance music scene in the Netherlands since he
+        was 17, from producing hit to djing with some of the largest names in the
+        business. Now he has found a hit in the moombahton crowd with \"It''s About
+        to Go Down\" as heard on Diplo''s Moombahton mix last Summer. Here it is finally
+        available for the first time with another huge club devestator \"Don Dadda\".\r\n\r\nDownload
+        Via Mediafire http://www.mediafire.com/?dxoj58xw1hot0t7\r\n\r\nVisit TheJeffrees.com
+        for every past Jeffree''s Release!\r\n\r\n\u003Ca href=\"https://www.twitter.com/DJSHAUND\"
+        rel=\"nofollow\" target=\"_blank\"\u003ETwitter\u003C/a\u003E\r\n\u003Ca href=\"https://www.facebook.com/DeejayShaunD\"
+        rel=\"nofollow\" target=\"_blank\"\u003EFacebook\u003C/a\u003E\r\n\u003Ca
+        href=\"http://www.soundcloud.com/dj-shaun-d\" target=\"_blank\"\u003Esoundcloud\u003C/a\u003E","streamable":true,"downloadable":false,"genre":"Moombahton","release":"JEFF021","purchase_url":null,"purchase_title":null,"label_id":null,"label_name":"Jeffree''s
+        ","type":"other","playlist_type":"other","ean":"","title":"Shaun-D- It''s
+        About To Go Down (JEFF021)","release_year":2012,"release_month":6,"release_day":28,"license":"all-rights-reserved","uri":"https://api.soundcloud.com/playlists/2164075","permalink_url":"http://soundcloud.com/maddecent/sets/shaun-d-its-about-to-go-down","artwork_url":"https://i1.sndcdn.com/artworks-000025757492-r94l2l-large.jpg?34f5d10","embeddable_by":"all","user":{"id":14730,"kind":"user","permalink":"maddecent","username":"Mad
+        Decent","uri":"https://api.soundcloud.com/users/14730","permalink_url":"http://soundcloud.com/maddecent","avatar_url":"https://i1.sndcdn.com/avatars-000011540326-y85ixd-large.jpg?34f5d10"},"tracks_uri":"https://api.soundcloud.com/playlists/2164075/tracks","sharing_note":{"text":"","created_at":"2012/06/28
+        16:45:13 +0000"}},"tags":"affiliated"},{"type":"track","created_at":"2012/06/28
+        16:43:26 +0000","origin":{"kind":"track","id":51086511,"created_at":"2012/06/27
+        22:03:56 +0000","user_id":14730,"duration":255521,"commentable":true,"state":"finished","original_content_size":10217056,"sharing":"public","tag_list":"mad
+        decent jeffrees bubblin moombahton tropical Diplo","permalink":"shaun-d-don-dadda","description":"Purchase
+        Itunes: http://bit.ly/JEFFVOL4\r\nPurchase on Beatport: http://s.beatport.com/JEFFVOL4BP\r\n\r\nShaun
+        D has been on the bubblin and dance music scene in the Netherlands since he
+        was 17, from producing hit to djing with some of the largest names in the
+        business. Now he has found a hit in the moombahton crowd with \"It''s About
+        to Go Down\" as heard on Diplo''s Moombahton mix last Summer. Here it is finally
+        available for the first time with another huge club devestator \"Don Dadda\".","streamable":true,"downloadable":false,"genre":"","release":"JEFF021","purchase_url":null,"purchase_title":null,"label_id":null,"label_name":"Jeffree''s
+        ","isrc":"","video_url":null,"track_type":"original","key_signature":"","bpm":null,"title":"Shaun-D-
+        Don Dadda","release_year":2012,"release_month":6,"release_day":28,"original_format":"mp3","license":"all-rights-reserved","uri":"https://api.soundcloud.com/tracks/51086511","embeddable_by":"all","user":{"id":14730,"kind":"user","permalink":"maddecent","username":"Mad
+        Decent","uri":"https://api.soundcloud.com/users/14730","permalink_url":"http://soundcloud.com/maddecent","avatar_url":"https://i1.sndcdn.com/avatars-000011540326-y85ixd-large.jpg?34f5d10"},"user_playback_count":1,"user_favorite":false,"permalink_url":"http://soundcloud.com/maddecent/shaun-d-don-dadda","artwork_url":"https://i1.sndcdn.com/artworks-000025757492-r94l2l-large.jpg?34f5d10","waveform_url":"https://w1.sndcdn.com/vhNZZ8XpkkFM_m.png","stream_url":"https://api.soundcloud.com/tracks/51086511/stream","playback_count":8800,"download_count":899,"favoritings_count":154,"comment_count":25,"attachments_uri":"https://api.soundcloud.com/tracks/51086511/attachments","sharing_note":{"text":"","created_at":"2012/06/28
+        16:43:26 +0000"}},"tags":"affiliated"},{"type":"track","created_at":"2012/06/28
+        16:43:04 +0000","origin":{"kind":"track","id":51086510,"created_at":"2012/06/27
+        22:03:56 +0000","user_id":14730,"duration":284686,"commentable":true,"state":"finished","original_content_size":11383174,"sharing":"public","tag_list":"Shaun
+        D Mad Decent Jeffrees Moombahton","permalink":"shaun-d-its-about-to-go-down","description":"Purchase
+        Itunes: http://bit.ly/JEFFVOL4\r\nPurchase on Beatport: http://s.beatport.com/JEFFVOL4BP\r\n\r\nShaun
+        D has been on the bubblin and dance music scene in the Netherlands since he
+        was 17, from producing hit to djing with some of the largest names in the
+        business. Now he has found a hit in the moombahton crowd with \"It''s About
+        to Go Down\" as heard on Diplo''s Moombahton mix last Summer. Here it is finally
+        available for the first time with another huge club devestator \"Don Dadda\".\r\n\r\nVisit
+        TheJeffrees.com for every past Jeffree''s Release!\r\n\r\n\u003Ca href=\"https://www.twitter.com/DJSHAUND\"
+        rel=\"nofollow\" target=\"_blank\"\u003ETwitter\u003C/a\u003E\r\n\u003Ca href=\"https://www.facebook.com/DeejayShaunD\"
+        rel=\"nofollow\" target=\"_blank\"\u003EFacebook\u003C/a\u003E\r\n\u003Ca
+        href=\"http://www.soundcloud.com/dj-shaun-d\" target=\"_blank\"\u003Esoundcloud\u003C/a\u003E","streamable":true,"downloadable":false,"genre":"Moombahton","release":"JEFF021","purchase_url":null,"purchase_title":null,"label_id":null,"label_name":"Jeffree''s
+        ","isrc":"","video_url":null,"track_type":"original","key_signature":"","bpm":null,"title":"Shaun-D-
+        It''s About To Go Down","release_year":2012,"release_month":6,"release_day":28,"original_format":"mp3","license":"all-rights-reserved","uri":"https://api.soundcloud.com/tracks/51086510","embeddable_by":"all","user":{"id":14730,"kind":"user","permalink":"maddecent","username":"Mad
+        Decent","uri":"https://api.soundcloud.com/users/14730","permalink_url":"http://soundcloud.com/maddecent","avatar_url":"https://i1.sndcdn.com/avatars-000011540326-y85ixd-large.jpg?34f5d10"},"user_playback_count":1,"user_favorite":false,"permalink_url":"http://soundcloud.com/maddecent/shaun-d-its-about-to-go-down","artwork_url":"https://i1.sndcdn.com/artworks-000025757492-r94l2l-large.jpg?34f5d10","waveform_url":"https://w1.sndcdn.com/GAAKDXYpPaU7_m.png","stream_url":"https://api.soundcloud.com/tracks/51086510/stream","playback_count":11521,"download_count":1078,"favoritings_count":193,"comment_count":44,"attachments_uri":"https://api.soundcloud.com/tracks/51086510/attachments","sharing_note":{"text":"","created_at":"2012/06/28
+        16:43:04 +0000"}},"tags":"affiliated"},{"type":"playlist","created_at":"2012/06/28
+        15:38:45 +0000","origin":{"kind":"playlist","id":2139985,"created_at":"2012/06/21
+        17:20:00 +0000","user_id":4200764,"duration":735882,"sharing":"public","tag_list":"","permalink":"the-edge-ep","description":"Released
+        by: Savoir Faire / Sound of Barclay / Universal / Ultra Music\nRelease date:
+        July 9th / Release date US + Canada: July 10th\n\n---\nwww.yuksek.fr - www.facebook.com/yuksek","streamable":true,"downloadable":false,"genre":"","release":"","purchase_url":null,"purchase_title":null,"label_id":null,"label_name":"","type":"","playlist_type":"","ean":"","title":"''THE
+        EDGE'' EP","release_year":null,"release_month":null,"release_day":null,"license":"all-rights-reserved","uri":"https://api.soundcloud.com/playlists/2139985","permalink_url":"http://soundcloud.com/yuksek/sets/the-edge-ep","artwork_url":"https://i1.sndcdn.com/artworks-000025420864-d3nq5v-large.jpg?34f5d10","embeddable_by":"all","user":{"id":4200764,"kind":"user","permalink":"yuksek","username":"Yuksek","uri":"https://api.soundcloud.com/users/4200764","permalink_url":"http://soundcloud.com/yuksek","avatar_url":"https://i1.sndcdn.com/avatars-000003340574-rry33x-large.jpg?34f5d10"},"tracks_uri":"https://api.soundcloud.com/playlists/2139985/tracks","sharing_note":{"text":"","created_at":"2012/06/28
+        15:38:45 +0000"}},"tags":"affiliated"},{"type":"track","created_at":"2012/06/28
+        13:48:52 +0000","origin":{"kind":"track","id":51147947,"created_at":"2012/06/28
+        13:48:52 +0000","user_id":38691,"duration":568405,"commentable":true,"state":"finished","original_content_size":100214092,"sharing":"public","tag_list":"","permalink":"this-way-up-alkalino-edit-free","description":"Enjoy.","streamable":true,"downloadable":false,"genre":"FUNK
+        SOUL DISCO","release":"","purchase_url":"http://alkalino.bandcamp.com/track/alkalino-this-way-up","purchase_title":null,"label_id":null,"label_name":"","isrc":"","video_url":null,"track_type":"","key_signature":"","bpm":null,"title":"This
+        way up (Alkalino cut)","release_year":null,"release_month":null,"release_day":null,"original_format":"wav","license":"all-rights-reserved","uri":"https://api.soundcloud.com/tracks/51147947","embeddable_by":"all","user":{"id":38691,"kind":"user","permalink":"alkalino","username":"Alkalino","uri":"https://api.soundcloud.com/users/38691","permalink_url":"http://soundcloud.com/alkalino","avatar_url":"https://i1.sndcdn.com/avatars-000017581300-0m35qz-large.jpg?34f5d10"},"user_playback_count":1,"user_favorite":false,"permalink_url":"http://soundcloud.com/alkalino/this-way-up-alkalino-edit-free","artwork_url":"https://i1.sndcdn.com/artworks-000025788845-j8d4qx-large.jpg?34f5d10","waveform_url":"https://w1.sndcdn.com/ctOhD6BCbSV2_m.png","stream_url":"https://api.soundcloud.com/tracks/51147947/stream","playback_count":1023,"download_count":247,"favoritings_count":68,"comment_count":25,"attachments_uri":"https://api.soundcloud.com/tracks/51147947/attachments","sharing_note":{"text":"","created_at":"2012/06/28
+        13:48:52 +0000"}},"tags":"affiliated"},{"type":"track","created_at":"2012/06/28
+        12:44:11 +0000","origin":{"kind":"track","id":51143527,"created_at":"2012/06/28
+        12:44:11 +0000","user_id":3039,"duration":240208,"commentable":true,"state":"finished","original_content_size":9606709,"sharing":"public","tag_list":"","permalink":"top-billin-dj-venum-ghetto","description":"Yes
+        it''s a nice preview of the release we been working on with our boy DJ Venum.
+        Very much influenced by the modern ghetto house with that Detroit feel and
+        not forgetting the trap.... naturally) Big respect to DJ Venum for the 90''s
+        feel and keep your ears ready for the b-side.","streamable":true,"downloadable":false,"genre":"Club
+        music","release":"","purchase_url":null,"purchase_title":null,"label_id":null,"label_name":"","isrc":"","video_url":null,"track_type":"original","key_signature":"","bpm":null,"title":"TOP
+        BILLIN \u0026 DJ VENUM - GHETTO TRAPSTAR [PREVIEW]","release_year":null,"release_month":null,"release_day":null,"original_format":"mp3","license":"all-rights-reserved","uri":"https://api.soundcloud.com/tracks/51143527","embeddable_by":"all","user":{"id":3039,"kind":"user","permalink":"top-billin","username":"TOPBILLIN","uri":"https://api.soundcloud.com/users/3039","permalink_url":"http://soundcloud.com/top-billin","avatar_url":"https://i1.sndcdn.com/avatars-000000023940-3rl4sy-large.jpg?34f5d10"},"user_playback_count":1,"user_favorite":false,"permalink_url":"http://soundcloud.com/top-billin/top-billin-dj-venum-ghetto","artwork_url":"https://i1.sndcdn.com/artworks-000025787020-kaz1xu-large.jpg?34f5d10","waveform_url":"https://w1.sndcdn.com/OAJ8Lj9Vg3vz_m.png","stream_url":"https://api.soundcloud.com/tracks/51143527/stream","playback_count":972,"download_count":0,"favoritings_count":52,"comment_count":14,"attachments_uri":"https://api.soundcloud.com/tracks/51143527/attachments","sharing_note":{"text":"","created_at":"2012/06/28
+        12:44:11 +0000"}},"tags":"affiliated"},{"type":"favoriting","created_at":"2012/06/28
+        09:04:21 +0000","origin":{"track":{"id":51066982,"permalink":"the-bloody-beetroots","title":"The
+        Bloody Beetroots - Rocksteady (Shy kidx remix)","user_id":6190503,"kind":"track","uri":"https://api.soundcloud.com/tracks/51066982","user_uri":"https://api.soundcloud.com/users/6190503","permalink_url":"http://soundcloud.com/shykidx/the-bloody-beetroots","stream_url":"https://api.soundcloud.com/tracks/51066982/stream","artwork_url":"https://i1.sndcdn.com/artworks-000025746738-c6oqar-large.jpg?34f5d10"},"user":{"id":145000,"kind":"user","permalink":"thebloodybeetroots","username":"thebloodybeetroots","uri":"https://api.soundcloud.com/users/145000","permalink_url":"http://soundcloud.com/thebloodybeetroots","avatar_url":"https://i1.sndcdn.com/avatars-000014179174-659rr9-large.jpg?34f5d10"}},"tags":"affiliated"},{"type":"favoriting","created_at":"2012/06/28
+        05:15:18 +0000","origin":{"track":{"id":41149393,"permalink":"norma-jean-bell-im-the-baddest","title":"NORMA
+        JEAN BELL - IM THE BADDEST BITCH (TONY JOHNS EDIT)","user_id":323906,"kind":"track","uri":"https://api.soundcloud.com/tracks/41149393","user_uri":"https://api.soundcloud.com/users/323906","permalink_url":"http://soundcloud.com/johnsy72/norma-jean-bell-im-the-baddest","stream_url":"https://api.soundcloud.com/tracks/41149393/stream","artwork_url":"https://i1.sndcdn.com/artworks-000020638615-539bmv-large.jpg?34f5d10"},"user":{"id":293501,"kind":"user","permalink":"soundsofthe70sblogspot","username":"soundsofthe70s.blogspot","uri":"https://api.soundcloud.com/users/293501","permalink_url":"http://soundcloud.com/soundsofthe70sblogspot","avatar_url":"https://i1.sndcdn.com/avatars-000000684917-2plb9u-large.jpg?34f5d10"}},"tags":"affiliated"},{"type":"favoriting","created_at":"2012/06/28
+        03:23:21 +0000","origin":{"track":{"id":45891139,"permalink":"ima-work","title":"Ima
+        Work","user_id":613234,"kind":"track","uri":"https://api.soundcloud.com/tracks/45891139","user_uri":"https://api.soundcloud.com/users/613234","permalink_url":"http://soundcloud.com/mad_rid/ima-work","stream_url":"https://api.soundcloud.com/tracks/45891139/stream","artwork_url":"https://i1.sndcdn.com/artworks-000023082779-mmgnos-large.jpg?34f5d10"},"user":{"id":312963,"kind":"user","permalink":"flosstradamus","username":"Flosstradamus","uri":"https://api.soundcloud.com/users/312963","permalink_url":"http://soundcloud.com/flosstradamus","avatar_url":"https://i1.sndcdn.com/avatars-000016554967-lfpqof-large.jpg?34f5d10"}},"tags":"affiliated"},{"type":"track","created_at":"2012/06/28
+        00:08:01 +0000","origin":{"kind":"track","id":45725483,"created_at":"2012/05/08
+        17:51:58 +0000","user_id":527845,"duration":258867,"commentable":true,"state":"finished","original_content_size":6219506,"sharing":"public","tag_list":"","permalink":"beach-house-myth-1","description":"Pre-order
+        Beach House''s Bloom (out 5/15/12)\r\nItunes -- itunes.apple.com/us/preorder/bloom/id510713376\r\nAmazon
+        -- ow.ly/aMgfz\r\nSub Pop -- subpop.com/releases/beach_house/full_lengths/bloom\r\n\r\nBeach
+        House on Sub Pop subpop.com/artists/beach_house\r\n\r\n  ","streamable":true,"downloadable":false,"genre":"","release":"SP965","purchase_url":"http://subpop.com/releases/beach_house/full_lengths/bloom","purchase_title":"buy
+        at subpop.com","label_id":null,"label_name":"Sub Pop","isrc":"","video_url":"http://www.youtube.com/watch?v=Bv7IcjmxjGo","track_type":"original","key_signature":"","bpm":null,"title":"Beach
+        House - Myth","release_year":null,"release_month":null,"release_day":null,"original_format":"mp3","license":"all-rights-reserved","uri":"https://api.soundcloud.com/tracks/45725483","embeddable_by":"me","user":{"id":527845,"kind":"user","permalink":"subpop","username":"subpop","uri":"https://api.soundcloud.com/users/527845","permalink_url":"http://soundcloud.com/subpop","avatar_url":"https://i1.sndcdn.com/avatars-000001573218-k3suh1-large.jpg?34f5d10"},"user_playback_count":1,"user_favorite":true,"permalink_url":"http://soundcloud.com/subpop/beach-house-myth-1","artwork_url":"https://i1.sndcdn.com/artworks-000022998124-efxvv0-large.jpg?34f5d10","waveform_url":"https://w1.sndcdn.com/anSGle8vX79Q_m.png","stream_url":"https://api.soundcloud.com/tracks/45725483/stream","playback_count":75934,"download_count":2,"favoritings_count":1209,"comment_count":111,"attachments_uri":"https://api.soundcloud.com/tracks/45725483/attachments","sharing_note":{"text":"","created_at":"2012/05/08
+        17:51:58 +0000"}},"tags":"affiliated"},{"type":"track","created_at":"2012/06/27
+        21:10:42 +0000","origin":{"kind":"track","id":51081370,"created_at":"2012/06/27
+        21:10:42 +0000","user_id":14730,"duration":274180,"commentable":true,"state":"finished","original_content_size":11057676,"sharing":"public","tag_list":"","permalink":"faux-no-velma-kelly-feadz","description":"PURCHASE
+        ON ITUNES: http://bit.ly/FAUXNO\r\nPURCHASE ON AMAZON:http://amzn.com/B008DURVQ0\r\nPreview
+        and Stream @ http://maddecent.com/releases/velma-kelly\r\n\r\nJoin in on Mad
+        Decent Premium! Receive EVERY Mad Decent release the day it comes out + EVERY
+        Jeffree''s release 1 week BEFORE everyone else in High Quality WAV + More
+        Sign up at https://drip.fm/mad-decent\r\n\r\n\r\nFAUX NO is the production
+        and vocal duo of Maaike Lebbing and Reija Lee (formally known as \"Kito \u0026
+        Reija Lee\"). Two passionate Australian friends now based in London; the two
+        draw inspiration from a vast selection of music that has sound tracked the
+        love, lust and teenage rebellion that defines so much of what they''re about.
+        Maaike\r\nand Reija''s first collaborative release came in the form of the
+        game changing \"LFO\" that was released in early 2009 on Skream''s Disfigured
+        Dubz imprint. Since then, they have worked together on a number of pieces
+        for Mad Decent, including the \"Sweet Talk\" EP, and have now reunited under
+        one name to explore a new style.\r\n\r\nTheir first single under the new FAUX
+        NO moniker is called \"Velma Kelly\". A bass infused pop tune, it highlights
+        both\r\nMaaike''s bombast percussion style with Reija''s melodic vocals. Along
+        with the single we''ve got two remixes- one from recent Kito collaborator
+        Feadz (Ed Banger) and a rapid-fire juke production from Norway''s Slick Shoota.\r\n\r\nOriginally
+        released on June 26, 2012.\r\n\r\nFAUX NO\r\nhttp://www.twitter.com/FAUXNO\r\nhttp://www.facebook.com/FAUXNO","streamable":true,"downloadable":true,"genre":"Bass","release":"MAD-172","purchase_url":null,"purchase_title":null,"label_id":null,"label_name":"Mad
+        Decent","isrc":"","video_url":"http://www.youtube.com/watch?v=bZ3Vy9ZJjz0","track_type":"","key_signature":"","bpm":null,"title":"FAUX
+        NO-Velma Kelly (Feadz Remix)","release_year":2012,"release_month":6,"release_day":26,"original_format":"mp3","license":"all-rights-reserved","uri":"https://api.soundcloud.com/tracks/51081370","embeddable_by":"all","user":{"id":14730,"kind":"user","permalink":"maddecent","username":"Mad
+        Decent","uri":"https://api.soundcloud.com/users/14730","permalink_url":"http://soundcloud.com/maddecent","avatar_url":"https://i1.sndcdn.com/avatars-000011540326-y85ixd-large.jpg?34f5d10"},"user_playback_count":1,"user_favorite":false,"permalink_url":"http://soundcloud.com/maddecent/faux-no-velma-kelly-feadz","artwork_url":"https://i1.sndcdn.com/artworks-000025754758-5suq9h-large.jpg?34f5d10","waveform_url":"https://w1.sndcdn.com/61eIm0IwVZic_m.png","stream_url":"https://api.soundcloud.com/tracks/51081370/stream","download_url":"https://api.soundcloud.com/tracks/51081370/download","playback_count":6127,"download_count":330,"favoritings_count":108,"comment_count":14,"attachments_uri":"https://api.soundcloud.com/tracks/51081370/attachments"},"tags":"affiliated"},{"type":"track","created_at":"2012/06/27
+        21:10:42 +0000","origin":{"kind":"track","id":51081369,"created_at":"2012/06/27
+        21:10:42 +0000","user_id":14730,"duration":256383,"commentable":true,"state":"finished","original_content_size":10346086,"sharing":"public","tag_list":"","permalink":"faux-no-velma-kelly","description":"PURCHASE
+        ON ITUNES: http://bit.ly/FAUXNO\r\nPURCHASE ON AMAZON:http://amzn.com/B008DURVQ0\r\nPreview
+        and Stream @ http://maddecent.com/releases/velma-kelly\r\n\r\nJoin in on Mad
+        Decent Premium! Receive EVERY Mad Decent release the day it comes out + EVERY
+        Jeffree''s release 1 week BEFORE everyone else in High Quality WAV + More
+        Sign up at https://drip.fm/mad-decent\r\n\r\n\r\nFAUX NO is the production
+        and vocal duo of Maaike Lebbing and Reija Lee (formally known as \"Kito \u0026
+        Reija Lee\"). Two passionate Australian friends now based in London; the two
+        draw inspiration from a vast selection of music that has sound tracked the
+        love, lust and teenage rebellion that defines so much of what they''re about.
+        Maaike\r\nand Reija''s first collaborative release came in the form of the
+        game changing \"LFO\" that was released in early 2009 on Skream''s Disfigured
+        Dubz imprint. Since then, they have worked together on a number of pieces
+        for Mad Decent, including the \"Sweet Talk\" EP, and have now reunited under
+        one name to explore a new style.\r\n\r\nTheir first single under the new FAUX
+        NO moniker is called \"Velma Kelly\". A bass infused pop tune, it highlights
+        both\r\nMaaike''s bombast percussion style with Reija''s melodic vocals. Along
+        with the single we''ve got two remixes- one from recent Kito collaborator
+        Feadz (Ed Banger) and a rapid-fire juke production from Norway''s Slick Shoota.\r\n\r\nOriginally
+        released on June 26, 2012.\r\n\r\nFAUX NO\r\nhttp://www.twitter.com/FAUXNO\r\nhttp://www.facebook.com/FAUXNO","streamable":true,"downloadable":false,"genre":"Bass","release":"MAD-172","purchase_url":"http://click.linksynergy.com/fs-bin/click?id=6z7xMIwk9RI\u0026subid=\u0026offerid=146261.1\u0026type=10\u0026tmpid=5573\u0026RD_PARM1=http%3A%2F%2Fitunes.apple.com%2Fus%2Falbum%2Fvelma-kelly-single%2Fid535709984","purchase_title":"Buy
+        on iTunes","label_id":null,"label_name":"Mad Decent","isrc":"","video_url":"http://www.youtube.com/watch?v=5s2Dg6m8vgU","track_type":"","key_signature":"","bpm":null,"title":"FAUX
+        NO-Velma Kelly","release_year":2012,"release_month":6,"release_day":26,"original_format":"mp3","license":"all-rights-reserved","uri":"https://api.soundcloud.com/tracks/51081369","embeddable_by":"all","user":{"id":14730,"kind":"user","permalink":"maddecent","username":"Mad
+        Decent","uri":"https://api.soundcloud.com/users/14730","permalink_url":"http://soundcloud.com/maddecent","avatar_url":"https://i1.sndcdn.com/avatars-000011540326-y85ixd-large.jpg?34f5d10"},"user_playback_count":1,"user_favorite":false,"permalink_url":"http://soundcloud.com/maddecent/faux-no-velma-kelly","artwork_url":"https://i1.sndcdn.com/artworks-000025754758-5suq9h-large.jpg?34f5d10","waveform_url":"https://w1.sndcdn.com/XyGqMx4KvuNS_m.png","stream_url":"https://api.soundcloud.com/tracks/51081369/stream","playback_count":7418,"download_count":0,"favoritings_count":175,"comment_count":30,"attachments_uri":"https://api.soundcloud.com/tracks/51081369/attachments"},"tags":"affiliated"},{"type":"track","created_at":"2012/06/27
+        21:10:42 +0000","origin":{"kind":"track","id":51081371,"created_at":"2012/06/27
+        21:10:42 +0000","user_id":14730,"duration":255991,"commentable":true,"state":"finished","original_content_size":10330434,"sharing":"public","tag_list":"","permalink":"faux-no-velma-kelly-slick","description":"PURCHASE
+        ON ITUNES: http://bit.ly/FAUXNO\r\nPURCHASE ON AMAZON:http://amzn.com/B008DURVQ0\r\nPreview
+        and Stream @ http://maddecent.com/releases/velma-kelly\r\n\r\nJoin in on Mad
+        Decent Premium! Receive EVERY Mad Decent release the day it comes out + EVERY
+        Jeffree''s release 1 week BEFORE everyone else in High Quality WAV + More
+        Sign up at https://drip.fm/mad-decent\r\n\r\n\r\nFAUX NO is the production
+        and vocal duo of Maaike Lebbing and Reija Lee (formally known as \"Kito \u0026
+        Reija Lee\"). Two passionate Australian friends now based in London; the two
+        draw inspiration from a vast selection of music that has sound tracked the
+        love, lust and teenage rebellion that defines so much of what they''re about.
+        Maaike\r\nand Reija''s first collaborative release came in the form of the
+        game changing \"LFO\" that was released in early 2009 on Skream''s Disfigured
+        Dubz imprint. Since then, they have worked together on a number of pieces
+        for Mad Decent, including the \"Sweet Talk\" EP, and have now reunited under
+        one name to explore a new style.\r\n\r\nTheir first single under the new FAUX
+        NO moniker is called \"Velma Kelly\". A bass infused pop tune, it highlights
+        both\r\nMaaike''s bombast percussion style with Reija''s melodic vocals. Along
+        with the single we''ve got two remixes- one from recent Kito collaborator
+        Feadz (Ed Banger) and a rapid-fire juke production from Norway''s Slick Shoota.\r\n\r\nOriginally
+        released on June 26, 2012.\r\n\r\nFAUX NO\r\nhttp://www.twitter.com/FAUXNO\r\nhttp://www.facebook.com/FAUXNO","streamable":true,"downloadable":false,"genre":"Bass","release":"MAD-172","purchase_url":"http://bit.ly/FAUXNO","purchase_title":"Buy
+        on iTunes","label_id":null,"label_name":"Mad Decent","isrc":"","video_url":"http://www.youtube.com/watch?v=HIZfvXeRZuo","track_type":"","key_signature":"","bpm":null,"title":"FAUX
+        NO-Velma Kelly (Slick Shoota Remix)","release_year":2012,"release_month":6,"release_day":26,"original_format":"mp3","license":"all-rights-reserved","uri":"https://api.soundcloud.com/tracks/51081371","embeddable_by":"all","user":{"id":14730,"kind":"user","permalink":"maddecent","username":"Mad
+        Decent","uri":"https://api.soundcloud.com/users/14730","permalink_url":"http://soundcloud.com/maddecent","avatar_url":"https://i1.sndcdn.com/avatars-000011540326-y85ixd-large.jpg?34f5d10"},"user_playback_count":1,"user_favorite":false,"permalink_url":"http://soundcloud.com/maddecent/faux-no-velma-kelly-slick","artwork_url":"https://i1.sndcdn.com/artworks-000025754758-5suq9h-large.jpg?34f5d10","waveform_url":"https://w1.sndcdn.com/aapSjm9mzndx_m.png","stream_url":"https://api.soundcloud.com/tracks/51081371/stream","playback_count":4982,"download_count":0,"favoritings_count":185,"comment_count":32,"attachments_uri":"https://api.soundcloud.com/tracks/51081371/attachments"},"tags":"affiliated"},{"type":"playlist","created_at":"2012/06/27
+        21:10:42 +0000","origin":{"kind":"playlist","id":2163898,"created_at":"2012/06/27
+        21:10:42 +0000","user_id":14730,"duration":786554,"sharing":"public","tag_list":"Faux
+        No Velma Kelly Mad Decent Kito Reija Lee Slick Shoota Feadz","permalink":"faux-no-velma-kelly","description":"PURCHASE
+        ON ITUNES: http://bit.ly/FAUXNO\r\nPURCHASE ON AMAZON:http://amzn.com/B008DURVQ0\r\nPreview
+        and Stream @ http://maddecent.com/releases/velma-kelly\r\n\r\nJoin in on Mad
+        Decent Premium! Receive EVERY Mad Decent release the day it comes out + EVERY
+        Jeffree''s release 1 week BEFORE everyone else in High Quality WAV + More
+        Sign up at https://drip.fm/mad-decent\r\n\r\n\r\nFAUX NO is the production
+        and vocal duo of Maaike Lebbing and Reija Lee (formally known as \"Kito \u0026
+        Reija Lee\"). Two passionate Australian friends now based in London; the two
+        draw inspiration from a vast selection of music that has sound tracked the
+        love, lust and teenage rebellion that defines so much of what they''re about.
+        Maaike\r\nand Reija''s first collaborative release came in the form of the
+        game changing \"LFO\" that was released in early 2009 on Skream''s Disfigured
+        Dubz imprint. Since then, they have worked together on a number of pieces
+        for Mad Decent, including the \"Sweet Talk\" EP, and have now reunited under
+        one name to explore a new style.\r\n\r\nTheir first single under the new FAUX
+        NO moniker is called \"Velma Kelly\". A bass infused pop tune, it highlights
+        both\r\nMaaike''s bombast percussion style with Reija''s melodic vocals. Along
+        with the single we''ve got two remixes- one from recent Kito collaborator
+        Feadz (Ed Banger) and a rapid-fire juke production from Norway''s Slick Shoota.\r\n\r\nOriginally
+        released on June 26, 2012.\r\n\r\nFAUX NO\r\nhttp://www.twitter.com/FAUXNO\r\nhttp://www.facebook.com/FAUXNO","streamable":true,"downloadable":null,"genre":"Bass","release":"MAD-172","purchase_url":"http://click.linksynergy.com/fs-bin/click?id=6z7xMIwk9RI\u0026subid=\u0026offerid=146261.1\u0026type=10\u0026tmpid=5573\u0026RD_PARM1=http%3A%2F%2Fitunes.apple.com%2Fus%2Falbum%2Fvelma-kelly-single%2Fid535709984","purchase_title":"Buy
+        on iTunes","label_id":null,"label_name":"Mad Decent","type":"ep single","playlist_type":"ep
+        single","ean":"","title":"FAUX NO- Velma Kelly","release_year":2012,"release_month":6,"release_day":26,"license":"all-rights-reserved","uri":"https://api.soundcloud.com/playlists/2163898","permalink_url":"http://soundcloud.com/maddecent/sets/faux-no-velma-kelly","artwork_url":"https://i1.sndcdn.com/artworks-000025754758-5suq9h-large.jpg?34f5d10","embeddable_by":"all","user":{"id":14730,"kind":"user","permalink":"maddecent","username":"Mad
+        Decent","uri":"https://api.soundcloud.com/users/14730","permalink_url":"http://soundcloud.com/maddecent","avatar_url":"https://i1.sndcdn.com/avatars-000011540326-y85ixd-large.jpg?34f5d10"},"tracks_uri":"https://api.soundcloud.com/playlists/2163898/tracks","sharing_note":{"text":"","created_at":"2012/06/27
+        21:10:42 +0000"}},"tags":"affiliated"},{"type":"track","created_at":"2012/06/27
+        19:42:40 +0000","origin":{"kind":"track","id":50843626,"created_at":"2012/06/25
+        19:27:52 +0000","user_id":102594,"duration":234146,"commentable":true,"state":"finished","original_content_size":5618303,"sharing":"public","tag_list":"\"
+        Minneapolis \" Domino \"Domino Records\" \"Night Moves\" \"Colored Emotions\"
+        Headlights","permalink":"nightmoves-headlights","description":"Opening track
+        from \"Colored Emotions,\" the debut album from the Minneapolis-based trio.","streamable":true,"downloadable":true,"genre":"cosmic
+        grooves","release":"DNO 322","purchase_url":null,"purchase_title":null,"label_id":null,"label_name":"Domino
+        Recording Co.","isrc":"GB-CEL-12-00224","video_url":null,"track_type":"","key_signature":"","bpm":null,"title":"Night
+        Moves - Headlights","release_year":2012,"release_month":10,"release_day":9,"original_format":"mp3","license":"all-rights-reserved","uri":"https://api.soundcloud.com/tracks/50843626","embeddable_by":"all","user":{"id":102594,"kind":"user","permalink":"dominorecordco","username":"Domino
+        Record Co","uri":"https://api.soundcloud.com/users/102594","permalink_url":"http://soundcloud.com/dominorecordco","avatar_url":"https://i1.sndcdn.com/avatars-000000584933-5buci0-large.jpg?34f5d10"},"user_playback_count":1,"user_favorite":false,"permalink_url":"http://soundcloud.com/dominorecordco/nightmoves-headlights","artwork_url":"https://i1.sndcdn.com/artworks-000025633731-5ohejv-large.jpg?34f5d10","waveform_url":"https://w1.sndcdn.com/21tk6v5g2M8l_m.png","stream_url":"https://api.soundcloud.com/tracks/50843626/stream","download_url":"https://api.soundcloud.com/tracks/50843626/download","playback_count":4868,"download_count":924,"favoritings_count":199,"comment_count":23,"attachments_uri":"https://api.soundcloud.com/tracks/50843626/attachments","sharing_note":{"text":"","created_at":"2012/06/27
+        19:42:40 +0000"}},"tags":"affiliated"},{"type":"track","created_at":"2012/06/27
+        19:40:45 +0000","origin":{"kind":"track","id":51072497,"created_at":"2012/06/27
+        19:40:45 +0000","user_id":3039,"duration":194371,"commentable":true,"state":"finished","original_content_size":7918163,"sharing":"public","tag_list":"","permalink":"top-billin-stay-flush","description":"We
+        know you we like a party tune. Here''s one were happy to give away for your
+        slower sets, it''s been massive at our shows, we all like Moombahton. \r\n","streamable":true,"downloadable":true,"genre":"MOOMBAHTON","release":"","purchase_url":null,"purchase_title":null,"label_id":null,"label_name":"","isrc":"","video_url":null,"track_type":"original","key_signature":"","bpm":null,"title":"TOP
+        BILLIN - STAY FLUSH (MOOMBAHTON MIX) [FREE DOWNLOAD]","release_year":null,"release_month":null,"release_day":null,"original_format":"mp3","license":"all-rights-reserved","uri":"https://api.soundcloud.com/tracks/51072497","embeddable_by":"all","user":{"id":3039,"kind":"user","permalink":"top-billin","username":"TOPBILLIN","uri":"https://api.soundcloud.com/users/3039","permalink_url":"http://soundcloud.com/top-billin","avatar_url":"https://i1.sndcdn.com/avatars-000000023940-3rl4sy-large.jpg?34f5d10"},"user_playback_count":1,"user_favorite":false,"permalink_url":"http://soundcloud.com/top-billin/top-billin-stay-flush","artwork_url":"https://i1.sndcdn.com/artworks-000025750084-up6vdc-large.jpg?34f5d10","waveform_url":"https://w1.sndcdn.com/83rcTP8nkrEH_m.png","stream_url":"https://api.soundcloud.com/tracks/51072497/stream","download_url":"https://api.soundcloud.com/tracks/51072497/download","playback_count":1154,"download_count":240,"favoritings_count":26,"comment_count":7,"attachments_uri":"https://api.soundcloud.com/tracks/51072497/attachments","sharing_note":{"text":"","created_at":"2012/06/27
+        19:40:45 +0000"}},"tags":"affiliated"},{"type":"track","created_at":"2012/06/27
+        18:04:05 +0000","origin":{"kind":"track","id":51062469,"created_at":"2012/06/27
+        18:04:05 +0000","user_id":45715,"duration":89162,"commentable":true,"state":"finished","original_content_size":3565245,"sharing":"public","tag_list":"elix
+        cartal hunt sebastien grainger death f from above 1979 jesse keeler jfk mstrkrft
+        dim mak records","permalink":"felix-cartal-hunt-jfk-remix","description":"Pretty
+        excited to have made this happen.\r\nMy track HUNT that features Sebastien
+        Grainger on vocals gets the remix treatment from the other half of DFA1979,
+        Jesse Keeler. Let me know what you think!!\r\n\r\nCOMES OUT JULY 10 on DIM
+        MAK.\r\n\r\nListen to the original: http://soundcloud.com/felixcartal/hunt-feat-sebastien-grainger\r\n\r\nLike
+        me on Facebook:\r\nhttp://www.facebook.com/felixcartal\r\nhttp://www.facebook.com/felixcartal\r\nhttp://www.facebook.com/felixcartal\r\nhttp://www.facebook.com/felixcartal","streamable":true,"downloadable":false,"genre":"Buck
+        Hunting","release":"","purchase_url":null,"purchase_title":null,"label_id":903800,"label_name":"Dim
+        Mak Records","isrc":"","video_url":null,"track_type":"remix","key_signature":"","bpm":null,"title":"Felix
+        Cartal feat. Sebastien Grainger - H.U.N.T. (JFK Remix) [Preview]","release_year":2012,"release_month":10,"release_day":7,"original_format":"mp3","license":"all-rights-reserved","uri":"https://api.soundcloud.com/tracks/51062469","embeddable_by":"all","user":{"id":45715,"kind":"user","permalink":"felixcartal","username":"FELIX
+        CARTAL","uri":"https://api.soundcloud.com/users/45715","permalink_url":"http://soundcloud.com/felixcartal","avatar_url":"https://i1.sndcdn.com/avatars-000001795812-noes3t-large.jpg?34f5d10"},"label":{"id":903800,"kind":"user","permalink":"dimmakrecords","username":"Dim
+        Mak Records","uri":"https://api.soundcloud.com/users/903800","permalink_url":"http://soundcloud.com/dimmakrecords","avatar_url":"https://i1.sndcdn.com/avatars-000014372778-yoh3fl-large.jpg?34f5d10"},"user_playback_count":1,"user_favorite":false,"permalink_url":"http://soundcloud.com/felixcartal/felix-cartal-hunt-jfk-remix","artwork_url":"https://i1.sndcdn.com/artworks-000025745357-xy8gwa-large.jpg?34f5d10","waveform_url":"https://w1.sndcdn.com/hzIUw6qAKVNX_m.png","stream_url":"https://api.soundcloud.com/tracks/51062469/stream","playback_count":4060,"download_count":0,"favoritings_count":115,"comment_count":26,"attachments_uri":"https://api.soundcloud.com/tracks/51062469/attachments","sharing_note":{"text":"New
+        JFK remix of my track H.U.N.T. feat Sebastien Grainger.","created_at":"2012/06/27
+        18:04:05 +0000"}},"tags":"affiliated"},{"type":"favoriting","created_at":"2012/06/27
+        16:59:32 +0000","origin":{"track":{"id":50722660,"permalink":"not-to-show-it","title":"Not
+        To Show It","user_id":15731126,"kind":"track","uri":"https://api.soundcloud.com/tracks/50722660","user_uri":"https://api.soundcloud.com/users/15731126","permalink_url":"http://soundcloud.com/softmore/not-to-show-it","stream_url":"https://api.soundcloud.com/tracks/50722660/stream","artwork_url":"https://i1.sndcdn.com/artworks-000025571978-zv3pg8-large.jpg?34f5d10"},"user":{"id":141790,"kind":"user","permalink":"inthewoodsny","username":"In
+        The Woods*","uri":"https://api.soundcloud.com/users/141790","permalink_url":"http://soundcloud.com/inthewoodsny","avatar_url":"https://i1.sndcdn.com/avatars-000014263678-bszrza-large.jpg?34f5d10"}},"tags":"affiliated"},{"type":"favoriting","created_at":"2012/06/27
+        16:39:29 +0000","origin":{"track":{"id":51025385,"permalink":"sharkslayer-belmont-cockalorum","title":"Sharkslayer
+        \u0026 Belmont - Cockalorum [MTWAT 2012]","user_id":26067,"kind":"track","uri":"https://api.soundcloud.com/tracks/51025385","user_uri":"https://api.soundcloud.com/users/26067","permalink_url":"http://soundcloud.com/sharkslayer/sharkslayer-belmont-cockalorum","stream_url":"https://api.soundcloud.com/tracks/51025385/stream","artwork_url":"https://i1.sndcdn.com/artworks-000025725555-zz3gqx-large.jpg?34f5d10"},"user":{"id":3039,"kind":"user","permalink":"top-billin","username":"TOPBILLIN","uri":"https://api.soundcloud.com/users/3039","permalink_url":"http://soundcloud.com/top-billin","avatar_url":"https://i1.sndcdn.com/avatars-000000023940-3rl4sy-large.jpg?34f5d10"}},"tags":"affiliated"}],"next_href":"https://api.soundcloud.com/me/activities?cursor=a1bcbb80-c076-11e1-9714-f3856207ba3a","future_href":"https://api.soundcloud.com/me/activities?uuid%5Bto%5D=fd997580-c2fe-11e1-835a-8e09bb6ff6e1"}'
+    http_version: 
+  recorded_at: Wed, 11 Jul 2012 05:35:34 GMT
+recorded_with: VCR 2.2.2
