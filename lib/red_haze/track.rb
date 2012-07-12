@@ -3,15 +3,15 @@ module RedHaze
     include Helpers::Resource
 
     def favoriters
-      get_from_endpoint('/favoriters')
+      get_endpoint('/favoriters')
     end
 
     def comments
-      get_from_endpoint('/comments')
+      get_endpoint('/comments')
     end
 
     def shared_to
-      get_from_endpoint('/shared_to/users')
+      get_endpoint('/shared_to/users')
     end
 
     def owner

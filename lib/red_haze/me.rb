@@ -12,7 +12,11 @@ module RedHaze
     end
 
     def follow!(arg)
-      raise ArgumentError unless [RedHaze::Me, Fixnum].include?(arg.class)
+      put_endpoint "/followings/#{follow_id(arg)}"
+    end
+
+    def unfollow!(arg)
+      delete_endpoint "/followings/#{follow_id(arg)}"
     end
 
     def activities(args = {})
@@ -21,8 +25,14 @@ module RedHaze
 
       filter = filter.to_s.sub('_','/')
 
-      get_from_endpoint("/activities/#{filter}", args)
+      get_endpoint("/activities/#{filter}", args)
     end
+
+    private
+      def follow_id(arg)
+        raise ArgumentError unless [RedHaze::User, Fixnum].include?(arg.class)
+        arg.is_a?(Fixnum) ? arg : arg.id
+      end
 
   end
 end

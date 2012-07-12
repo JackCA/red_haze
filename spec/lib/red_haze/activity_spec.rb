@@ -4,7 +4,9 @@ describe RedHaze::Activity do
   let(:raw_hash) do
     setup_config(:oauth)
     VCR.use_cassette('me_activities') do
-      RedHaze::Request.get('/me/activities/all')['collection'].sample
+      x = RedHaze::Request.get('/me/activities/all')['collection']
+      puts x.select {|x| x[:tags] }.inspect
+      x.sample
     end
   end
 
@@ -14,6 +16,7 @@ describe RedHaze::Activity do
   its(:type) { should be_a String }
   its(:created_at) { should be_a DateTime }
   its(:origin) { subject.class.name.should =~ /RedHaze/ }
+  its(:tags) { should be_an Array }
 
   pending "tags array"
 

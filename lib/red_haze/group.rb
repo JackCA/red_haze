@@ -5,23 +5,23 @@ module RedHaze
     attr_reader :id
 
     def members
-      get_from_endpoint("/members")
+      get_endpoint("/members")
     end
 
     def moderators
-      get_from_endpoint("/moderators")
+      get_endpoint("/moderators")
     end
 
     def contributors
-      get_from_endpoint("/contributors")
+      get_endpoint("/contributors")
     end
 
     def contributors
-      get_from_endpoint("/contributors")
+      get_endpoint("/contributors")
     end
 
     def users
-      get_from_endpoint("/users")
+      get_endpoint("/users")
     end
 
   end

@@ -21,8 +21,16 @@ module RedHaze
         self
       end
 
-      def get_from_endpoint(endpoint, params={})
+      def get_endpoint(endpoint, params={})
         self.class.import_from_response Request.get(url + endpoint, query: params)
+      end
+
+      def put_endpoint(endpoint, params={})
+        Request.put(url + endpoint, body: params).parsed_response
+      end
+
+      def delete_endpoint(endpoint, params={})
+        Request.delete(url + endpoint, body: params).parsed_response
       end
 
       def url
@@ -37,8 +45,10 @@ module RedHaze
             case key
               when 'created_at'
                 value = DateTime.parse(value)
-              when 'user', 'creator', 'track'
-                value = User.new(value)
+              when 'user', 'creator', 'track', 'origin'
+                value = self.class.instance_from_hash(value)
+              when 'tags'
+                value = value.split(',')
             end
             instance_variable_set "@#{key}", value
             self.class.class_eval { attr_reader key }

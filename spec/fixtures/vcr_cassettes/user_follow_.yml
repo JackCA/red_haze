@@ -1,0 +1,55 @@
+---
+http_interactions:
+- request:
+    method: put
+    uri: https://api.soundcloud.com/me/followings/19813607?oauth_token=<ACCESS_TOKEN>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 11 Jul 2012 07:45:22 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache
+      Location:
+      - https://api.soundcloud.com/users/19813607
+      X-Runtime:
+      - '36'
+      Access-Control-Allow-Methods:
+      - GET, PUT, POST, DELETE
+      Access-Control-Allow-Headers:
+      - Accept, Authorization, Content-Type, Origin
+      Access-Control-Allow-Origin:
+      - ! '*'
+      X-Cacheable:
+      - NO:Cache-Control=no-cache
+      Content-Length:
+      - '527'
+      X-Varnish:
+      - '898168076'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish
+      X-Cache:
+      - MISS
+    body:
+      encoding: US-ASCII
+      string: ! '{"id":19813607,"kind":"user","permalink":"red_haze","username":"red_haze","uri":"https://api.soundcloud.com/users/19813607","permalink_url":"http://soundcloud.com/red_haze","avatar_url":"https://a1.sndcdn.com/images/default_avatar_large.png?34f5d10","country":"United
+        States","full_name":"","city":"San Francisco","description":null,"discogs_name":null,"myspace_name":null,"website":null,"website_title":null,"online":false,"track_count":0,"playlist_count":0,"public_favorites_count":0,"followers_count":1,"followings_count":1}'
+    http_version: 
+  recorded_at: Wed, 11 Jul 2012 07:45:45 GMT
+recorded_with: VCR 2.2.2
