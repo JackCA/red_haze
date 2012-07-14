@@ -15,5 +15,4 @@ describe RedHaze::Activity do
   its(:created_at) { should be_a DateTime }
   its(:origin) { subject.class.name.should =~ /RedHaze/ }
   its(:tags) { should be_an Array }
-
 end

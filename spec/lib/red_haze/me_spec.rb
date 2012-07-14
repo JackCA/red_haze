@@ -15,18 +15,18 @@ describe RedHaze::Me do
     shared_examples_for "a follow action" do
       it "accepts a User object" do
         VCR.use_cassette("user_#{method}") do
-          subject.send(method, friend)
+          instance.send(method, friend)
         end
       end
 
       it "accepts a user id" do
         VCR.use_cassette("user_#{method}") do
-          subject.send(method, friend_id)
+          instance.send(method, friend_id)
         end
       end
 
       it "fails otherwise" do
-        expect { subject.follow!('something') }.to raise_error ArgumentError
+        expect { instance.send(method,'something') }.to raise_error ArgumentError
       end
     end
 
@@ -37,6 +37,11 @@ describe RedHaze::Me do
 
     describe "#unfollow!" do
       let(:method) { 'unfollow!' }
+      it_behaves_like "a follow action"
+    end
+
+    describe "#follows?" do
+      let(:method) { 'follows?' }
       it_behaves_like "a follow action"
     end
 

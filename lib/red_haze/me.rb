@@ -19,13 +19,22 @@ module RedHaze
       delete_endpoint "/followings/#{follow_id(arg)}"
     end
 
+    # if we do follow the user, we are redirected to a 404 page
+    # this will rescue on the first redirect and thus return true
+    def follows?(arg)
+      Request.get "/me/followings/#{follow_id(arg)}", no_follow: true
+      false
+    rescue HTTParty::RedirectionTooDeep
+      true
+    end
+
     def activities(args = {})
       filter = args.delete(:filter) || :all
       raise "Bad Activities filter: #{filter}" unless FILTERS.include?(filter)
 
       filter = filter.to_s.sub('_','/')
 
-      get_endpoint("/activities/#{filter}", args)
+      get_endpoint("/activities/#{filter}", query: args)
     end
 
     private

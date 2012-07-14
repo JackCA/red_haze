@@ -21,16 +21,18 @@ module RedHaze
         self
       end
 
-      def get_endpoint(endpoint, params={})
-        self.class.import_from_response Request.get(url + endpoint, query: params)
+      def get_endpoint(endpoint, args={})
+        self.class.import_from_response Request.get(url + endpoint, args)
       end
 
-      def put_endpoint(endpoint, params={})
-        Request.put(url + endpoint, body: params).parsed_response
+      def put_endpoint(endpoint, args={})
+        default_args = {headers: {'Content-Length' => "0"}}
+        args.merge! default_args
+        Request.put(url + endpoint, args).parsed_response
       end
 
-      def delete_endpoint(endpoint, params={})
-        Request.delete(url + endpoint, body: params).parsed_response
+      def delete_endpoint(endpoint, args={})
+        Request.delete(url + endpoint, args).parsed_response
       end
 
       def url
