@@ -6,9 +6,9 @@ Gem::Specification.new do |s|
   s.name        = "red_haze"
   s.version     = RedHaze::VERSION
   s.authors     = ["Jack Anderson"]
-  s.email       = ["jackcanderson@gmail.com"]
+  s.email       = ["hi@janderson.me"]
   s.homepage    = "https://github.com/JackCA/red_haze"
-  s.summary     = "a Ruby wrapper for the Soundcloud API"
+  s.summary     = "a robust Ruby wrapper for the Soundcloud API"
 
   s.rubyforge_project = "red_haze"
   s.required_ruby_version = Gem::Requirement.new(">= 1.9.2")
