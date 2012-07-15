@@ -24,5 +24,9 @@ module RedHaze
     def configure_from_file(path)
       configure YAML.load_file(path)
     end
+
+    def method_missing(method, *args)
+      const_get(method.capitalize).send(:new, *args)
+    end
   end
 end
