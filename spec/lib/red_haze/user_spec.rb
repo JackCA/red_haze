@@ -47,24 +47,19 @@ describe RedHaze::User do
       it { should return_an_array_of RedHaze::Playlist }
     end
 
-    describe "#followings" do
-      context "with arg" do
-        context "valid followings user id" do
-          subject do
-            VCR.use_cassette("user_followings_valid_id") do
-              instance.followings(903649)
-            end
-          end
-          #it { should be_an_array_of RedHaze::User }
-          pending "need authorization"
-        end
+    describe "#tracks" do
+      subject do 
+        VCR.use_cassette("user_tracks") { instance.tracks }
       end
+      it { return_an_array_of RedHaze::Track }
+    end
 
+    describe "#followings" do
       context "without arg" do
         subject do
           VCR.use_cassette("user_followings") { instance.followings }
         end
-        it { return_an_array_of return_an_array_of RedHaze::User }
+        it { return_an_array_of RedHaze::User }
       end
     end
 

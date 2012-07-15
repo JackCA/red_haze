@@ -2,12 +2,8 @@ module RedHaze
   class User
     include Helpers::Resource
     
-    def followings(user_id=nil)
-      if user_id.nil?
-        get_endpoint('/followings')
-      else
-        response = get("/followings/#{user_id}")
-      end
+    def followings
+      get_endpoint("/followings/#{user_id}")
     end
 
     def followers
