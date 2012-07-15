@@ -37,22 +37,22 @@ module RedHaze
 
     private
 
-    def options_check(options)
-      keys = options.keys
-      unless (keys.include?(:client_id) && keys.include?(:client_secret)) ||
-              keys.include?(:access_token)
-        raise "missing client_id and client_secret, or access_token"
+      def options_check(options)
+        keys = options.keys
+        unless (keys.include?(:client_id) && keys.include?(:client_secret)) ||
+                keys.include?(:access_token)
+          raise "missing client_id and client_secret, or access_token"
+        end
       end
-    end
 
-    def update_from_response(response)
-      @client_id = response[:client_id]
-      @client_secret = response[:client_secret]
-      @redirect_uri = response[:redirect_uri]
-      @access_token = response[:access_token]
-      @expires_in = response[:expires_in]
-      @refresh_token = response[:refresh_token]
-    end
+      def update_from_response(response)
+        @client_id = response[:client_id]
+        @client_secret = response[:client_secret]
+        @redirect_uri = response[:redirect_uri]
+        @access_token = response[:access_token]
+        @expires_in = response[:expires_in]
+        @refresh_token = response[:refresh_token]
+      end
 
   end
 end

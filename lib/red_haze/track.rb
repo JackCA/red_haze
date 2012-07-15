@@ -14,10 +14,5 @@ module RedHaze
       get_endpoint('/shared_to/users')
     end
 
-    def owner
-      sync if user_id.nil?
-      User.new(user_id)
-    end
-
   end
 end

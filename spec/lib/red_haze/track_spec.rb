@@ -23,6 +23,7 @@ describe RedHaze::Track do
 
     its(:created_at) { should be_a DateTime }
     its(:user_id) { should be_an Integer }
+    its(:user) { should be_a RedHaze::User }
     its(:title) { should be_a String }
     its(:permalink) { should be_a String }
     its(:permalink_url) { should =~ /http:\/\/soundcloud.com/ }
@@ -83,11 +84,6 @@ describe RedHaze::Track do
 
   describe "#secret_token" do
     pending
-  end
-
-  describe "#owner" do
-    subject { synced_track.owner }
-    it { should be_a RedHaze::User }
   end
 
   describe "#comment" do
