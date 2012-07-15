@@ -1,0 +1,50 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.soundcloud.com/me/favorites/19813607?oauth_token=<ACCESS_TOKEN>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sat, 14 Jul 2012 23:58:44 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache
+      Access-Control-Allow-Methods:
+      - GET, PUT, POST, DELETE
+      Access-Control-Allow-Headers:
+      - Accept, Authorization, Content-Type, Origin
+      Access-Control-Allow-Origin:
+      - ! '*'
+      X-Cacheable:
+      - NO:Cache-Control=no-cache
+      Content-Length:
+      - '48'
+      X-Varnish:
+      - '500733443'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish
+      X-Cache:
+      - MISS
+    body:
+      encoding: US-ASCII
+      string: ! '{"errors":[{"error_message":"404 - Not Found"}]}'
+    http_version: 
+  recorded_at: Sat, 14 Jul 2012 23:58:47 GMT
+recorded_with: VCR 2.2.2

@@ -1,0 +1,65 @@
+---
+http_interactions:
+- request:
+    method: put
+    uri: https://api.soundcloud.com/me/followings/19813607?oauth_token=<ACCESS_TOKEN>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Length:
+      - '0'
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sat, 14 Jul 2012 23:59:12 GMT
+      Content-Type:
+      - application/xml; charset=utf-8
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache
+      Location:
+      - https://api.soundcloud.com/users/19813607
+      X-Runtime:
+      - '32'
+      Access-Control-Allow-Methods:
+      - GET, PUT, POST, DELETE
+      Access-Control-Allow-Headers:
+      - Accept, Authorization, Content-Type, Origin
+      Access-Control-Allow-Origin:
+      - ! '*'
+      X-Cacheable:
+      - NO:Cache-Control=no-cache
+      Content-Length:
+      - '994'
+      X-Varnish:
+      - '1328747438'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish
+      X-Cache:
+      - MISS
+    body:
+      encoding: US-ASCII
+      string: ! "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<user>\n  <id type=\"integer\">19813607</id>\n
+        \ <kind>user</kind>\n  <permalink>red_haze</permalink>\n  <username>red_haze</username>\n
+        \ <uri>https://api.soundcloud.com/users/19813607</uri>\n  <permalink-url>http://soundcloud.com/red_haze</permalink-url>\n
+        \ <avatar-url>https://a1.sndcdn.com/images/default_avatar_large.png?62b09b1</avatar-url>\n
+        \ <country>United States</country>\n  <full-name></full-name>\n  <city>San
+        Francisco</city>\n  <description nil=\"true\"></description>\n  <discogs-name
+        nil=\"true\"></discogs-name>\n  <myspace-name nil=\"true\"></myspace-name>\n
+        \ <website nil=\"true\"></website>\n  <website-title nil=\"true\"></website-title>\n
+        \ <online type=\"boolean\">false</online>\n  <track-count type=\"integer\">0</track-count>\n
+        \ <playlist-count type=\"integer\">0</playlist-count>\n  <public-favorites-count
+        type=\"integer\">0</public-favorites-count>\n  <followers-count type=\"integer\">1</followers-count>\n
+        \ <followings-count type=\"integer\">1</followings-count>\n</user>\n"
+    http_version: 
+  recorded_at: Sat, 14 Jul 2012 23:59:16 GMT
+recorded_with: VCR 2.2.2

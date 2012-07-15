@@ -12,15 +12,19 @@ describe RedHaze::Me do
     its(:id) { should == 999942 }
     it { should be_a RedHaze::User }
 
-    shared_examples_for "a follow action" do
-      it "accepts a User object" do
-        VCR.use_cassette("user_#{method}") do
+    shared_examples_for "an ambiguous id argument" do
+      before do
+        @vcr_name = "#{klass}_#{method}".sub('?','_get').sub('!','_put')
+      end
+
+      it "accepts an object" do
+        VCR.use_cassette(@vcr_name) do
           instance.send(method, friend)
         end
       end
 
-      it "accepts a user id" do
-        VCR.use_cassette("user_#{method}") do
+      it "accepts an id" do
+        VCR.use_cassette(@vcr_name) do
           instance.send(method, friend_id)
         end
       end
@@ -30,19 +34,46 @@ describe RedHaze::Me do
       end
     end
 
-    describe "#follow!" do
-      let(:method) { 'follow!' }
-      it_behaves_like "a follow action"
+    context "follow actions" do
+      let(:klass) { 'user' }
+      pending "application test"
+      describe "#follow!" do
+        let(:method) { 'follow!' }
+        it_behaves_like "an ambiguous id argument"
+      end
+
+      describe "#unfollow!" do
+        let(:method) { 'unfollow!' }
+        it_behaves_like "an ambiguous id argument"
+      end
+
+      describe "#follows?" do
+        let(:method) { 'follows?' }
+        it_behaves_like "an ambiguous id argument"
+      end
     end
 
-    describe "#unfollow!" do
-      let(:method) { 'unfollow!' }
-      it_behaves_like "a follow action"
-    end
+    context "favorite actions" do
+      let(:klass) { 'track' }
+      let(:track_id) { 8774929 } 
 
-    describe "#follows?" do
-      let(:method) { 'follows?' }
-      it_behaves_like "a follow action"
+      describe "#favorite?" do
+        let(:method) { 'favorite?' }
+        subject { instance.favorite?(track_id) }
+        it_behaves_like "an ambiguous id argument"
+      end
+
+      describe "#favorite!" do
+        let(:method) { 'favorite!' }
+        subject { instance.favorite?(track_id) }
+        it_behaves_like "an ambiguous id argument"
+      end
+
+      describe "#unfavorite!" do
+        let(:method) { 'unfavorite!' }
+        subject { instance.unfavorite!(track_id) }
+        it_behaves_like "an ambiguous id argument"
+      end
     end
 
     describe "#activities" do
@@ -73,6 +104,7 @@ describe RedHaze::Me do
         end
       end
     end
+
   end
 
   context "without access token" do

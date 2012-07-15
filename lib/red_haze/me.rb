@@ -11,23 +11,6 @@ module RedHaze
       sync
     end
 
-    def follow!(arg)
-      put_endpoint "/followings/#{follow_id(arg)}"
-    end
-
-    def unfollow!(arg)
-      delete_endpoint "/followings/#{follow_id(arg)}"
-    end
-
-    # if we do follow the user, we are redirected to a 404 page
-    # this will rescue on the first redirect and thus return true
-    def follows?(arg)
-      Request.get "/me/followings/#{follow_id(arg)}", no_follow: true
-      false
-    rescue HTTParty::RedirectionTooDeep
-      true
-    end
-
     def activities(args = {})
       filter = args.delete(:filter) || :all
       raise "Bad Activities filter: #{filter}" unless FILTERS.include?(filter)
@@ -37,10 +20,46 @@ module RedHaze
       get_endpoint("/activities/#{filter}", query: args)
     end
 
+    def follow!(arg)
+      put_endpoint "/followings/#{item_id(arg)}"
+    end
+
+    def unfollow!(arg)
+      delete_endpoint "/followings/#{item_id(arg)}"
+    end
+
+    def follows?(arg)
+      existence_check "/me/followings", arg
+    end
+
+    def favorite!(arg)
+      put_endpoint "/favorites/#{item_id(arg)}"
+    end
+
+    def unfavorite!(arg)
+      delete_endpoint "/favorites/#{item_id(arg)}"
+    end
+
+    def favorite?(arg)
+      existence_check "/me/favorites", arg
+    end
+
     private
-      def follow_id(arg)
-        raise ArgumentError unless [RedHaze::User, Fixnum].include?(arg.class)
+
+      def item_id(arg)
+        unless [RedHaze::User, RedHaze::Track, Fixnum].include?(arg.class)
+          raise ArgumentError 
+        end
         arg.is_a?(Fixnum) ? arg : arg.id
+      end
+
+      # if the resource exists, we are redirected to a 404 page
+      # this will rescue on the first redirect and thus return true
+      def existence_check(path, arg)
+        response = Request.get "#{path}/#{item_id(arg)}", no_follow: true
+        response.code == 200
+      rescue HTTParty::RedirectionTooDeep
+        true
       end
 
   end
